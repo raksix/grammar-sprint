@@ -379,3 +379,135 @@ button {
     scroll-behavior: auto;
   }
 }
+
+/* ---- level pages (P21: LevelMap + /levels/[level]) ---- */
+
+.back-link {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.back-link::before {
+  content: "\2039  ";
+}
+
+.level-head h1 {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.75rem, 4vw, 2.4rem);
+}
+
+.level-head .lead {
+  color: var(--muted);
+  margin: 0 0 1rem;
+  font-size: 1.02rem;
+}
+
+.level-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-pill,
+.gate-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.progress-pill {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.gate-passed {
+  color: var(--ok);
+  border-color: var(--ok);
+}
+
+.level-locked-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.92rem;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0 0;
+}
+
+.topic-grid {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+
+.topic-card {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.topic-card.topic-done {
+  border-color: var(--ok);
+}
+
+.topic-card.topic-locked {
+  opacity: 0.65;
+}
+
+.topic-order {
+  font-family: Georgia, "Source Serif 4", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+  min-width: 2ch;
+}
+
+.topic-locked .topic-order {
+  color: var(--muted);
+}
+
+.topic-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.topic-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.topic-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.topic-done .topic-status {
+  color: var(--ok);
+}
