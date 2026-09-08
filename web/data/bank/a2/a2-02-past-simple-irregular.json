@@ -6,6 +6,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ to Ankara last month.",
+    "prompt_tr": "Geçen ay Ankara'ya ___ gittim.",
     "choices": [
       "go",
       "went",
@@ -24,6 +25,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ breakfast early today.",
+    "prompt_tr": "O bugün erken ___ kahvaltı yaptı.",
     "choices": [
       "ate",
       "eat",
@@ -41,6 +43,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about seeing an old friend yesterday.",
+    "prompt_tr": "Dün eski bir arkadaşı görmekle ilgili doğru cümleyi seç.",
     "choices": [
       "We seed an old friend yesterday.",
       "We seen an old friend yesterday.",
@@ -58,6 +61,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you drink your coffee?",
+    "prompt_tr": "Kahveni ___ içtin mi?",
     "choices": [
       "Did",
       "Do",
@@ -75,6 +79,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct past of buy about a new jacket.",
+    "prompt_tr": "Yeni bir ceketle ilgili buy fiilinin geçmiş hali doğru olan cümleyi seç.",
     "choices": [
       "He buyed a new jacket.",
       "He bought a new jacket.",
@@ -92,6 +97,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ at home last night.",
+    "prompt_tr": "Onlar dün gece evde ___ kaldılar.",
     "choices": [
       "was",
       "is",
@@ -109,6 +115,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about the keys.",
+    "prompt_tr": "Anahtarları bulmakla ilgili doğru soruyu seç.",
     "choices": [
       "Did he find his keys?",
       "Did he found his keys?",
@@ -127,6 +134,7 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: I went home.",
+    "prompt_tr": "Olumsuz yap: I went home.",
     "answer_text": "I did not go home.",
     "accept": [
       "I did not go home",
@@ -142,6 +150,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She ___ a long letter yesterday.",
+    "prompt_tr": "O dün uzun bir mektup ___ yazdı.",
     "choices": [
       "writed",
       "write",
@@ -159,6 +168,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They ___ home very late last night.",
+    "prompt_tr": "Onlar dün gece çok geç ___ eve geldiler.",
     "choices": [
       "came",
       "come",
@@ -176,6 +186,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about taking the bus.",
+    "prompt_tr": "Otobüse binmekle ilgili doğru olumsuz cümleyi seç.",
     "choices": [
       "I didn't took the bus.",
       "I didn't take the bus.",
@@ -193,6 +204,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ his wallet on the bus.",
+    "prompt_tr": "O cüzdanını otobüste ___ kaybetti.",
     "choices": [
       "lose",
       "losed",
@@ -210,6 +222,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with have about having fun yesterday.",
+    "prompt_tr": "Dün eğlenmekle ilgili have içeren doğru cümleyi seç.",
     "choices": [
       "The children haved fun yesterday.",
       "The children have fun yesterday.",
@@ -227,6 +240,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "We ___ our teacher at the market.",
+    "prompt_tr": "Markette öğretmenimizi ___ gördük.",
     "choices": [
       "see",
       "saw",
@@ -245,6 +259,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct question about buying milk.",
+    "prompt_tr": "Süt almakla ilgili doğru soruyu seç.",
     "choices": [
       "Did you buy milk?",
       "Did you bought milk?",
@@ -262,6 +277,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make negative: She wrote back.",
+    "prompt_tr": "Olumsuz yap: She wrote back.",
     "answer_text": "She did not write back.",
     "accept": [
       "She did not write back",
@@ -277,6 +293,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: He found his keys. (he)",
+    "prompt_tr": "Soru yap: He found his keys. (he)",
     "answer_text": "Did he find his keys?",
     "accept": [
       "Did he find his keys",
@@ -292,6 +309,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about comics last night.",
+    "prompt_tr": "Dün gece çizgi roman okumakla ilgili doğru cümleyi seç.",
     "choices": [
       "The children readed comics last night.",
       "The children reads comics last night.",
@@ -309,6 +327,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He ___ me a great book for my birthday.",
+    "prompt_tr": "Doğum günümde bana harika bir kitap ___ verdi.",
     "choices": [
       "gived",
       "give",
@@ -326,6 +345,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about drinking coffee quickly.",
+    "prompt_tr": "Kahveyi hızlı içmekle ilgili doğru cümleyi seç.",
     "choices": [
       "I drunk my coffee quickly.",
       "I drank my coffee quickly.",
@@ -344,6 +364,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about speaking to the teacher.",
+    "prompt_tr": "Öğretmenle konuşmakla ilgili doğru cümleyi seç.",
     "choices": [
       "She spoke to the teacher.",
       "She speaked to the teacher.",
@@ -361,6 +382,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "We ___ about the film for an hour.",
+    "prompt_tr": "Film üzerine bir saat ___ kafa yorduk.",
     "choices": [
       "thinked",
       "think",
@@ -378,6 +400,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about losing the keys again.",
+    "prompt_tr": "Anahtarları yine kaybetmekle ilgili doğru cümleyi seç.",
     "choices": [
       "He losed his keys again.",
       "He lose his keys again.",
@@ -395,6 +418,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: Did you went home?",
+    "prompt_tr": "Hatayı düzelt: Did you went home?",
     "answer_text": "Did you go home?",
     "accept": [
       "Did you go home",
@@ -410,6 +434,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I didn't saw him.",
+    "prompt_tr": "Hatayı düzelt: I didn't saw him.",
     "answer_text": "I didn't see him.",
     "accept": [
       "I didn't see him",

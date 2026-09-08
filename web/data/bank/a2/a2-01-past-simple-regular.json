@@ -6,6 +6,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "We ___ a film last night.",
+    "prompt_tr": "Dün gece ___ bir film izledik.",
     "choices": [
       "watch",
       "watched",
@@ -24,6 +25,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ my room yesterday morning.",
+    "prompt_tr": "Dün sabah odamı ___ temizledim.",
     "choices": [
       "cleaned",
       "clean",
@@ -41,6 +43,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about enjoying the party last night.",
+    "prompt_tr": "Dün geceki partiyle ilgili doğru cümleyi seç.",
     "choices": [
       "They enjoy the party.",
       "They enjoying the party.",
@@ -58,6 +61,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you visit your grandparents last Sunday?",
+    "prompt_tr": "___ geçen pazar büyükanne ve büyükbabanı ziyaret ettin mi?",
     "choices": [
       "Did",
       "Do",
@@ -75,6 +79,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct verb spelling about studying in 2020.",
+    "prompt_tr": "2020'de ders çalışmakla ilgili fiil yazımı doğru olan cümleyi seç.",
     "choices": [
       "He studyed English in 2020.",
       "He studied English in 2020.",
@@ -92,6 +97,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ late last night.",
+    "prompt_tr": "O dün gece geç saatlere kadar ___ çalıştı.",
     "choices": [
       "works",
       "work",
@@ -109,6 +115,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about arriving on time yesterday.",
+    "prompt_tr": "Dün zamanında varmakla ilgili doğru soruyu seç.",
     "choices": [
       "Did they arrive on time?",
       "Did they arrived on time?",
@@ -127,6 +134,7 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: I smoked.",
+    "prompt_tr": "Olumsuz yap: I smoked.",
     "answer_text": "I did not smoke.",
     "accept": [
       "I did not smoke",
@@ -142,6 +150,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ football two days ago.",
+    "prompt_tr": "O iki gün önce ___ futbol oynadı.",
     "choices": [
       "plaied",
       "playd",
@@ -159,6 +168,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They ___ heavy bags to the hotel.",
+    "prompt_tr": "Otele ağır çantaları ___ taşıdılar.",
     "choices": [
       "carried",
       "carryed",
@@ -176,6 +186,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about liking the dinner.",
+    "prompt_tr": "Akşam yemeğini beğenmekle ilgili doğru olumsuz cümleyi seç.",
     "choices": [
       "I didn't liked the dinner.",
       "I didn't like the dinner.",
@@ -194,6 +205,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "We ___ at a small cafe and rested.",
+    "prompt_tr": "Küçük bir kafede ___ durduk ve dinlendik.",
     "choices": [
       "stoped",
       "stopd",
@@ -211,6 +223,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with ago about moving house.",
+    "prompt_tr": "Ev taşınmasıyla ilgili ago içeren doğru cümleyi seç.",
     "choices": [
       "We move here two years ago.",
       "We moving here two years ago.",
@@ -228,6 +241,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She ___ at the wedding and stayed late.",
+    "prompt_tr": "O düğünde ___ dans etti ve geç saate kadar kaldı.",
     "choices": [
       "dance",
       "danced",
@@ -245,6 +259,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct question about last night.",
+    "prompt_tr": "Dün gece geri aramakla ilgili doğru soruyu seç.",
     "choices": [
       "Did she call you back?",
       "Did she called you back?",
@@ -262,6 +277,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make negative: She liked the film.",
+    "prompt_tr": "Olumsuz yap: She liked the film.",
     "answer_text": "She did not like the film.",
     "accept": [
       "She did not like the film",
@@ -277,6 +293,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: They watched a comedy. (they)",
+    "prompt_tr": "Soru yap: They watched a comedy. (they)",
     "answer_text": "Did they watch a comedy?",
     "accept": [
       "Did they watch a comedy",
@@ -292,6 +309,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with emphasis about watching the match.",
+    "prompt_tr": "Maç izlemekle ilgili vurgulu doğru cümleyi seç.",
     "choices": [
       "I did watched the match.",
       "I did watch the match.",
@@ -310,6 +328,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Yesterday he ___ his bike to school.",
+    "prompt_tr": "Dün bisikletini ___ okula gitti.",
     "choices": [
       "fixd",
       "fixxed",
@@ -327,6 +346,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about tasting local food.",
+    "prompt_tr": "Yöresel yemekleri tatmakla ilgili doğru cümleyi seç.",
     "choices": [
       "We tasted local food and liked it.",
       "We tasted local food and like it.",
@@ -344,6 +364,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct question about the weekend.",
+    "prompt_tr": "Hafta sonuyla ilgili enjoy içeren doğru soruyu seç.",
     "choices": [
       "Did you enjoyed the weekend?",
       "Do you enjoyed the weekend?",
@@ -362,6 +383,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Elif ___ hard for the test last week.",
+    "prompt_tr": "Elif geçen hafta sınav için çok ___ çalıştı.",
     "choices": [
       "studied",
       "studyed",
@@ -379,6 +401,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about planning a party last Friday.",
+    "prompt_tr": "Geçen cuma parti planlamakla ilgili doğru cümleyi seç.",
     "choices": [
       "They planed a party last Friday.",
       "They planning a party last Friday.",
@@ -396,6 +419,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She didn't played tennis.",
+    "prompt_tr": "Hatayı düzelt: She didn't played tennis.",
     "answer_text": "She didn't play tennis.",
     "accept": [
       "She didn't play tennis",
@@ -411,6 +435,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Rewrite in the past: They clean the park every Saturday. (last Saturday)",
+    "prompt_tr": "Geçmiş zamanda yeniden yaz: They clean the park every Saturday. (last Saturday)",
     "answer_text": "They cleaned the park last Saturday.",
     "accept": [
       "They cleaned the park last Saturday",

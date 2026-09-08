@@ -6,6 +6,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ sleeping at 10 p.m.",
+    "prompt_tr": "Akşam saat 10'da ___ uyuyordum.",
     "choices": [
       "was",
       "were",
@@ -23,6 +24,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ playing football all afternoon.",
+    "prompt_tr": "Onlar bütün öğleden sonra ___ futbol oynuyorlardı.",
     "choices": [
       "was",
       "were",
@@ -40,6 +42,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about reading at 8 p.m. yesterday.",
+    "prompt_tr": "Dün akşam 8'de kitap okumakla ilgili doğru cümleyi seç.",
     "choices": [
       "She were reading at 8 p.m.",
       "She is reading at 8 p.m.",
@@ -57,6 +60,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ it raining this morning?",
+    "prompt_tr": "Bu sabah ___ yağmur yağıyor muydu?",
     "choices": [
       "Was",
       "Were",
@@ -74,6 +78,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about listening in class.",
+    "prompt_tr": "Derste dinlemekle ilgili doğru olumsuz cümleyi seç.",
     "choices": [
       "We wasn't listening.",
       "We weren't listening.",
@@ -92,6 +97,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "The baby ___ crying loudly.",
+    "prompt_tr": "Bebek yüksek sesle ___ ağlıyordu.",
     "choices": [
       "were",
       "is",
@@ -109,6 +115,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about doing homework at 8 p.m.",
+    "prompt_tr": "Akşam 8'de ödev yapmakla ilgili doğru soruyu seç.",
     "choices": [
       "Were you doing homework at 8?",
       "Was you doing homework at 8?",
@@ -126,6 +133,7 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: She was cooking.",
+    "prompt_tr": "Olumsuz yap: She was cooking.",
     "answer_text": "She was not cooking.",
     "accept": [
       "She was not cooking",
@@ -141,6 +149,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She was cooking when I ___.",
+    "prompt_tr": "Ben ___ geldiğimde o yemek yapıyordu.",
     "choices": [
       "arrive",
       "arrives",
@@ -159,6 +168,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ I was cooking, he arrived.",
+    "prompt_tr": "___ yemek yapıyordum, o geldi.",
     "choices": [
       "While",
       "When",
@@ -176,6 +186,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about an interrupted dinner.",
+    "prompt_tr": "Bölünen bir akşam yemeğiyle ilgili doğru cümleyi seç.",
     "choices": [
       "I cooked when the phone was ringing.",
       "I cooking when the phone rang.",
@@ -193,6 +204,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "At 9 p.m. we ___ watching a match.",
+    "prompt_tr": "Akşam 9'da ___ maç izliyorduk.",
     "choices": [
       "was",
       "is",
@@ -210,6 +222,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about driving in the rain.",
+    "prompt_tr": "Yağmurda araba sürmekle ilgili doğru cümleyi seç.",
     "choices": [
       "While he drove, it was starting to rain.",
       "While he driving, it started to rain.",
@@ -227,6 +240,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I ___ my homework at 8 p.m.",
+    "prompt_tr": "Akşam 8'de ödevimi ___ yapıyordum.",
     "choices": [
       "was doing",
       "were doing",
@@ -244,6 +258,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about cooking and watching TV together.",
+    "prompt_tr": "Aynı anda yemek yapmak ve televizyon izlemekle ilgili doğru cümleyi seç.",
     "choices": [
       "I was cooking while he watching TV.",
       "I cooking while he was watching TV.",
@@ -261,6 +276,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: You was sleeping.",
+    "prompt_tr": "Hatayı düzelt: You was sleeping.",
     "answer_text": "You were sleeping.",
     "accept": [
       "You were sleeping",
@@ -276,6 +292,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Join with when: I / cook + the phone / ring.",
+    "prompt_tr": "When ile birleştir: I / cook + the phone / ring.",
     "answer_text": "I was cooking when the phone rang.",
     "accept": [
       "I was cooking when the phone rang",
@@ -291,6 +308,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about arriving during cooking.",
+    "prompt_tr": "Yemek yapılırken birinin gelmesiyle ilgili doğru cümleyi seç.",
     "choices": [
       "While he arrived, I was cooking.",
       "When he arrived, I was cooking.",
@@ -309,6 +327,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ I was studying, my sister was playing.",
+    "prompt_tr": "Ben ders çalışırken ___ kız kardeşim oynuyordu.",
     "choices": [
       "When",
       "While",
@@ -326,6 +345,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about laughing during the film.",
+    "prompt_tr": "Film sırasında gülmekle ilgili doğru cümleyi seç.",
     "choices": [
       "They were laughing during the film.",
       "They was laughing during the film.",
@@ -343,6 +363,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct negative question about sleeping at midnight.",
+    "prompt_tr": "Gece yarısı uyumakla ilgili doğru olumsuz soruyu seç.",
     "choices": [
       "Wasn't you sleeping at midnight?",
       "Weren't you sleep at midnight?",
@@ -360,6 +381,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He ___ to school when he saw Elif.",
+    "prompt_tr": "Elif'i gördüğünde o ___ okula gidiyordu.",
     "choices": [
       "was going",
       "were going",
@@ -377,6 +399,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct spelling about the park.",
+    "prompt_tr": "Parkta koşmakla ilgili -ing yazımı doğru olan cümleyi seç.",
     "choices": [
       "They were runing in the park.",
       "They were running in the park.",
@@ -394,6 +417,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She was go to school.",
+    "prompt_tr": "Hatayı düzelt: She was go to school.",
     "answer_text": "She was going to school.",
     "accept": [
       "She was going to school",
@@ -409,6 +433,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Rewrite with while: I studied. My brother played. (same long time)",
+    "prompt_tr": "While ile yeniden yaz: I studied. My brother played. (same long time)",
     "answer_text": "While I was studying, my brother was playing.",
     "accept": [
       "While I was studying, my brother was playing",
