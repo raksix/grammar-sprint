@@ -1,20 +1,32 @@
 # A1-08 Possessives ('s, pronouns, have got)
 
 ## Goal
+
 You can show ownership with 's, possessive pronouns (mine, yours) and have got.
 
 ## Rule in 60 seconds
-Kişiye aitlik: isim + **'s** (Ali's car). Çoğul -s biterse sadece **'** (girls' room).
-its (onun) ile it's (it is) farklı şeyler — karıştırma.
-Sahiplik sıfatı + isim ister: my car. Sahiplik zamiri tek başına: mine.
-have got = have (sahiplik): `I have got a car.` Olumsuz: haven't got.
-Whose sorusu aitlik sorar: `Whose bag is this?`
-İsimden sonra of değil 's (kişi için): Ali's mother (değil: mother of Ali).
-Zaman ifadelerinde de 's olur: `today's news`, `two weeks' holiday.`
-Aile çoğulu: the Yılmazs = Yılmaz ailesi (the + soyadı + s).
-have got sorusu any ile: `Have you got any brothers?`
-Kısa cevap: `Yes, I have.` / `No, I haven't.`
-have got AmE'de daha az kullanılır, have tercih edilir.
+
+- **Kural 1:** Kişiye aitlik: isim + **'s** (Ali's car). Çoğul -s biterse sadece **'** (girls' room).
+
+- **Kural 2:** its (onun) ile it's (it is) farklı şeyler — karıştırma.
+
+- **Kural 3:** Sahiplik sıfatı + isim ister: my car. Sahiplik zamiri tek başına: mine.
+
+- **Kural 4:** have got = have (sahiplik): `I have got a car.` Olumsuz: haven't got.
+
+- **Kural 5:** Whose sorusu aitlik sorar: `Whose bag is this?`
+
+- **Kural 6:** İsimden sonra of değil 's (kişi için): Ali's mother (değil: mother of Ali).
+
+- **Kural 7:** Zaman ifadelerinde de 's olur: `today's news`, `two weeks' holiday.`
+
+- **Kural 8:** Aile çoğulu: the Yılmazs = Yılmaz ailesi (the + soyadı + s).
+
+- **Kural 9:** have got sorusu any ile: `Have you got any brothers?`
+
+- **Kural 10:** Kısa cevap: `Yes, I have.` / `No, I haven't.`
+
+- **Kural 11:** have got AmE'de daha az kullanılır, have tercih edilir.
 
 ## Forms
 
@@ -31,36 +43,43 @@ have got AmE'de daha az kullanılır, have tercih edilir.
 | Whose ? | Whose + noun + be ...? | **Whose** bag is this? |
 | of-phrase | thing → ... of ... | the door **of** the car / the end **of** the film |
 
-his hem sıfat hem zamir: His car. / The car is his.
-its (sahiplik) vs it's (= it is): `The dog lost its bone.` vs `It's cold.`
+- **Not 1:** his hem sıfat hem zamir: His car. / The car is his.
+
+- **Not 2:** its (sahiplik) vs it's (= it is): `The dog lost its bone.` vs `It's cold.`
 
 ## 3 classic traps
 
-1. **my + isim şart, mine tek başına.**
-   - ✗ This is mine car. → ✓ This is **my** car. / This car is **mine**.
-   - ✗ It is her book. / It is hers book. → ✓ It is **her** book. / It is **hers**.
-   - Zamirden sonra isim gelmez: mine, yours, hers, ours, theirs.
-2. **its vs it's çukuru.**
-   - ✗ The cat lost it's tail. → ✓ The cat lost **its** tail.
-   - it's her zaman "it is / it has" kısaltmasıdır.
-   - Test: yerine "it is" koy, anlamlıysa it's, değilse its.
-3. **Çoğul 's yerleşimi.**
-   - ✗ the girl's room (birçok kızın odasıysa) → ✓ the **girls'** room.
-   - Tekil: the girl's room (bir kız). Çoğul: the girls' room.
-   - Düzensiz çoğulda yine 's: children's, women's.
+Bu bölümdeki 3 tuzağa tek bakışta dikkat et.
+
+- **my + isim şart, mine tek başına:** ✗ This is mine car. → ✓ This is **my** car. / This car is **mine**; ✗ It is her book. / It is hers book. → ✓ It is **her** book. / It is **hers** — Zamirden sonra isim gelmez: mine, yours, hers, ours, theirs.
+
+- **its vs it's çukuru:** ✗ The cat lost it's tail. → ✓ The cat lost **its** tail — it's her zaman "it is / it has" kısaltmasıdır; Test: yerine "it is" koy, anlamlıysa it's, değilse its.
+
+- **Çoğul 's yerleşimi:** ✗ the girl's room (birçok kızın odasıysa) → ✓ the **girls'** room — Tekil: the girl's room (bir kız). Çoğul: the girls' room; Düzensiz çoğulda yine 's: children's, women's.
 
 ## 10 example sentences
 
-1. This is **Ali's** bike. — Bu Ali'nin bisikleti.
-2. My **parents'** house is small. — Ailem(ler)in evi küçük.
-3. **Whose** pen is this? — Bu kalem kimin?
-4. This seat is **mine**. — Bu koltuk benim.
-5. Her hair is long, **his** is short. — Onun (kadın) saçı uzun, onunki (erkek) kısa.
-6. I **have got** two brothers. — İki erkek kardeşim var.
-7. She **hasn't got** a car. — Onun arabası yok.
-8. **Have** you **got** any money? — Hiç paran var mı?
-9. The **children's** toys are everywhere. — Çocukların oyuncakları her yerde.
-10. The end **of** the film was sad. — Filmin sonu üzücüydü.
+Her cümleyi sesli oku, önce İngilizceyi sonra Türkçesini söyle.
+
+- **This is Ali's bike.** — Bu Ali'nin bisikleti.
+
+- **My parents' house is small.** — Ailem(ler)in evi küçük.
+
+- **Whose pen is this?** — Bu kalem kimin?
+
+- **This seat is mine.** — Bu koltuk benim.
+
+- **Her hair is long, his is short.** — Onun (kadın) saçı uzun, onunki (erkek) kısa.
+
+- **I have got two brothers.** — İki erkek kardeşim var.
+
+- **She hasn't got a car.** — Onun arabası yok.
+
+- **Have you got any money?** — Hiç paran var mı?
+
+- **The children's toys are everywhere.** — Çocukların oyuncakları her yerde.
+
+- **The end of the film was sad.** — Filmin sonu üzücüydü.
 
 ## Quick check
 

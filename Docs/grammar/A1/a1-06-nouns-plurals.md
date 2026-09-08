@@ -1,21 +1,34 @@
 # A1-06 Nouns and Plurals
 
 ## Goal
+
 You can make regular and common irregular plurals and use this/that/these/those.
 
 ## Rule in 60 seconds
-Çoğul genelde +**s**: book→books. -s/-sh/-ch/-x/-o sonrası +**es**: box→boxes.
-Sessiz + y → **ies**: baby→babies (ama boy→boys, sesli + y değişmez).
-Düzensizleri ezberle: man→men, woman→women, child→children, foot→feet.
-Yakın: this/these, uzak: that/those. This/that + tekil, these/those + çoğul.
-Sayılamayan isimlerin çoğulu yok: water, milk, money, information, bread.
-Sayılamayanla some / a lot of / much kullanılır, many ve sayı kullanılmaz.
-Tekil/çoğul fiil uyumu: This book is... / These books are...
-people zaten çoğul sayılır: `People are waiting.` (is olmaz.)
-Sayı + çoğul isim: `three books`, `ten students` — isim hep çoğul.
-a/an + tekil: `a child`, `an apple` — çoğulla a/an olmaz.
-Vücut parçaları çoğul sayılır: hands, eyes, teeth.
-Kıyafet parçaları hep çoğul: trousers, jeans, glasses, shoes.
+
+- **Kural 1:** Çoğul genelde +**s**: book→books. -s/-sh/-ch/-x/-o sonrası +**es**: box→boxes.
+
+- **Kural 2:** Sessiz + y → **ies**: baby→babies (ama boy→boys, sesli + y değişmez).
+
+- **Kural 3:** Düzensizleri ezberle: man→men, woman→women, child→children, foot→feet.
+
+- **Kural 4:** Yakın: this/these, uzak: that/those. This/that + tekil, these/those + çoğul.
+
+- **Kural 5:** Sayılamayan isimlerin çoğulu yok: water, milk, money, information, bread.
+
+- **Kural 6:** Sayılamayanla some / a lot of / much kullanılır, many ve sayı kullanılmaz.
+
+- **Kural 7:** Tekil/çoğul fiil uyumu: This book is... / These books are...
+
+- **Kural 8:** people zaten çoğul sayılır: `People are waiting.` (is olmaz.)
+
+- **Kural 9:** Sayı + çoğul isim: `three books`, `ten students` — isim hep çoğul.
+
+- **Kural 10:** a/an + tekil: `a child`, `an apple` — çoğulla a/an olmaz.
+
+- **Kural 11:** Vücut parçaları çoğul sayılır: hands, eyes, teeth.
+
+- **Kural 12:** Kıyafet parçaları hep çoğul: trousers, jeans, glasses, shoes.
 
 ## Forms
 
@@ -32,36 +45,43 @@ Kıyafet parçaları hep çoğul: trousers, jeans, glasses, shoes.
 | demonstrative far | that + singular / those + plural | **that** car / **those** cars |
 | uncountable | no plural, use some/much | **Ø** water, **Ø** money, some **bread** |
 
-people zaten çoğuldur (person→people), persons resmi dilde nadir.
-hair İngilizcede sayılamaz: `My hair is long.` (hairs deme).
+- **Not 1:** people zaten çoğuldur (person→people), persons resmi dilde nadir.
+
+- **Not 2:** hair İngilizcede sayılamaz: `My hair is long.` (hairs deme).
 
 ## 3 classic traps
 
-1. **childs yok** — en sık ezber hatası.
-   - ✗ two childs → ✓ two **children**.
-   - ✗ three mans → ✓ three **men**.
-   - Düzensiz listeyi kartlarla ezberle, kural arama.
-2. **this + çoğul olmaz** — sayı uyumu şart.
-   - ✗ this books → ✓ **these** books.
-   - ✗ that cars → ✓ **those** cars.
-   - Fiil de uyar: These books **are** mine.
-3. **Sayılamayanlara -s yok** — informations diye bir kelime yok.
-   - ✗ two informations → ✓ two **pieces of information** / some information.
-   - ✗ three breads → ✓ three **loaves of bread** / some bread.
-   - money da sayılamaz: much money, five liras (para birimi sayılır).
+Bu bölümdeki 3 tuzağa tek bakışta dikkat et.
+
+- **childs yok:** en sık ezber hatası — ✗ two childs → ✓ two **children**; ✗ three mans → ✓ three **men** — Düzensiz listeyi kartlarla ezberle, kural arama.
+
+- **this + çoğul olmaz:** sayı uyumu şart — ✗ this books → ✓ **these** books; ✗ that cars → ✓ **those** cars — Fiil de uyar: These books **are** mine.
+
+- **Sayılamayanlara -s yok:** informations diye bir kelime yok — ✗ two informations → ✓ two **pieces of information** / some information; ✗ three breads → ✓ three **loaves of bread** / some bread — money da sayılamaz: much money, five liras (para birimi sayılır).
 
 ## 10 example sentences
 
-1. I have two **books**. — İki kitabım var.
-2. The **children** are playing outside. — Çocuklar dışarıda oynuyor.
-3. Brush your **teeth** twice a day. — Dişlerini günde iki kez fırçala.
-4. **These** shoes are new. — Bu ayakkabılar yeni.
-5. **Those** houses are very old. — Şu evler çok eski.
-6. **This** is my bag. — Bu benim çantam.
-7. **That** is his car. — Şu onun arabası.
-8. There are three **men** at the door. — Kapıda üç adam var.
-9. The **babies** are sleeping. — Bebekler uyuyor.
-10. I need some **water**, not two waters. — Biraz suya ihtiyacım var.
+Her cümleyi sesli oku, önce İngilizceyi sonra Türkçesini söyle.
+
+- **I have two books.** — İki kitabım var.
+
+- **The children are playing outside.** — Çocuklar dışarıda oynuyor.
+
+- **Brush your teeth twice a day.** — Dişlerini günde iki kez fırçala.
+
+- **These shoes are new.** — Bu ayakkabılar yeni.
+
+- **Those houses are very old.** — Şu evler çok eski.
+
+- **This is my bag.** — Bu benim çantam.
+
+- **That is his car.** — Şu onun arabası.
+
+- **There are three men at the door.** — Kapıda üç adam var.
+
+- **The babies are sleeping.** — Bebekler uyuyor.
+
+- **I need some water, not two waters.** — Biraz suya ihtiyacım var.
 
 ## Quick check
 

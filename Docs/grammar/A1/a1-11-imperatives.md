@@ -1,20 +1,32 @@
 # A1-11 Imperatives and let's / like + -ing
 
 ## Goal
+
 You can give instructions with imperatives, make suggestions with let's, and talk about likes.
 
 ## Rule in 60 seconds
-Emir: yalın fiille başla — `Sit down.` Olumsuz: `Don't` + fiil — `Don't run.`
-Öneri: `Let's` + fiil — `Let's eat out.` Karşılık: `Good idea!` / `Sorry, I can't.`
-like/love/hate + **-ing**: `I like swimming.` (A1 kalıbı budur.)
-would like + to farklı: `I'd like a tea.` (rica, A1'de kalıp olarak ezberle.)
-Sıralama talimatları: First..., Then..., Finally...
-Yön tarifi: Turn left, Go straight, Stop here.
-Tarif kalıbı: `Mix it well.` / `Cook for ten minutes.`
-Uyarı kalıbı: `Watch out!` / `Be careful!` / `Don't touch!`
-Davet + öneri: `Come in!` / `Let's sit here.`
-Kibar emir yumuşatma: `Could you...?` emirden naziktir, rica sayılır.
-Cevap kalıpları: `OK!` / `Sure!` / `Good idea!` / `Sorry, I can't.`
+
+- **Kural 1:** Emir: yalın fiille başla — `Sit down.` Olumsuz: `Don't` + fiil — `Don't run.`
+
+- **Kural 2:** Öneri: `Let's` + fiil — `Let's eat out.` Karşılık: `Good idea!` / `Sorry, I can't.`
+
+- **Kural 3:** like/love/hate + **-ing**: `I like swimming.` (A1 kalıbı budur.)
+
+- **Kural 4:** would like + to farklı: `I'd like a tea.` (rica, A1'de kalıp olarak ezberle.)
+
+- **Kural 5:** Sıralama talimatları: First..., Then..., Finally...
+
+- **Kural 6:** Yön tarifi: Turn left, Go straight, Stop here.
+
+- **Kural 7:** Tarif kalıbı: `Mix it well.` / `Cook for ten minutes.`
+
+- **Kural 8:** Uyarı kalıbı: `Watch out!` / `Be careful!` / `Don't touch!`
+
+- **Kural 9:** Davet + öneri: `Come in!` / `Let's sit here.`
+
+- **Kural 10:** Kibar emir yumuşatma: `Could you...?` emirden naziktir, rica sayılır.
+
+- **Kural 11:** Cevap kalıpları: `OK!` / `Sure!` / `Good idea!` / `Sorry, I can't.`
 
 ## Forms
 
@@ -31,36 +43,43 @@ Cevap kalıpları: `OK!` / `Sure!` / `Good idea!` / `Sorry, I can't.`
 | would like | S + 'd like + noun/to-V | I**'d like** a tea. / She**'d like to** come. |
 | Sequence | First / Then / After that / Finally | **First**, boil water. **Then**, add salt. |
 
-Emir cümlesinde özne (you) gizlidir, yazılmaz.
-Kibarlık için please başa ya da sona: Please sit. / Sit, please.
+- **Not 1:** Emir cümlesinde özne (you) gizlidir, yazılmaz.
+
+- **Not 2:** Kibarlık için please başa ya da sona: Please sit. / Sit, please.
 
 ## 3 classic traps
 
-1. **Emirde you ve to yok.**
-   - ✗ You sit down. / To sit down. → ✓ **Sit** down.
-   - ✗ You don't run. (emirde) → ✓ **Don't** run.
-   - Emir = çıplak fiil, başka süs yok.
-2. **like'tan sonra -ing (A1'de).**
-   - ✗ I like swim. → ✓ I like **swimming**.
-   - ✗ She loves cook. → ✓ She loves **cooking**.
-   - (like to V de doğru ama B1 konusu; A1'de -ing'e odaklan.)
-3. **Let's'ten sonra fiil yalın.**
-   - ✗ Let's to go. / Let's goes. → ✓ **Let's go**.
-   - ✗ Let's playing. → ✓ **Let's play**.
-   - Let's = Let us; sonra hep yalın fiil gelir.
+Bu bölümdeki 3 tuzağa tek bakışta dikkat et.
+
+- **Emirde you ve to yok:** ✗ You sit down. / To sit down. → ✓ **Sit** down; ✗ You don't run. (emirde) → ✓ **Don't** run — Emir = çıplak fiil, başka süs yok.
+
+- **like'tan sonra -ing (A1'de):** ✗ I like swim. → ✓ I like **swimming**; ✗ She loves cook. → ✓ She loves **cooking** — (like to V de doğru ama B1 konusu; A1'de -ing'e odaklan.).
+
+- **Let's'ten sonra fiil yalın:** ✗ Let's to go. / Let's goes. → ✓ **Let's go**; ✗ Let's playing. → ✓ **Let's play** — Let's = Let us; sonra hep yalın fiil gelir.
 
 ## 10 example sentences
 
-1. **Sit** down and **open** your books. — Otur ve kitaplarını aç.
-2. **Don't** talk in class! — Sınıfta konuşma!
-3. **Be** careful, the floor is wet. — Dikkatli ol, zemin ıslak.
-4. **Let's** go to the cinema. — Sinemaya gidelim.
-5. **Let's not** argue. — Tartışmayalım.
-6. I **like reading** books. — Kitap okumayı severim.
-7. She **loves dancing**. — Dans etmeyi çok sever.
-8. They **don't like waiting**. — Beklemekten hoşlanmazlar.
-9. **Do** you **like swimming**? — Yüzmeyi sever misin?
-10. I**'d like** a cup of coffee, please. — Bir fincan kahve rica ediyorum lütfen.
+Her cümleyi sesli oku, önce İngilizceyi sonra Türkçesini söyle.
+
+- **Sit down and open your books.** — Otur ve kitaplarını aç.
+
+- **Don't talk in class!** — Sınıfta konuşma!
+
+- **Be careful, the floor is wet.** — Dikkatli ol, zemin ıslak.
+
+- **Let's go to the cinema.** — Sinemaya gidelim.
+
+- **Let's not argue.** — Tartışmayalım.
+
+- **I like reading books.** — Kitap okumayı severim.
+
+- **She loves dancing.** — Dans etmeyi çok sever.
+
+- **They don't like waiting.** — Beklemekten hoşlanmazlar.
+
+- **Do you like swimming?** — Yüzmeyi sever misin?
+
+- **I'd like a cup of coffee, please.** — Bir fincan kahve rica ediyorum lütfen.
 
 ## Quick check
 
