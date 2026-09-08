@@ -1,1 +1,447 @@
-[{"answer":0,"choices":["reading","to read","read","reads"],"difficulty":"easy","explain_tr":"Enjoy sonrası -ing gelir: enjoy reading.","id":"b1-11-gerund-infinitive-e01","level":"B1","prompt":"I enjoy ___ detective novels on Sundays.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["to study","studying","study","studies"],"difficulty":"easy","explain_tr":"Decide sonrası to gelir: decided to study.","id":"b1-11-gerund-infinitive-e02","level":"B1","prompt":"She decided ___ medicine at university.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["I enjoy swimming on Sundays.","I enjoy to swim on Sundays.","I enjoy swim on Sundays.","I enjoy swims on Sundays."],"difficulty":"easy","explain_tr":"Enjoy kuralı -ing ister: enjoy swimming.","id":"b1-11-gerund-infinitive-e03","level":"B1","prompt":"Ayşe loves weekends. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"answer":0,"choices":["He plans to travel next year.","He plans travelling next year.","He plans travel next year.","He plans travels next year."],"difficulty":"easy","explain_tr":"Plan sonrası to gelir: plans to travel.","id":"b1-11-gerund-infinitive-e04","level":"B1","prompt":"Mehmet plans his future. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"answer":0,"choices":["opening","to open","open","opens"],"difficulty":"easy","explain_tr":"Mind sonrası -ing gelir: mind opening.","id":"b1-11-gerund-infinitive-e05","level":"B1","prompt":"Would you mind ___ the window for a minute?","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["to buy","buying","buy","buys"],"difficulty":"easy","explain_tr":"Want sonrası to gelir: wants to buy.","id":"b1-11-gerund-infinitive-e06","level":"B1","prompt":"Can wants ___ a new bike for spring.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["She finished doing her homework.","She finished to do her homework.","She finished do her homework.","She finished does her homework."],"difficulty":"easy","explain_tr":"Finish sonrası -ing gelir: finished doing.","id":"b1-11-gerund-infinitive-e07","level":"B1","prompt":"Elif finished homework early. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"accept":["I enjoy swimming.","I enjoy swimming very much."],"answer_text":"I enjoy swimming.","difficulty":"easy","explain_tr":"Enjoy kalıbı -ing ister: I enjoy swimming.","id":"b1-11-gerund-infinitive-e08","level":"B1","prompt":"Swimming is fun for me. (→ I enjoy ...).","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"rewrite"},{"answer":0,"choices":["answering","to answer","answer","answers"],"difficulty":"medium","explain_tr":"Avoid sonrası -ing gelir: avoided answering.","id":"b1-11-gerund-infinitive-m01","level":"B1","prompt":"She avoided ___ the difficult question yesterday.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["to help","helping","help","helps"],"difficulty":"medium","explain_tr":"Agree sonrası to gelir: agreed to help.","id":"b1-11-gerund-infinitive-m02","level":"B1","prompt":"They agreed ___ us with the project.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["meeting","to meet","meet","meets"],"difficulty":"medium","explain_tr":"Edat sonrası hep -ing gelir: for meeting.","id":"b1-11-gerund-infinitive-m03","level":"B1","prompt":"Thank you for ___ me at the station.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["leaving","to leave","leave","leaves"],"difficulty":"medium","explain_tr":"Suggest sonrası -ing gelir: suggested leaving.","id":"b1-11-gerund-infinitive-m04","level":"B1","prompt":"He suggested ___ earlier to catch the bus.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"gap-fill"},{"answer":0,"choices":["He keeps running every morning.","He keeps to run every morning.","He keeps run every morning.","He keeps runs every morning."],"difficulty":"medium","explain_tr":"Keep kalıbı -ing ister: keeps running.","id":"b1-11-gerund-infinitive-m05","level":"B1","prompt":"Can keeps fit every day. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"answer":0,"choices":["She hopes to visit Antalya.","She hopes visiting Antalya.","She hopes visit Antalya.","She hopes visits Antalya."],"difficulty":"medium","explain_tr":"Hope sonrası to gelir: hopes to visit.","id":"b1-11-gerund-infinitive-m06","level":"B1","prompt":"Ayşe hopes for summer. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"answer":0,"choices":["He is good at cooking.","He is good at to cook.","He is good at cook.","He is good at cooks."],"difficulty":"medium","explain_tr":"Edattan sonra -ing gelir: good at cooking.","id":"b1-11-gerund-infinitive-m07","level":"B1","prompt":"Mehmet is good at food. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"accept":["She decided to leave.","She decided to leave early."],"answer_text":"She decided to leave.","difficulty":"medium","explain_tr":"Decide kalıbı to ister: decided to leave.","id":"b1-11-gerund-infinitive-m08","level":"B1","prompt":"She made a decision. She will leave. (→ She decided ...).","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"rewrite"},{"accept":["Would you mind opening the window?","Would you mind opening the window for a minute?"],"answer_text":"Would you mind opening the window?","difficulty":"medium","explain_tr":"Mind kalıbı -ing ister: mind opening.","id":"b1-11-gerund-infinitive-m09","level":"B1","prompt":"Open the window, please. It is a polite request. (→ Would you mind ...).","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"rewrite"},{"answer":0,"choices":["meeting","to meet","meet","meets"],"difficulty":"hard","explain_tr":"Geçmiş anı için remember kalıbı -ing alır: remember meeting.","id":"b1-11-gerund-infinitive-h01","level":"B1","prompt":"I remember ___ him at a wedding last summer.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","trap_tr":"Görev ile anı karışır, geçmiş olay -ing ister.","type":"gap-fill"},{"answer":0,"choices":["to buy","buying","buy","buys"],"difficulty":"hard","explain_tr":"Unutulmaması gereken görev remember kalıbı ile to alır: remember to buy.","id":"b1-11-gerund-infinitive-h02","level":"B1","prompt":"Remember ___ some bread on your way home!","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","trap_tr":"Anı ile görev karışır, gelecek görev to ister.","type":"gap-fill"},{"answer":0,"choices":["He stopped smoking last year.","He stopped to smoke last year.","He stopped smoke last year.","He stopped smokes last year."],"difficulty":"hard","explain_tr":"Bırakmak stop kalıbı ile -ing olur: stopped smoking.","id":"b1-11-gerund-infinitive-h03","level":"B1","prompt":"Mehmet quit cigarettes. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","trap_tr":"Stopped to smoke mola verip içmek demektir, anlam değişir.","type":"mcq"},{"answer":0,"choices":["We stopped to buy some water.","We stopped buying some water.","We stopped buy some water.","We stopped buys some water."],"difficulty":"hard","explain_tr":"Bir amaç için durmak stop kalıbı ile to olur: stopped to buy.","id":"b1-11-gerund-infinitive-h04","level":"B1","prompt":"Elif paused her walk for water. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","trap_tr":"Bırakmak ile amaç için durmak karışır, anlam değişir.","type":"mcq"},{"answer":0,"choices":["I regret telling him the secret.","I regret to tell him the secret.","I regret tell him the secret.","I regret tells him the secret."],"difficulty":"hard","explain_tr":"Geçmiş pişmanlık regret kalıbı ile -ing olur: regret telling.","id":"b1-11-gerund-infinitive-h05","level":"B1","prompt":"Ayşe is sorry about yesterday. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"mcq"},{"answer":0,"choices":["I forgot to lock the door.","I forgot locking the door.","I forgot lock the door.","I forgot locks the door."],"difficulty":"hard","explain_tr":"Yapılmayan görev forget kalıbı ile to olur: forgot to lock.","id":"b1-11-gerund-infinitive-h06","level":"B1","prompt":"Mehmet did not lock the door this morning. Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","trap_tr":"Anı ile görev karışır, yapılmayan iş to ister.","type":"mcq"},{"accept":["He stopped eating junk food.","He stopped eating junk food last year."],"answer_text":"He stopped eating junk food.","difficulty":"hard","explain_tr":"Bırakmak stop kalıbı ile -ing olur: stopped eating.","id":"b1-11-gerund-infinitive-h07","level":"B1","prompt":"He quit junk food. (→ He stopped ...).","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"rewrite"},{"accept":["We stopped to drink tea.","We stopped to have tea."],"answer_text":"We stopped to drink tea.","difficulty":"hard","explain_tr":"Amaç için durmak stop kalıbı ile to olur: stopped to drink.","id":"b1-11-gerund-infinitive-h08","level":"B1","prompt":"We paused our walk. Our goal was tea. (→ We stopped ...).","rule_ref":"Docs/grammar/B1/b1-11-gerund-infinitive.md","topic":"b1-11-gerund-infinitive","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "reading",
+      "to read",
+      "read",
+      "reads"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Enjoy sonrası -ing gelir: enjoy reading.",
+    "id": "b1-11-gerund-infinitive-e01",
+    "level": "B1",
+    "prompt": "I enjoy ___ detective novels on Sundays.",
+    "prompt_tr": "Pazar günleri dedektif romanı ___ okumayı severim.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "to study",
+      "studying",
+      "study",
+      "studies"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Decide sonrası to gelir: decided to study.",
+    "id": "b1-11-gerund-infinitive-e02",
+    "level": "B1",
+    "prompt": "She decided ___ medicine at university.",
+    "prompt_tr": "Üniversitede tıp ___ okumaya karar verdi.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I enjoy swimming on Sundays.",
+      "I enjoy to swim on Sundays.",
+      "I enjoy swim on Sundays.",
+      "I enjoy swims on Sundays."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Enjoy kuralı -ing ister: enjoy swimming.",
+    "id": "b1-11-gerund-infinitive-e03",
+    "level": "B1",
+    "prompt": "Ayşe loves weekends. Pick the correct sentence.",
+    "prompt_tr": "Ayşe hafta sonlarını sever. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He plans to travel next year.",
+      "He plans travelling next year.",
+      "He plans travel next year.",
+      "He plans travels next year."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Plan sonrası to gelir: plans to travel.",
+    "id": "b1-11-gerund-infinitive-e04",
+    "level": "B1",
+    "prompt": "Mehmet plans his future. Pick the correct sentence.",
+    "prompt_tr": "Mehmet geleceğini planlıyor. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "opening",
+      "to open",
+      "open",
+      "opens"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Mind sonrası -ing gelir: mind opening.",
+    "id": "b1-11-gerund-infinitive-e05",
+    "level": "B1",
+    "prompt": "Would you mind ___ the window for a minute?",
+    "prompt_tr": "Bir dakikalığına pencereyi ___ açar mısın?",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "to buy",
+      "buying",
+      "buy",
+      "buys"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Want sonrası to gelir: wants to buy.",
+    "id": "b1-11-gerund-infinitive-e06",
+    "level": "B1",
+    "prompt": "Can wants ___ a new bike for spring.",
+    "prompt_tr": "Can bahar için yeni bisiklet ___ istiyor.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She finished doing her homework.",
+      "She finished to do her homework.",
+      "She finished do her homework.",
+      "She finished does her homework."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Finish sonrası -ing gelir: finished doing.",
+    "id": "b1-11-gerund-infinitive-e07",
+    "level": "B1",
+    "prompt": "Elif finished homework early. Pick the correct sentence.",
+    "prompt_tr": "Elif ödevini erken bitirdi. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "I enjoy swimming.",
+      "I enjoy swimming very much."
+    ],
+    "answer_text": "I enjoy swimming.",
+    "difficulty": "easy",
+    "explain_tr": "Enjoy kalıbı -ing ister: I enjoy swimming.",
+    "id": "b1-11-gerund-infinitive-e08",
+    "level": "B1",
+    "prompt": "Swimming is fun for me. (→ I enjoy ...).",
+    "prompt_tr": "Şununla yeniden yaz (I enjoy ...): Swimming is fun for me.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "answering",
+      "to answer",
+      "answer",
+      "answers"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Avoid sonrası -ing gelir: avoided answering.",
+    "id": "b1-11-gerund-infinitive-m01",
+    "level": "B1",
+    "prompt": "She avoided ___ the difficult question yesterday.",
+    "prompt_tr": "Dün zor sorudan ___ kaçındı.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "to help",
+      "helping",
+      "help",
+      "helps"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Agree sonrası to gelir: agreed to help.",
+    "id": "b1-11-gerund-infinitive-m02",
+    "level": "B1",
+    "prompt": "They agreed ___ us with the project.",
+    "prompt_tr": "Projede bize ___ yardım etmeyi kabul ettiler.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "meeting",
+      "to meet",
+      "meet",
+      "meets"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Edat sonrası hep -ing gelir: for meeting.",
+    "id": "b1-11-gerund-infinitive-m03",
+    "level": "B1",
+    "prompt": "Thank you for ___ me at the station.",
+    "prompt_tr": "Beni istasyonda ___ karşıladığın için teşekkürler.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "leaving",
+      "to leave",
+      "leave",
+      "leaves"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Suggest sonrası -ing gelir: suggested leaving.",
+    "id": "b1-11-gerund-infinitive-m04",
+    "level": "B1",
+    "prompt": "He suggested ___ earlier to catch the bus.",
+    "prompt_tr": "Otobüsü yakalamak için daha erken ___ önerdi.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He keeps running every morning.",
+      "He keeps to run every morning.",
+      "He keeps run every morning.",
+      "He keeps runs every morning."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Keep kalıbı -ing ister: keeps running.",
+    "id": "b1-11-gerund-infinitive-m05",
+    "level": "B1",
+    "prompt": "Can keeps fit every day. Pick the correct sentence.",
+    "prompt_tr": "Can her gün formda kalır. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She hopes to visit Antalya.",
+      "She hopes visiting Antalya.",
+      "She hopes visit Antalya.",
+      "She hopes visits Antalya."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Hope sonrası to gelir: hopes to visit.",
+    "id": "b1-11-gerund-infinitive-m06",
+    "level": "B1",
+    "prompt": "Ayşe hopes for summer. Pick the correct sentence.",
+    "prompt_tr": "Ayşe yazı bekliyor. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He is good at cooking.",
+      "He is good at to cook.",
+      "He is good at cook.",
+      "He is good at cooks."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Edattan sonra -ing gelir: good at cooking.",
+    "id": "b1-11-gerund-infinitive-m07",
+    "level": "B1",
+    "prompt": "Mehmet is good at food. Pick the correct sentence.",
+    "prompt_tr": "Mehmet yemekte iyidir. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "She decided to leave.",
+      "She decided to leave early."
+    ],
+    "answer_text": "She decided to leave.",
+    "difficulty": "medium",
+    "explain_tr": "Decide kalıbı to ister: decided to leave.",
+    "id": "b1-11-gerund-infinitive-m08",
+    "level": "B1",
+    "prompt": "She made a decision. She will leave. (→ She decided ...).",
+    "prompt_tr": "Şununla yeniden yaz (She decided ...): She made a decision. She will leave.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "Would you mind opening the window?",
+      "Would you mind opening the window for a minute?"
+    ],
+    "answer_text": "Would you mind opening the window?",
+    "difficulty": "medium",
+    "explain_tr": "Mind kalıbı -ing ister: mind opening.",
+    "id": "b1-11-gerund-infinitive-m09",
+    "level": "B1",
+    "prompt": "Open the window, please. It is a polite request. (→ Would you mind ...).",
+    "prompt_tr": "Şununla yeniden yaz (Would you mind ...): Open the window, please. It is a polite request.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "meeting",
+      "to meet",
+      "meet",
+      "meets"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Geçmiş anı için remember kalıbı -ing alır: remember meeting.",
+    "id": "b1-11-gerund-infinitive-h01",
+    "level": "B1",
+    "prompt": "I remember ___ him at a wedding last summer.",
+    "prompt_tr": "Onu geçen yaz bir düğünde ___ hatırlıyorum.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "trap_tr": "Görev ile anı karışır, geçmiş olay -ing ister.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "to buy",
+      "buying",
+      "buy",
+      "buys"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Unutulmaması gereken görev remember kalıbı ile to alır: remember to buy.",
+    "id": "b1-11-gerund-infinitive-h02",
+    "level": "B1",
+    "prompt": "Remember ___ some bread on your way home!",
+    "prompt_tr": "Eve dönerken ekmek ___ almayı unutma!",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "trap_tr": "Anı ile görev karışır, gelecek görev to ister.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He stopped smoking last year.",
+      "He stopped to smoke last year.",
+      "He stopped smoke last year.",
+      "He stopped smokes last year."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Bırakmak stop kalıbı ile -ing olur: stopped smoking.",
+    "id": "b1-11-gerund-infinitive-h03",
+    "level": "B1",
+    "prompt": "Mehmet quit cigarettes. Pick the correct sentence.",
+    "prompt_tr": "Mehmet sigarayı bıraktı. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "trap_tr": "Stopped to smoke mola verip içmek demektir, anlam değişir.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "We stopped to buy some water.",
+      "We stopped buying some water.",
+      "We stopped buy some water.",
+      "We stopped buys some water."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Bir amaç için durmak stop kalıbı ile to olur: stopped to buy.",
+    "id": "b1-11-gerund-infinitive-h04",
+    "level": "B1",
+    "prompt": "Elif paused her walk for water. Pick the correct sentence.",
+    "prompt_tr": "Elif su için yürüyüşe ara verdi. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "trap_tr": "Bırakmak ile amaç için durmak karışır, anlam değişir.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I regret telling him the secret.",
+      "I regret to tell him the secret.",
+      "I regret tell him the secret.",
+      "I regret tells him the secret."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Geçmiş pişmanlık regret kalıbı ile -ing olur: regret telling.",
+    "id": "b1-11-gerund-infinitive-h05",
+    "level": "B1",
+    "prompt": "Ayşe is sorry about yesterday. Pick the correct sentence.",
+    "prompt_tr": "Ayşe dün için üzgün. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I forgot to lock the door.",
+      "I forgot locking the door.",
+      "I forgot lock the door.",
+      "I forgot locks the door."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Yapılmayan görev forget kalıbı ile to olur: forgot to lock.",
+    "id": "b1-11-gerund-infinitive-h06",
+    "level": "B1",
+    "prompt": "Mehmet did not lock the door this morning. Pick the correct sentence.",
+    "prompt_tr": "Mehmet bu sabah kapıyı kilitlemedi. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "trap_tr": "Anı ile görev karışır, yapılmayan iş to ister.",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "He stopped eating junk food.",
+      "He stopped eating junk food last year."
+    ],
+    "answer_text": "He stopped eating junk food.",
+    "difficulty": "hard",
+    "explain_tr": "Bırakmak stop kalıbı ile -ing olur: stopped eating.",
+    "id": "b1-11-gerund-infinitive-h07",
+    "level": "B1",
+    "prompt": "He quit junk food. (→ He stopped ...).",
+    "prompt_tr": "Şununla yeniden yaz (He stopped ...): He quit junk food.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "We stopped to drink tea.",
+      "We stopped to have tea."
+    ],
+    "answer_text": "We stopped to drink tea.",
+    "difficulty": "hard",
+    "explain_tr": "Amaç için durmak stop kalıbı ile to olur: stopped to drink.",
+    "id": "b1-11-gerund-infinitive-h08",
+    "level": "B1",
+    "prompt": "We paused our walk. Our goal was tea. (→ We stopped ...).",
+    "prompt_tr": "Şununla yeniden yaz (We stopped ...): We paused our walk. Our goal was tea.",
+    "rule_ref": "Docs/grammar/B1/b1-11-gerund-infinitive.md",
+    "topic": "b1-11-gerund-infinitive",
+    "type": "rewrite"
+  }
+]

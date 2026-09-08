@@ -1,1 +1,449 @@
-[{"answer":0,"choices":["been","be","being","is"],"difficulty":"easy","explain_tr":"have/has been + V-ing kalıbı bozulmaz: have been waiting.","id":"b1-02-present-perfect-continuous-e01","level":"B1","prompt":"I have ___ waiting for an hour.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"been atlamak en yaygın hatadır.","type":"gap-fill"},{"answer":0,"choices":["has","have","is","does"],"difficulty":"easy","explain_tr":"she ile has gelir: She has been working.","id":"b1-02-present-perfect-continuous-e02","level":"B1","prompt":"She ___ been working here for six months.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"answer":0,"choices":["It has been raining since morning.","It has raining since morning.","It have been raining since morning.","It has been rain since morning."],"difficulty":"easy","explain_tr":"Doğru form has + been + V-ing olur: has been raining.","id":"b1-02-present-perfect-continuous-e03","level":"B1","prompt":"Pick the correct sentence about the rain.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"answer":0,"choices":["have","has","are","do"],"difficulty":"easy","explain_tr":"you ile Have sorulur: How long have you been waiting?","id":"b1-02-present-perfect-continuous-e04","level":"B1","prompt":"How long ___ you been learning English?","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"answer":0,"choices":["They have been playing football all afternoon.","They have been playing football in 2020.","They have been playing football yesterday.","They have been playing football last week."],"difficulty":"easy","explain_tr":"Süren eylem all afternoon ile anlatılır; bitmiş zaman olmaz.","id":"b1-02-present-perfect-continuous-e05","level":"B1","prompt":"Pick the correct sentence about football.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"answer":0,"choices":["I have been waiting for you for an hour.","I have waiting for you for an hour.","I have been wait for you for an hour.","I has been waiting for you for an hour."],"difficulty":"easy","explain_tr":"been + V-ing şarttır: have been waiting.","id":"b1-02-present-perfect-continuous-e06","level":"B1","prompt":"Pick the correct sentence about the waiting man.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"answer":0,"choices":["He has been living here for five years.","He has been living here since five years.","He has been living here from five years.","He has been living here at five years."],"difficulty":"easy","explain_tr":"Süre (five years) for ister: for five years.","id":"b1-02-present-perfect-continuous-e07","level":"B1","prompt":"Pick the correct sentence about the new neighbour.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"accept":["I have been waiting for an hour.","I've been waiting for an hour."],"answer_text":"I have been waiting for an hour.","difficulty":"easy","explain_tr":"Bir saattir süren bekleme for + have been waiting ile anlatılır.","id":"b1-02-present-perfect-continuous-e08","level":"B1","prompt":"I am waiting. I started an hour ago. (Rewrite with for)","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"rewrite"},{"answer":0,"choices":["I have painted the room.","I have been painting the room all day.","I have been painting the room since morning.","I am painting the room now."],"difficulty":"medium","explain_tr":"Bitmiş sonuç simple (have painted); diğerleri süren süreci anlatır.","id":"b1-02-present-perfect-continuous-m01","level":"B1","prompt":"Pick the sentence that talks about a finished result.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"Sonuç mu süreç mi sorusu simple ile continuous'u ayırır.","type":"mcq"},{"answer":0,"choices":["reading","read","being reading","been read"],"difficulty":"medium","explain_tr":"been + V-ing kuralı bozulmaz: have been reading.","id":"b1-02-present-perfect-continuous-m02","level":"B1","prompt":"My eyes hurt because I have been ___ for hours.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"answer":0,"choices":["She has been cooking all morning.","She has cooked dinner.","She cooked dinner yesterday.","She cooks dinner every day."],"difficulty":"medium","explain_tr":"Süren süreç continuous ister: has been cooking all morning.","id":"b1-02-present-perfect-continuous-m03","level":"B1","prompt":"Pick the sentence that talks about an ongoing process.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"answer":0,"choices":["since","for","from","at"],"difficulty":"medium","explain_tr":"Başlangıç noktası (January) since ister.","id":"b1-02-present-perfect-continuous-m04","level":"B1","prompt":"She has been studying English ___ January.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"accept":["He has been working here since March.","He's been working here since March."],"answer_text":"He has been working here since March.","difficulty":"medium","explain_tr":"Marttan beri süren iş since March ile anlatılır.","id":"b1-02-present-perfect-continuous-m05","level":"B1","prompt":"He started working here in March. He still works here. (Rewrite with since)","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"rewrite"},{"answer":0,"choices":["all day","in 2020","yesterday","last night"],"difficulty":"medium","explain_tr":"Süren çaba all day ile anlatılır; bitmiş zaman olmaz.","id":"b1-02-present-perfect-continuous-m06","level":"B1","prompt":"We have been trying to call you ___.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"answer":0,"choices":["We have been waiting at the airport for two hours.","We have waiting at the airport for two hours.","We have been wait at the airport for two hours.","We has been waiting at the airport for two hours."],"difficulty":"medium","explain_tr":"been + V-ing ve we + have şarttır.","id":"b1-02-present-perfect-continuous-m07","level":"B1","prompt":"Pick the correct sentence about the airport.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"answer":0,"choices":["has","have","is","does"],"difficulty":"medium","explain_tr":"it ile has sorulur: How long has it been snowing?","id":"b1-02-present-perfect-continuous-m08","level":"B1","prompt":"How long ___ it been snowing?","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"accept":["They have been playing since noon.","They've been playing since noon."],"answer_text":"They have been playing since noon.","difficulty":"medium","explain_tr":"Öğleden beri süren oyun since noon ile anlatılır.","id":"b1-02-present-perfect-continuous-m09","level":"B1","prompt":"They started playing at noon. They still play. (Rewrite with since)","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"rewrite"},{"answer":0,"choices":["I have known Elif for years.","I have been knowing Elif for years.","I have been known Elif for years.","I have know Elif for years."],"difficulty":"hard","explain_tr":"know durum fiilidir, -ing almaz: have known.","id":"b1-02-present-perfect-continuous-h01","level":"B1","prompt":"Pick the correct sentence about Elif.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"know, like, love gibi fiiller continuous almaz.","type":"mcq"},{"answer":0,"choices":["known","been knowing","knowing","know"],"difficulty":"hard","explain_tr":"know durum fiilidir; doğrusu have known olur.","id":"b1-02-present-perfect-continuous-h02","level":"B1","prompt":"I have ___ him for years. (know)","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"been knowing yazmak durum-fiili tuzağıdır.","type":"gap-fill"},{"answer":0,"choices":["I visited Paris in 2020.","I have been visiting Paris in 2020.","I have been visited Paris in 2020.","I has visited Paris in 2020."],"difficulty":"hard","explain_tr":"Tek seferlik bitmiş olay past simple ister: visited in 2020.","id":"b1-02-present-perfect-continuous-h03","level":"B1","prompt":"Pick the correct sentence about Paris.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"Bitmiş tek olayda continuous kullanılmaz.","type":"mcq"},{"answer":0,"choices":["been working","been worked","working","been work"],"difficulty":"hard","explain_tr":"been + V-ing şarttır: has been working.","id":"b1-02-present-perfect-continuous-h04","level":"B1","prompt":"She has ___ (work) here since March.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"accept":["I have known her for years.","I've known her for years."],"answer_text":"I have known her for years.","difficulty":"hard","explain_tr":"know durum fiilidir; continuous değil simple gerekir.","id":"b1-02-present-perfect-continuous-h05","level":"B1","prompt":"'I have been knowing her for years.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"Durum fiilleri -ing almaz.","type":"rewrite"},{"answer":0,"choices":["has","have","is","does"],"difficulty":"hard","explain_tr":"Can üçüncü tekil şahıstır; has + V3 gelir: has loved.","id":"b1-02-present-perfect-continuous-h06","level":"B1","prompt":"Can ___ loved classical music since childhood.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"gap-fill"},{"answer":0,"choices":["He has been reading for hours, so his eyes hurt.","He has been read for hours, so his eyes hurt.","He have been reading for hours, so his eyes hurt.","He has reading for hours, so his eyes hurt."],"difficulty":"hard","explain_tr":"Saatlerdir süren okuma been + V-ing ister: has been reading.","id":"b1-02-present-perfect-continuous-h07","level":"B1","prompt":"Pick the correct sentence about the book.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","type":"mcq"},{"accept":["I have been waiting for a long time.","I have been waiting a long time."],"answer_text":"I have been waiting for a long time.","difficulty":"hard","explain_tr":"been olmadan cümle kurulamaz: have been waiting.","id":"b1-02-present-perfect-continuous-h08","level":"B1","prompt":"'I have waiting long.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-02-present-perfect-continuous.md","topic":"b1-02-present-perfect-continuous","trap_tr":"been atlamak en yaygın continuous hatasıdır.","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "been",
+      "be",
+      "being",
+      "is"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "have/has been + V-ing kalıbı bozulmaz: have been waiting.",
+    "id": "b1-02-present-perfect-continuous-e01",
+    "level": "B1",
+    "prompt": "I have ___ waiting for an hour.",
+    "prompt_tr": "Bir saattir ___ bekliyorum.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "been atlamak en yaygın hatadır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "does"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "she ile has gelir: She has been working.",
+    "id": "b1-02-present-perfect-continuous-e02",
+    "level": "B1",
+    "prompt": "She ___ been working here for six months.",
+    "prompt_tr": "O altı aydır burada ___ çalışıyor.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "It has been raining since morning.",
+      "It has raining since morning.",
+      "It have been raining since morning.",
+      "It has been rain since morning."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Doğru form has + been + V-ing olur: has been raining.",
+    "id": "b1-02-present-perfect-continuous-e03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the rain.",
+    "prompt_tr": "Yağmurla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "have",
+      "has",
+      "are",
+      "do"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "you ile Have sorulur: How long have you been waiting?",
+    "id": "b1-02-present-perfect-continuous-e04",
+    "level": "B1",
+    "prompt": "How long ___ you been learning English?",
+    "prompt_tr": "Ne kadar zamandır ___ İngilizce öğreniyorsun?",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "They have been playing football all afternoon.",
+      "They have been playing football in 2020.",
+      "They have been playing football yesterday.",
+      "They have been playing football last week."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Süren eylem all afternoon ile anlatılır; bitmiş zaman olmaz.",
+    "id": "b1-02-present-perfect-continuous-e05",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about football.",
+    "prompt_tr": "Futbolla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I have been waiting for you for an hour.",
+      "I have waiting for you for an hour.",
+      "I have been wait for you for an hour.",
+      "I has been waiting for you for an hour."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "been + V-ing şarttır: have been waiting.",
+    "id": "b1-02-present-perfect-continuous-e06",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the waiting man.",
+    "prompt_tr": "Bekleyen adamla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He has been living here for five years.",
+      "He has been living here since five years.",
+      "He has been living here from five years.",
+      "He has been living here at five years."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Süre (five years) for ister: for five years.",
+    "id": "b1-02-present-perfect-continuous-e07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the new neighbour.",
+    "prompt_tr": "Yeni komşuyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "I have been waiting for an hour.",
+      "I've been waiting for an hour."
+    ],
+    "answer_text": "I have been waiting for an hour.",
+    "difficulty": "easy",
+    "explain_tr": "Bir saattir süren bekleme for + have been waiting ile anlatılır.",
+    "id": "b1-02-present-perfect-continuous-e08",
+    "level": "B1",
+    "prompt": "I am waiting. I started an hour ago. (Rewrite with for)",
+    "prompt_tr": "for kullanarak yeniden yaz: I am waiting. I started an hour ago.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I have painted the room.",
+      "I have been painting the room all day.",
+      "I have been painting the room since morning.",
+      "I am painting the room now."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Bitmiş sonuç simple (have painted); diğerleri süren süreci anlatır.",
+    "id": "b1-02-present-perfect-continuous-m01",
+    "level": "B1",
+    "prompt": "Pick the sentence that talks about a finished result.",
+    "prompt_tr": "Bitmiş bir sonuçtan bahseden cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "Sonuç mu süreç mi sorusu simple ile continuous'u ayırır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "reading",
+      "read",
+      "being reading",
+      "been read"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "been + V-ing kuralı bozulmaz: have been reading.",
+    "id": "b1-02-present-perfect-continuous-m02",
+    "level": "B1",
+    "prompt": "My eyes hurt because I have been ___ for hours.",
+    "prompt_tr": "Gözlerim ağrıyor çünkü saatlerdir ___ bakıyorum.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She has been cooking all morning.",
+      "She has cooked dinner.",
+      "She cooked dinner yesterday.",
+      "She cooks dinner every day."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Süren süreç continuous ister: has been cooking all morning.",
+    "id": "b1-02-present-perfect-continuous-m03",
+    "level": "B1",
+    "prompt": "Pick the sentence that talks about an ongoing process.",
+    "prompt_tr": "Devam eden bir süreçten bahseden cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "at"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Başlangıç noktası (January) since ister.",
+    "id": "b1-02-present-perfect-continuous-m04",
+    "level": "B1",
+    "prompt": "She has been studying English ___ January.",
+    "prompt_tr": "O ___ Ocak ayından beri İngilizce çalışıyor.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "He has been working here since March.",
+      "He's been working here since March."
+    ],
+    "answer_text": "He has been working here since March.",
+    "difficulty": "medium",
+    "explain_tr": "Marttan beri süren iş since March ile anlatılır.",
+    "id": "b1-02-present-perfect-continuous-m05",
+    "level": "B1",
+    "prompt": "He started working here in March. He still works here. (Rewrite with since)",
+    "prompt_tr": "since kullanarak yeniden yaz: He started working here in March. He still works here.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "all day",
+      "in 2020",
+      "yesterday",
+      "last night"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Süren çaba all day ile anlatılır; bitmiş zaman olmaz.",
+    "id": "b1-02-present-perfect-continuous-m06",
+    "level": "B1",
+    "prompt": "We have been trying to call you ___.",
+    "prompt_tr": "Seni ___ aramaya çalışıyoruz.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "We have been waiting at the airport for two hours.",
+      "We have waiting at the airport for two hours.",
+      "We have been wait at the airport for two hours.",
+      "We has been waiting at the airport for two hours."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "been + V-ing ve we + have şarttır.",
+    "id": "b1-02-present-perfect-continuous-m07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the airport.",
+    "prompt_tr": "Havaalanıyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "does"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "it ile has sorulur: How long has it been snowing?",
+    "id": "b1-02-present-perfect-continuous-m08",
+    "level": "B1",
+    "prompt": "How long ___ it been snowing?",
+    "prompt_tr": "Ne kadar zamandır ___ kar yağıyor?",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "They have been playing since noon.",
+      "They've been playing since noon."
+    ],
+    "answer_text": "They have been playing since noon.",
+    "difficulty": "medium",
+    "explain_tr": "Öğleden beri süren oyun since noon ile anlatılır.",
+    "id": "b1-02-present-perfect-continuous-m09",
+    "level": "B1",
+    "prompt": "They started playing at noon. They still play. (Rewrite with since)",
+    "prompt_tr": "since kullanarak yeniden yaz: They started playing at noon. They still play.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I have known Elif for years.",
+      "I have been knowing Elif for years.",
+      "I have been known Elif for years.",
+      "I have know Elif for years."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "know durum fiilidir, -ing almaz: have known.",
+    "id": "b1-02-present-perfect-continuous-h01",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about Elif.",
+    "prompt_tr": "Elif ile ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "know, like, love gibi fiiller continuous almaz.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "known",
+      "been knowing",
+      "knowing",
+      "know"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "know durum fiilidir; doğrusu have known olur.",
+    "id": "b1-02-present-perfect-continuous-h02",
+    "level": "B1",
+    "prompt": "I have ___ him for years. (know)",
+    "prompt_tr": "Onu yıllardır ___ tanıyorum. (know)",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "been knowing yazmak durum-fiili tuzağıdır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I visited Paris in 2020.",
+      "I have been visiting Paris in 2020.",
+      "I have been visited Paris in 2020.",
+      "I has visited Paris in 2020."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Tek seferlik bitmiş olay past simple ister: visited in 2020.",
+    "id": "b1-02-present-perfect-continuous-h03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about Paris.",
+    "prompt_tr": "Paris ile ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "Bitmiş tek olayda continuous kullanılmaz.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "been working",
+      "been worked",
+      "working",
+      "been work"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "been + V-ing şarttır: has been working.",
+    "id": "b1-02-present-perfect-continuous-h04",
+    "level": "B1",
+    "prompt": "She has ___ (work) here since March.",
+    "prompt_tr": "O Mart ayından beri burada ___ . (work)",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "I have known her for years.",
+      "I've known her for years."
+    ],
+    "answer_text": "I have known her for years.",
+    "difficulty": "hard",
+    "explain_tr": "know durum fiilidir; continuous değil simple gerekir.",
+    "id": "b1-02-present-perfect-continuous-h05",
+    "level": "B1",
+    "prompt": "'I have been knowing her for years.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'I have been knowing her for years.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "Durum fiilleri -ing almaz.",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "does"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Can üçüncü tekil şahıstır; has + V3 gelir: has loved.",
+    "id": "b1-02-present-perfect-continuous-h06",
+    "level": "B1",
+    "prompt": "Can ___ loved classical music since childhood.",
+    "prompt_tr": "Can çocukluğundan beri ___ klasik müzik sever.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He has been reading for hours, so his eyes hurt.",
+      "He has been read for hours, so his eyes hurt.",
+      "He have been reading for hours, so his eyes hurt.",
+      "He has reading for hours, so his eyes hurt."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Saatlerdir süren okuma been + V-ing ister: has been reading.",
+    "id": "b1-02-present-perfect-continuous-h07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the book.",
+    "prompt_tr": "Kitapla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "I have been waiting for a long time.",
+      "I have been waiting a long time."
+    ],
+    "answer_text": "I have been waiting for a long time.",
+    "difficulty": "hard",
+    "explain_tr": "been olmadan cümle kurulamaz: have been waiting.",
+    "id": "b1-02-present-perfect-continuous-h08",
+    "level": "B1",
+    "prompt": "'I have waiting long.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'I have waiting long.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-02-present-perfect-continuous.md",
+    "topic": "b1-02-present-perfect-continuous",
+    "trap_tr": "been atlamak en yaygın continuous hatasıdır.",
+    "type": "rewrite"
+  }
+]

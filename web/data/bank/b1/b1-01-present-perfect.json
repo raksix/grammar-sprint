@@ -1,1 +1,450 @@
-[{"answer":0,"choices":["has","have","is","does"],"difficulty":"easy","explain_tr":"have/has + V3 kullanılır; she ile has gelir: She has finished.","id":"b1-01-present-perfect-e01","level":"B1","prompt":"She ___ just finished her homework.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"she ile have yazmak Türkçe konuşanların klasik hatasıdır.","type":"gap-fill"},{"answer":0,"choices":["ever","never","already","just"],"difficulty":"easy","explain_tr":"Sorularda ever kullanılır: Have you ever eaten sushi?","id":"b1-01-present-perfect-e02","level":"B1","prompt":"Have you ___ eaten sushi?","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"gap-fill"},{"answer":0,"choices":["I have seen that film twice.","I have see that film twice.","I has seen that film twice.","I have saw that film twice."],"difficulty":"easy","explain_tr":"see-saw-seen; üçüncü hâl seen olur: I have seen.","id":"b1-01-present-perfect-e03","level":"B1","prompt":"Pick the correct sentence about the film.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"answer":0,"choices":["They haven't called yet.","They haven't called already.","They haven't yet called still.","They didn't have called yet."],"difficulty":"easy","explain_tr":"Olumsuz cümlelerde yet sonda kullanılır: haven't called yet.","id":"b1-01-present-perfect-e04","level":"B1","prompt":"Pick the correct sentence about the missed call.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"answer":0,"choices":["since","for","from","at"],"difficulty":"easy","explain_tr":"Başlangıç noktası (2018) ile since kullanılır.","id":"b1-01-present-perfect-e05","level":"B1","prompt":"She has lived in Bursa ___ 2018.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"gap-fill"},{"answer":0,"choices":["for","since","from","at"],"difficulty":"easy","explain_tr":"Süre (ten years) ile for kullanılır.","id":"b1-01-present-perfect-e06","level":"B1","prompt":"He has worked here ___ ten years.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"gap-fill"},{"answer":0,"choices":["He has gone to Ankara, he is there now.","He has been to Ankara, he is there now.","He has go to Ankara, he is there now.","He have gone to Ankara, he is there now."],"difficulty":"easy","explain_tr":"gone = gitti ve hâlâ orada; been = gidip döndü.","id":"b1-01-present-perfect-e07","level":"B1","prompt":"Pick the correct sentence about Ankara.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"gone ile been karışır; orada ise gone kullanılır.","type":"mcq"},{"accept":["She has just lost her keys.","She's just lost her keys."],"answer_text":"She has just lost her keys.","difficulty":"easy","explain_tr":"just ile present perfect kurulur: has + just + V3.","id":"b1-01-present-perfect-e08","level":"B1","prompt":"She lost her keys a moment ago. (Rewrite with just)","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"rewrite"},{"answer":0,"choices":["already","yet","ever","since"],"difficulty":"medium","explain_tr":"already beklenenden erken olanı anlatır: I have already seen.","id":"b1-01-present-perfect-m01","level":"B1","prompt":"I have ___ seen that film, so I know the ending.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"gap-fill"},{"answer":0,"choices":["Have you finished your project yet?","Have you yet finished your project?","Did you have finished your project yet?","Have you finished yet your project?"],"difficulty":"medium","explain_tr":"yet sorularda cümle sonunda gelir: Have you finished yet?","id":"b1-01-present-perfect-m02","level":"B1","prompt":"Pick the correct sentence about the project.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"answer":0,"choices":["been","gone","went","being"],"difficulty":"medium","explain_tr":"Gidip dönmüşse been kullanılır: has been to İzmir.","id":"b1-01-present-perfect-m03","level":"B1","prompt":"Ayşe has ___ to İzmir three times this year.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"Üç kez gidip dönmüş biri için gone yanlıştır.","type":"gap-fill"},{"answer":0,"choices":["We have never eaten sushi before.","We has never eaten sushi before.","We have never ate sushi before.","We have never eat sushi before."],"difficulty":"medium","explain_tr":"we ile have ve V3 eaten gelir: We have never eaten.","id":"b1-01-present-perfect-m04","level":"B1","prompt":"Pick the correct sentence about sushi.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"accept":["She has lived here since 2020.","She's lived here since 2020."],"answer_text":"She has lived here since 2020.","difficulty":"medium","explain_tr":"Hâlâ süren durum since + başlangıç yılı ile anlatılır.","id":"b1-01-present-perfect-m05","level":"B1","prompt":"She started living here in 2020. She still lives here. (Rewrite with since)","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"rewrite"},{"answer":0,"choices":["The bus hasn't arrived yet.","The bus hasn't yet arrived still.","The bus didn't have arrived yet.","The bus hasn't arrived already."],"difficulty":"medium","explain_tr":"Olumsuzda yet sonda olur: hasn't arrived yet.","id":"b1-01-present-perfect-m06","level":"B1","prompt":"Pick the correct sentence about the bus.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"answer":0,"choices":["How long have you lived here?","How long has you lived here?","How long have you live here?","How long you have lived here?"],"difficulty":"medium","explain_tr":"you ile Have ve V3 lived gelir: How long have you lived here?","id":"b1-01-present-perfect-m07","level":"B1","prompt":"Pick the correct question about the village.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"answer":0,"choices":["just finished","just finish","just finishing","just finishes"],"difficulty":"medium","explain_tr":"just + V3 kuralı bozulmaz: has just finished.","id":"b1-01-present-perfect-m08","level":"B1","prompt":"Mehmet has ___ his homework, so he can play now.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"gap-fill"},{"accept":["They have been friends since 2019.","They've been friends since 2019."],"answer_text":"They have been friends since 2019.","difficulty":"medium","explain_tr":"2019'dan beri süren dostluk since ile anlatılır.","id":"b1-01-present-perfect-m09","level":"B1","prompt":"They met in 2019. They are still friends. (Rewrite with since)","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"rewrite"},{"answer":0,"choices":["I saw him yesterday.","I have seen him yesterday.","I have saw him yesterday.","I seen him yesterday."],"difficulty":"hard","explain_tr":"yesterday gibi bitmiş zamanla past simple gerekir: I saw him.","id":"b1-01-present-perfect-h01","level":"B1","prompt":"Pick the correct sentence.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"Bitmiş zaman sözcüğü varken present perfect kullanılmaz.","type":"mcq"},{"answer":0,"choices":["for","since","from","at"],"difficulty":"hard","explain_tr":"Süre (five years) for ister; since + tarih alır.","id":"b1-01-present-perfect-h02","level":"B1","prompt":"I have worked here ___ five years, not with since.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"for + süre, since + başlangıç noktası; tersi klasik hatadır.","type":"gap-fill"},{"answer":0,"choices":["He has been to London twice this year.","He has gone to London twice this year.","He has go to London twice this year.","He have been to London twice this year."],"difficulty":"hard","explain_tr":"İki kez gidip dönmüşse been; gone olsa hâlâ orada olurdu.","id":"b1-01-present-perfect-h03","level":"B1","prompt":"Pick the correct sentence about London.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"gone ile been farkı sınavların favori tuzağıdır.","type":"mcq"},{"answer":0,"choices":["gone","went","goed","going"],"difficulty":"hard","explain_tr":"go-went-gone; V3 gone olur, goed diye bir kelime yoktur.","id":"b1-01-present-perfect-h04","level":"B1","prompt":"She has ___ to school already.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"goed yazmak düzensiz fiil tuzağına düşmektir.","type":"gap-fill"},{"accept":["I did it last week."],"answer_text":"I did it last week.","difficulty":"hard","explain_tr":"last week bitmiş zamandır; doğru tense past simple olur.","id":"b1-01-present-perfect-h05","level":"B1","prompt":"'I have done it last week.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"Bitmiş zaman + present perfect en yaygın B1 hatasıdır.","type":"rewrite"},{"answer":0,"choices":["since","for","from","at"],"difficulty":"hard","explain_tr":"since + cümle (she was a child) olur; for + süre ister.","id":"b1-01-present-perfect-h06","level":"B1","prompt":"Elif has lived here ___ she was a child.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"since + cümle kalıbı for ile karıştırılır.","type":"gap-fill"},{"answer":0,"choices":["She has just lost her keys.","She just lost have her keys.","She has just lose her keys.","She have just lost her keys."],"difficulty":"hard","explain_tr":"Doğru sıra has + just + V3 olur: has just lost.","id":"b1-01-present-perfect-h07","level":"B1","prompt":"Pick the correct sentence about the keys.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","type":"mcq"},{"accept":["She finished it last night."],"answer_text":"She finished it last night.","difficulty":"hard","explain_tr":"last night bitmiş zamandır; present perfect kullanılamaz.","id":"b1-01-present-perfect-h08","level":"B1","prompt":"'She has finished it last night.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-01-present-perfect.md","topic":"b1-01-present-perfect","trap_tr":"Bitmiş zaman sözcüğü present perfect'i eler.","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "does"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "have/has + V3 kullanılır; she ile has gelir: She has finished.",
+    "id": "b1-01-present-perfect-e01",
+    "level": "B1",
+    "prompt": "She ___ just finished her homework.",
+    "prompt_tr": "O ___ ödevini az önce bitirdi.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "she ile have yazmak Türkçe konuşanların klasik hatasıdır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "ever",
+      "never",
+      "already",
+      "just"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Sorularda ever kullanılır: Have you ever eaten sushi?",
+    "id": "b1-01-present-perfect-e02",
+    "level": "B1",
+    "prompt": "Have you ___ eaten sushi?",
+    "prompt_tr": "Hiç suşi ___ yedin mi?",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I have seen that film twice.",
+      "I have see that film twice.",
+      "I has seen that film twice.",
+      "I have saw that film twice."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "see-saw-seen; üçüncü hâl seen olur: I have seen.",
+    "id": "b1-01-present-perfect-e03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the film.",
+    "prompt_tr": "Filmle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "They haven't called yet.",
+      "They haven't called already.",
+      "They haven't yet called still.",
+      "They didn't have called yet."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Olumsuz cümlelerde yet sonda kullanılır: haven't called yet.",
+    "id": "b1-01-present-perfect-e04",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the missed call.",
+    "prompt_tr": "Cevapsız aramayla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "at"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Başlangıç noktası (2018) ile since kullanılır.",
+    "id": "b1-01-present-perfect-e05",
+    "level": "B1",
+    "prompt": "She has lived in Bursa ___ 2018.",
+    "prompt_tr": "O ___ 2018'den beri Bursa'da yaşıyor.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "for",
+      "since",
+      "from",
+      "at"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Süre (ten years) ile for kullanılır.",
+    "id": "b1-01-present-perfect-e06",
+    "level": "B1",
+    "prompt": "He has worked here ___ ten years.",
+    "prompt_tr": "O burada ___ on yıldır çalışıyor.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He has gone to Ankara, he is there now.",
+      "He has been to Ankara, he is there now.",
+      "He has go to Ankara, he is there now.",
+      "He have gone to Ankara, he is there now."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "gone = gitti ve hâlâ orada; been = gidip döndü.",
+    "id": "b1-01-present-perfect-e07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about Ankara.",
+    "prompt_tr": "Ankara ile ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "gone ile been karışır; orada ise gone kullanılır.",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "She has just lost her keys.",
+      "She's just lost her keys."
+    ],
+    "answer_text": "She has just lost her keys.",
+    "difficulty": "easy",
+    "explain_tr": "just ile present perfect kurulur: has + just + V3.",
+    "id": "b1-01-present-perfect-e08",
+    "level": "B1",
+    "prompt": "She lost her keys a moment ago. (Rewrite with just)",
+    "prompt_tr": "just kullanarak yeniden yaz: She lost her keys a moment ago.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "already",
+      "yet",
+      "ever",
+      "since"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "already beklenenden erken olanı anlatır: I have already seen.",
+    "id": "b1-01-present-perfect-m01",
+    "level": "B1",
+    "prompt": "I have ___ seen that film, so I know the ending.",
+    "prompt_tr": "O filmi ___ izledim, bu yüzden sonunu biliyorum.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Have you finished your project yet?",
+      "Have you yet finished your project?",
+      "Did you have finished your project yet?",
+      "Have you finished yet your project?"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "yet sorularda cümle sonunda gelir: Have you finished yet?",
+    "id": "b1-01-present-perfect-m02",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the project.",
+    "prompt_tr": "Projeyle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "been",
+      "gone",
+      "went",
+      "being"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Gidip dönmüşse been kullanılır: has been to İzmir.",
+    "id": "b1-01-present-perfect-m03",
+    "level": "B1",
+    "prompt": "Ayşe has ___ to İzmir three times this year.",
+    "prompt_tr": "Ayşe bu yıl İzmir'e ___ üç kez gitti.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "Üç kez gidip dönmüş biri için gone yanlıştır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "We have never eaten sushi before.",
+      "We has never eaten sushi before.",
+      "We have never ate sushi before.",
+      "We have never eat sushi before."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "we ile have ve V3 eaten gelir: We have never eaten.",
+    "id": "b1-01-present-perfect-m04",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about sushi.",
+    "prompt_tr": "Suşi ile ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "She has lived here since 2020.",
+      "She's lived here since 2020."
+    ],
+    "answer_text": "She has lived here since 2020.",
+    "difficulty": "medium",
+    "explain_tr": "Hâlâ süren durum since + başlangıç yılı ile anlatılır.",
+    "id": "b1-01-present-perfect-m05",
+    "level": "B1",
+    "prompt": "She started living here in 2020. She still lives here. (Rewrite with since)",
+    "prompt_tr": "since kullanarak yeniden yaz: She started living here in 2020. She still lives here.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The bus hasn't arrived yet.",
+      "The bus hasn't yet arrived still.",
+      "The bus didn't have arrived yet.",
+      "The bus hasn't arrived already."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Olumsuzda yet sonda olur: hasn't arrived yet.",
+    "id": "b1-01-present-perfect-m06",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the bus.",
+    "prompt_tr": "Otobüsle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "How long have you lived here?",
+      "How long has you lived here?",
+      "How long have you live here?",
+      "How long you have lived here?"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "you ile Have ve V3 lived gelir: How long have you lived here?",
+    "id": "b1-01-present-perfect-m07",
+    "level": "B1",
+    "prompt": "Pick the correct question about the village.",
+    "prompt_tr": "Köy ile ilgili doğru soruyu seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "just finished",
+      "just finish",
+      "just finishing",
+      "just finishes"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "just + V3 kuralı bozulmaz: has just finished.",
+    "id": "b1-01-present-perfect-m08",
+    "level": "B1",
+    "prompt": "Mehmet has ___ his homework, so he can play now.",
+    "prompt_tr": "Mehmet ödevini ___ bitirdi, bu yüzden şimdi oynayabilir.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "They have been friends since 2019.",
+      "They've been friends since 2019."
+    ],
+    "answer_text": "They have been friends since 2019.",
+    "difficulty": "medium",
+    "explain_tr": "2019'dan beri süren dostluk since ile anlatılır.",
+    "id": "b1-01-present-perfect-m09",
+    "level": "B1",
+    "prompt": "They met in 2019. They are still friends. (Rewrite with since)",
+    "prompt_tr": "since kullanarak yeniden yaz: They met in 2019. They are still friends.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I saw him yesterday.",
+      "I have seen him yesterday.",
+      "I have saw him yesterday.",
+      "I seen him yesterday."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "yesterday gibi bitmiş zamanla past simple gerekir: I saw him.",
+    "id": "b1-01-present-perfect-h01",
+    "level": "B1",
+    "prompt": "Pick the correct sentence.",
+    "prompt_tr": "Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "Bitmiş zaman sözcüğü varken present perfect kullanılmaz.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "for",
+      "since",
+      "from",
+      "at"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Süre (five years) for ister; since + tarih alır.",
+    "id": "b1-01-present-perfect-h02",
+    "level": "B1",
+    "prompt": "I have worked here ___ five years, not with since.",
+    "prompt_tr": "Burada ___ beş yıldır çalışıyorum, since ile değil.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "for + süre, since + başlangıç noktası; tersi klasik hatadır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He has been to London twice this year.",
+      "He has gone to London twice this year.",
+      "He has go to London twice this year.",
+      "He have been to London twice this year."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "İki kez gidip dönmüşse been; gone olsa hâlâ orada olurdu.",
+    "id": "b1-01-present-perfect-h03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about London.",
+    "prompt_tr": "Londra ile ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "gone ile been farkı sınavların favori tuzağıdır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "gone",
+      "went",
+      "goed",
+      "going"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "go-went-gone; V3 gone olur, goed diye bir kelime yoktur.",
+    "id": "b1-01-present-perfect-h04",
+    "level": "B1",
+    "prompt": "She has ___ to school already.",
+    "prompt_tr": "O okula ___ çoktan gitti.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "goed yazmak düzensiz fiil tuzağına düşmektir.",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "I did it last week."
+    ],
+    "answer_text": "I did it last week.",
+    "difficulty": "hard",
+    "explain_tr": "last week bitmiş zamandır; doğru tense past simple olur.",
+    "id": "b1-01-present-perfect-h05",
+    "level": "B1",
+    "prompt": "'I have done it last week.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'I have done it last week.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "Bitmiş zaman + present perfect en yaygın B1 hatasıdır.",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "at"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "since + cümle (she was a child) olur; for + süre ister.",
+    "id": "b1-01-present-perfect-h06",
+    "level": "B1",
+    "prompt": "Elif has lived here ___ she was a child.",
+    "prompt_tr": "Elif burada ___ çocukluğundan beri yaşıyor.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "since + cümle kalıbı for ile karıştırılır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She has just lost her keys.",
+      "She just lost have her keys.",
+      "She has just lose her keys.",
+      "She have just lost her keys."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Doğru sıra has + just + V3 olur: has just lost.",
+    "id": "b1-01-present-perfect-h07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the keys.",
+    "prompt_tr": "Anahtarlarla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "She finished it last night."
+    ],
+    "answer_text": "She finished it last night.",
+    "difficulty": "hard",
+    "explain_tr": "last night bitmiş zamandır; present perfect kullanılamaz.",
+    "id": "b1-01-present-perfect-h08",
+    "level": "B1",
+    "prompt": "'She has finished it last night.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'She has finished it last night.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-01-present-perfect.md",
+    "topic": "b1-01-present-perfect",
+    "trap_tr": "Bitmiş zaman sözcüğü present perfect'i eler.",
+    "type": "rewrite"
+  }
+]

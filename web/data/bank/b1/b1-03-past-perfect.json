@@ -1,1 +1,449 @@
-[{"answer":0,"choices":["left","leave","leaving","leaves"],"difficulty":"easy","explain_tr":"had + V3 kalıbı bozulmaz: had already left.","id":"b1-03-past-perfect-e01","level":"B1","prompt":"When I arrived, the train had already ___.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"answer":0,"choices":["She was hungry because she hadn't eaten breakfast.","She was hungry because she hasn't eaten breakfast.","She was hungry because she didn't have eaten breakfast.","She was hungry because she hadn't ate breakfast."],"difficulty":"easy","explain_tr":"Önce olan eylem had + V3 alır: hadn't eaten.","id":"b1-03-past-perfect-e02","level":"B1","prompt":"Pick the correct sentence about breakfast.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"answer":0,"choices":["When I arrived, the train had already left.","When I arrived, the train has already left.","When I arrived, the train already leave.","When I had arrived, the train already left."],"difficulty":"easy","explain_tr":"Önce olan had alır, sonra olan past simple kalır.","id":"b1-03-past-perfect-e03","level":"B1","prompt":"Pick the correct sentence about the train.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"Sadece önce olan eylem had alır.","type":"mcq"},{"answer":0,"choices":["Had","Have","Did have","Has"],"difficulty":"easy","explain_tr":"Past perfect sorusu Had ile başlar: Had you finished?","id":"b1-03-past-perfect-e04","level":"B1","prompt":"___ you finished before dinner?","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"answer":0,"choices":["started","start","starting","starts"],"difficulty":"easy","explain_tr":"had + V3 kuralı bozulmaz: had started.","id":"b1-03-past-perfect-e05","level":"B1","prompt":"By the time we arrived, the film had ___.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"answer":0,"choices":["Had you finished before dinner?","Have you finished before dinner yesterday?","Did you had finished before dinner?","Had you finish before dinner?"],"difficulty":"easy","explain_tr":"Doğru soru Had + özne + V3 olur: Had you finished?","id":"b1-03-past-perfect-e06","level":"B1","prompt":"Pick the correct sentence about the homework.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"answer":0,"choices":["flown","flew","flying","fly"],"difficulty":"easy","explain_tr":"fly-flew-flown; V3 flown olur: had never flown.","id":"b1-03-past-perfect-e07","level":"B1","prompt":"They had never ___ before that holiday.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"accept":["When I got home, the kids had already eaten.","The kids had already eaten when I got home."],"answer_text":"When I got home, the kids had already eaten.","difficulty":"easy","explain_tr":"Önce yediler, sonra geldim: had already eaten.","id":"b1-03-past-perfect-e08","level":"B1","prompt":"The kids ate. Then I got home. (Rewrite with already)","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"rewrite"},{"answer":0,"choices":["seen","saw","seeing","see"],"difficulty":"medium","explain_tr":"see-saw-seen; had + V3 seen olur.","id":"b1-03-past-perfect-m01","level":"B1","prompt":"I recognised him because I had ___ him before.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"answer":0,"choices":["She had cooked before I came.","She cooked before I had come.","She had cooked before I had come.","She cooks before I come."],"difficulty":"medium","explain_tr":"Önce pişirdi (had cooked), sonra geldim (came).","id":"b1-03-past-perfect-m02","level":"B1","prompt":"Pick the sentence where the earlier action is clear.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"İki fiile birden had koymak klasik hatadır.","type":"mcq"},{"answer":0,"choices":["He failed because he hadn't studied.","He failed because he hasn't studied.","He failed because he didn't have studied.","He failed because he hadn't study."],"difficulty":"medium","explain_tr":"Önce çalışmadı (hadn't studied), sonra kaldı.","id":"b1-03-past-perfect-m03","level":"B1","prompt":"Pick the correct sentence about the test.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"answer":0,"choices":["locked","lock","locking","locks"],"difficulty":"medium","explain_tr":"had + V3 locked olur: had locked the door.","id":"b1-03-past-perfect-m04","level":"B1","prompt":"After she had ___ the door, she left.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"accept":["I had just fallen asleep when the phone rang.","When the phone rang, I had just fallen asleep."],"answer_text":"I had just fallen asleep when the phone rang.","difficulty":"medium","explain_tr":"Önce uykuya daldım (had fallen), sonra telefon çaldı.","id":"b1-03-past-perfect-m05","level":"B1","prompt":"I fell asleep. Then the phone rang. (Rewrite with just)","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"rewrite"},{"answer":0,"choices":["She told me she had lost her wallet.","She told me she has lost her wallet yesterday.","She told me she lose her wallet.","She told me she had lose her wallet."],"difficulty":"medium","explain_tr":"Aktarımda kayıp daha önce oldu: had lost.","id":"b1-03-past-perfect-m06","level":"B1","prompt":"Pick the correct sentence about the wallet.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"answer":0,"choices":["Had they eaten before they went out?","Have they eaten before they went out yesterday?","Did they had eaten before they went out?","Had they ate before they went out?"],"difficulty":"medium","explain_tr":"Doğru soru Had + özne + V3 olur.","id":"b1-03-past-perfect-m07","level":"B1","prompt":"Pick the correct question about dinner.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"answer":0,"choices":["had","has","have","did"],"difficulty":"medium","explain_tr":"by the time kalıbı had ister: had started.","id":"b1-03-past-perfect-m08","level":"B1","prompt":"By the time we got to the cinema, the film ___ started.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"accept":["By the time we arrived, the show had started.","The show had started by the time we arrived."],"answer_text":"By the time we arrived, the show had started.","difficulty":"medium","explain_tr":"Önce başladı, sonra vardık: had started.","id":"b1-03-past-perfect-m09","level":"B1","prompt":"We arrived late. The show started before that. (Rewrite with by the time)","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"rewrite"},{"answer":0,"choices":["I met him last year.","I had met him last year.","I had meet him last year.","I have met him last year."],"difficulty":"hard","explain_tr":"Tek olay varsa past simple yeter: met last year.","id":"b1-03-past-perfect-h01","level":"B1","prompt":"Pick the correct sentence about last year.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"Tek geçmiş olayda had kullanmak en yaygın hatadır.","type":"mcq"},{"answer":0,"choices":["gone","went","goed","going"],"difficulty":"hard","explain_tr":"go-went-gone; had + gone olur, goed yoktur.","id":"b1-03-past-perfect-h02","level":"B1","prompt":"When I arrived, he had already ___.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"goed yazmak düzensiz fiil tuzağıdır.","type":"gap-fill"},{"answer":0,"choices":["When I arrived, the train had left.","When I had arrived, the train had left.","When I arrived, the train had leave.","When I arrived, the train has left."],"difficulty":"hard","explain_tr":"Sadece önce olan had alır; varış past simple kalır.","id":"b1-03-past-perfect-h03","level":"B1","prompt":"Pick the correct sentence about the station.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"İki fiile birden had koymak klasik tuzaktır.","type":"mcq"},{"answer":0,"choices":["finished","finish","have finished","finishing"],"difficulty":"hard","explain_tr":"after zaten sırayı gösterir; past simple yeter: After I finished.","id":"b1-03-past-perfect-h04","level":"B1","prompt":"After I ___, I went home.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"after sonrası gereksiz had koymak yaygın hatadır.","type":"gap-fill"},{"accept":["We arrived last night."],"answer_text":"We arrived last night.","difficulty":"hard","explain_tr":"Tek olay past simple ister; had gereksizdir.","id":"b1-03-past-perfect-h05","level":"B1","prompt":"'We had arrived last night.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"Tek geçmiş olayda past perfect kullanılmaz.","type":"rewrite"},{"answer":0,"choices":["had","has","have","did"],"difficulty":"hard","explain_tr":"Aktarımda kayıp daha önce: she had lost.","id":"b1-03-past-perfect-h06","level":"B1","prompt":"She told me she ___ lost her wallet.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"gap-fill"},{"answer":0,"choices":["They passed because they had studied hard.","They passed because they has studied hard.","They passed because they had study hard.","They passed because they have studied hard yesterday."],"difficulty":"hard","explain_tr":"Önce çalıştılar (had studied), sonra geçtiler.","id":"b1-03-past-perfect-h07","level":"B1","prompt":"Pick the correct sentence about the course.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","type":"mcq"},{"accept":["When I arrived, he had gone.","He had gone when I arrived."],"answer_text":"When I arrived, he had gone.","difficulty":"hard","explain_tr":"Sadece önce olan had alır; varış past simple olur.","id":"b1-03-past-perfect-h08","level":"B1","prompt":"'When I had arrived, he had gone.' is wrong. Write the correct sentence.","rule_ref":"Docs/grammar/B1/b1-03-past-perfect.md","topic":"b1-03-past-perfect","trap_tr":"İki fiile birden had koymak klasik tuzaktır.","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "left",
+      "leave",
+      "leaving",
+      "leaves"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "had + V3 kalıbı bozulmaz: had already left.",
+    "id": "b1-03-past-perfect-e01",
+    "level": "B1",
+    "prompt": "When I arrived, the train had already ___.",
+    "prompt_tr": "Vardığımda tren çoktan ___ .",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She was hungry because she hadn't eaten breakfast.",
+      "She was hungry because she hasn't eaten breakfast.",
+      "She was hungry because she didn't have eaten breakfast.",
+      "She was hungry because she hadn't ate breakfast."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Önce olan eylem had + V3 alır: hadn't eaten.",
+    "id": "b1-03-past-perfect-e02",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about breakfast.",
+    "prompt_tr": "Kahvaltıyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "When I arrived, the train had already left.",
+      "When I arrived, the train has already left.",
+      "When I arrived, the train already leave.",
+      "When I had arrived, the train already left."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Önce olan had alır, sonra olan past simple kalır.",
+    "id": "b1-03-past-perfect-e03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the train.",
+    "prompt_tr": "Trenle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "Sadece önce olan eylem had alır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Had",
+      "Have",
+      "Did have",
+      "Has"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Past perfect sorusu Had ile başlar: Had you finished?",
+    "id": "b1-03-past-perfect-e04",
+    "level": "B1",
+    "prompt": "___ you finished before dinner?",
+    "prompt_tr": "Akşam yemeğinden önce ___ bitirmiş miydin?",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "started",
+      "start",
+      "starting",
+      "starts"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "had + V3 kuralı bozulmaz: had started.",
+    "id": "b1-03-past-perfect-e05",
+    "level": "B1",
+    "prompt": "By the time we arrived, the film had ___.",
+    "prompt_tr": "Biz vardığımızda film ___ .",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Had you finished before dinner?",
+      "Have you finished before dinner yesterday?",
+      "Did you had finished before dinner?",
+      "Had you finish before dinner?"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Doğru soru Had + özne + V3 olur: Had you finished?",
+    "id": "b1-03-past-perfect-e06",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the homework.",
+    "prompt_tr": "Ödevle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "flown",
+      "flew",
+      "flying",
+      "fly"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "fly-flew-flown; V3 flown olur: had never flown.",
+    "id": "b1-03-past-perfect-e07",
+    "level": "B1",
+    "prompt": "They had never ___ before that holiday.",
+    "prompt_tr": "O tatilden önce hiç ___ .",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "When I got home, the kids had already eaten.",
+      "The kids had already eaten when I got home."
+    ],
+    "answer_text": "When I got home, the kids had already eaten.",
+    "difficulty": "easy",
+    "explain_tr": "Önce yediler, sonra geldim: had already eaten.",
+    "id": "b1-03-past-perfect-e08",
+    "level": "B1",
+    "prompt": "The kids ate. Then I got home. (Rewrite with already)",
+    "prompt_tr": "already kullanarak yeniden yaz: The kids ate. Then I got home.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "seen",
+      "saw",
+      "seeing",
+      "see"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "see-saw-seen; had + V3 seen olur.",
+    "id": "b1-03-past-perfect-m01",
+    "level": "B1",
+    "prompt": "I recognised him because I had ___ him before.",
+    "prompt_tr": "Onu daha önce ___ gördüğüm için tanıdım.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She had cooked before I came.",
+      "She cooked before I had come.",
+      "She had cooked before I had come.",
+      "She cooks before I come."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Önce pişirdi (had cooked), sonra geldim (came).",
+    "id": "b1-03-past-perfect-m02",
+    "level": "B1",
+    "prompt": "Pick the sentence where the earlier action is clear.",
+    "prompt_tr": "Önceki eylemin açık olduğu cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "İki fiile birden had koymak klasik hatadır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He failed because he hadn't studied.",
+      "He failed because he hasn't studied.",
+      "He failed because he didn't have studied.",
+      "He failed because he hadn't study."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Önce çalışmadı (hadn't studied), sonra kaldı.",
+    "id": "b1-03-past-perfect-m03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the test.",
+    "prompt_tr": "Sınavla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "locked",
+      "lock",
+      "locking",
+      "locks"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "had + V3 locked olur: had locked the door.",
+    "id": "b1-03-past-perfect-m04",
+    "level": "B1",
+    "prompt": "After she had ___ the door, she left.",
+    "prompt_tr": "Kapıyı ___ kapattıktan sonra çıktı.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "I had just fallen asleep when the phone rang.",
+      "When the phone rang, I had just fallen asleep."
+    ],
+    "answer_text": "I had just fallen asleep when the phone rang.",
+    "difficulty": "medium",
+    "explain_tr": "Önce uykuya daldım (had fallen), sonra telefon çaldı.",
+    "id": "b1-03-past-perfect-m05",
+    "level": "B1",
+    "prompt": "I fell asleep. Then the phone rang. (Rewrite with just)",
+    "prompt_tr": "just kullanarak yeniden yaz: I fell asleep. Then the phone rang.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She told me she had lost her wallet.",
+      "She told me she has lost her wallet yesterday.",
+      "She told me she lose her wallet.",
+      "She told me she had lose her wallet."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Aktarımda kayıp daha önce oldu: had lost.",
+    "id": "b1-03-past-perfect-m06",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the wallet.",
+    "prompt_tr": "Cüzdanla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Had they eaten before they went out?",
+      "Have they eaten before they went out yesterday?",
+      "Did they had eaten before they went out?",
+      "Had they ate before they went out?"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Doğru soru Had + özne + V3 olur.",
+    "id": "b1-03-past-perfect-m07",
+    "level": "B1",
+    "prompt": "Pick the correct question about dinner.",
+    "prompt_tr": "Akşam yemeğiyle ilgili doğru soruyu seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "has",
+      "have",
+      "did"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "by the time kalıbı had ister: had started.",
+    "id": "b1-03-past-perfect-m08",
+    "level": "B1",
+    "prompt": "By the time we got to the cinema, the film ___ started.",
+    "prompt_tr": "Sinemaya vardığımızda film ___ başlamıştı.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "By the time we arrived, the show had started.",
+      "The show had started by the time we arrived."
+    ],
+    "answer_text": "By the time we arrived, the show had started.",
+    "difficulty": "medium",
+    "explain_tr": "Önce başladı, sonra vardık: had started.",
+    "id": "b1-03-past-perfect-m09",
+    "level": "B1",
+    "prompt": "We arrived late. The show started before that. (Rewrite with by the time)",
+    "prompt_tr": "by the time kullanarak yeniden yaz: We arrived late. The show started before that.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I met him last year.",
+      "I had met him last year.",
+      "I had meet him last year.",
+      "I have met him last year."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Tek olay varsa past simple yeter: met last year.",
+    "id": "b1-03-past-perfect-h01",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about last year.",
+    "prompt_tr": "Geçen yılla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "Tek geçmiş olayda had kullanmak en yaygın hatadır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "gone",
+      "went",
+      "goed",
+      "going"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "go-went-gone; had + gone olur, goed yoktur.",
+    "id": "b1-03-past-perfect-h02",
+    "level": "B1",
+    "prompt": "When I arrived, he had already ___.",
+    "prompt_tr": "Vardığımda o çoktan ___ .",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "goed yazmak düzensiz fiil tuzağıdır.",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "When I arrived, the train had left.",
+      "When I had arrived, the train had left.",
+      "When I arrived, the train had leave.",
+      "When I arrived, the train has left."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Sadece önce olan had alır; varış past simple kalır.",
+    "id": "b1-03-past-perfect-h03",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the station.",
+    "prompt_tr": "İstasyonla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "İki fiile birden had koymak klasik tuzaktır.",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "finished",
+      "finish",
+      "have finished",
+      "finishing"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "after zaten sırayı gösterir; past simple yeter: After I finished.",
+    "id": "b1-03-past-perfect-h04",
+    "level": "B1",
+    "prompt": "After I ___, I went home.",
+    "prompt_tr": "___ sonra eve gittim.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "after sonrası gereksiz had koymak yaygın hatadır.",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "We arrived last night."
+    ],
+    "answer_text": "We arrived last night.",
+    "difficulty": "hard",
+    "explain_tr": "Tek olay past simple ister; had gereksizdir.",
+    "id": "b1-03-past-perfect-h05",
+    "level": "B1",
+    "prompt": "'We had arrived last night.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'We had arrived last night.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "Tek geçmiş olayda past perfect kullanılmaz.",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "has",
+      "have",
+      "did"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Aktarımda kayıp daha önce: she had lost.",
+    "id": "b1-03-past-perfect-h06",
+    "level": "B1",
+    "prompt": "She told me she ___ lost her wallet.",
+    "prompt_tr": "Bana cüzdanını ___ kaybettiğini söyledi.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "They passed because they had studied hard.",
+      "They passed because they has studied hard.",
+      "They passed because they had study hard.",
+      "They passed because they have studied hard yesterday."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Önce çalıştılar (had studied), sonra geçtiler.",
+    "id": "b1-03-past-perfect-h07",
+    "level": "B1",
+    "prompt": "Pick the correct sentence about the course.",
+    "prompt_tr": "Kursla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "When I arrived, he had gone.",
+      "He had gone when I arrived."
+    ],
+    "answer_text": "When I arrived, he had gone.",
+    "difficulty": "hard",
+    "explain_tr": "Sadece önce olan had alır; varış past simple olur.",
+    "id": "b1-03-past-perfect-h08",
+    "level": "B1",
+    "prompt": "'When I had arrived, he had gone.' is wrong. Write the correct sentence.",
+    "prompt_tr": "'When I had arrived, he had gone.' cümlesi yanlış. Doğrusunu yaz.",
+    "rule_ref": "Docs/grammar/B1/b1-03-past-perfect.md",
+    "topic": "b1-03-past-perfect",
+    "trap_tr": "İki fiile birden had koymak klasik tuzaktır.",
+    "type": "rewrite"
+  }
+]
