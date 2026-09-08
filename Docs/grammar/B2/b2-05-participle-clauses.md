@@ -4,29 +4,26 @@
 
 Shorten sentences with -ing and -ed clauses like a native speaker.
 
-After this lesson you can:
-
-- Join two same-subject sentences into one.
-- Show "after doing" with having + V3.
-- Use -ed clauses for passive meaning.
+- **Birleştir:** Join two same-subject sentences into one.
+- **Öncelik:** Show "after doing" with having + V3.
+- **Edilgen:** Use -ed clauses for passive meaning.
+- **TR özet:** Özne aynıysa kısalt, farklıysa kısaltma.
 
 ## Rule in 60 seconds
 
 Aynı özneli iki cümleyi tek fiille birleştir.
 
-Having finished… = bitirdikten sonra.
-
-Broken window… = kırık pencere.
-
--ing aktif anlam verir.
-
--ed pasif anlam verir.
-
-Having + V3 "önce" vurgusu katar.
-
-Kısa mantık: özne aynıysa kısalt, farklıysa kısaltma.
+- **Aktif:** -ing aktif anlam verir — "Walking home, I met Ali."
+- **Öncelik:** Having finished… = bitirdikten sonra.
+- **Edilgen:** -ed pasif anlam verir — "Broken window" = kırık pencere.
+- **Sıra:** Sıra önemliyse having + V3; genel durumsa düz -ing.
+- **Kural:** İki cümlenin öznesi aynı olmalı.
+- **TR ipucu:** Özneler farklıysa cümle sarkar (dangling).
+- **TR ipucu:** Having + V3 "önce" vurgusu katar.
 
 ## Forms
+
+Patterns at a glance.
 
 | Form | Pattern | Example |
 |---|---|---|
@@ -39,55 +36,46 @@ Kısa mantık: özne aynıysa kısalt, farklıysa kısaltma.
 | Negative | Not + V-ing | Not knowing the way, we asked. |
 | Negative | Not + having + V3 | Not having slept, I was tired. |
 
-Kısa Türkçe not: Özneler farklıysa cümle sarkar.
-
-Kısa Türkçe not: İki cümlenin öznesi aynı olmalı.
-
-Not: Sıra önemliyse having + V3, genel durumsa düz -ing.
+- **TR not:** İki cümlenin öznesi aynı olmalı.
+- **TR not:** Özneler farklıysa cümle sarkar.
+- **Kural:** Sıra önemliyse having + V3, genel durumsa düz -ing.
 
 ## 3 classic traps
 
-1. TR: Özne kayması
-   "Walking home, the rain started" YANLIŞ (yağmur yürümedi).
-   DOĞRU: "Walking home, I got wet."
-2. TR: Having gereksiz kullanımı
-   Sıra önemliyse "Having eaten, we left" doğru.
-   Genel durumsa "Eating pizza, we talked" yeterli.
-3. TR: -ing/-ed karıştırmak
-   "The man breaking the window" = kıran adam.
-   "The broken window" = kırık pencere.
+En sık yapılan 3 hata.
+
+- **Trap 1 — özne kayması:** ❌ "Walking home, the rain started" → ✅ "Walking home, I got wet."
+- **Neden:** Yağmur yürümedi; özne uyuşmalı.
+- **Trap 2 — gereksiz having:** ❌ Her yerde "Having…" → ✅ Genel durumsa "Eating pizza, we talked" yeterli.
+- **Neden:** Sıra önemliyse "Having eaten, we left" doğru.
+- **Trap 3 — -ing/-ed karıştırmak:** ❌ "The broken window" = kıran → ✅ "breaking" = kıran; "broken" = kırık.
+- **Neden:** -ing etken, -ed edilgen.
 
 ## 10 example sentences
 
-1. Walking to school, I saw a fox.
-   Okula yürürken bir tilki gördüm.
-2. Having finished dinner, they went for a walk.
-   Yemeği bitirince yürüyüşe çıktılar.
-3. Tired after the match, he slept early.
-   Maçtan sonra yorgun olup erken uyudu.
-4. Built in 1900, the mosque still stands.
-   1900'de inşa edilen cami hâlâ ayakta.
-5. Not knowing Turkish, she used a translator.
-   Türkçe bilmediğinden çevirmen kullandı.
-6. Having lived abroad, he speaks three languages.
-   Yurt dışında yaşadığı için üç dil konuşur.
-7. Surprised by the news, they stayed silent.
-   Habere şaşırıp sessiz kaldılar.
-8. Turning off the lights, she left the room.
-   Işıkları kapatıp odadan çıktı.
-9. Having missed the bus, we took a taxi.
-   Otobüsü kaçırdığımız için taksiye bindik.
-10. Known as a quiet town, Ürgüp attracts tourists.
-    Sakin bir kasaba olarak bilinen Ürgüp turist çeker.
+Read aloud and check who does the action.
+
+- **Walking to school, I saw a fox.** — Okula yürürken bir tilki gördüm.
+- **Having finished dinner, they went for a walk.** — Yemeği bitirince yürüyüşe çıktılar.
+- **Tired after the match, he slept early.** — Maçtan sonra yorgun olup erken uyudu.
+- **Built in 1900, the mosque still stands.** — 1900'de inşa edilen cami hâlâ ayakta.
+- **Not knowing Turkish, she used a translator.** — Türkçe bilmediğinden çevirmen kullandı.
+- **Having lived abroad, he speaks three languages.** — Yurt dışında yaşadığı için üç dil konuşur.
+- **Surprised by the news, they stayed silent.** — Habere şaşırıp sessiz kaldılar.
+- **Turning off the lights, she left the room.** — Işıkları kapatıp odadan çıktı.
+- **Having missed the bus, we took a taxi.** — Otobüsü kaçırdığımız için taksiye bindik.
+- **Known as a quiet town, Ürgüp attracts tourists.** — Sakin bir kasaba olarak bilinen Ürgüp turist çeker.
 
 ## Quick check
 
-1. ___ (finish) homework, she watched TV.
-   Cevap: Having finished / Finishing.
-2. ___ (write) in English, the letter was short.
-   Cevap: Written. (Passive -ed clause.)
-3. "Crossing the street, the bus came" cümlesindeki hatayı bul.
-   Cevap: Dangling participle (özne uyuşmuyor).
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. ___ (finish) homework, she watched TV.**
+- **Cevap 1:** Having finished / Finishing.
+- **2. ___ (write) in English, the letter was short.**
+- **Cevap 2:** Written — passive -ed clause.
+- **3. "Crossing the street, the bus came" hatasını bul.**
+- **Cevap 3:** Dangling participle — özne uyuşmuyor.
 
 ## Sources
 

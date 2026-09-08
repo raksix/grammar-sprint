@@ -4,30 +4,26 @@
 
 Use mixed conditionals to connect a past condition with a present result (and vice versa).
 
-After this lesson you can:
-
-- Explain a present situation with a past cause.
-- Imagine a different past caused by a present trait.
-- Avoid the classic "if I would have" mistake.
+- **Past → Present:** Explain a present situation with a past cause.
+- **Present → Past:** Imagine a different past caused by a present trait.
+- **Hata avı:** Avoid the classic "if I would have" mistake.
+- **TR özet:** Geçmişteki olay bugünkü durumu açıklar.
 
 ## Rule in 60 seconds
 
-Klasik Type 2 ve Type 3'ü karıştırırsın: geçmişteki bir olay bugünkü durumu açıklar.
+Type 2 + Type 3 karışımı: geçmiş sebep, bugünkü sonuç.
 
-Kalıp 1 (Past → Present):
-
-- If + past perfect, would + V (şimdiki sonuç).
-
-Kalıp 2 (Present → Past):
-
-- If + past simple, would have + V3 (geçmişteki hayali sonuç).
-
-Kısa mantık:
-
-- "had + V3" = gerçek geçmişte olmadı.
-- "would + V" = şimdi hayali sonuç.
+- **Kalıp 1 (Past → Present):** If + past perfect, would + V.
+- **Kalıp 2 (Present → Past):** If + past simple, would have + V3.
+- **had + V3:** Gerçek geçmişte olmadı.
+- **would + V:** Şimdi hayali sonuç.
+- **would have + V3:** Geçmişte hayali sonuç.
+- **Kural:** If cümlesinde would yok; sonuç cümlesinde var.
+- **TR ipucu:** "If + had V3" sebep verir; "would + V" sonucu anlatır.
 
 ## Forms
+
+Patterns at a glance.
 
 | Type | Pattern | Example |
 |---|---|---|
@@ -40,55 +36,46 @@ Kısa mantık:
 | Question ? | What would + S + V if + had + V3? | What would you do if you had missed the flight? |
 | Question ? | What would + S + V if + had + V3? | Where would she be if she hadn't left Ankara? |
 
-Kısa Türkçe not: "If + had V3" geçmiş pişmanlık/sebep verir.
-
-Kısa Türkçe not: "would + V" bugünkü hayali sonucu anlatır.
-
-Not: If cümlesinde would kullanılmaz; sonuç cümlesinde kullanılır.
+- **TR not:** "If + had V3" geçmiş pişmanlık/sebep verir.
+- **TR not:** "would + V" bugünkü hayali sonucu anlatır.
+- **Kural:** If cümlesinde would kullanılmaz; sonuç cümlesinde kullanılır.
 
 ## 3 classic traps
 
-1. TR: "If I would have studied" yanlışı
-   DOĞRU: "If I had studied, I would be…"
-   Sebep: If cümlesinde would olmaz.
-2. TR: Zamanları karıştırmak
-   "If I studied harder, I would be a doctor" geçmiş sebep anlatmaz.
-   Geçmiş sebep için "had studied" şarttır.
-3. TR: "would be" yerine "will be"
-   Hayali sonuçta will değil would kullanılır.
-   "I would live in Berlin" doğru, "I will live" yanlış.
+En sık yapılan 3 hata.
+
+- **Trap 1 — would in if-clause:** ❌ "If I would have studied" → ✅ "If I had studied, I would be…"
+- **Neden:** If cümlesinde would olmaz.
+- **Trap 2 — Zaman karıştırmak:** ❌ "If I studied harder, I would be a doctor" → ✅ "If I had studied harder, I would be a doctor."
+- **Neden:** Geçmiş sebep için "had studied" şarttır.
+- **Trap 3 — will yerine would:** ❌ "I will live in Berlin" → ✅ "I would live in Berlin."
+- **Neden:** Hayali sonuçta will değil would kullanılır.
 
 ## 10 example sentences
 
-1. If I had taken the job, I would live in Berlin now.
-   O işi kabul etseydim, şimdi Berlin'de yaşıyor olurdum.
-2. If she hadn't missed the train, she wouldn't be late for the meeting.
-   Treni kaçırmasaydı, toplantıya geç kalmazdı.
-3. If he were more careful, he wouldn't have crashed the car.
-   Daha dikkatli biri olsaydı, arabayı çarpmazdı.
-4. If we had bought that flat, we would be rich today.
-   O daireyi alsaydık, bugün zengin olurduk.
-5. If I spoke Spanish, I would have helped the tourist yesterday.
-   İspanyolca bilseydim, dün turiste yardım ederdim.
-6. If they hadn't spent everything, they wouldn't need a loan now.
-   Her şeyi harcamasalardı, şimdi krediye ihtiyaç duymazlardı.
-7. If you had listened to me, you wouldn't be in trouble.
-   Beni dinleseydin, şimdi başın belada olmazdı.
-8. If I weren't afraid of flying, I would have come with you.
-   Uçmaktan korkmasaydım, seninle gelirdim.
-9. If she had married him, she would live in İzmir now.
-   Onunla evlenseydi, şimdi İzmir'de yaşardı.
-10. If they'd invested earlier, they'd be retired by now.
-    Daha erken yatırım yapsalardı, şimdiye emekli olurlardı.
+Read aloud and notice the tense mix.
+
+- **If I had taken the job, I would live in Berlin now.** — O işi kabul etseydim, şimdi Berlin'de yaşıyor olurdum.
+- **If she hadn't missed the train, she wouldn't be late for the meeting.** — Treni kaçırmasaydı, toplantıya geç kalmazdı.
+- **If he were more careful, he wouldn't have crashed the car.** — Daha dikkatli biri olsaydı, arabayı çarpmazdı.
+- **If we had bought that flat, we would be rich today.** — O daireyi alsaydık, bugün zengin olurduk.
+- **If I spoke Spanish, I would have helped the tourist yesterday.** — İspanyolca bilseydim, dün turiste yardım ederdim.
+- **If they hadn't spent everything, they wouldn't need a loan now.** — Her şeyi harcamasalardı, şimdi krediye ihtiyaç duymazlardı.
+- **If you had listened to me, you wouldn't be in trouble.** — Beni dinleseydin, şimdi başın belada olmazdı.
+- **If I weren't afraid of flying, I would have come with you.** — Uçmaktan korkmasaydım, seninle gelirdim.
+- **If she had married him, she would live in İzmir now.** — Onunla evlenseydi, şimdi İzmir'de yaşardı.
+- **If they'd invested earlier, they'd be retired by now.** — Daha erken yatırım yapsalardı, şimdiye emekli olurlardı.
 
 ## Quick check
 
-1. If I ___ (save) money, I wouldn't be broke now.
-   Cevap: had saved. (Past → Present kalıbı.)
-2. If she ___ (be) braver, she would have applied.
-   Cevap: were / was. (Present → Past kalıbı.)
-3. "If I would have known" cümlesini düzelt.
-   Cevap: If I had known. (If içinde would yok.)
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. If I ___ (save) money, I wouldn't be broke now.**
+- **Cevap 1:** had saved — Past → Present kalıbı.
+- **2. If she ___ (be) braver, she would have applied.**
+- **Cevap 2:** were / was — Present → Past kalıbı.
+- **3. "If I would have known" cümlesini düzelt.**
+- **Cevap 3:** If I had known — if içinde would yok.
 
 ## Sources
 

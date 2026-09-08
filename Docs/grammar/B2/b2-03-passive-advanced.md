@@ -4,27 +4,26 @@
 
 Use continuous, perfect and modal passives plus have something done naturally.
 
-After this lesson you can:
-
-- Describe ongoing actions without naming the agent.
-- Report finished actions with perfect passives.
-- Order services with have/get something done.
+- **Süreç:** Describe ongoing actions without naming the agent.
+- **Sonuç:** Report finished actions with perfect passives.
+- **Servis:** Order services with have/get something done.
+- **TR özet:** Fail önemsizse passive kullan.
 
 ## Rule in 60 seconds
 
-be + V3 çekirdektir; zaman/modal be'ye eklenir.
+Çekirdek be + V3; zaman ve modal be'ye eklenir.
 
-is being done = şu an yapılıyor.
-
-has been done = yapıldı (sonuç önemli).
-
-must be done = yapılmalı (kural).
-
-Birine iş yaptırmak için:
-
-- have/get + nesne + V3 (I had my hair cut).
+- **Çekirdek:** be + V3 her passive'in temelidir.
+- **Şimdi:** is being done = şu an yapılıyor.
+- **Sonuç:** has been done = yapıldı, sonuç önemli.
+- **Kural:** must be done = yapılmalı.
+- **Servis:** have/get + nesne + V3 — "I had my hair cut."
+- **TR ipucu:** Faili bilmiyorsan ya da önemsizse passive kullan.
+- **TR ipucu:** "by" her zaman gerekmez; gerektiğinde ekle.
 
 ## Forms
+
+Patterns at a glance.
 
 | Form | Pattern | Example |
 |---|---|---|
@@ -37,55 +36,46 @@ Birine iş yaptırmak için:
 | have sth done | have + object + V3 | I had my car fixed. |
 | have sth done | get + object + V3 | She got her photo taken. |
 
-Kısa Türkçe not: Faili bilmiyorsan/önemsizse passive kullan.
-
-Kısa Türkçe not: "by" her zaman gerekmez; gerektiğinde ekle.
-
-Not: Get passives daha günlük konuşmadır: "He got fired."
+- **TR not:** Faili bilmiyorsan/önemsizse passive kullan.
+- **TR not:** "by" her zaman gerekmez; gerektiğinde ekle.
+- **Kural:** Get passive daha günlük konuşmadır: "He got fired."
 
 ## 3 classic traps
 
-1. TR: "The car is repairing"
-   DOĞRU: "The car is being repaired."
-   Sebep: Continuous passive'da being şart.
-2. TR: "Has finished the report" (fail belirsizken)
-   DOĞRU: "The report has been finished."
-   Sebep: Özne belli değilse passive gerekir.
-3. TR: "I cut my hair" (kendin kesmişsin gibi)
-   DOĞRU: "I had my hair cut."
-   Sebep: Kuaföre kestirdim anlamı have + object + V3.
+En sık yapılan 3 hata.
+
+- **Trap 1 — being yok:** ❌ "The car is repairing" → ✅ "The car is being repaired."
+- **Neden:** Continuous passive'da being şart.
+- **Trap 2 — etkenle başlamak:** ❌ "Has finished the report" → ✅ "The report has been finished."
+- **Neden:** Özne belli değilse passive gerekir.
+- **Trap 3 — kendin yapmış gibi:** ❌ "I cut my hair" → ✅ "I had my hair cut."
+- **Neden:** Kuaföre kestirdim anlamı have + object + V3.
 
 ## 10 example sentences
 
-1. The bridge is being rebuilt this year.
-   Köprü bu yıl yeniden inşa ediliyor.
-2. The room was being cleaned when I arrived.
-   Vardığımda oda temizleniyordu.
-3. All tickets have been sold out.
-   Tüm biletler satıldı.
-4. The thief has been caught by the police.
-   Hırsız polis tarafından yakalandı.
-5. Phones must be switched off here.
-   Burada telefonlar kapatılmalıdır.
-6. The decision should have been explained earlier.
-   Karar daha önce açıklanmalıydı.
-7. I had my laptop repaired yesterday.
-   Dün laptopumu tamir ettirdim.
-8. She is getting her dress made for the wedding.
-   Düğün için elbisesini diktiriyor.
-9. The new law will be announced tomorrow.
-   Yeni yasa yarın duyurulacak.
-10. English is spoken in many countries.
-    İngilizce birçok ülkede konuşulur.
+Read aloud and spot the be + V3 core.
+
+- **The bridge is being rebuilt this year.** — Köprü bu yıl yeniden inşa ediliyor.
+- **The room was being cleaned when I arrived.** — Vardığımda oda temizleniyordu.
+- **All tickets have been sold out.** — Tüm biletler satıldı.
+- **The thief has been caught by the police.** — Hırsız polis tarafından yakalandı.
+- **Phones must be switched off here.** — Burada telefonlar kapatılmalıdır.
+- **The decision should have been explained earlier.** — Karar daha önce açıklanmalıydı.
+- **I had my laptop repaired yesterday.** — Dün laptopumu tamir ettirdim.
+- **She is getting her dress made for the wedding.** — Düğün için elbisesini diktiriyor.
+- **The new law will be announced tomorrow.** — Yeni yasa yarın duyurulacak.
+- **English is spoken in many countries.** — İngilizce birçok ülkede konuşulur.
 
 ## Quick check
 
-1. The office ___ (clean) right now.
-   Cevap: is being cleaned. (Continuous passive.)
-2. My bike ___ (steal) last night!
-   Cevap: was stolen. (Past passive.)
-3. "I painted my house" (ustaya boyattın) cümlesini düzelt.
-   Cevap: I had my house painted.
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. The office ___ (clean) right now.**
+- **Cevap 1:** is being cleaned — continuous passive.
+- **2. My bike ___ (steal) last night!**
+- **Cevap 2:** was stolen — past passive.
+- **3. "I painted my house" (ustaya boyattın) cümlesini düzelt.**
+- **Cevap 3:** I had my house painted.
 
 ## Sources
 

@@ -4,29 +4,26 @@
 
 Choose past simple, past continuous and past perfect correctly in stories.
 
-After this lesson you can:
-
-- Tell main events with past simple.
-- Paint background with past continuous.
-- Show earlier past with past perfect.
+- **Olay:** Tell main events with past simple.
+- **Fon:** Paint background with past continuous.
+- **Öncelik:** Show earlier past with past perfect.
+- **TR özet:** Kesen simple, süren continuous, önceki perfect.
 
 ## Rule in 60 seconds
 
-Ana olay: past simple (walked).
-
-Devam eden fon: past continuous (was walking).
-
-Daha önceki geçmiş: past perfect (had left).
-
 Sıra: had V3 → was V-ing → V2.
 
-When + kesen olay (simple) ile eşleşir.
-
-While + süren fon (continuous) ile eşleşir.
-
-Kısa mantık: kesen simple, süren continuous, önceki perfect.
+- **Olay:** Ana olay past simple — "walked".
+- **Fon:** Devam eden fon past continuous — "was walking".
+- **Öncelik:** Daha önceki geçmiş past perfect — "had left".
+- **Kesen:** When + kesen olay (simple) ile eşleşir.
+- **Süren:** While + süren fon (continuous) ile eşleşir.
+- **Mantık:** Kesen simple, süren continuous, önceki perfect.
+- **TR ipucu:** used to/would alışkanlık anlatır; tek olayda kullanılmaz.
 
 ## Forms
+
+Patterns at a glance.
 
 | Tense | Pattern | Example |
 |---|---|---|
@@ -39,55 +36,46 @@ Kısa mantık: kesen simple, süren continuous, önceki perfect.
 | Interrupted | was V-ing when + V2 | I was cooking when he arrived. |
 | Interrupted | while + was V-ing, V2 | While we walked, it started raining. |
 
-Kısa Türkçe not: When + kesen olay (simple).
-
-Kısa Türkçe not: While + süren fon (continuous).
-
-Not: used to/would geçmiş alışkanlık anlatır, tek olayda kullanılmaz.
+- **TR not:** When + kesen olay (simple).
+- **TR not:** While + süren fon (continuous).
+- **Kural:** used to/would geçmiş alışkanlık anlatır, tek olayda kullanılmaz.
 
 ## 3 classic traps
 
-1. TR: Her geçmişe had eklemek
-   Tek olay geçmişse simple yeter: "I ate, then I slept."
-   Sebep: had sadece "daha önceki geçmiş" için.
-2. TR: When/while karıştırmak
-   "While I arrived" YANLIŞ.
-   DOĞRU: "When I arrived, they were eating."
-3. TR: Used to/would unutmak
-   Geçmiş alışkanlık: "We would play outside."
-   Tek olayda kullanılmaz.
+En sık yapılan 3 hata.
+
+- **Trap 1 — gereksiz had:** ❌ Her geçmişe had → ✅ Tek olayda simple yeter: "I ate, then I slept."
+- **Neden:** had sadece "daha önceki geçmiş" için.
+- **Trap 2 — when/while karıştırmak:** ❌ "While I arrived" → ✅ "When I arrived, they were eating."
+- **Neden:** When kesen olay; while süren fon.
+- **Trap 3 — used to/would unutmak:** ❌ Tek olayda "would" → ✅ Alışkanlık: "We would play outside."
+- **Neden:** Tek olayda kullanılmaz.
 
 ## 10 example sentences
 
-1. I was walking home when it started to rain.
-   Eve yürürken yağmur başladı.
-2. She had cooked dinner before the guests arrived.
-   Misafirler gelmeden yemeği pişirmişti.
-3. While they were talking, the lights went out.
-   Konuşurlarken ışıklar kesildi.
-4. He fell asleep during the film.
-   Film sırasında uykuya daldı.
-5. We had never visited Cappadocia until last year.
-   Geçen yıla kadar Kapadokya'yı hiç görmemiştik.
-6. The sun was setting when we reached the beach.
-   Plaja vardığımızda güneş batıyordu.
-7. She opened the letter and smiled.
-   Mektubu açtı ve gülümsedi.
-8. They were living in Ankara when the quake hit.
-   Deprem olduğunda Ankara'da yaşıyorlardı.
-9. After he had locked the door, he left.
-   Kapıyı kilitledikten sonra çıktı.
-10. I had just sat down when the bell rang.
-    Oturur oturmaz zil çaldı.
+Read aloud and label each verb: event, background, earlier.
+
+- **I was walking home when it started to rain.** — Eve yürürken yağmur başladı.
+- **She had cooked dinner before the guests arrived.** — Misafirler gelmeden yemeği pişirmişti.
+- **While they were talking, the lights went out.** — Konuşurlarken ışıklar kesildi.
+- **He fell asleep during the film.** — Film sırasında uykuya daldı.
+- **We had never visited Cappadocia until last year.** — Geçen yıla kadar Kapadokya'yı hiç görmemiştik.
+- **The sun was setting when we reached the beach.** — Plaja vardığımızda güneş batıyordu.
+- **She opened the letter and smiled.** — Mektubu açtı ve gülümsedi.
+- **They were living in Ankara when the quake hit.** — Deprem olduğunda Ankara'da yaşıyorlardı.
+- **After he had locked the door, he left.** — Kapıyı kilitledikten sonra çıktı.
+- **I had just sat down when the bell rang.** — Oturur oturmaz zil çaldı.
 
 ## Quick check
 
-1. I ___ (cook) when she ___ (call).
-   Cevap: was cooking … called.
-2. The train ___ (leave) before we arrived.
-   Cevap: had left. (Earlier past.)
-3. "While I came home, he slept" cümlesini düzelt.
-   Cevap: When I came home, he was sleeping.
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. I ___ (cook) when she ___ (call).**
+- **Cevap 1:** was cooking … called.
+- **2. The train ___ (leave) before we arrived.**
+- **Cevap 2:** had left — earlier past.
+- **3. "While I came home, he slept" cümlesini düzelt.**
+- **Cevap 3:** When I came home, he was sleeping.
 
 ## Sources
 

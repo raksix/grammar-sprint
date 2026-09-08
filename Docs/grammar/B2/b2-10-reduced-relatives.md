@@ -4,27 +4,26 @@
 
 Shorten who/which/that clauses to -ing and -ed phrases.
 
-After this lesson you can:
-
-- Turn "who is standing" into "standing".
-- Turn "which was written" into "written".
-- Spot when shortening is forbidden.
+- **Etken:** Turn "who is standing" into "standing".
+- **Edilgen:** Turn "which was written" into "written".
+- **Sınır:** Spot when shortening is forbidden.
+- **TR özet:** Aktif -ing, pasif V3.
 
 ## Rule in 60 seconds
 
-Etken relative kısalır -ing'e.
-
-the man who is standing → the man standing.
-
-Edilgen kısalır V3'e.
-
-the book which was written → the book written.
-
 Who/which/that düşer, anlam korunur.
 
-Kısa mantık: aktif -ing, pasif V3.
+- **Etken:** the man who is standing → the man standing.
+- **Edilgen:** the book which was written → the book written.
+- **Mantık:** Aktif -ing, pasif V3.
+- **Süreç:** Edilgen süregelen iş: "the car being repaired".
+- **Sınır:** Sadece defining clause kısalır.
+- **TR ipucu:** Virgüllü non-defining genelde kısalmaz.
+- **TR ipucu:** Sınavda emin değilsen tam hâli güvenlidir.
 
 ## Forms
+
+Patterns at a glance.
 
 | Full form | Reduced form | Example |
 |---|---|---|
@@ -37,55 +36,46 @@ Kısa mantık: aktif -ing, pasif V3.
 | who + V (active) | noun + V-ing | students wishing to join → sign here |
 | who + V (active) | noun + having + V3 | having missed = missed earlier |
 
-Kısa Türkçe not: Sadece defining clause kısalır.
-
-Kısa Türkçe not: Virgüllü non-defining genelde kısalmaz.
-
-Not: Edilgen süregelen iş: "the car being repaired".
+- **TR not:** Sadece defining clause kısalır.
+- **TR not:** Virgüllü non-defining genelde kısalmaz.
+- **Kural:** Edilgen süregelen iş: "the car being repaired".
 
 ## 3 classic traps
 
-1. TR: Edilgende -ing kullanmak
-   "the car repairing" YANLIŞ.
-   DOĞRU: "the car being repaired" / "the repaired car."
-2. TR: Nesne zamirini bırakmak
-   "the book I bought it" YANLIŞ.
-   DOĞRU: "the book I bought."
-3. TR: Non-defining kısaltmak
-   "My brother, standing there, waves" günlükte olur.
-   Sınavda tam hâli güvenlidir.
+En sık yapılan 3 hata.
+
+- **Trap 1 — edilgende -ing:** ❌ "the car repairing" → ✅ "the car being repaired" / "the repaired car."
+- **Neden:** Edilgen -ing tek başına olmaz.
+- **Trap 2 — zamir bırakmak:** ❌ "the book I bought it" → ✅ "the book I bought."
+- **Neden:** Nesne zamiri düşer.
+- **Trap 3 — non-defining kısaltmak:** ❌ Sınavda riskli kısaltma → ✅ Tam hâli güvenlidir.
+- **Neden:** "My brother, standing there, waves" günlükte olur.
 
 ## 10 example sentences
 
-1. The man standing at the door is our neighbour.
-   Kapıda duran adam komşumuz.
-2. The book written by Orhan Pamuk won a prize.
-   Orhan Pamuk'un yazdığı kitap ödül aldı.
-3. Passengers waiting for flight 204 board now.
-   204 seferini bekleyen yolcular biniyor.
-4. The road connecting two villages is closed.
-   İki köyü bağlayan yol kapalı.
-5. Anyone wishing to join must sign up.
-   Katılmak isteyen herkes kaydolmalı.
-6. The cake baked this morning smells great.
-   Sabah pişirilen kek harika kokuyor.
-7. Students finishing early may leave.
-   Erken bitiren öğrenciler çıkabilir.
-8. The files stored here are private.
-   Burada saklanan dosyalar gizli.
-9. The girl talking to Elif is my cousin.
-   Elif'le konuşan kız kuzenim.
-10. Having missed the bus, the late pupils ran.
-    Otobüsü kaçıran geç kalan öğrenciler koştu.
+Read aloud and expand each phrase back to full form.
+
+- **The man standing at the door is our neighbour.** — Kapıda duran adam komşumuz.
+- **The book written by Orhan Pamuk won a prize.** — Orhan Pamuk'un yazdığı kitap ödül aldı.
+- **Passengers waiting for flight 204 board now.** — 204 seferini bekleyen yolcular biniyor.
+- **The road connecting two villages is closed.** — İki köyü bağlayan yol kapalı.
+- **Anyone wishing to join must sign up.** — Katılmak isteyen herkes kaydolmalı.
+- **The cake baked this morning smells great.** — Sabah pişirilen kek harika kokuyor.
+- **Students finishing early may leave.** — Erken bitiren öğrenciler çıkabilir.
+- **The files stored here are private.** — Burada saklanan dosyalar gizli.
+- **The girl talking to Elif is my cousin.** — Elif'le konuşan kız kuzenim.
+- **Having missed the bus, the late pupils ran.** — Otobüsü kaçıran geç kalan öğrenciler koştu.
 
 ## Quick check
 
-1. The woman ___ (wear) red is my teacher.
-   Cevap: wearing. (Active → -ing.)
-2. The window ___ (break) yesterday is fixed.
-   Cevap: broken. (Passive → V3.)
-3. "the car repairing now" cümlesini düzelt.
-   Cevap: the car being repaired (now).
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. The woman ___ (wear) red is my teacher.**
+- **Cevap 1:** wearing — active → -ing.
+- **2. The window ___ (break) yesterday is fixed.**
+- **Cevap 2:** broken — passive → V3.
+- **3. "the car repairing now" cümlesini düzelt.**
+- **Cevap 3:** the car being repaired (now).
 
 ## Sources
 

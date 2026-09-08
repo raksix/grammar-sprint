@@ -4,27 +4,26 @@
 
 Report suggestions, offers, promises and orders with the right reporting verbs.
 
-After this lesson you can:
-
-- Report suggestions with suggest + -ing.
-- Report offers and promises with verb + to.
-- Report orders with tell/ask + object + to.
+- **Öneri:** Report suggestions with suggest + -ing.
+- **Söz:** Report offers and promises with verb + to.
+- **Emir:** Report orders with tell/ask + object + to.
+- **TR özet:** Fiile göre kalıp değişir; sadece said/told yok.
 
 ## Rule in 60 seconds
 
-Sadece said/told yok; fiile göre kalıp değişir.
+Fiile göre kalıp değişir; zaman ve zamir geriye kayar.
 
-suggest + -ing (She suggested going).
-
-offer/refuse/promise + to (He promised to call).
-
-ask/tell + object + to (She asked me to wait).
-
-Zaman ve zamir geriye kayar (backshift).
-
-Emirlerde to-infinitive kullanılır.
+- **Öneri:** suggest + -ing — "She suggested going."
+- **Söz:** offer/refuse/promise + to — "He promised to call."
+- **Emir:** ask/tell + object + to — "She asked me to wait."
+- **Backshift:** Zaman ve zamir bir adım geriye kayar.
+- **Emir:** Emirlerde to-infinitive kullanılır.
+- **TR ipucu:** "suggested to go" yanlış; "suggested going" doğru.
+- **TR ipucu:** Say + to (kime yok); tell + object (kime var).
 
 ## Forms
+
+Patterns at a glance.
 
 | Verb | Pattern | Example |
 |---|---|---|
@@ -37,55 +36,46 @@ Emirlerde to-infinitive kullanılır.
 | Admit/deny | admit/deny + -ing | He denied taking the money. |
 | Admit/deny | admit + -ing | She admitted being tired. |
 
-Kısa Türkçe not: Suggest'ten sonra to gelmez.
-
-Kısa Türkçe not: "suggested to go" yanlıştır, "suggested going" doğru.
-
-Not: Say + to (kime söylendiği yok), tell + object (kime söylendiği var).
+- **TR not:** Suggest'ten sonra to gelmez.
+- **TR not:** "suggested to go" yanlış; "suggested going" doğru.
+- **Kural:** Say + to; tell + object.
 
 ## 3 classic traps
 
-1. TR: "She suggested to go"
-   DOĞRU: "She suggested going."
-   Sebep: Suggest sonrası -ing gelir.
-2. TR: "He said me to wait"
-   DOĞRU: "He told me to wait."
-   Sebep: Said me olmaz; told/asked me olur.
-3. TR: Backshift unutmak
-   "I am tired" aktarımı: "She said she was tired."
-   Sebep: Zaman bir adım geriye kayar.
+En sık yapılan 3 hata.
+
+- **Trap 1 — suggest + to:** ❌ "She suggested to go" → ✅ "She suggested going."
+- **Neden:** Suggest sonrası -ing gelir.
+- **Trap 2 — said me:** ❌ "He said me to wait" → ✅ "He told me to wait."
+- **Neden:** Said me olmaz; told/asked me olur.
+- **Trap 3 — backshift yok:** ❌ "She said she is tired" → ✅ "She said she was tired."
+- **Neden:** Zaman bir adım geriye kayar.
 
 ## 10 example sentences
 
-1. She suggested having lunch together.
-   Birlikte öğle yemeği yemeyi önerdi.
-2. He offered to carry my bag.
-   Çantamı taşımayı teklif etti.
-3. They promised not to be late again.
-   Bir daha geç kalmayacaklarına söz verdiler.
-4. The teacher told us to open our books.
-   Öğretmen kitaplarımızı açmamızı söyledi.
-5. She asked him to turn down the music.
-   Müziği kısmasını rica etti.
-6. He denied breaking the window.
-   Camı kırdığını inkâr etti.
-7. She admitted forgetting the appointment.
-   Randevuyu unuttuğunu kabul etti.
-8. He warned us not to swim there.
-   Orada yüzmememiz için bizi uyardı.
-9. She said she would finish it the next day.
-   Ertesi gün bitireceğini söyledi.
-10. They ordered everyone to leave the building.
-    Herkesin binayı terk etmesini emrettiler.
+Read aloud and match each verb to its pattern.
+
+- **She suggested having lunch together.** — Birlikte öğle yemeği yemeyi önerdi.
+- **He offered to carry my bag.** — Çantamı taşımayı teklif etti.
+- **They promised not to be late again.** — Bir daha geç kalmayacaklarına söz verdiler.
+- **The teacher told us to open our books.** — Öğretmen kitaplarımızı açmamızı söyledi.
+- **She asked him to turn down the music.** — Müziği kısmasını rica etti.
+- **He denied breaking the window.** — Camı kırdığını inkâr etti.
+- **She admitted forgetting the appointment.** — Randevuyu unuttuğunu kabul etti.
+- **He warned us not to swim there.** — Orada yüzmememiz için bizi uyardı.
+- **She said she would finish it the next day.** — Ertesi gün bitireceğini söyledi.
+- **They ordered everyone to leave the building.** — Herkesin binayı terk etmesini emrettiler.
 
 ## Quick check
 
-1. She suggested ___ (take) a taxi.
-   Cevap: taking. (suggest + -ing.)
-2. He asked me ___ (not / tell) anyone.
-   Cevap: not to tell. (ask + object + to.)
-3. "She said me I am busy" cümlesini düzelt.
-   Cevap: She told me she was busy.
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. She suggested ___ (take) a taxi.**
+- **Cevap 1:** taking — suggest + -ing.
+- **2. He asked me ___ (not / tell) anyone.**
+- **Cevap 2:** not to tell — ask + object + to.
+- **3. "She said me I am busy" cümlesini düzelt.**
+- **Cevap 3:** She told me she was busy.
 
 ## Sources
 

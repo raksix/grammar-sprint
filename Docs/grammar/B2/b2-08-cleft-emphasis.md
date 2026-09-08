@@ -4,27 +4,26 @@
 
 Emphasise people, reasons and actions with it-clefts, what-clefts and fronting.
 
-After this lesson you can:
-
-- Highlight who did it with it-clefts.
-- Highlight needs and surprises with what-clefts.
-- Push key words forward with fronting.
+- **Kişi:** Highlight who did it with it-clefts.
+- **İhtiyaç:** Highlight needs and surprises with what-clefts.
+- **Öne alma:** Push key words forward with fronting.
+- **TR özet:** Vurgulanacak ögeyi başa al.
 
 ## Rule in 60 seconds
 
-Vurgulanacak ögeyi başa al.
+Vurgulanacak ögeyi başa al; normal cümle dağıtır, cleft odaklar.
 
-It was Ali who called. = Arayan Ali'ydi.
-
-What I need is sleep. = İhtiyacım olan uyku.
-
-Türkçesi: "…yapan Ali'ydi / …olan uyku."
-
-Normal cümle bilgiyi dağıtır, cleft odaklar.
-
-Kısa mantık: It + be + vurgu + who/that.
+- **Kişi:** It was Ali who called. = Arayan Ali'ydi.
+- **İhtiyaç:** What I need is sleep. = İhtiyacım olan uyku.
+- **Kalıp:** It + be + vurgu + who/that.
+- **Kural:** Normal cümle bilgiyi dağıtır, cleft odaklar.
+- **Kural:** what-cleft'te fiil tekil olur: "What I need is…"
+- **TR ipucu:** "…yapan Ali'ydi / …olan uyku" diye çevir.
+- **TR ipucu:** Who insanlar için; that nesne/sebep için.
 
 ## Forms
+
+Patterns at a glance.
 
 | Form | Pattern | Example |
 |---|---|---|
@@ -37,55 +36,46 @@ Kısa mantık: It + be + vurgu + who/that.
 | fronting | Fronted element + rest | Money I don't need; time I do. |
 | fronting | All/Every… + rest | Such was the storm that trees fell. |
 
-Kısa Türkçe not: Who insanlar için kullanılır.
-
-Kısa Türkçe not: that nesne/sebep için kullanılır.
-
-Not: what-cleft'te fiil tekil olur: "What I need is…".
+- **TR not:** Who insanlar için kullanılır.
+- **TR not:** that nesne/sebep için kullanılır.
+- **Kural:** what-cleft'te fiil tekil olur: "What I need is…".
 
 ## 3 classic traps
 
-1. TR: "It was me who did" (günlük olur ama sınavda riskli)
-   DOĞRU: "It was I who did" / güvenli: "It was Ali who called."
-   Sebep: Resmi yazıda özne zamiri tercih edilir.
-2. TR: What-cleft'te çoğul fiil
-   "What I need are apples" YANLIŞ.
-   DOĞRU: "What I need is some apples."
-3. TR: That/which karıştırmak
-   Kişi vurgusunda who/that doğru.
-   Which kişi için kullanılmaz.
+En sık yapılan 3 hata.
+
+- **Trap 1 — günlük zamir:** ❌ "It was me who did" (sınavda riskli) → ✅ "It was I who did" / "It was Ali who called."
+- **Neden:** Resmî yazıda özne zamiri tercih edilir.
+- **Trap 2 — çoğul fiil:** ❌ "What I need are apples" → ✅ "What I need is some apples."
+- **Neden:** what-cleft'te fiil tekil olur.
+- **Trap 3 — kişi için which:** ❌ "It was Ali which called" → ✅ "It was Ali who/that called."
+- **Neden:** Which kişi için kullanılmaz.
 
 ## 10 example sentences
 
-1. It was Burak who fixed the car.
-   Arabayı tamir eden Burak'tı.
-2. It is coffee that keeps me awake.
-   Beni ayakta tutan kahve.
-3. What I need is a long holiday.
-   İhtiyacım olan uzun bir tatil.
-4. What surprised me was his silence.
-   Beni şaşırtan onun sessizliğiydi.
-5. It was in 2019 that we met.
-   Tanıştığımız yıl 2019'du.
-6. It was because of fog that the flight stopped.
-   Uçuşun durma sebebi sisti.
-7. Silver it isn't; gold it is.
-   Gümüş değil; altın. (vurgulu ön alma)
-8. What she said was shocking.
-   Söylediği şey şok ediciydi.
-9. It was the last bus that we caught.
-   Yakaladığımız son otobüstü.
-10. All I want is honesty.
-    Tek istediğim dürüstlük.
+Read aloud and stress the focused word.
+
+- **It was Burak who fixed the car.** — Arabayı tamir eden Burak'tı.
+- **It is coffee that keeps me awake.** — Beni ayakta tutan kahve.
+- **What I need is a long holiday.** — İhtiyacım olan uzun bir tatil.
+- **What surprised me was his silence.** — Beni şaşırtan onun sessizliğiydi.
+- **It was in 2019 that we met.** — Tanıştığımız yıl 2019'du.
+- **It was because of fog that the flight stopped.** — Uçuşun durma sebebi sisti.
+- **Silver it isn't; gold it is.** — Gümüş değil; altın. (vurgulu ön alma)
+- **What she said was shocking.** — Söylediği şey şok ediciydi.
+- **It was the last bus that we caught.** — Yakaladığımız son otobüstü.
+- **All I want is honesty.** — Tek istediğim dürüstlük.
 
 ## Quick check
 
-1. It was ___ mother called the school. (who/that ile tamamla)
-   Cevap: my (It was my mother who/that called…).
-2. What I hate ___ traffic jams.
-   Cevap: is. (What-cleft tekil fiil.)
-3. "It was him broke it" cümlesini düzelt.
-   Cevap: It was he who broke it.
+Boşluğu doldur, sonra cevapla karşılaştır.
+
+- **1. It was ___ mother called the school. (who/that ile tamamla)**
+- **Cevap 1:** my — "It was my mother who/that called…"
+- **2. What I hate ___ traffic jams.**
+- **Cevap 2:** is — what-cleft tekil fiil.
+- **3. "It was him broke it" cümlesini düzelt.**
+- **Cevap 3:** It was he who broke it.
 
 ## Sources
 
