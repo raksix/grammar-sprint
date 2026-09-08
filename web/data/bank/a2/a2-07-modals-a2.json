@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ swim very well now.",
-    "choices": ["cans", "to can", "can", "canning"],
+    "prompt_tr": "O artık ___ çok iyi yüzüyor.",
+    "choices": [
+      "cans",
+      "to can",
+      "can",
+      "canning"
+    ],
     "answer": 2,
     "explain_tr": "Modal fiiller kişi eki almaz ve yalın fiille kullanılır: She can swim.",
     "trap_tr": "He/she/it olsa bile can hiçbir zaman -s almaz.",
@@ -19,7 +25,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "You ___ rest; you look very tired.",
-    "choices": ["should", "should to", "cans", "must to"],
+    "prompt_tr": "Sen ___ dinlen; çok yorgun görünüyorsun.",
+    "choices": [
+      "should",
+      "should to",
+      "cans",
+      "must to"
+    ],
     "answer": 0,
     "explain_tr": "Tavsiye için should + yalın fiil kullanılır: You should rest.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct advice sentence for tired Mehmet after the football match.",
-    "choices": ["You should to rest now.", "You should rest now.", "You shoulds rest now.", "You to should rest now."],
+    "prompt_tr": "Futbol maçından sonra yorgun Mehmet'e verilen doğru tavsiye cümlesini seç.",
+    "choices": [
+      "You should to rest now.",
+      "You should rest now.",
+      "You shoulds rest now.",
+      "You to should rest now."
+    ],
     "answer": 1,
     "explain_tr": "Should tavsiye verir ve ardından to gelmez: You should rest now.",
     "trap_tr": "Modalden sonra to gelmez — have to bunun tek istisnasıdır.",
@@ -44,7 +62,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you open the window, please?",
-    "choices": ["Cans", "Should to", "Must to", "Could"],
+    "prompt_tr": "___ pencereyi açar mısın, lütfen?",
+    "choices": [
+      "Cans",
+      "Should to",
+      "Must to",
+      "Could"
+    ],
     "answer": 3,
     "explain_tr": "Kibar rica için Could + özne + yalın fiil kullanılır: Could you open.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -56,7 +80,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct permission question at the school library door.",
-    "choices": ["May I to come in?", "May I coming in?", "May I come in?", "Cans I come in?"],
+    "prompt_tr": "Okul kütüphanesinin kapısında sorulan doğru izin sorusunu seç.",
+    "choices": [
+      "May I to come in?",
+      "May I coming in?",
+      "May I come in?",
+      "Cans I come in?"
+    ],
     "answer": 2,
     "explain_tr": "İzin isterken May + I + yalın fiil kullanılır: May I come in?",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -68,7 +98,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "You ___ smoke here; it is forbidden.",
-    "choices": ["don't have to", "mustn't", "shouldn't to", "haven't to"],
+    "prompt_tr": "Burada ___ sigara içme; yasak.",
+    "choices": [
+      "don't have to",
+      "mustn't",
+      "shouldn't to",
+      "haven't to"
+    ],
     "answer": 1,
     "explain_tr": "Yasak için mustn't kullanılır: You mustn't smoke here.",
     "trap_tr": "Don't have to gereksizliktir, yasak değildir.",
@@ -81,7 +117,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct rule sentence for the red traffic light in Ankara.",
-    "choices": ["You must stop at red lights.", "You must to stop at red lights.", "You musts stop at red lights.", "You to must stop at red lights."],
+    "prompt_tr": "Ankara'daki kırmızı trafik ışığıyla ilgili doğru kural cümlesini seç.",
+    "choices": [
+      "You must stop at red lights.",
+      "You must to stop at red lights.",
+      "You musts stop at red lights.",
+      "You to must stop at red lights."
+    ],
     "answer": 0,
     "explain_tr": "Güçlü zorunluluk için must + yalın fiil kullanılır: You must stop.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -93,8 +135,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: He cans drive.",
+    "prompt_tr": "Hatayı düzelt: He cans drive.",
     "answer_text": "He can drive.",
-    "accept": ["He can drive", "He can drive."],
+    "accept": [
+      "He can drive",
+      "He can drive."
+    ],
     "explain_tr": "Can hiçbir özneyle -s almaz: He can drive.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
   },
@@ -105,7 +151,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "We ___ be at school by 9; it is the school rule.",
-    "choices": ["have to", "has to", "must to", "having to"],
+    "prompt_tr": "Saat 9'a kadar okulda ___ olmalıyız; bu okul kuralı.",
+    "choices": [
+      "have to",
+      "has to",
+      "must to",
+      "having to"
+    ],
     "answer": 0,
     "explain_tr": "Dış kural için have to kullanılır ve we ile have olur: We have to be.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -117,7 +169,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "You ___ bring food; dinner is already ready.",
-    "choices": ["mustn't", "shouldn't to", "don't have to", "not must"],
+    "prompt_tr": "Sen ___ yemek getir; akşam yemeği zaten hazır.",
+    "choices": [
+      "mustn't",
+      "shouldn't to",
+      "don't have to",
+      "not must"
+    ],
     "answer": 2,
     "explain_tr": "Gerek yok anlamı için don't have to kullanılır: You don't have to bring food.",
     "trap_tr": "Mustn't yasak demektir, burada yemek yasak değil gereksiz.",
@@ -130,7 +188,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct no-necessity sentence for the picnic lunch Elif prepared.",
-    "choices": ["You mustn't bring food.", "You don't must bring food.", "You haven't to bring food.", "You don't have to bring food."],
+    "prompt_tr": "Elif'in hazırladığı piknik öğle yemeğiyle ilgili doğru gereksizlik cümlesini seç.",
+    "choices": [
+      "You mustn't bring food.",
+      "You don't must bring food.",
+      "You haven't to bring food.",
+      "You don't have to bring food."
+    ],
     "answer": 3,
     "explain_tr": "Gereksizlik don't have to ile anlatılır: You don't have to bring food.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -142,7 +206,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "It ___ rain this evening; take an umbrella.",
-    "choices": ["mights", "might", "to might", "mighting"],
+    "prompt_tr": "Bu akşam ___ yağmur yağabilir; şemsiye al.",
+    "choices": [
+      "mights",
+      "might",
+      "to might",
+      "mighting"
+    ],
     "answer": 1,
     "explain_tr": "Olasılık için might + yalın fiil kullanılır: It might rain.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -154,7 +224,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct possibility sentence about the evening weather in Izmir.",
-    "choices": ["It mights rain this evening.", "It might to rain this evening.", "It might rain this evening.", "It may rains this evening."],
+    "prompt_tr": "İzmir'de akşam havasıyla ilgili doğru olasılık cümlesini seç.",
+    "choices": [
+      "It mights rain this evening.",
+      "It might to rain this evening.",
+      "It might rain this evening.",
+      "It may rains this evening."
+    ],
     "answer": 2,
     "explain_tr": "May ve might olasılık bildirir, fiil hep yalın kalır: It might rain.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -166,7 +242,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Elif ___ read at the age of four.",
-    "choices": ["could", "could to", "cans", "to could"],
+    "prompt_tr": "Elif dört yaşındayken ___ okuyabiliyordu.",
+    "choices": [
+      "could",
+      "could to",
+      "cans",
+      "to could"
+    ],
     "answer": 0,
     "explain_tr": "Geçmiş yetenek için could + yalın fiil kullanılır: She could read.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -178,7 +260,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct past-ability sentence about Can at the age of five.",
-    "choices": ["He could to swim at five.", "He could swim at five.", "He cans swim at five.", "He to could swim at five."],
+    "prompt_tr": "Beş yaşındaki Can'ın geçmişteki becerisiyle ilgili doğru cümleyi seç.",
+    "choices": [
+      "He could to swim at five.",
+      "He could swim at five.",
+      "He cans swim at five.",
+      "He to could swim at five."
+    ],
     "answer": 1,
     "explain_tr": "Could geçmiş yeteneği anlatır ve to almaz: He could swim at five.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -190,8 +278,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: You must to go now.",
+    "prompt_tr": "Hatayı düzelt: You must to go now.",
     "answer_text": "You must go now.",
-    "accept": ["You must go now", "You must go now."],
+    "accept": [
+      "You must go now",
+      "You must go now."
+    ],
     "explain_tr": "Must doğrudan yalın fiil alır: You must go now.",
     "trap_tr": "Have to ile karıştırma — must to diye bir yapı yoktur.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -203,8 +295,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Rewrite as a prohibition: Do not touch that machine.",
+    "prompt_tr": "Yasaklama olarak yeniden yaz: Do not touch that machine.",
     "answer_text": "You mustn't touch that machine.",
-    "accept": ["You mustn't touch that machine", "You mustn't touch that machine."],
+    "accept": [
+      "You mustn't touch that machine",
+      "You mustn't touch that machine."
+    ],
     "explain_tr": "Yasak mustn't ile kurulur: You mustn't touch that machine.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
   },
@@ -215,7 +311,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "You ___ touch that wire; it is very dangerous.",
-    "choices": ["don't have to", "shouldn't to", "not must", "mustn't"],
+    "prompt_tr": "O kabloya ___ dokunma; çok tehlikeli.",
+    "choices": [
+      "don't have to",
+      "shouldn't to",
+      "not must",
+      "mustn't"
+    ],
     "answer": 3,
     "explain_tr": "Tehlikeli durumlarda yasak mustn't ile verilir: You mustn't touch that wire.",
     "trap_tr": "Don't have to dokunabilirsin ama gerek yok der — burada dokunmak yasak.",
@@ -228,7 +330,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ I use your phone for a minute?",
-    "choices": ["Mays", "May", "To may", "Maying"],
+    "prompt_tr": "Telefonunu bir dakikalığına ___ kullanabilir miyim?",
+    "choices": [
+      "Mays",
+      "May",
+      "To may",
+      "Maying"
+    ],
     "answer": 1,
     "explain_tr": "May cümle başında değişmeden kalır: May I use your phone?",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -240,7 +348,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the sentence that correctly bans parking near the hospital gate.",
-    "choices": ["You mustn't park here.", "You don't have to park here.", "You mustn't to park here.", "You don't must park here."],
+    "prompt_tr": "Hastane kapısı yakınında park etmeyi doğru şekilde yasaklayan cümleyi seç.",
+    "choices": [
+      "You mustn't park here.",
+      "You don't have to park here.",
+      "You mustn't to park here.",
+      "You don't must park here."
+    ],
     "answer": 0,
     "explain_tr": "Yasak mustn't ile kurulur: You mustn't park here.",
     "trap_tr": "Don't have to park here park etmek serbest ama gereksiz demektir.",
@@ -253,7 +367,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the sentence that correctly removes the obligation to run in the park.",
-    "choices": ["You mustn't run.", "You don't must run.", "You don't have to run.", "You haven't to run."],
+    "prompt_tr": "Parkta koşma zorunluluğunu doğru şekilde kaldıran cümleyi seç.",
+    "choices": [
+      "You mustn't run.",
+      "You don't must run.",
+      "You don't have to run.",
+      "You haven't to run."
+    ],
     "answer": 2,
     "explain_tr": "Zorunluluğu kaldırmak don't have to ile yapılır: You don't have to run.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -265,7 +385,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct advice sentence for Ayşe about drinking cold water.",
-    "choices": ["You shouldn't to drink cold water.", "You should drink not cold water.", "You mustn't to drink cold water.", "You shouldn't drink cold water."],
+    "prompt_tr": "Soğuk su içmekle ilgili Ayşe'ye verilen doğru tavsiye cümlesini seç.",
+    "choices": [
+      "You shouldn't to drink cold water.",
+      "You should drink not cold water.",
+      "You mustn't to drink cold water.",
+      "You shouldn't drink cold water."
+    ],
     "answer": 3,
     "explain_tr": "Olumsuz tavsiye shouldn't + yalın fiil ile kurulur: You shouldn't drink cold water.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -277,7 +403,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct request sentence for help with the heavy shopping bag.",
-    "choices": ["Could you to help me?", "Could you help me?", "Cans you help me?", "Could you helping me?"],
+    "prompt_tr": "Ağır alışveriş poşeti için yardım isterken kullanılan doğru rica cümlesini seç.",
+    "choices": [
+      "Could you to help me?",
+      "Could you help me?",
+      "Cans you help me?",
+      "Could you helping me?"
+    ],
     "answer": 1,
     "explain_tr": "Rica cümlesinde Could you + yalın fiil kullanılır: Could you help me?",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
@@ -289,8 +421,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She cans swim very fast.",
+    "prompt_tr": "Hatayı düzelt: She cans swim very fast.",
     "answer_text": "She can swim very fast.",
-    "accept": ["She can swim very fast", "She can swim very fast."],
+    "accept": [
+      "She can swim very fast",
+      "She can swim very fast."
+    ],
     "explain_tr": "She ile bile can değişmez: She can swim very fast.",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
   },
@@ -301,8 +437,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: May I to come in?",
+    "prompt_tr": "Hatayı düzelt: May I to come in?",
     "answer_text": "May I come in?",
-    "accept": ["May I come in", "May I come in?"],
+    "accept": [
+      "May I come in",
+      "May I come in?"
+    ],
     "explain_tr": "May ardından fiil yalın gelir: May I come in?",
     "rule_ref": "Docs/grammar/A2/a2-07-modals-a2.md"
   }

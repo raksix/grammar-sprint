@@ -1,1 +1,448 @@
-[{"difficulty":"easy","explain_tr":"İnsanlar için who kullanılır: The man who lives next door.","id":"a2-11-relative-basic-e01","level":"A2","prompt":"The man ___ lives next door is a teacher.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":0,"trap_tr":"Eşya için who, insan için which olmaz."},{"difficulty":"easy","explain_tr":"Eşyalar için which kullanılır: The book which I bought.","id":"a2-11-relative-basic-e02","level":"A2","prompt":"The book ___ I bought is very interesting.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":1},{"difficulty":"easy","explain_tr":"İnsan who alır ve A2 tanımlayan cümlecikte virgül yok: The man who lives next door is a teacher.","id":"a2-11-relative-basic-e03","level":"A2","prompt":"Pick the correct sentence about the teacher next door.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The man which lives next door is a teacher.","The man who lives next door is a teacher.","The man who he lives next door is a teacher.","The man, who lives next door, is a teacher."],"answer":1},{"difficulty":"easy","explain_tr":"that hem insan hem eşya için olur: The film that we watched.","id":"a2-11-relative-basic-e04","level":"A2","prompt":"The film ___ we watched was fantastic.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","that","whose","where"],"answer":1},{"difficulty":"easy","explain_tr":"Eşya which alır ve tekrar zamiri konmaz: The bag which she lost was black.","id":"a2-11-relative-basic-e05","level":"A2","prompt":"Pick the correct sentence about the lost bag.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The bag who she lost was black.","The bag which she lost was black.","The bag which she lost it was black.","The bag who she lost it was black."],"answer":1},{"difficulty":"easy","explain_tr":"Arayan insan olduğu için who gelir: The girl who called.","id":"a2-11-relative-basic-e06","level":"A2","prompt":"The girl ___ called is my sister.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":0},{"difficulty":"easy","explain_tr":"Restoran eşya sayılır ve that alır: the restaurant that serves cheap pizza.","id":"a2-11-relative-basic-e07","level":"A2","prompt":"Pick the correct sentence about the cheap pizza.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["That's the restaurant who serves cheap pizza.","That's the restaurant that serves cheap pizza.","That's the restaurant which it serves cheap pizza.","That's the restaurant who serves it cheap pizza."],"answer":1},{"difficulty":"easy","explain_tr":"Araba için who olmaz: The car which is red is mine.","id":"a2-11-relative-basic-e08","level":"A2","prompt":"Correct the error: The car who is red is mine.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"rewrite","answer_text":"The car which is red is mine.","accept":["The car which is red is mine","The car which is red is mine.","The car that is red is mine","The car that is red is mine."]},{"difficulty":"medium","explain_tr":"People insan çoğuludur ve who alır: People who smoke here.","id":"a2-11-relative-basic-m01","level":"A2","prompt":"People ___ smoke here must pay a fine.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":0},{"difficulty":"medium","explain_tr":"Hayvanlar için which kullanılır: The dog which barks all night.","id":"a2-11-relative-basic-m02","level":"A2","prompt":"The dog ___ barks all night is ours.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":1},{"difficulty":"medium","explain_tr":"Dükkân that alır ve fazladan zamir konmaz: a shop that sells old coins.","id":"a2-11-relative-basic-m03","level":"A2","prompt":"Pick the correct sentence about the old coins.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["I know a shop who sells old coins.","I know a shop that sells old coins.","I know a shop which sells it old coins.","I know a shop that she sells old coins."],"answer":1},{"difficulty":"medium","explain_tr":"Yardım eden insan için who gelir: the friend who helped me.","id":"a2-11-relative-basic-m04","level":"A2","prompt":"She is the friend ___ helped me yesterday.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":0},{"difficulty":"medium","explain_tr":"İnsan who alır ve tanımlayan cümlecikte virgül yok: The man who I met is a doctor.","id":"a2-11-relative-basic-m05","level":"A2","prompt":"Pick the correct sentence about the doctor.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The man who I met is a doctor.","The man which I met is a doctor.","The man who he is a doctor.","The man, who I met, is a doctor."],"answer":0},{"difficulty":"medium","explain_tr":"Dükkân eşya sayılır: a shop that does not open on Sundays.","id":"a2-11-relative-basic-m06","level":"A2","prompt":"I know a shop ___ doesn't open on Sundays.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","that","whose","whom"],"answer":1},{"difficulty":"medium","explain_tr":"Araba which alır ve tekrar zamir konmaz: The car which broke down is mine.","id":"a2-11-relative-basic-m07","level":"A2","prompt":"Pick the correct sentence about the broken car.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The car who broke down is mine.","The car which broke down is mine.","The car which it broke down is mine.","The car who it broke down is mine."],"answer":1},{"difficulty":"medium","explain_tr":"who'dan sonra tekrar she konmaz: The girl who sings is famous.","id":"a2-11-relative-basic-m08","level":"A2","prompt":"Correct the error: The girl who she sings is famous.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"rewrite","answer_text":"The girl who sings is famous.","accept":["The girl who sings is famous","The girl who sings is famous."]},{"difficulty":"medium","explain_tr":"İki cümle who ile birleşir: The man who came yesterday is my uncle.","id":"a2-11-relative-basic-m09","level":"A2","prompt":"Join with who: The man is my uncle. He came yesterday.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"rewrite","answer_text":"The man who came yesterday is my uncle.","accept":["The man who came yesterday is my uncle","The man who came yesterday is my uncle."]},{"difficulty":"hard","explain_tr":"Burada çalışan insan için who gelir: The woman who works here.","id":"a2-11-relative-basic-h01","level":"A2","prompt":"The woman ___ works here is my aunt.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":0},{"difficulty":"hard","explain_tr":"A2 tanımlayan cümlecikte virgül ve çift özne yok: The man who came is my uncle.","id":"a2-11-relative-basic-h02","level":"A2","prompt":"Pick the correct sentence about the uncle.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The man who came is my uncle.","The man, who came, is my uncle.","The man who he came is my uncle.","The man which came is my uncle."],"answer":0,"trap_tr":"Virgüllü ilgi cümlesi B1 konusudur."},{"difficulty":"hard","explain_tr":"who'dan sonra she ya da they tekrar edilmez: The woman who works here is a doctor.","id":"a2-11-relative-basic-h03","level":"A2","prompt":"Pick the correct sentence about the woman doctor.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The woman who she works here is a doctor.","The woman which works here is a doctor.","The woman who works here is a doctor.","The woman who they work here is a doctor."],"answer":2},{"difficulty":"hard","explain_tr":"Telefon eşyadır: The phone which I bought is slow.","id":"a2-11-relative-basic-h04","level":"A2","prompt":"The phone ___ I bought is slow.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"gap-fill","choices":["who","which","whose","where"],"answer":1},{"difficulty":"hard","explain_tr":"Arayan insan who alır, virgül ve çift özne yok: The woman who called you is my aunt.","id":"a2-11-relative-basic-h05","level":"A2","prompt":"Pick the correct sentence about the phone call from the aunt.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The woman which called you is my aunt.","The woman who she called you is my aunt.","The woman, who called you, is my aunt.","The woman who called you is my aunt."],"answer":3},{"difficulty":"hard","explain_tr":"Köpek which alır ve tekrar zamir konmaz: The dog which barks all night is ours.","id":"a2-11-relative-basic-h06","level":"A2","prompt":"Pick the correct sentence about the night dog.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"mcq","choices":["The dog who barks all night is ours.","The dog which barks all night is ours.","The dog which it barks all night is ours.","The dog who it barks all night is ours."],"answer":1},{"difficulty":"hard","explain_tr":"Kitap için who olmaz: The book which I like is long.","id":"a2-11-relative-basic-h07","level":"A2","prompt":"Correct the error: The book who I like is long.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"rewrite","answer_text":"The book which I like is long.","accept":["The book which I like is long","The book which I like is long.","The book that I like is long","The book that I like is long."]},{"difficulty":"hard","explain_tr":"who he çift özne olur: The man who came is my uncle.","id":"a2-11-relative-basic-h08","level":"A2","prompt":"Correct the error: The man who he came is my uncle.","rule_ref":"Docs/grammar/A2/a2-11-relative-basic.md","topic":"a2-11-relative-basic","type":"rewrite","answer_text":"The man who came is my uncle.","accept":["The man who came is my uncle","The man who came is my uncle."]}]
+[
+  {
+    "difficulty": "easy",
+    "explain_tr": "İnsanlar için who kullanılır: The man who lives next door.",
+    "id": "a2-11-relative-basic-e01",
+    "level": "A2",
+    "prompt": "The man ___ lives next door is a teacher.",
+    "prompt_tr": "___ yan kapıda yaşayan adam öğretmendir.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 0,
+    "trap_tr": "Eşya için who, insan için which olmaz."
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "Eşyalar için which kullanılır: The book which I bought.",
+    "id": "a2-11-relative-basic-e02",
+    "level": "A2",
+    "prompt": "The book ___ I bought is very interesting.",
+    "prompt_tr": "Satın aldığım ___ kitap çok ilginç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "İnsan who alır ve A2 tanımlayan cümlecikte virgül yok: The man who lives next door is a teacher.",
+    "id": "a2-11-relative-basic-e03",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the teacher next door.",
+    "prompt_tr": "Yan kapıdaki öğretmenle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The man which lives next door is a teacher.",
+      "The man who lives next door is a teacher.",
+      "The man who he lives next door is a teacher.",
+      "The man, who lives next door, is a teacher."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "that hem insan hem eşya için olur: The film that we watched.",
+    "id": "a2-11-relative-basic-e04",
+    "level": "A2",
+    "prompt": "The film ___ we watched was fantastic.",
+    "prompt_tr": "İzlediğimiz ___ film harikaydı.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "that",
+      "whose",
+      "where"
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "Eşya which alır ve tekrar zamiri konmaz: The bag which she lost was black.",
+    "id": "a2-11-relative-basic-e05",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the lost bag.",
+    "prompt_tr": "Kaybolan çantayla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The bag who she lost was black.",
+      "The bag which she lost was black.",
+      "The bag which she lost it was black.",
+      "The bag who she lost it was black."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "Arayan insan olduğu için who gelir: The girl who called.",
+    "id": "a2-11-relative-basic-e06",
+    "level": "A2",
+    "prompt": "The girl ___ called is my sister.",
+    "prompt_tr": "Telefon eden ___ kız kardeşimdir.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 0
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "Restoran eşya sayılır ve that alır: the restaurant that serves cheap pizza.",
+    "id": "a2-11-relative-basic-e07",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the cheap pizza.",
+    "prompt_tr": "Ucuz pizzayla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "That's the restaurant who serves cheap pizza.",
+      "That's the restaurant that serves cheap pizza.",
+      "That's the restaurant which it serves cheap pizza.",
+      "That's the restaurant who serves it cheap pizza."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "easy",
+    "explain_tr": "Araba için who olmaz: The car which is red is mine.",
+    "id": "a2-11-relative-basic-e08",
+    "level": "A2",
+    "prompt": "Correct the error: The car who is red is mine.",
+    "prompt_tr": "Hatayı düzelt: The car who is red is mine.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "rewrite",
+    "answer_text": "The car which is red is mine.",
+    "accept": [
+      "The car which is red is mine",
+      "The car which is red is mine.",
+      "The car that is red is mine",
+      "The car that is red is mine."
+    ]
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "People insan çoğuludur ve who alır: People who smoke here.",
+    "id": "a2-11-relative-basic-m01",
+    "level": "A2",
+    "prompt": "People ___ smoke here must pay a fine.",
+    "prompt_tr": "Burada sigara içen ___ kişiler ceza ödemek zorunda.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 0
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "Hayvanlar için which kullanılır: The dog which barks all night.",
+    "id": "a2-11-relative-basic-m02",
+    "level": "A2",
+    "prompt": "The dog ___ barks all night is ours.",
+    "prompt_tr": "Bütün gece havlayan ___ köpek bizimdir.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "Dükkân that alır ve fazladan zamir konmaz: a shop that sells old coins.",
+    "id": "a2-11-relative-basic-m03",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the old coins.",
+    "prompt_tr": "Eski bozuk paralarla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "I know a shop who sells old coins.",
+      "I know a shop that sells old coins.",
+      "I know a shop which sells it old coins.",
+      "I know a shop that she sells old coins."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "Yardım eden insan için who gelir: the friend who helped me.",
+    "id": "a2-11-relative-basic-m04",
+    "level": "A2",
+    "prompt": "She is the friend ___ helped me yesterday.",
+    "prompt_tr": "O, dün bana yardım eden ___ arkadaş.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 0
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "İnsan who alır ve tanımlayan cümlecikte virgül yok: The man who I met is a doctor.",
+    "id": "a2-11-relative-basic-m05",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the doctor.",
+    "prompt_tr": "Doktorla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The man who I met is a doctor.",
+      "The man which I met is a doctor.",
+      "The man who he is a doctor.",
+      "The man, who I met, is a doctor."
+    ],
+    "answer": 0
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "Dükkân eşya sayılır: a shop that does not open on Sundays.",
+    "id": "a2-11-relative-basic-m06",
+    "level": "A2",
+    "prompt": "I know a shop ___ doesn't open on Sundays.",
+    "prompt_tr": "Pazar günleri açılmayan bir ___ dükkân biliyorum.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "that",
+      "whose",
+      "whom"
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "Araba which alır ve tekrar zamir konmaz: The car which broke down is mine.",
+    "id": "a2-11-relative-basic-m07",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the broken car.",
+    "prompt_tr": "Bozuk arabayla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The car who broke down is mine.",
+      "The car which broke down is mine.",
+      "The car which it broke down is mine.",
+      "The car who it broke down is mine."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "who'dan sonra tekrar she konmaz: The girl who sings is famous.",
+    "id": "a2-11-relative-basic-m08",
+    "level": "A2",
+    "prompt": "Correct the error: The girl who she sings is famous.",
+    "prompt_tr": "Hatayı düzelt: The girl who she sings is famous.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "rewrite",
+    "answer_text": "The girl who sings is famous.",
+    "accept": [
+      "The girl who sings is famous",
+      "The girl who sings is famous."
+    ]
+  },
+  {
+    "difficulty": "medium",
+    "explain_tr": "İki cümle who ile birleşir: The man who came yesterday is my uncle.",
+    "id": "a2-11-relative-basic-m09",
+    "level": "A2",
+    "prompt": "Join with who: The man is my uncle. He came yesterday.",
+    "prompt_tr": "Who ile birleştir: The man is my uncle. He came yesterday.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "rewrite",
+    "answer_text": "The man who came yesterday is my uncle.",
+    "accept": [
+      "The man who came yesterday is my uncle",
+      "The man who came yesterday is my uncle."
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "Burada çalışan insan için who gelir: The woman who works here.",
+    "id": "a2-11-relative-basic-h01",
+    "level": "A2",
+    "prompt": "The woman ___ works here is my aunt.",
+    "prompt_tr": "Burada çalışan ___ kadın teyzemdir.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 0
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "A2 tanımlayan cümlecikte virgül ve çift özne yok: The man who came is my uncle.",
+    "id": "a2-11-relative-basic-h02",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the uncle.",
+    "prompt_tr": "Dayıyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The man who came is my uncle.",
+      "The man, who came, is my uncle.",
+      "The man who he came is my uncle.",
+      "The man which came is my uncle."
+    ],
+    "answer": 0,
+    "trap_tr": "Virgüllü ilgi cümlesi B1 konusudur."
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "who'dan sonra she ya da they tekrar edilmez: The woman who works here is a doctor.",
+    "id": "a2-11-relative-basic-h03",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the woman doctor.",
+    "prompt_tr": "Kadın doktorla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The woman who she works here is a doctor.",
+      "The woman which works here is a doctor.",
+      "The woman who works here is a doctor.",
+      "The woman who they work here is a doctor."
+    ],
+    "answer": 2
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "Telefon eşyadır: The phone which I bought is slow.",
+    "id": "a2-11-relative-basic-h04",
+    "level": "A2",
+    "prompt": "The phone ___ I bought is slow.",
+    "prompt_tr": "Satın aldığım ___ telefon yavaş.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "gap-fill",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "Arayan insan who alır, virgül ve çift özne yok: The woman who called you is my aunt.",
+    "id": "a2-11-relative-basic-h05",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the phone call from the aunt.",
+    "prompt_tr": "Teyzeden gelen telefon görüşmesiyle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The woman which called you is my aunt.",
+      "The woman who she called you is my aunt.",
+      "The woman, who called you, is my aunt.",
+      "The woman who called you is my aunt."
+    ],
+    "answer": 3
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "Köpek which alır ve tekrar zamir konmaz: The dog which barks all night is ours.",
+    "id": "a2-11-relative-basic-h06",
+    "level": "A2",
+    "prompt": "Pick the correct sentence about the night dog.",
+    "prompt_tr": "Geceki köpekle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "mcq",
+    "choices": [
+      "The dog who barks all night is ours.",
+      "The dog which barks all night is ours.",
+      "The dog which it barks all night is ours.",
+      "The dog who it barks all night is ours."
+    ],
+    "answer": 1
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "Kitap için who olmaz: The book which I like is long.",
+    "id": "a2-11-relative-basic-h07",
+    "level": "A2",
+    "prompt": "Correct the error: The book who I like is long.",
+    "prompt_tr": "Hatayı düzelt: The book who I like is long.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "rewrite",
+    "answer_text": "The book which I like is long.",
+    "accept": [
+      "The book which I like is long",
+      "The book which I like is long.",
+      "The book that I like is long",
+      "The book that I like is long."
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "explain_tr": "who he çift özne olur: The man who came is my uncle.",
+    "id": "a2-11-relative-basic-h08",
+    "level": "A2",
+    "prompt": "Correct the error: The man who he came is my uncle.",
+    "prompt_tr": "Hatayı düzelt: The man who he came is my uncle.",
+    "rule_ref": "Docs/grammar/A2/a2-11-relative-basic.md",
+    "topic": "a2-11-relative-basic",
+    "type": "rewrite",
+    "answer_text": "The man who came is my uncle.",
+    "accept": [
+      "The man who came is my uncle",
+      "The man who came is my uncle."
+    ]
+  }
+]

@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "If you heat water, it ___.",
-    "choices": ["will boil", "boils", "boiled", "boiling"],
+    "prompt_tr": "Suyu ısıtırsan ___ .",
+    "choices": [
+      "will boil",
+      "boils",
+      "boiled",
+      "boiling"
+    ],
     "answer": 1,
     "explain_tr": "Bilimsel gerçeklerde iki taraf da geniş zaman olur: If you heat water, it boils.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "If it rains, we ___ stay home.",
-    "choices": ["will", "would", "wills", "to will"],
+    "prompt_tr": "Yağmur yağarsa ___ evde kalırız.",
+    "choices": [
+      "will",
+      "would",
+      "wills",
+      "to will"
+    ],
     "answer": 0,
     "explain_tr": "Gerçekleşebilir gelecekte sonuç will alır: If it rains, we will stay home.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -30,7 +42,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct fact sentence about heating ice in the school lab.",
-    "choices": ["If you will heat ice, it melts.", "If you heat ice, it melt.", "If you heat ice, it melts.", "If you heat ice, it melting."],
+    "prompt_tr": "Okul laboratuvarında buz ısıtmakla ilgili doğru gerçek cümlesini seç.",
+    "choices": [
+      "If you will heat ice, it melts.",
+      "If you heat ice, it melt.",
+      "If you heat ice, it melts.",
+      "If you heat ice, it melting."
+    ],
     "answer": 2,
     "explain_tr": "Genel gerçek zero conditional ister: If + geniş zaman, geniş zaman.",
     "trap_tr": "If'ten sonra will gelmez.",
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "If she comes, I ___ happy.",
-    "choices": ["would be", "will is", "am will", "will be"],
+    "prompt_tr": "O gelirse ___ mutlu olurum.",
+    "choices": [
+      "would be",
+      "will is",
+      "am will",
+      "will be"
+    ],
     "answer": 3,
     "explain_tr": "First conditional sonucu will + yalın fiildir: I will be happy.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct future sentence about studying for the maths exam.",
-    "choices": ["If you study, you'll pass.", "If you will study, you'll pass.", "If you study, you'll passed.", "If you study, you will passing."],
+    "prompt_tr": "Matematik sınavına çalışmakla ilgili doğru gelecek zaman cümlesini seç.",
+    "choices": [
+      "If you study, you'll pass.",
+      "If you will study, you'll pass.",
+      "If you study, you'll passed.",
+      "If you study, you will passing."
+    ],
     "answer": 0,
     "explain_tr": "If'li kısım geniş zaman, sonuç will alır: If you study, you'll pass.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Plants die if you ___ water them.",
-    "choices": ["won't", "doesn't", "don't", "don't will"],
+    "prompt_tr": "Bitkiler, onları ___ sulamazsan ölür.",
+    "choices": [
+      "won't",
+      "doesn't",
+      "don't",
+      "don't will"
+    ],
     "answer": 2,
     "explain_tr": "Alışkanlık ve gerçeklerde zero conditional kullanılır: Plants die if you don't water them.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct habit sentence about the thirsty balcony plants.",
-    "choices": ["Plants die if you won't water them.", "Plants die if you don't water them.", "Plants die if you don't watered them.", "Plants dies if you don't water them."],
+    "prompt_tr": "Susamış balkon bitkileriyle ilgili doğru alışkanlık cümlesini seç.",
+    "choices": [
+      "Plants die if you won't water them.",
+      "Plants die if you don't water them.",
+      "Plants die if you don't watered them.",
+      "Plants dies if you don't water them."
+    ],
     "answer": 1,
     "explain_tr": "Genel doğruda if'ten sonra will olmaz, özne-fiil uyumu bozulmaz: Plants die if you don't water them.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: If it will snow, we will cancel the trip.",
+    "prompt_tr": "Hatayı düzelt: If it will snow, we will cancel the trip.",
     "answer_text": "If it snows, we will cancel the trip.",
-    "accept": ["If it snows, we will cancel the trip", "If it snows, we will cancel the trip."],
+    "accept": [
+      "If it snows, we will cancel the trip",
+      "If it snows, we will cancel the trip."
+    ],
     "explain_tr": "If'ten sonra will silinir: If it snows, we will cancel the trip.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "If you ___ hurry, you'll miss the bus.",
-    "choices": ["don't", "won't", "doesn't", "don't will"],
+    "prompt_tr": "___ acele etmezsen otobüsü kaçırırsın.",
+    "choices": [
+      "don't",
+      "won't",
+      "doesn't",
+      "don't will"
+    ],
     "answer": 0,
     "explain_tr": "If cümlesi geniş zaman olumsuz olur: If you don't hurry, you'll miss the bus.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She'll be angry if we ___ late.",
-    "choices": ["will be", "would be", "are", "be will"],
+    "prompt_tr": "Eğer ___ geç kalırsak o kızar.",
+    "choices": [
+      "will be",
+      "would be",
+      "are",
+      "be will"
+    ],
     "answer": 2,
     "explain_tr": "If ortadaysa sonuç başa gelir ve if yine geniş zaman alır: She'll be angry if we are late.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -127,7 +185,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct warning sentence about hurrying for the last bus.",
-    "choices": ["If you won't hurry, you'll miss the bus.", "If you don't hurry, you'll missed the bus.", "If you don't hurried, you'll miss the bus.", "If you don't hurry, you'll miss the bus."],
+    "prompt_tr": "Son otobüse yetişmek için acele etmekle ilgili doğru uyarı cümlesini seç.",
+    "choices": [
+      "If you won't hurry, you'll miss the bus.",
+      "If you don't hurry, you'll missed the bus.",
+      "If you don't hurried, you'll miss the bus.",
+      "If you don't hurry, you'll miss the bus."
+    ],
     "answer": 3,
     "explain_tr": "Uyarı first conditional ister: if geniş zaman, sonuç will + yalın fiil.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -139,7 +203,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ you mix red and blue, you get purple.",
-    "choices": ["Will", "If", "Would", "Will be"],
+    "prompt_tr": "Kırmızıyla maviyi ___ karıştırırsan mor elde edersin.",
+    "choices": [
+      "Will",
+      "If",
+      "Would",
+      "Will be"
+    ],
     "answer": 1,
     "explain_tr": "Renk karışımı genel gerçektir, cümle If ile başlar: If you mix red and blue.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -151,7 +221,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct colour-mixing fact for the art class poster.",
-    "choices": ["If you mix red and blue, you get purple.", "If you will mix red and blue, you get purple.", "If you mix red and blue, you gets purple.", "If you mix red and blue, you getting purple."],
+    "prompt_tr": "Resim dersi posteri için renk karıştırmayla ilgili doğru bilgi cümlesini seç.",
+    "choices": [
+      "If you mix red and blue, you get purple.",
+      "If you will mix red and blue, you get purple.",
+      "If you mix red and blue, you gets purple.",
+      "If you mix red and blue, you getting purple."
+    ],
     "answer": 0,
     "explain_tr": "Bilimsel gerçek zero conditional olur: If you mix red and blue, you get purple.",
     "trap_tr": "Gerçekler için will kullanılmaz.",
@@ -164,7 +240,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Unless you ___, I'll worry all night.",
-    "choices": ["will call", "called", "calling", "call"],
+    "prompt_tr": "___ yapmazsan bütün gece merak ederim.",
+    "choices": [
+      "will call",
+      "called",
+      "calling",
+      "call"
+    ],
     "answer": 3,
     "explain_tr": "Unless olumsuz koşul demektir, ardından geniş zaman gelir: Unless you call, I'll worry.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -176,7 +258,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct unless-sentence for the late-night phone call.",
-    "choices": ["Unless you will call, I'll worry.", "Unless you called, I'll worry.", "Unless you call, I'll worry.", "Unless you calling, I'll worry."],
+    "prompt_tr": "Gece geç saatteki telefon görüşmesiyle ilgili doğru unless cümlesini seç.",
+    "choices": [
+      "Unless you will call, I'll worry.",
+      "Unless you called, I'll worry.",
+      "Unless you call, I'll worry.",
+      "Unless you calling, I'll worry."
+    ],
     "answer": 2,
     "explain_tr": "Unless + geniş zaman, sonuç will alır: Unless you call, I'll worry.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -188,8 +276,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: If you will press this button, it starts.",
+    "prompt_tr": "Hatayı düzelt: If you will press this button, it starts.",
     "answer_text": "If you press this button, it starts.",
-    "accept": ["If you press this button, it starts", "If you press this button, it starts."],
+    "accept": [
+      "If you press this button, it starts",
+      "If you press this button, it starts."
+    ],
     "explain_tr": "Makine gerçeği zero conditional ister: If you press this button, it starts.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   },
@@ -200,8 +292,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: If water boils, it will become steam.",
+    "prompt_tr": "Hatayı düzelt: If water boils, it will become steam.",
     "answer_text": "If water boils, it becomes steam.",
-    "accept": ["If water boils, it becomes steam", "If water boils, it becomes steam."],
+    "accept": [
+      "If water boils, it becomes steam",
+      "If water boils, it becomes steam."
+    ],
     "explain_tr": "Bilimsel gerçekte sonuç da geniş zamandır: If water boils, it becomes steam.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   },
@@ -212,7 +308,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "If you're hungry, ___ something now.",
-    "choices": ["eat", "will eat", "eats", "eating"],
+    "prompt_tr": "Açsan ___ şimdi bir şeyler ye.",
+    "choices": [
+      "eat",
+      "will eat",
+      "eats",
+      "eating"
+    ],
     "answer": 0,
     "explain_tr": "Sonuç emir cümlesi olabilir: If you're hungry, eat something.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -224,7 +326,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "You'll miss the flight if you ___ hurry.",
-    "choices": ["won't", "doesn't", "don't", "not"],
+    "prompt_tr": "Eğer ___ acele etmezsen uçağı kaçırırsın.",
+    "choices": [
+      "won't",
+      "doesn't",
+      "don't",
+      "not"
+    ],
     "answer": 2,
     "explain_tr": "If ortada olsa bile geniş zaman kuralı değişmez: if you don't hurry.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -236,7 +344,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct imperative-result sentence for the tired guest at home.",
-    "choices": ["If you will be tired, rest.", "If you're tired, rest.", "If you're tired, you resting.", "If you're tired, you rested."],
+    "prompt_tr": "Evdeki yorgun misafirle ilgili doğru emir-sonuç cümlesini seç.",
+    "choices": [
+      "If you will be tired, rest.",
+      "If you're tired, rest.",
+      "If you're tired, you resting.",
+      "If you're tired, you rested."
+    ],
     "answer": 1,
     "explain_tr": "If + geniş zaman ardından emir gelir: If you're tired, rest.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -248,7 +362,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct no-comma sentence with the result clause first.",
-    "choices": ["We'll go out, if it stops.", "We'll go out if it will stop.", "We'll go out if it stopped.", "We'll go out if it stops."],
+    "prompt_tr": "Sonuç cümlesi başta olan, virgülsüz doğru cümleyi seç.",
+    "choices": [
+      "We'll go out, if it stops.",
+      "We'll go out if it will stop.",
+      "We'll go out if it stopped.",
+      "We'll go out if it stops."
+    ],
     "answer": 3,
     "explain_tr": "If ortadaysa virgül konmaz: We'll go out if it stops.",
     "trap_tr": "Virgül yalnız if cümlesi başta olduğunda kullanılır.",
@@ -261,7 +381,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct first-conditional sentence about seeing him tomorrow.",
-    "choices": ["If I see him, I'll tell him.", "If I'll see him, I'll tell him.", "If I see him, I'll told him.", "If I see him, I telling him."],
+    "prompt_tr": "Onu yarın görmekle ilgili doğru birinci koşul cümlesini seç.",
+    "choices": [
+      "If I see him, I'll tell him.",
+      "If I'll see him, I'll tell him.",
+      "If I see him, I'll told him.",
+      "If I see him, I telling him."
+    ],
     "answer": 0,
     "explain_tr": "Yarınki olasılık first conditional ister: If I see him, I'll tell him.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -273,7 +399,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct order-swapped sentence about being late and her anger.",
-    "choices": ["She'll be angry, if we are late.", "She'll be angry if we will be late.", "She'll be angry if we are late.", "She'll be angry if we would be late."],
+    "prompt_tr": "Geç kalmak ve onun kızmasıyla ilgili, sırası değiştirilmiş doğru cümleyi seç.",
+    "choices": [
+      "She'll be angry, if we are late.",
+      "She'll be angry if we will be late.",
+      "She'll be angry if we are late.",
+      "She'll be angry if we would be late."
+    ],
     "answer": 2,
     "explain_tr": "Sonuç başta, if ortada: virgül yok, if geniş zaman: She'll be angry if we are late.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
@@ -285,8 +417,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: Unless you will hurry, you'll be late.",
+    "prompt_tr": "Hatayı düzelt: Unless you will hurry, you'll be late.",
     "answer_text": "Unless you hurry, you'll be late.",
-    "accept": ["Unless you hurry, you'll be late", "Unless you hurry, you'll be late."],
+    "accept": [
+      "Unless you hurry, you'll be late",
+      "Unless you hurry, you'll be late."
+    ],
     "explain_tr": "Unless ardından will gelmez: Unless you hurry, you'll be late.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   },
@@ -297,8 +433,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: If I will see him, I'll tell him.",
+    "prompt_tr": "Hatayı düzelt: If I will see him, I'll tell him.",
     "answer_text": "If I see him, I'll tell him.",
-    "accept": ["If I see him, I'll tell him", "If I see him, I'll tell him."],
+    "accept": [
+      "If I see him, I'll tell him",
+      "If I see him, I'll tell him."
+    ],
     "explain_tr": "If'ten sonraki will silinir: If I see him, I'll tell him.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   }

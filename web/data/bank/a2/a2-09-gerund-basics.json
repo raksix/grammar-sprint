@@ -6,6 +6,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I enjoy ___ in my free time.",
+    "prompt_tr": "Boş zamanlarımda ___ yapmaktan keyif alırım.",
     "choices": [
       "to swim",
       "swim",
@@ -23,6 +24,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I want ___ Spanish this year.",
+    "prompt_tr": "Bu yıl İspanyolca ___ istiyorum.",
     "choices": [
       "to learn",
       "learning",
@@ -40,6 +42,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct sentence about finishing in the evening.",
+    "prompt_tr": "Akşam bitirmekle ilgili doğru cümleyi seç.",
     "choices": [
       "They finished to clean at 8.",
       "They finished cleaning at 8.",
@@ -57,6 +60,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She is good ___ drawing animals.",
+    "prompt_tr": "O, hayvan çizmekte ___ iyidir.",
     "choices": [
       "to",
       "for",
@@ -75,6 +79,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct sentence about needing speed right now.",
+    "prompt_tr": "Şu an hıza ihtiyaç duymakla ilgili doğru cümleyi seç.",
     "choices": [
       "We need to hurry.",
       "We need hurrying.",
@@ -92,6 +97,7 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Let's go ___ on Saturday morning.",
+    "prompt_tr": "Cumartesi sabahı ___ gidelim.",
     "choices": [
       "to shop",
       "shopping",
@@ -109,6 +115,7 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Pick the correct sentence about loving weekend cooking.",
+    "prompt_tr": "Hafta sonu yemek yapmayı sevmekle ilgili doğru cümleyi seç.",
     "choices": [
       "She loves to cooking.",
       "She loves cook.",
@@ -126,6 +133,7 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: I want going to Izmir.",
+    "prompt_tr": "Hatayı düzelt: I want going to Izmir.",
     "answer_text": "I want to go to Izmir.",
     "accept": [
       "I want to go to Izmir",
@@ -142,6 +150,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She enjoys ___ at weddings.",
+    "prompt_tr": "O, düğünlerde ___ sever.",
     "choices": [
       "to dance",
       "dance",
@@ -159,6 +168,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They want ___ us next week.",
+    "prompt_tr": "Onlar gelecek hafta bizi ___ istiyor.",
     "choices": [
       "visiting",
       "to visit",
@@ -176,6 +186,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct sentence about deciding on the evening plan.",
+    "prompt_tr": "Akşam planına karar vermekle ilgili doğru cümleyi seç.",
     "choices": [
       "He decided to stay home.",
       "He decided staying home.",
@@ -193,6 +204,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She is afraid ___ flying at night.",
+    "prompt_tr": "O, gece ___ uçmaktan korkuyor.",
     "choices": [
       "to",
       "for",
@@ -210,6 +222,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct sentence about fear of night flights.",
+    "prompt_tr": "Gece uçuşu korkusuyla ilgili doğru cümleyi seç.",
     "choices": [
       "She is afraid to flying.",
       "She is afraid fly.",
@@ -227,6 +240,7 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Keep ___ — you will pass the test.",
+    "prompt_tr": "___ devam et — sınavı geçeceksin.",
     "choices": [
       "trying",
       "to try",
@@ -244,6 +258,7 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Pick the correct wish-sentence for tea right now.",
+    "prompt_tr": "Şu an çay istemekle ilgili doğru istek cümlesini seç.",
     "choices": [
       "I'd like drinking tea.",
       "I'd like to drink tea.",
@@ -262,6 +277,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: I'm good at to draw.",
+    "prompt_tr": "Hatayı düzelt: I'm good at to draw.",
     "answer_text": "I'm good at drawing.",
     "accept": [
       "I'm good at drawing",
@@ -277,6 +293,7 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: I'd like going now.",
+    "prompt_tr": "Hatayı düzelt: I'd like going now.",
     "answer_text": "I'd like to go now.",
     "accept": [
       "I'd like to go now",
@@ -292,6 +309,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He is interested ___ playing chess every Sunday.",
+    "prompt_tr": "O, her pazar satranç ___ oynamaya meraklıdır.",
     "choices": [
       "to",
       "in",
@@ -309,6 +327,7 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "I like tea, but right now I ___ a cold cola.",
+    "prompt_tr": "Çayı severim ama şu an ___ soğuk bir kola istiyorum.",
     "choices": [
       "'d like",
       "like",
@@ -327,6 +346,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct sentence about the general pleasure of reading novels.",
+    "prompt_tr": "Roman okumanın genel keyfiyle ilgili doğru cümleyi seç.",
     "choices": [
       "I like to reading novels.",
       "I like read novels.",
@@ -344,6 +364,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct sentence about planning June travel with friends.",
+    "prompt_tr": "Arkadaşlarla haziran gezisini planlamakla ilgili doğru cümleyi seç.",
     "choices": [
       "We plan travel in June.",
       "We plan travelling in June.",
@@ -361,6 +382,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct sentence about avoiding the night traffic jam.",
+    "prompt_tr": "Gece trafik sıkışıklığından kaçınmakla ilgili doğru cümleyi seç.",
     "choices": [
       "He avoids driving at night.",
       "He avoids to drive at night.",
@@ -378,6 +400,7 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Pick the correct specific-wish sentence for a cold drink now.",
+    "prompt_tr": "Şu an soğuk bir içecek istemekle ilgili, özel isteği anlatan doğru cümleyi seç.",
     "choices": [
       "I'd like drink a cold tea.",
       "I'd like a cold tea.",
@@ -395,6 +418,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: He is interested in to play chess.",
+    "prompt_tr": "Hatayı düzelt: He is interested in to play chess.",
     "answer_text": "He is interested in playing chess.",
     "accept": [
       "He is interested in playing chess",
@@ -410,6 +434,7 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I need going home early.",
+    "prompt_tr": "Hatayı düzelt: I need going home early.",
     "answer_text": "I need to go home early.",
     "accept": [
       "I need to go home early",
