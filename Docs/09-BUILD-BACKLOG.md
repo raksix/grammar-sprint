@@ -41,7 +41,7 @@ The cron worker does EXACTLY ONE piece per run, top-to-bottom. Never reorder. Ma
 
 - [ ] P26 Full unit suite + `tsc` + production build green. ACCEPT: 0 failures.
 - [ ] P27 E2E full loop (learn→quiz→gate unlock→review clear) with 0 console errors. ACCEPT: report with proof.
-- [ ] P28 Deploy to static host + public URL verify (all routes 200). ACCEPT: curl codes listed in log.
+- [ ] P28 Deploy to **http://learneng.fermag.com.tr** (DNS already → 67). Recipe: `npm run build`, copy `web/out/*` to `/var/www/learneng.fermag.com.tr/`, nginx vhost port 80 (server_name learneng.fermag.com.tr, root + `try_files $uri $uri/ $uri.html =404`), `nginx -t && nginx -s reload`. ACCEPT: curl 200 on `/`, `/levels/A1`, one `/learn/<topic>`, one bank JSON; no console errors. (HTTPS only if user asks later.)
 - [ ] P29 Buffer/polish (a11y labels, OG/meta, sitemap, 404). ACCEPT: build green.
 
 ## After P29
