@@ -5,8 +5,8 @@
  * `<details>`, all HTML is prerendered at build). Receives a `ParsedLesson`
  * plus prev/next neighbours inside the same level; every link it renders
  * points at a route that exists (`/` and `/levels/[level]` and
- * `/learn/[topic]`). The learn → quiz CTA lands with P23 (`QuizCard` +
- * `/quiz/[topic]`), deliberately not here — no dead buttons.
+ * `/learn/[topic]`). The learn → quiz CTA below points at `/quiz/[topic]`
+ * (P23); the gate/review routes land in P24, so nothing here links them.
  */
 
 import {
@@ -89,6 +89,19 @@ export default function LessonView({
           dangerouslySetInnerHTML={{ __html: lesson.goalHtml }}
         />
       </header>
+
+      <div className="lesson-quiz-cta-row">
+        <a
+          className="btn btn-primary lesson-quiz-cta"
+          href={`/quiz/${lesson.slug}`}
+        >
+          <PenLine size={16} strokeWidth={2} aria-hidden="true" />
+          Start the 8-question quiz
+        </a>
+        <span className="lesson-quiz-cta-note">
+          Adapts to your answers · every miss links back to the rule
+        </span>
+      </div>
 
       <Section
         id="rule"
