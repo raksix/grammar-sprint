@@ -41,6 +41,7 @@ import { isChoiceQuestion, isRewriteQuestion } from "../lib/bank";
 import { GATE_SIZE, drawGate } from "../lib/draw";
 import { canRetakeGate } from "../lib/gate";
 import { isRewriteCorrect } from "../lib/normalize";
+import { richText } from "../lib/richtext";
 import {
   addToReview,
   addXp,
@@ -538,9 +539,15 @@ export default function GateCard({
                 One correct form is “{rewriteQ.answer_text}”.
               </p>
             ) : null}
-            <p className="quiz-feedback-explain">{current.explain_tr}</p>
+            <p
+              className="quiz-feedback-explain"
+              dangerouslySetInnerHTML={{ __html: richText(current.explain_tr) }}
+            />
             {!wasCorrect && current.trap_tr !== undefined ? (
-              <p className="quiz-feedback-trap">{current.trap_tr}</p>
+              <p
+                className="quiz-feedback-trap"
+                dangerouslySetInnerHTML={{ __html: richText(current.trap_tr) }}
+              />
             ) : null}
             {!wasCorrect ? (
               <a className="quiz-feedback-rule" href={ruleHref(current)}>

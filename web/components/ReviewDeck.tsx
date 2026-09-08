@@ -29,6 +29,7 @@ import {
 import type { Question } from "../lib/bank";
 import { isChoiceQuestion, isRewriteQuestion } from "../lib/bank";
 import { isRewriteCorrect } from "../lib/normalize";
+import { richText } from "../lib/richtext";
 import {
   clearReview,
   defaultProgress,
@@ -287,9 +288,15 @@ export default function ReviewDeck({ pool }: { pool: Question[] }) {
                 One correct form is “{rewriteQ.answer_text}”.
               </p>
             ) : null}
-            <p className="quiz-feedback-explain">{question.explain_tr}</p>
+            <p
+              className="quiz-feedback-explain"
+              dangerouslySetInnerHTML={{ __html: richText(question.explain_tr) }}
+            />
             {!wasCorrect && question.trap_tr !== undefined ? (
-              <p className="quiz-feedback-trap">{question.trap_tr}</p>
+              <p
+                className="quiz-feedback-trap"
+                dangerouslySetInnerHTML={{ __html: richText(question.trap_tr) }}
+              />
             ) : null}
             {!wasCorrect ? (
               <a className="quiz-feedback-rule" href={ruleHref}>
