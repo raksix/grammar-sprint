@@ -28,7 +28,7 @@ Fields required: `id` (unique, `<topic>-<e|m|h><nn>`), `topic`, `level`, `diffic
 
 - `mcq` (choose the correct sentence) — 40%
 - `gap-fill` (4 choices) — 40%
-- `rewrite` (transform: negative/question/passive/reported) — 20%, exact-match via `accept` variants (case/punctuation-insensitive compare after normalize).
+- `rewrite` (transform: negative/question/passive/reported) — 20%, exact-match via `accept` variants (normalize pipeline: lowercase → NFKC → contraction expansion (`doesn't`→`does not`, `I'm`→`I am`) → collapse spaces → strip trailing `.` — research D3).
 
 ## Difficulty ladder
 
