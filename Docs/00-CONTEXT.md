@@ -42,6 +42,6 @@
 
 ## Open items
 
-- [ ] Fill 48 per-topic lesson files (subagent fan-out done this phase — skeleton + core 8 files by main agent, rest in code phase)
+- [x] 48 per-topic lesson files (A1 12 + A2 12 + B1 12 + B2 12 — all verified: template headings + line counts)
 - [ ] Expand samples to full 1000+ bank (code phase)
 - [ ] Web app scaffold (code phase per `07-ARCHITECTURE.md`)
