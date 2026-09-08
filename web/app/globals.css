@@ -191,6 +191,60 @@ button {
   font-size: 0.85rem;
 }
 
+.site-footer-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.site-footer-nav a {
+  color: var(--muted);
+}
+
+/* ---- P29 polish: skip link, keyboard focus, 404 ---- */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 0.5rem 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus-visible {
+  left: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+#main-content:focus {
+  outline: none;
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.not-found h1 {
+  margin: 1rem 0 0.5rem;
+}
+
+.not-found .cta-row {
+  justify-content: center;
+}
+
 /* ---- landing ---- */
 
 .hero {
