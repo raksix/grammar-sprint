@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ in Izmir.",
-    "choices": ["live", "lives", "living", "lived"],
+    "prompt_tr": "O, İzmir'de ___ .",
+    "choices": [
+      "live",
+      "lives",
+      "living",
+      "lived"
+    ],
     "answer": 1,
     "explain_tr": "He, she ve it öznelerinde fiile -s gelir: She lives.",
     "trap_tr": "Türkçede kişi eki olmadığı için -s unutulur.",
@@ -19,7 +25,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ tea every morning.",
-    "choices": ["drinks", "drink", "drinking", "drank"],
+    "prompt_tr": "Her sabah çay ___ .",
+    "choices": [
+      "drinks",
+      "drink",
+      "drinking",
+      "drank"
+    ],
     "answer": 1,
     "explain_tr": "I, you, we ve they öznelerinde fiil yalın kalır: I drink.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about working here.",
-    "choices": ["They works here.", "They working here.", "They work here.", "They is work here."],
+    "prompt_tr": "Burada çalışmak ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "They works here.",
+      "They working here.",
+      "They work here.",
+      "They is work here."
+    ],
     "answer": 2,
     "explain_tr": "They öznesinde fiil yalın kalır: They work here.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you like coffee?",
-    "choices": ["Does", "Is", "Do", "Are"],
+    "prompt_tr": "Kahve ___ sever misin?",
+    "choices": [
+      "Does",
+      "Is",
+      "Do",
+      "Are"
+    ],
     "answer": 2,
     "explain_tr": "You sorularında Do kullanılır: Do you like coffee?",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct verb spelling.",
-    "choices": ["He go to school by bus.", "He goes to school by bus.", "He gos to school by bus.", "He going to school by bus."],
+    "prompt_tr": "Fiil yazımı doğru olan cümleyi seç.",
+    "choices": [
+      "He go to school by bus.",
+      "He goes to school by bus.",
+      "He gos to school by bus.",
+      "He going to school by bus."
+    ],
     "answer": 1,
     "explain_tr": "Go fiili 3. tekil şahısta goes olur: He goes to school by bus.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "We ___ TV in the evening.",
-    "choices": ["watches", "watch", "watching", "watched"],
+    "prompt_tr": "Akşamları televizyon ___ .",
+    "choices": [
+      "watches",
+      "watch",
+      "watching",
+      "watched"
+    ],
     "answer": 1,
     "explain_tr": "We öznesinde fiil yalın kalır: We watch TV.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence where the frequency adverb is correct.",
-    "choices": ["I drink always tea.", "Always I drink tea.", "I always drink tea.", "I drink tea always."],
+    "prompt_tr": "Sıklık zarfı doğru olan cümleyi seç.",
+    "choices": [
+      "I drink always tea.",
+      "Always I drink tea.",
+      "I always drink tea.",
+      "I drink tea always."
+    ],
     "answer": 2,
     "explain_tr": "Sıklık zarfları fiilden önce gelir: I always drink tea.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: I smoke.",
+    "prompt_tr": "Olumsuz yap: I smoke.",
     "answer_text": "I do not smoke.",
-    "accept": ["I do not smoke", "I don't smoke"],
+    "accept": [
+      "I do not smoke",
+      "I don't smoke"
+    ],
     "explain_tr": "I öznelerinde olumsuz don't + yalın fiildir: I don't smoke.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She ___ coffee.",
-    "choices": ["don't like", "doesn't like", "doesn't likes", "not like"],
+    "prompt_tr": "O, ___ kahve içer.",
+    "choices": [
+      "don't like",
+      "doesn't like",
+      "doesn't likes",
+      "not like"
+    ],
     "answer": 1,
     "explain_tr": "She ile doesn't + yalın fiil kullanılır: She doesn't like coffee.",
     "trap_tr": "Doesn't'tan sonra fiile -s gelmez; ek bir kere gelir.",
@@ -116,7 +168,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ he play chess?",
-    "choices": ["Do", "Is", "Does", "Has"],
+    "prompt_tr": "O, ___ satranç oynar mı?",
+    "choices": [
+      "Do",
+      "Is",
+      "Does",
+      "Has"
+    ],
     "answer": 2,
     "explain_tr": "He sorularında Does kullanılır ve fiil yalın kalır: Does he play chess?",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -128,7 +186,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correctly formed negative sentence.",
-    "choices": ["She doesn't likes fish.", "She don't like fish.", "She doesn't like fish.", "She not like fish."],
+    "prompt_tr": "Doğru kurulmuş olumsuz cümleyi seç.",
+    "choices": [
+      "She doesn't likes fish.",
+      "She don't like fish.",
+      "She doesn't like fish.",
+      "She not like fish."
+    ],
     "answer": 2,
     "explain_tr": "Doesn't zaten -s işaretini taşır, fiil yalın kalır: She doesn't like fish.",
     "trap_tr": "Doesn't likes çift ek hatasıdır; işareti taşıyan does'tur.",
@@ -141,7 +205,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Water ___ at 100 degrees.",
-    "choices": ["boil", "boils", "boiling", "boiled"],
+    "prompt_tr": "Su 100 derecede ___ .",
+    "choices": [
+      "boil",
+      "boils",
+      "boiling",
+      "boiled"
+    ],
     "answer": 1,
     "explain_tr": "Genel gerçekler geniş zamandadır ve water tekildir: Water boils at 100 degrees.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -153,7 +223,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correctly asked question.",
-    "choices": ["Does she works here?", "Do she work here?", "Does she work here?", "Is she work here?"],
+    "prompt_tr": "Doğru sorulmuş soruyu seç.",
+    "choices": [
+      "Does she works here?",
+      "Do she work here?",
+      "Does she work here?",
+      "Is she work here?"
+    ],
     "answer": 2,
     "explain_tr": "Does soru işaretini taşır, fiil yalın kalır: Does she work here?",
     "trap_tr": "Does she works çift ek hatasıdır; does varken fiile -s gelmez.",
@@ -166,7 +242,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They ___ meat.",
-    "choices": ["doesn't eat", "don't eat", "don't eats", "not eat"],
+    "prompt_tr": "Onlar ___ et yer.",
+    "choices": [
+      "doesn't eat",
+      "don't eat",
+      "don't eats",
+      "not eat"
+    ],
     "answer": 1,
     "explain_tr": "They ile don't + yalın fiil kullanılır: They don't eat meat.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -178,7 +260,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with never.",
-    "choices": ["She never eat meat.", "She don't never eat meat.", "She never eats meat.", "She never eating meat."],
+    "prompt_tr": "\"never\" ile doğru cümleyi seç.",
+    "choices": [
+      "She never eat meat.",
+      "She don't never eat meat.",
+      "She never eats meat.",
+      "She never eating meat."
+    ],
     "answer": 2,
     "explain_tr": "Never olumsuz anlam taşır, yanında don't kullanılmaz: She never eats meat.",
     "trap_tr": "Don't never çift olumsuzdur; never tek başına yeterlidir.",
@@ -191,8 +279,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make negative: She likes fish.",
+    "prompt_tr": "Olumsuz yap: She likes fish.",
     "answer_text": "She does not like fish.",
-    "accept": ["She does not like fish", "She doesn't like fish"],
+    "accept": [
+      "She does not like fish",
+      "She doesn't like fish"
+    ],
     "explain_tr": "She olumsuzunda does not kullanılır ve -s düşer: She doesn't like fish.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
   },
@@ -203,8 +295,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: They live in Bursa.",
+    "prompt_tr": "Soru cümlesi yap: They live in Bursa.",
     "answer_text": "Do they live in Bursa?",
-    "accept": ["Do they live in Bursa", "Do they live in Bursa?"],
+    "accept": [
+      "Do they live in Bursa",
+      "Do they live in Bursa?"
+    ],
     "explain_tr": "They sorularında Do başa gelir: Do they live in Bursa?",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
   },
@@ -215,7 +311,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the sentence with the right verb for he.",
-    "choices": ["He go to work.", "He is go to work.", "He goes to work.", "He going to work."],
+    "prompt_tr": "\"he\" için doğru fiil olan cümleyi seç.",
+    "choices": [
+      "He go to work.",
+      "He is go to work.",
+      "He goes to work.",
+      "He going to work."
+    ],
     "answer": 2,
     "explain_tr": "He öznesinde fiile -s gelir: He goes to work.",
     "trap_tr": "Özne he, she veya it mi diye bak; evet ise fiile -s şarttır.",
@@ -228,7 +330,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with have for breakfast.",
-    "choices": ["She have breakfast at 8.", "She haves breakfast at 8.", "She has breakfast at 8.", "She is have breakfast at 8."],
+    "prompt_tr": "\"have for breakfast\" ile doğru cümleyi seç.",
+    "choices": [
+      "She have breakfast at 8.",
+      "She haves breakfast at 8.",
+      "She has breakfast at 8.",
+      "She is have breakfast at 8."
+    ],
     "answer": 2,
     "explain_tr": "Have fiili 3. tekil şahısta has olur: She has breakfast at 8.",
     "trap_tr": "Haves diye bir form yoktur; have düzensizdir: have → has.",
@@ -241,7 +349,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Why ___ he come?",
-    "choices": ["don't", "doesn't", "isn't", "not"],
+    "prompt_tr": "O neden ___ gelmiyor?",
+    "choices": [
+      "don't",
+      "doesn't",
+      "isn't",
+      "not"
+    ],
     "answer": 1,
     "explain_tr": "He olumsuz sorusunda doesn't kullanılır: Why doesn't he come?",
     "trap_tr": "Why don't he kalıbı özne uyumsuzluğudur; he her zaman does ister.",
@@ -254,8 +368,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She doesn't likes coffee.",
+    "prompt_tr": "Hatayı düzelt: She doesn't likes coffee.",
     "answer_text": "She does not like coffee.",
-    "accept": ["She does not like coffee", "She doesn't like coffee"],
+    "accept": [
+      "She does not like coffee",
+      "She doesn't like coffee"
+    ],
     "explain_tr": "Doesn't'tan sonra fiil yalın olur: She doesn't like coffee.",
     "trap_tr": "Doesn't likes cümlesinde ek iki kere gelmiştir; birini sil.",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
@@ -267,7 +385,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ your mother cook well?",
-    "choices": ["Do", "Is", "Does", "Has"],
+    "prompt_tr": "Annen ___ iyi yemek yapar mı?",
+    "choices": [
+      "Do",
+      "Is",
+      "Does",
+      "Has"
+    ],
     "answer": 2,
     "explain_tr": "Your mother o demektir, Does ister: Does your mother cook well?",
     "trap_tr": "Özne isim tamlaması olsa da tekilse Does kullanılır.",
@@ -280,7 +404,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the right short answer to a Do question.",
-    "choices": ["Yes, I swim.", "Yes, I does.", "Yes, I do.", "Yes, me do."],
+    "prompt_tr": "\"Do\" sorusuna doğru kısa cevabı seç.",
+    "choices": [
+      "Yes, I swim.",
+      "Yes, I does.",
+      "Yes, I do.",
+      "Yes, me do."
+    ],
     "answer": 2,
     "explain_tr": "Kısa cevapta fiil tekrarlanmaz, do veya does yeter: Yes, I do.",
     "trap_tr": "Yes, I swim cevabı soruyu tekrarlar; kısa cevapta fiil düşer.",
@@ -293,7 +423,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the sentence with the right -es spelling.",
-    "choices": ["He watchs TV every evening.", "He whatches TV every evening.", "He watches TV every evening.", "He watching TV every evening."],
+    "prompt_tr": "\"-es\" yazımı doğru olan cümleyi seç.",
+    "choices": [
+      "He watchs TV every evening.",
+      "He whatches TV every evening.",
+      "He watches TV every evening.",
+      "He watching TV every evening."
+    ],
     "answer": 2,
     "explain_tr": "-ch ile biten fiiller -es alır: watch → watches.",
     "trap_tr": "Watchs yazımı okunuşu yansıtır ama yanlıştır; -ch, -sh, -ss, -x, -o hep -es alır.",
@@ -306,8 +442,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Make a question: He plays football on Saturdays.",
+    "prompt_tr": "Soru cümlesi yap: He plays football on Saturdays.",
     "answer_text": "Does he play football on Saturdays?",
-    "accept": ["Does he play football on Saturdays", "Does he play football on saturdays"],
+    "accept": [
+      "Does he play football on Saturdays",
+      "Does he play football on saturdays"
+    ],
     "explain_tr": "He sorularında Does başa gelir ve -s düşer: Does he play football on Saturdays?",
     "rule_ref": "Docs/grammar/A1/a1-02-present-simple.md"
   }

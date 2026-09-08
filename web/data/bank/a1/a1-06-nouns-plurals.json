@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Can has two ___.",
-    "choices": ["book", "books", "bookes", "bookies"],
+    "prompt_tr": "Can'ın iki ___ var.",
+    "choices": [
+      "book",
+      "books",
+      "bookes",
+      "bookies"
+    ],
     "answer": 1,
     "explain_tr": "Çoğul genelde +s alır: Can has two books.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ shoes are new.",
-    "choices": ["This", "That", "These", "This one"],
+    "prompt_tr": "___ ayakkabılar yeni.",
+    "choices": [
+      "This",
+      "That",
+      "These",
+      "This one"
+    ],
     "answer": 2,
     "explain_tr": "Çoğul isimle these kullanılır: These shoes are new.",
     "trap_tr": "This + çoğul isim olmaz; sayı uyumu şarttır.",
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct plural sentence.",
-    "choices": ["The childs are playing.", "The childrens are playing.", "The children are playing.", "The child are playing."],
+    "prompt_tr": "Doğru çoğul cümleyi seç.",
+    "choices": [
+      "The childs are playing.",
+      "The childrens are playing.",
+      "The children are playing.",
+      "The child are playing."
+    ],
     "answer": 2,
     "explain_tr": "Child düzensizdir, çoğulu children olur: The children are playing.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Brush your ___ twice a day.",
-    "choices": ["tooth", "teeth", "tooths", "teeths"],
+    "prompt_tr": "Günde iki kez ___ fırçala.",
+    "choices": [
+      "tooth",
+      "teeth",
+      "tooths",
+      "teeths"
+    ],
     "answer": 1,
     "explain_tr": "Tooth düzensizdir, çoğulu teeth olur: Brush your teeth twice a day.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with apples.",
-    "choices": ["This apples are red.", "These apples are red.", "That apples are red.", "This apple are red."],
+    "prompt_tr": "Elmalar ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "This apples are red.",
+      "These apples are red.",
+      "That apples are red.",
+      "This apple are red."
+    ],
     "answer": 1,
     "explain_tr": "Çoğulla these/those kullanılır ve fiil are olur: These apples are red.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "There are three ___ at the door.",
-    "choices": ["man", "men", "mans", "mens"],
+    "prompt_tr": "Kapıda üç ___ var.",
+    "choices": [
+      "man",
+      "men",
+      "mans",
+      "mens"
+    ],
     "answer": 1,
     "explain_tr": "Man düzensizdir, çoğulu men olur: There are three men at the door.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with a bag.",
-    "choices": ["This is my bag.", "These is my bag.", "Those is my bag.", "This are my bag."],
+    "prompt_tr": "Çanta ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "This is my bag.",
+      "These is my bag.",
+      "Those is my bag.",
+      "This are my bag."
+    ],
     "answer": 0,
     "explain_tr": "Tekil isimle this + is kullanılır: This is my bag.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: She has three childs.",
+    "prompt_tr": "Hatayı düzelt: She has three childs.",
     "answer_text": "She has three children.",
-    "accept": ["She has three children", "She has three children."],
+    "accept": [
+      "She has three children",
+      "She has three children."
+    ],
     "explain_tr": "Child çoğulu children olur: She has three children.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "The ___ are sleeping.",
-    "choices": ["babys", "babies", "babyes", "baby"],
+    "prompt_tr": "___ uyuyor.",
+    "choices": [
+      "babys",
+      "babies",
+      "babyes",
+      "baby"
+    ],
     "answer": 1,
     "explain_tr": "Sessiz harf + y → ies olur: The babies are sleeping.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Two ___ are on the table.",
-    "choices": ["box", "boxs", "boxes", "boxies"],
+    "prompt_tr": "Masada iki ___ var.",
+    "choices": [
+      "box",
+      "boxs",
+      "boxes",
+      "boxies"
+    ],
     "answer": 2,
     "explain_tr": "-x ile biten isimler +es alır: Two boxes are on the table.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -127,7 +185,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with cars.",
-    "choices": ["That cars are old.", "Those cars are old.", "This cars are old.", "Those car are old."],
+    "prompt_tr": "Arabalar ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "That cars are old.",
+      "Those cars are old.",
+      "This cars are old.",
+      "Those car are old."
+    ],
     "answer": 1,
     "explain_tr": "Uzak + çoğul those ister: Those cars are old.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -139,7 +203,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I need some ___, not two waters.",
-    "choices": ["water", "waters", "wateres", "a water"],
+    "prompt_tr": "Biraz ___ lazım, iki su değil.",
+    "choices": [
+      "water",
+      "waters",
+      "wateres",
+      "a water"
+    ],
     "answer": 0,
     "explain_tr": "Water sayılamaz, çoğul almaz: I need some water.",
     "trap_tr": "Waters diye çoğul yapılmaz; miktar some ile verilir.",
@@ -152,7 +222,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct plural of knife.",
-    "choices": ["knifes", "knives", "knifeses", "knife"],
+    "prompt_tr": "\"knife\" kelimesinin doğru çoğulunu seç.",
+    "choices": [
+      "knifes",
+      "knives",
+      "knifeses",
+      "knife"
+    ],
     "answer": 1,
     "explain_tr": "f ile bitenlerde f → ves olur: knife → knives.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -164,7 +240,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ houses are very old.",
-    "choices": ["This", "That", "Those", "That one"],
+    "prompt_tr": "___ evler çok eski.",
+    "choices": [
+      "This",
+      "That",
+      "Those",
+      "That one"
+    ],
     "answer": 2,
     "explain_tr": "Çoğul + uzak mesafe those ister: Those houses are very old.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -176,7 +258,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with people.",
-    "choices": ["People is waiting.", "People are waiting.", "Peoples are waiting.", "A people is waiting."],
+    "prompt_tr": "\"people\" ile doğru cümleyi seç.",
+    "choices": [
+      "People is waiting.",
+      "People are waiting.",
+      "Peoples are waiting.",
+      "A people is waiting."
+    ],
     "answer": 1,
     "explain_tr": "People zaten çoğuldur ve are alır: People are waiting.",
     "trap_tr": "Peoples diye çoğul yapılmaz; people tek başına çoğuldur.",
@@ -189,8 +277,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: This books are mine.",
+    "prompt_tr": "Hatayı düzelt: This books are mine.",
     "answer_text": "These books are mine.",
-    "accept": ["These books are mine", "These books are mine."],
+    "accept": [
+      "These books are mine",
+      "These books are mine."
+    ],
     "explain_tr": "Çoğul isimle these kullanılır: These books are mine.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
   },
@@ -201,8 +293,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Write the plural: one sheep, two ___.",
+    "prompt_tr": "Çoğulu yaz: one sheep, two ___.",
     "answer_text": "Two sheep.",
-    "accept": ["Two sheep", "two sheep"],
+    "accept": [
+      "Two sheep",
+      "two sheep"
+    ],
     "explain_tr": "Sheep değişmez, tekil ve çoğul aynıdır: two sheep.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
   },
@@ -213,7 +309,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with information.",
-    "choices": ["I have two informations.", "I have some information.", "I have an information.", "I have three informations."],
+    "prompt_tr": "\"information\" ile doğru cümleyi seç.",
+    "choices": [
+      "I have two informations.",
+      "I have some information.",
+      "I have an information.",
+      "I have three informations."
+    ],
     "answer": 1,
     "explain_tr": "Information sayılamaz, some ile kullanılır: I have some information.",
     "trap_tr": "Informations diye bir kelime yoktur; sayılamaz listesini ezberle.",
@@ -226,7 +328,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct plural pair.",
-    "choices": ["citys / boys", "cities / boys", "citys / boies", "cities / boyes"],
+    "prompt_tr": "Doğru çoğul çiftini seç.",
+    "choices": [
+      "citys / boys",
+      "cities / boys",
+      "citys / boies",
+      "cities / boyes"
+    ],
     "answer": 1,
     "explain_tr": "Sessiz + y → ies (cities), sesli + y değişmez (boys).",
     "trap_tr": "Boy → boies hatası sesli harf kuralını kaçırmaktır.",
@@ -239,7 +347,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "My ___ is long.",
-    "choices": ["hair", "hairs", "hairies", "a hair"],
+    "prompt_tr": "Benim ___ uzun.",
+    "choices": [
+      "hair",
+      "hairs",
+      "hairies",
+      "a hair"
+    ],
     "answer": 0,
     "explain_tr": "Hair sayılamaz, çoğul almaz: My hair is long.",
     "trap_tr": "Hairs diye çoğul yapılmaz; tek tel için a strand of hair denir.",
@@ -252,8 +366,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I have three breads.",
+    "prompt_tr": "Hatayı düzelt: I have three breads.",
     "answer_text": "I have some bread.",
-    "accept": ["I have some bread", "I have three loaves of bread"],
+    "accept": [
+      "I have some bread",
+      "I have three loaves of bread"
+    ],
     "explain_tr": "Bread sayılamaz, some ile kullanılır: I have some bread.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
   },
@@ -264,7 +382,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ mice are in the kitchen.",
-    "choices": ["This", "That", "These", "This one"],
+    "prompt_tr": "___ fareler mutfakta.",
+    "choices": [
+      "This",
+      "That",
+      "These",
+      "This one"
+    ],
     "answer": 2,
     "explain_tr": "Mice çoğuldur, these ister: These mice are in the kitchen.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -276,7 +400,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with money.",
-    "choices": ["I have many moneys.", "Money are important.", "I have much money.", "I have a money."],
+    "prompt_tr": "\"money\" ile doğru cümleyi seç.",
+    "choices": [
+      "I have many moneys.",
+      "Money are important.",
+      "I have much money.",
+      "I have a money."
+    ],
     "answer": 2,
     "explain_tr": "Money sayılamaz, much ile kullanılır: I have much money.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -287,8 +417,14 @@
     "level": "A1",
     "difficulty": "hard",
     "type": "mcq",
-    "prompt": "Choose the correct sentence with feet.",
-    "choices": ["My foots hurt.", "My feet hurt.", "My foot hurt.", "My feets hurt."],
+    "prompt": "Pick the sentence with the right irregular plural.",
+    "prompt_tr": "Doğru çoğul cümleyi seç.",
+    "choices": [
+      "My foots hurt.",
+      "My feet hurt.",
+      "My foot hurt.",
+      "My feets hurt."
+    ],
     "answer": 1,
     "explain_tr": "Foot düzensizdir, çoğulu feet olur: My feet hurt.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
@@ -300,8 +436,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: He has three mans in his team.",
+    "prompt_tr": "Hatayı düzelt: He has three mans in his team.",
     "answer_text": "He has three men in his team.",
-    "accept": ["He has three men in his team", "He has three men in his team."],
+    "accept": [
+      "He has three men in his team",
+      "He has three men in his team."
+    ],
     "explain_tr": "Man çoğulu men olur: He has three men in his team.",
     "rule_ref": "Docs/grammar/A1/a1-06-nouns-plurals.md"
   }

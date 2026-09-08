@@ -1,1 +1,442 @@
-[{"answer":0,"choices":["who","which","whose","where"],"difficulty":"easy","explain_tr":"Kişi vurgusunda who kullanılır: It was Elif who won the race.","id":"b2-08-cleft-emphasis-e01","level":"B2","prompt":"It was Elif ___ won the race yesterday.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":2,"choices":["who","whose","that","where"],"difficulty":"easy","explain_tr":"Sebep ve nesne vurgusunda that kullanılır: It was the rain that delayed us.","id":"b2-08-cleft-emphasis-e02","level":"B2","prompt":"It was the rain ___ delayed our bus today.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":1,"choices":["are","is","were","be"],"difficulty":"easy","explain_tr":"What-cleft cümlede fiil tekil olur: What I need is a long holiday.","id":"b2-08-cleft-emphasis-e03","level":"B2","prompt":"What I need ___ a long holiday by the sea.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":0,"choices":["was","were","are","be"],"difficulty":"easy","explain_tr":"What-cleft cümlede fiil tekil olur: What surprised me was his silence.","id":"b2-08-cleft-emphasis-e04","level":"B2","prompt":"What surprised me ___ his long silence.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":3,"choices":["It was Burak which fixed the car.","It was Burak whose fixed the car.","It was Burak where fixed the car.","It was Burak who fixed the car."],"difficulty":"easy","explain_tr":"Kişi vurgusunda who kullanılır: It was Burak who fixed the car.","id":"b2-08-cleft-emphasis-e05","level":"B2","prompt":"Pick the correct it-cleft sentence about Burak fixing the car.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":0,"choices":["What I want is a coffee with milk.","What I want are a coffee with milk.","What I wants is a coffee with milk.","What I want be a coffee with milk."],"difficulty":"easy","explain_tr":"What-cleft cümlede fiil tekil olur: What I want is a coffee with milk.","id":"b2-08-cleft-emphasis-e06","level":"B2","prompt":"Pick the correct what-cleft sentence about wanting coffee.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":1,"choices":["It was in 2019 where we met first.","It was in 2019 that we met first.","It was in 2019 who we met first.","It was in 2019 whose we met first."],"difficulty":"easy","explain_tr":"Zaman vurgusunda that kullanılır: It was in 2019 that we met first.","id":"b2-08-cleft-emphasis-e07","level":"B2","prompt":"Pick the correct it-cleft sentence about meeting in 2019.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"accept":["It was Ali who called","It was Ali who called."],"answer_text":"It was Ali who called.","difficulty":"easy","explain_tr":"Vurgulanacak kişi It + be + kişi + who ile verilir: It was Ali who called.","id":"b2-08-cleft-emphasis-e08","level":"B2","prompt":"Ali called me last night. (Emphasise Ali with an it-cleft)","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"rewrite"},{"answer":0,"choices":["that","which","whose","where"],"difficulty":"medium","explain_tr":"Nesne vurgusunda that güvenlidir: It is my father that I admire.","id":"b2-08-cleft-emphasis-m01","level":"B2","prompt":"It is my father ___ I admire most in life.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":3,"choices":["who","whose","which","that"],"difficulty":"medium","explain_tr":"Zaman vurgusunda that kullanılır: It was at midnight that he left.","id":"b2-08-cleft-emphasis-m02","level":"B2","prompt":"It was at midnight ___ he left the dormitory.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":0,"choices":["was","were","are","be"],"difficulty":"medium","explain_tr":"What-cleft cümlede fiil tekil olur: What she said was shocking.","id":"b2-08-cleft-emphasis-m03","level":"B2","prompt":"What she said at dinner ___ shocking to us.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":1,"choices":["It was because of fog where the flight stopped.","It was because of fog that the flight stopped.","It was because of fog who the flight stopped.","It was because of fog whose the flight stopped."],"difficulty":"medium","explain_tr":"Sebep vurgusunda that kullanılır: It was because of fog that the flight stopped.","id":"b2-08-cleft-emphasis-m04","level":"B2","prompt":"Pick the correct it-cleft sentence about the fog delay.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":0,"choices":["What broke it was the fall from the shelf.","What broke it were the fall from the shelf.","What break it was the fall from the shelf.","What broke it be the fall from the shelf."],"difficulty":"medium","explain_tr":"What-cleft cümlede fiil tekil olur: What broke it was the fall from the shelf.","id":"b2-08-cleft-emphasis-m05","level":"B2","prompt":"Pick the correct what-cleft sentence about the broken vase.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":2,"choices":["It was the last bus where we caught.","It was the last bus who we caught.","It was the last bus that we caught.","It was the last bus whose we caught."],"difficulty":"medium","explain_tr":"Nesne vurgusunda that kullanılır: It was the last bus that we caught.","id":"b2-08-cleft-emphasis-m06","level":"B2","prompt":"Pick the correct it-cleft sentence about catching the last bus.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":0,"choices":["All I want is honesty from friends.","All I want are honesty from friends.","All I wants is honesty from friends.","All I want be honesty from friends."],"difficulty":"medium","explain_tr":"All-cleft cümlede fiil tekil olur: All I want is honesty from friends.","id":"b2-08-cleft-emphasis-m07","level":"B2","prompt":"Pick the correct all-cleft sentence about honesty.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"accept":["What I need is some sleep","What I need is some sleep."],"answer_text":"What I need is some sleep.","difficulty":"medium","explain_tr":"İhtiyaç vurgusu what-cleft ile verilir: What I need is some sleep.","id":"b2-08-cleft-emphasis-m08","level":"B2","prompt":"I need some sleep after the exam. (Emphasise with a what-cleft)","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"rewrite"},{"accept":["It was in Ankara that we first met","It was in Ankara that we first met."],"answer_text":"It was in Ankara that we first met.","difficulty":"medium","explain_tr":"Yer vurgusu it-cleft ile verilir: It was in Ankara that we first met.","id":"b2-08-cleft-emphasis-m09","level":"B2","prompt":"We first met in Ankara last year. (Emphasise Ankara with an it-cleft)","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"rewrite"},{"answer":1,"choices":["which","who","whose","where"],"difficulty":"hard","explain_tr":"Kişi vurgusunda which kullanılmaz: It was my mother who called the school.","id":"b2-08-cleft-emphasis-h01","level":"B2","prompt":"It was my mother ___ called the school this morning.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":0,"choices":["is","are","were","be"],"difficulty":"hard","explain_tr":"What-cleft cümlede çoğul fiil yanlıştır: What I hate is traffic jams.","id":"b2-08-cleft-emphasis-h02","level":"B2","prompt":"What I hate ___ traffic jams in Istanbul.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":3,"choices":["who","whose","where","that"],"difficulty":"hard","explain_tr":"Kahve vurgusunda that doğrudur: It is coffee that keeps me awake.","id":"b2-08-cleft-emphasis-h03","level":"B2","prompt":"It is strong coffee ___ keeps me awake at night.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"gap-fill"},{"answer":0,"choices":["It was Elif who won the chess final.","It was Elif which won the chess final.","It was Elif whose won the chess final.","It was Elif where won the chess final."],"difficulty":"hard","explain_tr":"Kişi vurgusunda who gerekir: It was Elif who won the chess final.","id":"b2-08-cleft-emphasis-h04","level":"B2","prompt":"Pick the correct it-cleft sentence about Elif winning the final.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":2,"choices":["What I need are some apples for pie.","What I needs are some apples for pie.","What I need is some apples for pie.","What I need be some apples for pie."],"difficulty":"hard","explain_tr":"What-cleft cümlede fiil tekil olur: What I need is some apples for pie.","id":"b2-08-cleft-emphasis-h05","level":"B2","prompt":"Pick the correct what-cleft sentence about needing apples.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"answer":1,"choices":["It was him broke the window yesterday.","It was he who broke the window yesterday.","It was him who break the window yesterday.","It was he which broke the window yesterday."],"difficulty":"hard","explain_tr":"Resmi cleft cümlede özne zamiri gerekir: It was he who broke the window yesterday.","id":"b2-08-cleft-emphasis-h06","level":"B2","prompt":"Pick the correct it-cleft sentence about breaking the window.","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"mcq"},{"accept":["It was Mehmet who repaired the fence","It was Mehmet who repaired the fence."],"answer_text":"It was Mehmet who repaired the fence.","difficulty":"hard","explain_tr":"Faili vurgulamak için it-cleft kullanılır: It was Mehmet who repaired the fence.","id":"b2-08-cleft-emphasis-h07","level":"B2","prompt":"Mehmet repaired the fence last week. (Emphasise Mehmet with an it-cleft)","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"rewrite"},{"accept":["What shocked us was his sudden answer","What shocked us was his sudden answer."],"answer_text":"What shocked us was his sudden answer.","difficulty":"hard","explain_tr":"Olay vurgusu what-cleft ile verilir: What shocked us was his sudden answer.","id":"b2-08-cleft-emphasis-h08","level":"B2","prompt":"His sudden answer shocked us all. (Emphasise with a what-cleft)","rule_ref":"Docs/grammar/B2/b2-08-cleft-emphasis.md","topic":"b2-08-cleft-emphasis","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Kişi vurgusunda who kullanılır: It was Elif who won the race.",
+    "id": "b2-08-cleft-emphasis-e01",
+    "level": "B2",
+    "prompt": "It was Elif ___ won the race yesterday.",
+    "prompt_tr": "Dün yarışı kazanan ___ Elif'ti.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "who",
+      "whose",
+      "that",
+      "where"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Sebep ve nesne vurgusunda that kullanılır: It was the rain that delayed us.",
+    "id": "b2-08-cleft-emphasis-e02",
+    "level": "B2",
+    "prompt": "It was the rain ___ delayed our bus today.",
+    "prompt_tr": "Bugün otobüsümüzü geciktiren ___ yağmurdu.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What I need is a long holiday.",
+    "id": "b2-08-cleft-emphasis-e03",
+    "level": "B2",
+    "prompt": "What I need ___ a long holiday by the sea.",
+    "prompt_tr": "İhtiyacım olan ___ deniz kenarında uzun bir tatil.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was",
+      "were",
+      "are",
+      "be"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What surprised me was his silence.",
+    "id": "b2-08-cleft-emphasis-e04",
+    "level": "B2",
+    "prompt": "What surprised me ___ his long silence.",
+    "prompt_tr": "Beni şaşırtan ___ onun uzun sessizliğiydi.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "It was Burak which fixed the car.",
+      "It was Burak whose fixed the car.",
+      "It was Burak where fixed the car.",
+      "It was Burak who fixed the car."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Kişi vurgusunda who kullanılır: It was Burak who fixed the car.",
+    "id": "b2-08-cleft-emphasis-e05",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about Burak fixing the car.",
+    "prompt_tr": "Burak'ın arabayı tamir etmesiyle ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "What I want is a coffee with milk.",
+      "What I want are a coffee with milk.",
+      "What I wants is a coffee with milk.",
+      "What I want be a coffee with milk."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What I want is a coffee with milk.",
+    "id": "b2-08-cleft-emphasis-e06",
+    "level": "B2",
+    "prompt": "Pick the correct what-cleft sentence about wanting coffee.",
+    "prompt_tr": "Kahve istemekle ilgili doğru what-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "It was in 2019 where we met first.",
+      "It was in 2019 that we met first.",
+      "It was in 2019 who we met first.",
+      "It was in 2019 whose we met first."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Zaman vurgusunda that kullanılır: It was in 2019 that we met first.",
+    "id": "b2-08-cleft-emphasis-e07",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about meeting in 2019.",
+    "prompt_tr": "2019'da buluşmakla ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "It was Ali who called",
+      "It was Ali who called."
+    ],
+    "answer_text": "It was Ali who called.",
+    "difficulty": "easy",
+    "explain_tr": "Vurgulanacak kişi It + be + kişi + who ile verilir: It was Ali who called.",
+    "id": "b2-08-cleft-emphasis-e08",
+    "level": "B2",
+    "prompt": "Ali called me last night. (Emphasise Ali with an it-cleft)",
+    "prompt_tr": "It-cleft ile Ali'yi vurgula: Ali called me last night.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "that",
+      "which",
+      "whose",
+      "where"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Nesne vurgusunda that güvenlidir: It is my father that I admire.",
+    "id": "b2-08-cleft-emphasis-m01",
+    "level": "B2",
+    "prompt": "It is my father ___ I admire most in life.",
+    "prompt_tr": "Hayatta en çok ___ hayran olduğum babamdır.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "who",
+      "whose",
+      "which",
+      "that"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Zaman vurgusunda that kullanılır: It was at midnight that he left.",
+    "id": "b2-08-cleft-emphasis-m02",
+    "level": "B2",
+    "prompt": "It was at midnight ___ he left the dormitory.",
+    "prompt_tr": "Yurttan ___ gece yarısı ayrıldı.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was",
+      "were",
+      "are",
+      "be"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What she said was shocking.",
+    "id": "b2-08-cleft-emphasis-m03",
+    "level": "B2",
+    "prompt": "What she said at dinner ___ shocking to us.",
+    "prompt_tr": "Akşam yemekte söyledikleri bize ___ korkutucuydu.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "It was because of fog where the flight stopped.",
+      "It was because of fog that the flight stopped.",
+      "It was because of fog who the flight stopped.",
+      "It was because of fog whose the flight stopped."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Sebep vurgusunda that kullanılır: It was because of fog that the flight stopped.",
+    "id": "b2-08-cleft-emphasis-m04",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about the fog delay.",
+    "prompt_tr": "Sis gecikmesiyle ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "What broke it was the fall from the shelf.",
+      "What broke it were the fall from the shelf.",
+      "What break it was the fall from the shelf.",
+      "What broke it be the fall from the shelf."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What broke it was the fall from the shelf.",
+    "id": "b2-08-cleft-emphasis-m05",
+    "level": "B2",
+    "prompt": "Pick the correct what-cleft sentence about the broken vase.",
+    "prompt_tr": "Kırık vazoyla ilgili doğru what-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "It was the last bus where we caught.",
+      "It was the last bus who we caught.",
+      "It was the last bus that we caught.",
+      "It was the last bus whose we caught."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Nesne vurgusunda that kullanılır: It was the last bus that we caught.",
+    "id": "b2-08-cleft-emphasis-m06",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about catching the last bus.",
+    "prompt_tr": "Son otobüsü yakalamakla ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "All I want is honesty from friends.",
+      "All I want are honesty from friends.",
+      "All I wants is honesty from friends.",
+      "All I want be honesty from friends."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "All-cleft cümlede fiil tekil olur: All I want is honesty from friends.",
+    "id": "b2-08-cleft-emphasis-m07",
+    "level": "B2",
+    "prompt": "Pick the correct all-cleft sentence about honesty.",
+    "prompt_tr": "Dürüstlükle ilgili doğru all-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "What I need is some sleep",
+      "What I need is some sleep."
+    ],
+    "answer_text": "What I need is some sleep.",
+    "difficulty": "medium",
+    "explain_tr": "İhtiyaç vurgusu what-cleft ile verilir: What I need is some sleep.",
+    "id": "b2-08-cleft-emphasis-m08",
+    "level": "B2",
+    "prompt": "I need some sleep after the exam. (Emphasise with a what-cleft)",
+    "prompt_tr": "What-cleft ile vurgula: I need some sleep after the exam.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "It was in Ankara that we first met",
+      "It was in Ankara that we first met."
+    ],
+    "answer_text": "It was in Ankara that we first met.",
+    "difficulty": "medium",
+    "explain_tr": "Yer vurgusu it-cleft ile verilir: It was in Ankara that we first met.",
+    "id": "b2-08-cleft-emphasis-m09",
+    "level": "B2",
+    "prompt": "We first met in Ankara last year. (Emphasise Ankara with an it-cleft)",
+    "prompt_tr": "It-cleft ile Ankara'yı vurgula: We first met in Ankara last year.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "rewrite"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "which",
+      "who",
+      "whose",
+      "where"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Kişi vurgusunda which kullanılmaz: It was my mother who called the school.",
+    "id": "b2-08-cleft-emphasis-h01",
+    "level": "B2",
+    "prompt": "It was my mother ___ called the school this morning.",
+    "prompt_tr": "Bu sabah okulu arayan ___ annemdi.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "What-cleft cümlede çoğul fiil yanlıştır: What I hate is traffic jams.",
+    "id": "b2-08-cleft-emphasis-h02",
+    "level": "B2",
+    "prompt": "What I hate ___ traffic jams in Istanbul.",
+    "prompt_tr": "Nefret ettiğim şey ___ İstanbul'daki trafik sıkışıklığı.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "who",
+      "whose",
+      "where",
+      "that"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Kahve vurgusunda that doğrudur: It is coffee that keeps me awake.",
+    "id": "b2-08-cleft-emphasis-h03",
+    "level": "B2",
+    "prompt": "It is strong coffee ___ keeps me awake at night.",
+    "prompt_tr": "Beni gece uyanık tutan ___ sert kahvedir.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "It was Elif who won the chess final.",
+      "It was Elif which won the chess final.",
+      "It was Elif whose won the chess final.",
+      "It was Elif where won the chess final."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Kişi vurgusunda who gerekir: It was Elif who won the chess final.",
+    "id": "b2-08-cleft-emphasis-h04",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about Elif winning the final.",
+    "prompt_tr": "Elif'in finali kazanmasıyla ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "What I need are some apples for pie.",
+      "What I needs are some apples for pie.",
+      "What I need is some apples for pie.",
+      "What I need be some apples for pie."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "What-cleft cümlede fiil tekil olur: What I need is some apples for pie.",
+    "id": "b2-08-cleft-emphasis-h05",
+    "level": "B2",
+    "prompt": "Pick the correct what-cleft sentence about needing apples.",
+    "prompt_tr": "Elmaya ihtiyaç duymakla ilgili doğru what-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "It was him broke the window yesterday.",
+      "It was he who broke the window yesterday.",
+      "It was him who break the window yesterday.",
+      "It was he which broke the window yesterday."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Resmi cleft cümlede özne zamiri gerekir: It was he who broke the window yesterday.",
+    "id": "b2-08-cleft-emphasis-h06",
+    "level": "B2",
+    "prompt": "Pick the correct it-cleft sentence about breaking the window.",
+    "prompt_tr": "Camı kırmakla ilgili doğru it-cleft cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "It was Mehmet who repaired the fence",
+      "It was Mehmet who repaired the fence."
+    ],
+    "answer_text": "It was Mehmet who repaired the fence.",
+    "difficulty": "hard",
+    "explain_tr": "Faili vurgulamak için it-cleft kullanılır: It was Mehmet who repaired the fence.",
+    "id": "b2-08-cleft-emphasis-h07",
+    "level": "B2",
+    "prompt": "Mehmet repaired the fence last week. (Emphasise Mehmet with an it-cleft)",
+    "prompt_tr": "It-cleft ile Mehmet'i vurgula: Mehmet repaired the fence last week.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "What shocked us was his sudden answer",
+      "What shocked us was his sudden answer."
+    ],
+    "answer_text": "What shocked us was his sudden answer.",
+    "difficulty": "hard",
+    "explain_tr": "Olay vurgusu what-cleft ile verilir: What shocked us was his sudden answer.",
+    "id": "b2-08-cleft-emphasis-h08",
+    "level": "B2",
+    "prompt": "His sudden answer shocked us all. (Emphasise with a what-cleft)",
+    "prompt_tr": "What-cleft ile vurgula: His sudden answer shocked us all.",
+    "rule_ref": "Docs/grammar/B2/b2-08-cleft-emphasis.md",
+    "topic": "b2-08-cleft-emphasis",
+    "type": "rewrite"
+  }
+]

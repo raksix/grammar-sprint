@@ -6,7 +6,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ to Ankara last month.",
-    "choices": ["go", "went", "goed", "going"],
+    "choices": [
+      "go",
+      "went",
+      "goed",
+      "going"
+    ],
     "answer": 1,
     "explain_tr": "Go fiilinin geçmiş hali went olur ve -ed almaz: I went to Ankara.",
     "trap_tr": "Düzensiz fiillere -ed eklenmez.",
@@ -19,7 +24,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ breakfast early today.",
-    "choices": ["ate", "eat", "eated", "eating"],
+    "choices": [
+      "ate",
+      "eat",
+      "eated",
+      "eating"
+    ],
     "answer": 0,
     "explain_tr": "Eat fiilinin geçmiş hali ate olur: She ate breakfast.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -31,7 +41,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about seeing an old friend yesterday.",
-    "choices": ["We seed an old friend yesterday.", "We seen an old friend yesterday.", "We saw an old friend yesterday.", "We see an old friend yesterday."],
+    "choices": [
+      "We seed an old friend yesterday.",
+      "We seen an old friend yesterday.",
+      "We saw an old friend yesterday.",
+      "We see an old friend yesterday."
+    ],
     "answer": 2,
     "explain_tr": "See fiilinin geçmiş hali saw olur: We saw an old friend.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -43,7 +58,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you drink your coffee?",
-    "choices": ["Did", "Do", "Does", "Are"],
+    "choices": [
+      "Did",
+      "Do",
+      "Does",
+      "Are"
+    ],
     "answer": 0,
     "explain_tr": "Geçmiş soruda Did + yalın fiil kullanılır: Did you drink your coffee.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -55,7 +75,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct past of buy about a new jacket.",
-    "choices": ["He buyed a new jacket.", "He bought a new jacket.", "He buy a new jacket.", "He buying a new jacket."],
+    "choices": [
+      "He buyed a new jacket.",
+      "He bought a new jacket.",
+      "He buy a new jacket.",
+      "He buying a new jacket."
+    ],
     "answer": 1,
     "explain_tr": "Buy fiilinin geçmiş hali bought olur: He bought a new jacket.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -67,7 +92,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ at home last night.",
-    "choices": ["was", "is", "were", "are"],
+    "choices": [
+      "was",
+      "is",
+      "were",
+      "are"
+    ],
     "answer": 2,
     "explain_tr": "They öznesinde geçmiş was değil were olur: They were at home.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -78,8 +108,13 @@
     "level": "A2",
     "difficulty": "easy",
     "type": "mcq",
-    "prompt": "Choose the correct question about finding the keys.",
-    "choices": ["Did he find his keys?", "Did he found his keys?", "Does he found his keys?", "He found his keys?"],
+    "prompt": "Choose the correct question about the keys.",
+    "choices": [
+      "Did he find his keys?",
+      "Did he found his keys?",
+      "Does he found his keys?",
+      "He found his keys?"
+    ],
     "answer": 0,
     "explain_tr": "Did varsa fiil yalın kalır: Did he find his keys.",
     "trap_tr": "Did ile found aynı cümlede kullanılmaz.",
@@ -93,7 +128,10 @@
     "type": "rewrite",
     "prompt": "Make negative: I went home.",
     "answer_text": "I did not go home.",
-    "accept": ["I did not go home", "I didn't go home"],
+    "accept": [
+      "I did not go home",
+      "I didn't go home"
+    ],
     "explain_tr": "Olumsuzda went yalın hale döner: I didn't go home.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
   },
@@ -104,7 +142,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She ___ a long letter yesterday.",
-    "choices": ["writed", "write", "wrote", "writing"],
+    "choices": [
+      "writed",
+      "write",
+      "wrote",
+      "writing"
+    ],
     "answer": 2,
     "explain_tr": "Write fiilinin geçmiş hali wrote olur: She wrote a letter.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -116,7 +159,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They ___ home very late last night.",
-    "choices": ["came", "come", "comed", "coming"],
+    "choices": [
+      "came",
+      "come",
+      "comed",
+      "coming"
+    ],
     "answer": 0,
     "explain_tr": "Come fiilinin geçmiş hali came olur: They came home late.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -128,7 +176,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about taking the bus.",
-    "choices": ["I didn't took the bus.", "I didn't take the bus.", "I don't took the bus.", "I not take the bus."],
+    "choices": [
+      "I didn't took the bus.",
+      "I didn't take the bus.",
+      "I don't took the bus.",
+      "I not take the bus."
+    ],
     "answer": 1,
     "explain_tr": "Didn't varsa took yalınlaşır: I didn't take the bus.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -140,7 +193,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ his wallet on the bus.",
-    "choices": ["lose", "losed", "losing", "lost"],
+    "choices": [
+      "lose",
+      "losed",
+      "losing",
+      "lost"
+    ],
     "answer": 3,
     "explain_tr": "Lose fiilinin geçmiş hali lost olur: He lost his wallet.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -152,7 +210,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with have about having fun yesterday.",
-    "choices": ["The children haved fun yesterday.", "The children have fun yesterday.", "The children having fun yesterday.", "The children had fun yesterday."],
+    "choices": [
+      "The children haved fun yesterday.",
+      "The children have fun yesterday.",
+      "The children having fun yesterday.",
+      "The children had fun yesterday."
+    ],
     "answer": 3,
     "explain_tr": "Have fiilinin geçmiş hali had olur: The children had fun.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -164,7 +227,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "We ___ our teacher at the market.",
-    "choices": ["see", "saw", "seed", "seen"],
+    "choices": [
+      "see",
+      "saw",
+      "seed",
+      "seen"
+    ],
     "answer": 1,
     "explain_tr": "Tek başına geçmiş saw olur, seen yardımcı fiil ister: We saw our teacher.",
     "trap_tr": "Seen tek başına geçmiş zaman olamaz.",
@@ -177,7 +245,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct question about buying milk.",
-    "choices": ["Did you buy milk?", "Did you bought milk?", "Do you bought milk?", "You bought milk?"],
+    "choices": [
+      "Did you buy milk?",
+      "Did you bought milk?",
+      "Do you bought milk?",
+      "You bought milk?"
+    ],
     "answer": 0,
     "explain_tr": "Did sorusunda bought yalınlaşır: Did you buy milk.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -190,7 +263,10 @@
     "type": "rewrite",
     "prompt": "Make negative: She wrote back.",
     "answer_text": "She did not write back.",
-    "accept": ["She did not write back", "She didn't write back"],
+    "accept": [
+      "She did not write back",
+      "She didn't write back"
+    ],
     "explain_tr": "Olumsuzda wrote yalın hale döner: She didn't write back.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
   },
@@ -202,7 +278,10 @@
     "type": "rewrite",
     "prompt": "Make a question: He found his keys. (he)",
     "answer_text": "Did he find his keys?",
-    "accept": ["Did he find his keys", "Did he find his keys?"],
+    "accept": [
+      "Did he find his keys",
+      "Did he find his keys?"
+    ],
     "explain_tr": "Did sorusunda found yalınlaşır: Did he find his keys.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
   },
@@ -212,8 +291,13 @@
     "level": "A2",
     "difficulty": "hard",
     "type": "mcq",
-    "prompt": "Choose the correct sentence about reading comics last night.",
-    "choices": ["The children readed comics last night.", "The children reads comics last night.", "The children read comics last night.", "The children reading comics last night."],
+    "prompt": "Choose the correct sentence about comics last night.",
+    "choices": [
+      "The children readed comics last night.",
+      "The children reads comics last night.",
+      "The children read comics last night.",
+      "The children reading comics last night."
+    ],
     "answer": 2,
     "explain_tr": "Read yazımı değişmez ve geçmişte okunuşu red olur: The children read comics.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -225,7 +309,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He ___ me a great book for my birthday.",
-    "choices": ["gived", "give", "gave", "giving"],
+    "choices": [
+      "gived",
+      "give",
+      "gave",
+      "giving"
+    ],
     "answer": 2,
     "explain_tr": "Give fiilinin geçmiş hali gave olur: He gave me a book.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -237,7 +326,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about drinking coffee quickly.",
-    "choices": ["I drunk my coffee quickly.", "I drank my coffee quickly.", "I drinked my coffee quickly.", "I drinking my coffee quickly."],
+    "choices": [
+      "I drunk my coffee quickly.",
+      "I drank my coffee quickly.",
+      "I drinked my coffee quickly.",
+      "I drinking my coffee quickly."
+    ],
     "answer": 1,
     "explain_tr": "Tek başına geçmiş drank olur, drunk yardımcı fiil ister: I drank my coffee.",
     "trap_tr": "Drunk tek başına geçmiş zaman olamaz.",
@@ -250,7 +344,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about speaking to the teacher.",
-    "choices": ["She spoke to the teacher.", "She speaked to the teacher.", "She spoken to the teacher.", "She speaking to the teacher."],
+    "choices": [
+      "She spoke to the teacher.",
+      "She speaked to the teacher.",
+      "She spoken to the teacher.",
+      "She speaking to the teacher."
+    ],
     "answer": 0,
     "explain_tr": "Tek başına geçmiş spoke olur, spoken yardımcı fiil ister: She spoke to the teacher.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -262,7 +361,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "We ___ about the film for an hour.",
-    "choices": ["thinked", "think", "thinking", "thought"],
+    "choices": [
+      "thinked",
+      "think",
+      "thinking",
+      "thought"
+    ],
     "answer": 3,
     "explain_tr": "Think fiilinin geçmiş hali thought olur: We thought about the film.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -274,7 +378,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about losing the keys again.",
-    "choices": ["He losed his keys again.", "He lose his keys again.", "He losing his keys again.", "He lost his keys again."],
+    "choices": [
+      "He losed his keys again.",
+      "He lose his keys again.",
+      "He losing his keys again.",
+      "He lost his keys again."
+    ],
     "answer": 3,
     "explain_tr": "Lose fiilinin geçmiş hali lost olur: He lost his keys.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
@@ -287,7 +396,10 @@
     "type": "rewrite",
     "prompt": "Correct the error: Did you went home?",
     "answer_text": "Did you go home?",
-    "accept": ["Did you go home", "Did you go home?"],
+    "accept": [
+      "Did you go home",
+      "Did you go home?"
+    ],
     "explain_tr": "Did varsa went yalınlaşır: Did you go home.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
   },
@@ -299,7 +411,10 @@
     "type": "rewrite",
     "prompt": "Correct the error: I didn't saw him.",
     "answer_text": "I didn't see him.",
-    "accept": ["I didn't see him", "I did not see him"],
+    "accept": [
+      "I didn't see him",
+      "I did not see him"
+    ],
     "explain_tr": "Didn't varsa saw yalınlaşır: I didn't see him.",
     "rule_ref": "Docs/grammar/A2/a2-02-past-simple-irregular.md"
   }

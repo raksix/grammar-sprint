@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ a bank near here.",
-    "choices": ["There is", "There are", "There", "It is"],
+    "prompt_tr": "Burada yakınlarda bir banka ___ .",
+    "choices": [
+      "There is",
+      "There are",
+      "There",
+      "It is"
+    ],
     "answer": 0,
     "explain_tr": "Tekil varlık there is ile söylenir: There is a bank near here.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ two supermarkets on this street.",
-    "choices": ["There are", "There is", "There", "It are"],
+    "prompt_tr": "Bu sokakta iki market ___ .",
+    "choices": [
+      "There are",
+      "There is",
+      "There",
+      "It are"
+    ],
     "answer": 0,
     "explain_tr": "Çoğul varlık there are ile söylenir: There are two supermarkets on this street.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -30,7 +42,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with There is a cat.",
-    "choices": ["There is a cat in the garden.", "There are a cat in the garden.", "There a cat in the garden.", "It is a cat in the garden."],
+    "prompt_tr": "\"There is a cat\" ile doğru cümleyi seç.",
+    "choices": [
+      "There is a cat in the garden.",
+      "There are a cat in the garden.",
+      "There a cat in the garden.",
+      "It is a cat in the garden."
+    ],
     "answer": 0,
     "explain_tr": "a cat tekil, there is gerekir: There is a cat in the garden.",
     "trap_tr": "is/are seçimi there'ye değil, arkadaki isme bakılarak yapılır.",
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ there any shops nearby?",
-    "choices": ["Are", "Is", "Do", "Does"],
+    "prompt_tr": "Yakınlarda dükkân ___ mı?",
+    "choices": [
+      "Are",
+      "Is",
+      "Do",
+      "Does"
+    ],
     "answer": 0,
     "explain_tr": "shops çoğul, soru Are there ile başlar: Are there any shops nearby?",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question with Is there a toilet.",
-    "choices": ["Is there a toilet near here?", "Is there are a toilet near here?", "There is a toilet near here?", "Does there is a toilet near here?"],
+    "prompt_tr": "\"Is there a toilet\" ile doğru soruyu seç.",
+    "choices": [
+      "Is there a toilet near here?",
+      "Is there are a toilet near here?",
+      "There is a toilet near here?",
+      "Does there is a toilet near here?"
+    ],
     "answer": 0,
     "explain_tr": "Tekil soru Is there ile kurulur: Is there a toilet near here?",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I like tea ___ coffee.",
-    "choices": ["and", "but", "or", "so"],
+    "prompt_tr": "Çay ___ kahve severim.",
+    "choices": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
     "answer": 0,
     "explain_tr": "Ekleme and ile yapılır: I like tea and coffee.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with There are two banks.",
-    "choices": ["There are two banks here.", "There is two banks here.", "There two banks here.", "There are two bank here."],
+    "prompt_tr": "\"There are two banks\" ile doğru cümleyi seç.",
+    "choices": [
+      "There are two banks here.",
+      "There is two banks here.",
+      "There two banks here.",
+      "There are two bank here."
+    ],
     "answer": 0,
     "explain_tr": "two banks çoğul, there are ve çoğul isim gerekir: There are two banks here.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: There is many people here.",
+    "prompt_tr": "Hatayı düzelt: There is many people here.",
     "answer_text": "There are many people here.",
-    "accept": ["There are many people here", "There are many people here."],
+    "accept": [
+      "There are many people here",
+      "There are many people here."
+    ],
     "explain_tr": "people çoğul, there are gerekir: There are many people here.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative with There isn't any milk.",
-    "choices": ["There isn't any milk.", "There aren't any milk.", "There isn't some milk.", "There not is any milk."],
+    "prompt_tr": "\"There isn't any milk\" ile doğru olumsuz cümleyi seç.",
+    "choices": [
+      "There isn't any milk.",
+      "There aren't any milk.",
+      "There isn't some milk.",
+      "There not is any milk."
+    ],
     "answer": 0,
     "explain_tr": "milk sayılamaz tekil, olumsuz There isn't + any olur: There isn't any milk.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct question with How many brothers.",
-    "choices": ["How many brothers have you got?", "How much brothers have you got?", "How many brother have you got?", "How brothers have you got?"],
+    "prompt_tr": "\"How many brothers\" ile doğru soruyu seç.",
+    "choices": [
+      "How many brothers have you got?",
+      "How much brothers have you got?",
+      "How many brother have you got?",
+      "How brothers have you got?"
+    ],
     "answer": 0,
     "explain_tr": "brothers sayılabilir çoğul, How many + çoğul isim gerekir: How many brothers have you got?",
     "trap_tr": "Çoğul yapabildiğin isimde many, yapamadığında much kullanılır.",
@@ -128,7 +186,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with There aren't any eggs.",
-    "choices": ["There aren't any eggs left.", "There isn't any eggs left.", "There aren't some eggs left.", "There no are any eggs left."],
+    "prompt_tr": "\"There aren't any eggs\" ile doğru cümleyi seç.",
+    "choices": [
+      "There aren't any eggs left.",
+      "There isn't any eggs left.",
+      "There aren't some eggs left.",
+      "There no are any eggs left."
+    ],
     "answer": 0,
     "explain_tr": "eggs çoğul, olumsuz There aren't + any olur: There aren't any eggs left.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -140,7 +204,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ much sugar do you take?",
-    "choices": ["How", "What", "How many", "Which"],
+    "prompt_tr": "Ne kadar şeker ___ ?",
+    "choices": [
+      "How",
+      "What",
+      "How many",
+      "Which"
+    ],
     "answer": 0,
     "explain_tr": "sugar sayılamaz, How much sorulur: How much sugar do you take?",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -152,7 +222,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "It is small ___ comfortable.",
-    "choices": ["but", "and", "or", "so"],
+    "prompt_tr": "Küçük ___ rahat.",
+    "choices": [
+      "but",
+      "and",
+      "or",
+      "so"
+    ],
     "answer": 0,
     "explain_tr": "Zıtlık but ile bağlanır: It is small but comfortable.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -164,7 +240,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct contrast with but comfortable.",
-    "choices": ["It is small but comfortable.", "It is small but comfort.", "It small but comfortable.", "It is small but comfortably."],
+    "prompt_tr": "\"but comfortable\" ile doğru karşıtlık cümlesini seç.",
+    "choices": [
+      "It is small but comfortable.",
+      "It is small but comfort.",
+      "It small but comfortable.",
+      "It is small but comfortably."
+    ],
     "answer": 0,
     "explain_tr": "but'tan sonra sıfat aynen gelir: It is small but comfortable.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -176,8 +258,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: How much brothers have you got?",
+    "prompt_tr": "Hatayı düzelt: How much brothers have you got?",
     "answer_text": "How many brothers have you got?",
-    "accept": ["How many brothers have you got", "How many brothers have you got?"],
+    "accept": [
+      "How many brothers have you got",
+      "How many brothers have you got?"
+    ],
     "explain_tr": "brothers sayılabilir, How many gerekir: How many brothers have you got?",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
   },
@@ -188,7 +274,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "It is raining, ___ take an umbrella.",
-    "choices": ["so", "because", "but", "or"],
+    "prompt_tr": "Yağmur yağıyor, ___ şemsiye al.",
+    "choices": [
+      "so",
+      "because",
+      "but",
+      "or"
+    ],
     "answer": 0,
     "explain_tr": "Sonuç so ile bağlanır: It is raining, so take an umbrella.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -200,7 +292,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct result with so take.",
-    "choices": ["It is raining, so take an umbrella.", "It is raining, so to take an umbrella.", "It is raining, so takes an umbrella.", "It is raining, because take an umbrella."],
+    "prompt_tr": "\"so take\" ile doğru sonuç cümlesini seç.",
+    "choices": [
+      "It is raining, so take an umbrella.",
+      "It is raining, so to take an umbrella.",
+      "It is raining, so takes an umbrella.",
+      "It is raining, because take an umbrella."
+    ],
     "answer": 0,
     "explain_tr": "so'dan sonra emir yalın fiille gelir: It is raining, so take an umbrella.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -212,7 +310,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "She stayed at home ___ she was ill.",
-    "choices": ["because", "because of", "so", "but"],
+    "prompt_tr": "Hasta ___ evde kaldı.",
+    "choices": [
+      "because",
+      "because of",
+      "so",
+      "but"
+    ],
     "answer": 0,
     "explain_tr": "Cümle gelen sebep because ile bağlanır: She stayed at home because she was ill.",
     "trap_tr": "because'dan sonra özne + fiil şarttır, isim gelmez.",
@@ -225,7 +329,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct reason with because she was ill.",
-    "choices": ["She stayed at home because she was ill.", "She stayed at home because the illness.", "She stayed at home because of she was ill.", "She stayed at home because of was ill."],
+    "prompt_tr": "\"because she was ill\" ile doğru sebep cümlesini seç.",
+    "choices": [
+      "She stayed at home because she was ill.",
+      "She stayed at home because the illness.",
+      "She stayed at home because of she was ill.",
+      "She stayed at home because of was ill."
+    ],
     "answer": 0,
     "explain_tr": "because + cümle, because of + isim olur: She stayed at home because she was ill.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -237,7 +347,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "I stayed home ___ the heavy rain.",
-    "choices": ["because of", "because", "so", "but"],
+    "prompt_tr": "Şiddetli yağmur ___ evde kaldım.",
+    "choices": [
+      "because of",
+      "because",
+      "so",
+      "but"
+    ],
     "answer": 0,
     "explain_tr": "İsim gelen sebep because of alır: I stayed home because of the heavy rain.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -249,7 +365,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with There are many shops.",
-    "choices": ["There are many shops here.", "There is many shops here.", "There many shops here.", "There are much shops here."],
+    "prompt_tr": "\"There are many shops\" ile doğru cümleyi seç.",
+    "choices": [
+      "There are many shops here.",
+      "There is many shops here.",
+      "There many shops here.",
+      "There are much shops here."
+    ],
     "answer": 0,
     "explain_tr": "shops sayılabilir çoğul, there are + many gerekir: There are many shops here.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
@@ -261,8 +383,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: There is a lot of people here today.",
+    "prompt_tr": "Hatayı düzelt: There is a lot of people here today.",
     "answer_text": "There are a lot of people here today.",
-    "accept": ["There are a lot of people here today", "There are a lot of people here today."],
+    "accept": [
+      "There are a lot of people here today",
+      "There are a lot of people here today."
+    ],
     "explain_tr": "people çoğul, a lot of olsa bile are gerekir: There are a lot of people here today.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
   },
@@ -273,7 +399,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "I have some friends, but I don't have ___ money.",
-    "choices": ["any", "some", "many", "a"],
+    "prompt_tr": "Birkaç arkadaşım var ama ___ param yok.",
+    "choices": [
+      "any",
+      "some",
+      "many",
+      "a"
+    ],
     "answer": 0,
     "explain_tr": "Olumsuz cümlede any kullanılır: I don't have any money.",
     "trap_tr": "some olumluda, any olumsuz ve soruda kullanılır.",
@@ -286,8 +418,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I stayed home because of it was cold.",
+    "prompt_tr": "Hatayı düzelt: I stayed home because of it was cold.",
     "answer_text": "I stayed home because it was cold.",
-    "accept": ["I stayed home because it was cold", "I stayed home because it was cold."],
+    "accept": [
+      "I stayed home because it was cold",
+      "I stayed home because it was cold."
+    ],
     "explain_tr": "Cümle geldiği için because of değil because olur: I stayed home because it was cold.",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
   },
@@ -298,8 +434,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: How many money have you got?",
+    "prompt_tr": "Hatayı düzelt: How many money have you got?",
     "answer_text": "How much money have you got?",
-    "accept": ["How much money have you got", "How much money have you got?"],
+    "accept": [
+      "How much money have you got",
+      "How much money have you got?"
+    ],
     "explain_tr": "money sayılamaz, How much gerekir: How much money have you got?",
     "rule_ref": "Docs/grammar/A1/a1-12-there-is-are-connectors.md"
   }

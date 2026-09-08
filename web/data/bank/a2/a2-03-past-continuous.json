@@ -6,7 +6,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ sleeping at 10 p.m.",
-    "choices": ["was", "were", "am", "is"],
+    "choices": [
+      "was",
+      "were",
+      "am",
+      "is"
+    ],
     "answer": 0,
     "explain_tr": "I öznesinde past continuous was + -ing olur: I was sleeping.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -18,7 +23,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ playing football all afternoon.",
-    "choices": ["was", "were", "is", "are"],
+    "choices": [
+      "was",
+      "were",
+      "is",
+      "are"
+    ],
     "answer": 1,
     "explain_tr": "They öznesinde past continuous were + -ing olur: They were playing.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -30,7 +40,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about reading at 8 p.m. yesterday.",
-    "choices": ["She were reading at 8 p.m.", "She is reading at 8 p.m.", "She was reading at 8 p.m.", "She reading at 8 p.m."],
+    "choices": [
+      "She were reading at 8 p.m.",
+      "She is reading at 8 p.m.",
+      "She was reading at 8 p.m.",
+      "She reading at 8 p.m."
+    ],
     "answer": 2,
     "explain_tr": "She öznesinde was kullanılır: She was reading at 8.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -42,7 +57,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ it raining this morning?",
-    "choices": ["Was", "Were", "Is", "Are"],
+    "choices": [
+      "Was",
+      "Were",
+      "Is",
+      "Are"
+    ],
     "answer": 0,
     "explain_tr": "It öznesinde soru Was ile başlar: Was it raining.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -54,7 +74,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about listening in class.",
-    "choices": ["We wasn't listening.", "We weren't listening.", "We isn't listening.", "We not listening."],
+    "choices": [
+      "We wasn't listening.",
+      "We weren't listening.",
+      "We isn't listening.",
+      "We not listening."
+    ],
     "answer": 1,
     "explain_tr": "We öznesinde olumsuz weren't + -ing olur: We weren't listening.",
     "trap_tr": "We ve you öznelerinde was kullanılmaz.",
@@ -67,7 +92,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "The baby ___ crying loudly.",
-    "choices": ["were", "is", "are", "was"],
+    "choices": [
+      "were",
+      "is",
+      "are",
+      "was"
+    ],
     "answer": 3,
     "explain_tr": "The baby tekil özne sayılır ve was alır: The baby was crying.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -79,7 +109,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about doing homework at 8 p.m.",
-    "choices": ["Were you doing homework at 8?", "Was you doing homework at 8?", "Are you doing homework at 8?", "You doing homework at 8?"],
+    "choices": [
+      "Were you doing homework at 8?",
+      "Was you doing homework at 8?",
+      "Are you doing homework at 8?",
+      "You doing homework at 8?"
+    ],
     "answer": 0,
     "explain_tr": "You sorularında Were başa gelir: Were you doing homework.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -92,7 +127,10 @@
     "type": "rewrite",
     "prompt": "Make negative: She was cooking.",
     "answer_text": "She was not cooking.",
-    "accept": ["She was not cooking", "She wasn't cooking"],
+    "accept": [
+      "She was not cooking",
+      "She wasn't cooking"
+    ],
     "explain_tr": "Olumsuz was not + -ing olur: She wasn't cooking.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
   },
@@ -103,7 +141,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She was cooking when I ___.",
-    "choices": ["arrive", "arrives", "arrived", "arriving"],
+    "choices": [
+      "arrive",
+      "arrives",
+      "arrived",
+      "arriving"
+    ],
     "answer": 2,
     "explain_tr": "When ile bölünen kısa eylem past simple olur: when I arrived.",
     "trap_tr": "Uzun eylem continuous, kısa kesen eylem past simple olur.",
@@ -116,7 +159,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ I was cooking, he arrived.",
-    "choices": ["While", "When", "During", "For"],
+    "choices": [
+      "While",
+      "When",
+      "During",
+      "For"
+    ],
     "answer": 0,
     "explain_tr": "Uzun süren eylem while ile verilir: While I was cooking.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -128,7 +176,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about an interrupted dinner.",
-    "choices": ["I cooked when the phone was ringing.", "I cooking when the phone rang.", "I was cooking when the phone rang.", "I cook when the phone rang."],
+    "choices": [
+      "I cooked when the phone was ringing.",
+      "I cooking when the phone rang.",
+      "I was cooking when the phone rang.",
+      "I cook when the phone rang."
+    ],
     "answer": 2,
     "explain_tr": "Uzun eylem was cooking, kesen eylem rang olur: I was cooking when the phone rang.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -140,7 +193,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "At 9 p.m. we ___ watching a match.",
-    "choices": ["was", "is", "were", "are"],
+    "choices": [
+      "was",
+      "is",
+      "were",
+      "are"
+    ],
     "answer": 2,
     "explain_tr": "We öznesinde were kullanılır: we were watching a match.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -152,7 +210,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about driving in the rain.",
-    "choices": ["While he drove, it was starting to rain.", "While he driving, it started to rain.", "While he was driving, it started to rain.", "While he drives, it started to rain."],
+    "choices": [
+      "While he drove, it was starting to rain.",
+      "While he driving, it started to rain.",
+      "While he was driving, it started to rain.",
+      "While he drives, it started to rain."
+    ],
     "answer": 2,
     "explain_tr": "While uzun eylemi continuous yapar: While he was driving it started to rain.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -164,7 +227,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I ___ my homework at 8 p.m.",
-    "choices": ["was doing", "were doing", "am doing", "is doing"],
+    "choices": [
+      "was doing",
+      "were doing",
+      "am doing",
+      "is doing"
+    ],
     "answer": 0,
     "explain_tr": "I öznesinde was doing olur: I was doing my homework.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -176,7 +244,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about cooking and watching TV together.",
-    "choices": ["I was cooking while he watching TV.", "I cooking while he was watching TV.", "I was cooking while he was watching TV.", "I cook while he watches TV last night."],
+    "choices": [
+      "I was cooking while he watching TV.",
+      "I cooking while he was watching TV.",
+      "I was cooking while he was watching TV.",
+      "I cook while he watches TV last night."
+    ],
     "answer": 2,
     "explain_tr": "İki uzun eşzamanlı eylemde ikisi de continuous olur: I was cooking while he was watching.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -189,7 +262,10 @@
     "type": "rewrite",
     "prompt": "Correct the error: You was sleeping.",
     "answer_text": "You were sleeping.",
-    "accept": ["You were sleeping", "You were sleeping."],
+    "accept": [
+      "You were sleeping",
+      "You were sleeping."
+    ],
     "explain_tr": "You öznesinde was değil were kullanılır: You were sleeping.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
   },
@@ -201,7 +277,10 @@
     "type": "rewrite",
     "prompt": "Join with when: I / cook + the phone / ring.",
     "answer_text": "I was cooking when the phone rang.",
-    "accept": ["I was cooking when the phone rang", "I was cooking when the phone rang."],
+    "accept": [
+      "I was cooking when the phone rang",
+      "I was cooking when the phone rang."
+    ],
     "explain_tr": "Uzun eylem was cooking olur ve when kısa eylemi bağlar.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
   },
@@ -212,7 +291,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about arriving during cooking.",
-    "choices": ["While he arrived, I was cooking.", "When he arrived, I was cooking.", "When he was arriving, I cooked.", "When he arrives, I was cooking."],
+    "choices": [
+      "While he arrived, I was cooking.",
+      "When he arrived, I was cooking.",
+      "When he was arriving, I cooked.",
+      "When he arrives, I was cooking."
+    ],
     "answer": 1,
     "explain_tr": "Kısa bitmiş eylem when ile gelir: When he arrived I was cooking.",
     "trap_tr": "While kısa eylemle kullanılmaz.",
@@ -225,7 +309,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ I was studying, my sister was playing.",
-    "choices": ["When", "While", "During", "For"],
+    "choices": [
+      "When",
+      "While",
+      "During",
+      "For"
+    ],
     "answer": 1,
     "explain_tr": "Cümle başında uzun eylem while ister: While I was studying.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -237,7 +326,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about laughing during the film.",
-    "choices": ["They were laughing during the film.", "They was laughing during the film.", "They laughing during the film.", "They laugh during the film yesterday."],
+    "choices": [
+      "They were laughing during the film.",
+      "They was laughing during the film.",
+      "They laughing during the film.",
+      "They laugh during the film yesterday."
+    ],
     "answer": 0,
     "explain_tr": "They öznesinde were + -ing olur: They were laughing.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -249,7 +343,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct negative question about sleeping at midnight.",
-    "choices": ["Wasn't you sleeping at midnight?", "Weren't you sleep at midnight?", "You weren't sleeping at midnight?", "Weren't you sleeping at midnight?"],
+    "choices": [
+      "Wasn't you sleeping at midnight?",
+      "Weren't you sleep at midnight?",
+      "You weren't sleeping at midnight?",
+      "Weren't you sleeping at midnight?"
+    ],
     "answer": 3,
     "explain_tr": "You sorusunda Weren't + -ing olur: Weren't you sleeping at midnight.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -261,7 +360,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He ___ to school when he saw Elif.",
-    "choices": ["was going", "were going", "is going", "goes"],
+    "choices": [
+      "was going",
+      "were going",
+      "is going",
+      "goes"
+    ],
     "answer": 0,
     "explain_tr": "He öznesinde was going olur: He was going when he saw Elif.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -272,8 +376,13 @@
     "level": "A2",
     "difficulty": "hard",
     "type": "mcq",
-    "prompt": "Choose the sentence with the correct -ing spelling about running in the park.",
-    "choices": ["They were runing in the park.", "They were running in the park.", "They were runnig in the park.", "They were run in the park."],
+    "prompt": "Choose the sentence with the correct spelling about the park.",
+    "choices": [
+      "They were runing in the park.",
+      "They were running in the park.",
+      "They were runnig in the park.",
+      "They were run in the park."
+    ],
     "answer": 1,
     "explain_tr": "Run kısa fiil kuralıyla ikizlenir: They were running in the park.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
@@ -286,7 +395,10 @@
     "type": "rewrite",
     "prompt": "Correct the error: She was go to school.",
     "answer_text": "She was going to school.",
-    "accept": ["She was going to school", "She was going to school."],
+    "accept": [
+      "She was going to school",
+      "She was going to school."
+    ],
     "explain_tr": "Was ardından fiil -ing alır: She was going to school.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
   },
@@ -298,7 +410,12 @@
     "type": "rewrite",
     "prompt": "Rewrite with while: I studied. My brother played. (same long time)",
     "answer_text": "While I was studying, my brother was playing.",
-    "accept": ["While I was studying, my brother was playing", "While I was studying, my brother was playing.", "I was studying while my brother was playing", "I was studying while my brother was playing."],
+    "accept": [
+      "While I was studying, my brother was playing",
+      "While I was studying, my brother was playing.",
+      "I was studying while my brother was playing",
+      "I was studying while my brother was playing."
+    ],
     "explain_tr": "İki uzun eylem de continuous olur: While I was studying my brother was playing.",
     "rule_ref": "Docs/grammar/A2/a2-03-past-continuous.md"
   }

@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ studying English now.",
-    "choices": ["am", "is", "are", "be"],
+    "prompt_tr": "Şu an İngilizce ___ .",
+    "choices": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
     "answer": 0,
     "explain_tr": "I ile am + V-ing kullanılır: I am studying now.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ cooking dinner at the moment.",
-    "choices": ["are", "am", "is", "be"],
+    "prompt_tr": "O, şu an akşam yemeği ___ .",
+    "choices": [
+      "are",
+      "am",
+      "is",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "She ile is + V-ing kullanılır: She is cooking.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -30,7 +42,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ playing football now.",
-    "choices": ["is", "am", "are", "be"],
+    "prompt_tr": "Onlar şu an futbol ___ .",
+    "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "They ile are + V-ing kullanılır: They are playing.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -42,7 +60,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Look at the sky. Choose the correct sentence.",
-    "choices": ["Look! It rain.", "Look! It raining.", "Look! It is raining.", "Look! It rains now."],
+    "prompt_tr": "Gökyüzüne bak. Doğru cümleyi seç.",
+    "choices": [
+      "Look! It rain.",
+      "Look! It raining.",
+      "Look! It is raining.",
+      "Look! It rains now."
+    ],
     "answer": 2,
     "explain_tr": "Şu an olan iş be + V-ing ister: It is raining.",
     "trap_tr": "Now veya Look! varsa continuous gelir; -s takısı olmaz.",
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you listening?",
-    "choices": ["Is", "Am", "Are", "Do"],
+    "prompt_tr": "___ dinliyor musun?",
+    "choices": [
+      "Is",
+      "Am",
+      "Are",
+      "Do"
+    ],
     "answer": 2,
     "explain_tr": "Soruda be fiili başa gelir: Are you listening?",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the right negative continuous sentence.",
-    "choices": ["We aren't watching TV.", "We doesn't watching TV.", "We not watching TV.", "We isn't watch TV."],
+    "prompt_tr": "Doğru olumsuz şimdiki zaman cümlesini seç.",
+    "choices": [
+      "We aren't watching TV.",
+      "We doesn't watching TV.",
+      "We not watching TV.",
+      "We isn't watch TV."
+    ],
     "answer": 0,
     "explain_tr": "Olumsuzda be + not + V-ing kullanılır: We aren't watching TV.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the complete sentence.",
-    "choices": ["They playing outside.", "They is playing outside.", "They are playing outside.", "They plays outside."],
+    "prompt_tr": "Tam cümleyi seç.",
+    "choices": [
+      "They playing outside.",
+      "They is playing outside.",
+      "They are playing outside.",
+      "They plays outside."
+    ],
     "answer": 2,
     "explain_tr": "-ing tek başına cümle kurmaz, are şarttır: They are playing outside.",
     "trap_tr": "They playing cümlesinde be eksiktir; -ing yardımcı fiilsiz çalışmaz.",
@@ -92,8 +134,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: I am sleeping.",
+    "prompt_tr": "Olumsuz yap: I am sleeping.",
     "answer_text": "I am not sleeping.",
-    "accept": ["I am not sleeping", "I'm not sleeping"],
+    "accept": [
+      "I am not sleeping",
+      "I'm not sleeping"
+    ],
     "explain_tr": "Olumsuzda am'den sonra not gelir: I am not sleeping.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
   },
@@ -104,7 +150,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Listen! The baby ___.",
-    "choices": ["are crying", "am crying", "is crying", "cry"],
+    "prompt_tr": "Dinle! Bebek ___ .",
+    "choices": [
+      "are crying",
+      "am crying",
+      "is crying",
+      "cry"
+    ],
     "answer": 2,
     "explain_tr": "Listen! sinyali continuous ister ve baby tekildir: The baby is crying.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -116,7 +168,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ sleeping, he is reading.",
-    "choices": ["aren't", "am not", "isn't", "don't"],
+    "prompt_tr": "O ___ uyumuyor, kitap okuyor.",
+    "choices": [
+      "aren't",
+      "am not",
+      "isn't",
+      "don't"
+    ],
     "answer": 2,
     "explain_tr": "He ile isn't + V-ing kullanılır: He isn't sleeping.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -128,7 +186,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the right invitation question.",
-    "choices": ["Do you coming with us?", "You are coming?", "Are you coming with us?", "Are you come with us?"],
+    "prompt_tr": "Doğru davet sorusunu seç.",
+    "choices": [
+      "Do you coming with us?",
+      "You are coming?",
+      "Are you coming with us?",
+      "Are you come with us?"
+    ],
     "answer": 2,
     "explain_tr": "Soruda be başa gelir ve fiil -ing alır: Are you coming with us?",
     "trap_tr": "Yazıda soru sırası şarttır; konuşma tonlaması yazıda geçerli değildir.",
@@ -141,7 +205,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "What ___ doing?",
-    "choices": ["is you", "am you", "are you", "do you"],
+    "prompt_tr": "Ne ___ yapıyorsun?",
+    "choices": [
+      "is you",
+      "am you",
+      "are you",
+      "do you"
+    ],
     "answer": 2,
     "explain_tr": "What are you doing? kalıbı ezberlenir: soru + are + you + V-ing.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -153,7 +223,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the sentence with the right negative form.",
-    "choices": ["She doesn't working now.", "She not working now.", "She isn't work now.", "She isn't working now."],
+    "prompt_tr": "Olumsuz biçimi doğru olan cümleyi seç.",
+    "choices": [
+      "She doesn't working now.",
+      "She not working now.",
+      "She isn't work now.",
+      "She isn't working now."
+    ],
     "answer": 3,
     "explain_tr": "Continuous olumsuzda isn't + V-ing kullanılır: She isn't working now.",
     "trap_tr": "Doesn't simple zamana aittir; continuous olumsuzda be + not gerekir.",
@@ -166,7 +242,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I ___ in a bank, but today I am working from home.",
-    "choices": ["works", "work", "working", "am work"],
+    "prompt_tr": "Bir bankada ___ , ama bugün evden çalışıyorum.",
+    "choices": [
+      "works",
+      "work",
+      "working",
+      "am work"
+    ],
     "answer": 1,
     "explain_tr": "Bankada çalışmak rutindir, simple olur (I work); bugün geçici durum continuous'tur.",
     "trap_tr": "Zaman ifadesi belirleyicidir: every day simple, today ve now continuous ister.",
@@ -179,7 +261,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the sentence with the right -ing spelling.",
-    "choices": ["She is swiming now.", "She is swim now.", "She swims now.", "She is swimming now."],
+    "prompt_tr": "\"-ing\" yazımı doğru olan cümleyi seç.",
+    "choices": [
+      "She is swiming now.",
+      "She is swim now.",
+      "She swims now.",
+      "She is swimming now."
+    ],
     "answer": 3,
     "explain_tr": "Swim → swimming: kısa ünlü + ünsüzde son harf ikizlenir.",
     "trap_tr": "Swiming tek m ile yanlıştır; run → running kuralı burada da geçerlidir.",
@@ -192,8 +280,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: You are listening.",
+    "prompt_tr": "Soru cümlesi yap: You are listening.",
     "answer_text": "Are you listening?",
-    "accept": ["Are you listening", "Are you listening?"],
+    "accept": [
+      "Are you listening",
+      "Are you listening?"
+    ],
     "explain_tr": "Are başa alınır: Are you listening?",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
   },
@@ -204,8 +296,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: They eating dinner now.",
+    "prompt_tr": "Hatayı düzelt: They eating dinner now.",
     "answer_text": "They are eating dinner now.",
-    "accept": ["They are eating dinner now", "They're eating dinner now"],
+    "accept": [
+      "They are eating dinner now",
+      "They're eating dinner now"
+    ],
     "explain_tr": "Be atılırsa cümle kurulmaz: They are eating dinner now.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
   },
@@ -216,7 +312,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "It is raining outside. Choose the correct sentence.",
-    "choices": ["She works now.", "She working now.", "She is working now.", "She is work now."],
+    "prompt_tr": "Dışarıda yağmur yağıyor. Doğru cümleyi seç.",
+    "choices": [
+      "She works now.",
+      "She working now.",
+      "She is working now.",
+      "She is work now."
+    ],
     "answer": 2,
     "explain_tr": "Now varsa continuous gelir: She is working now; -s takısı olmaz.",
     "trap_tr": "She works now cümlesinde zaman sinyali ile zaman uyuşmaz.",
@@ -229,7 +331,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with know.",
-    "choices": ["I am knowing the answer.", "I knows the answer.", "I know the answer.", "I am know the answer."],
+    "prompt_tr": "\"know\" ile doğru cümleyi seç.",
+    "choices": [
+      "I am knowing the answer.",
+      "I knows the answer.",
+      "I know the answer.",
+      "I am know the answer."
+    ],
     "answer": 2,
     "explain_tr": "Know stative fiildir, -ing almaz: I know the answer.",
     "trap_tr": "Duygu ve düşünce fiilleri A1 seviyesinde hep simple kalır.",
@@ -242,7 +350,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Look! The cat ___ on my bed.",
-    "choices": ["are sleeping", "am sleeping", "is sleeping", "sleeps"],
+    "prompt_tr": "Bak! Kedi ___ yatağımda.",
+    "choices": [
+      "are sleeping",
+      "am sleeping",
+      "is sleeping",
+      "sleeps"
+    ],
     "answer": 2,
     "explain_tr": "Look! sinyali continuous ister ve cat tekildir: The cat is sleeping.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -254,8 +368,11 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I am knowing the answer.",
+    "prompt_tr": "Hatayı düzelt: I am knowing the answer.",
     "answer_text": "I know the answer.",
-    "accept": ["I know the answer"],
+    "accept": [
+      "I know the answer"
+    ],
     "explain_tr": "Know -ing almaz, yalın kullanılır: I know the answer.",
     "trap_tr": "I am knowing kulağa mantıklı gelse de stative fiillerde yasaktır.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -267,7 +384,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "She ___ a book every evening.",
-    "choices": ["is reading", "reads", "read", "am reading"],
+    "prompt_tr": "O, her akşam ___ kitap okur.",
+    "choices": [
+      "is reading",
+      "reads",
+      "read",
+      "am reading"
+    ],
     "answer": 1,
     "explain_tr": "Every evening rutin bildirir, simple gerekir: She reads.",
     "trap_tr": "-ing görüp continuous sanma; zaman ifadesi belirleyicidir.",
@@ -280,7 +403,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about tomorrow's plan.",
-    "choices": ["I meeting Ali tomorrow.", "I am meet Ali tomorrow.", "I am meeting Ali tomorrow.", "I meets Ali tomorrow."],
+    "prompt_tr": "Yarınki plan ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I meeting Ali tomorrow.",
+      "I am meet Ali tomorrow.",
+      "I am meeting Ali tomorrow.",
+      "I meets Ali tomorrow."
+    ],
     "answer": 2,
     "explain_tr": "Kesinleşmiş gelecek plan continuous ile söylenir: I am meeting Ali tomorrow.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
@@ -292,7 +421,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with like.",
-    "choices": ["I am liking it.", "I likes it.", "I like it.", "I am like it."],
+    "prompt_tr": "\"like\" ile doğru cümleyi seç.",
+    "choices": [
+      "I am liking it.",
+      "I likes it.",
+      "I like it.",
+      "I am like it."
+    ],
     "answer": 2,
     "explain_tr": "Like stative fiildir: I like it; I am liking yanlıştır.",
     "trap_tr": "I am liking kalıbı reklamlarda duyulur ama A1 gramerinde yanlıştır.",
@@ -305,8 +440,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Make negative: She is cooking dinner.",
+    "prompt_tr": "Olumsuz yap: She is cooking dinner.",
     "answer_text": "She is not cooking dinner.",
-    "accept": ["She is not cooking dinner", "She isn't cooking dinner"],
+    "accept": [
+      "She is not cooking dinner",
+      "She isn't cooking dinner"
+    ],
     "explain_tr": "Is + not = isn't: She isn't cooking dinner.",
     "rule_ref": "Docs/grammar/A1/a1-03-present-continuous.md"
   }

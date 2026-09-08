@@ -1,1 +1,444 @@
-[{"answer":0,"choices":["Despite","Although","Because","So"],"difficulty":"easy","explain_tr":"Despite + isim alır: despite the rain. Although cümle isterdi.","id":"b2-11-advanced-conjunctions-e01","level":"B2","prompt":"___ the rain, we walked home.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":2,"choices":["because","so","whereas","however"],"difficulty":"easy","explain_tr":"Zıtlıkta whereas kullanılır: whereas he likes coffee. Because sebep bildirirdi.","id":"b2-11-advanced-conjunctions-e02","level":"B2","prompt":"I like tea, ___ he likes coffee.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":1,"choices":["Because","However","Despite","Whereas"],"difficulty":"easy","explain_tr":"However cümle başında kabullenme bildirir: However, the match continued.","id":"b2-11-advanced-conjunctions-e03","level":"B2","prompt":"It was freezing. ___, the match continued.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":3,"choices":["Despite","In spite of","Because of","Although"],"difficulty":"easy","explain_tr":"Although + cümle alır: although he is young. Despite isim isterdi.","id":"b2-11-advanced-conjunctions-e04","level":"B2","prompt":"___ he is young, he is very wise.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":1,"choices":["Despite the storm sailed the ferry.","Despite the storm, the ferry sailed.","Despite sailed, the ferry storm.","The ferry despite the storm sailed."],"difficulty":"easy","explain_tr":"Despite + isim öbeği alır: despite the storm. Fiil doğrudan gelemez.","id":"b2-11-advanced-conjunctions-e05","level":"B2","prompt":"Pick the correct sentence about the ferry that sailed through the storm.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":0,"choices":["She is shy, whereas her sister is outgoing.","She is shy, whereas her sister outgoing.","She is shy whereas, her sister is outgoing.","She is shy, whereas her sister are outgoing."],"difficulty":"easy","explain_tr":"Whereas iki tam cümleyi bağlar: whereas her sister is outgoing. Fiil düşemez.","id":"b2-11-advanced-conjunctions-e06","level":"B2","prompt":"Pick the correct sentence about the shy girl and her outgoing sister.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":2,"choices":["It was late, nevertheless we left it.","It was late nevertheless, we left.","It was late; nevertheless, we left.","It was late; nevertheless, we leave."],"difficulty":"easy","explain_tr":"Nevertheless noktalı virgül ve virgülle ayrılır: late; nevertheless, we left.","id":"b2-11-advanced-conjunctions-e07","level":"B2","prompt":"Pick the correct sentence about the team that stayed despite the late hour.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"accept":["Despite the rain, we played football.","Despite the rain, we played football"],"answer_text":"Despite the rain, we played football.","difficulty":"easy","explain_tr":"Although + cümle, despite + isim alır: despite the rain.","id":"b2-11-advanced-conjunctions-e08","level":"B2","prompt":"Although it was raining, we played football. (Rewrite with Despite)","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"rewrite"},{"answer":1,"choices":["Although","Despite","Because","However"],"difficulty":"medium","explain_tr":"Despite + -ing alır: despite being tired. Although cümle isterdi.","id":"b2-11-advanced-conjunctions-m01","level":"B2","prompt":"___ being tired, he kept running.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":0,"choices":["while","because","so","despite"],"difficulty":"medium","explain_tr":"Zıtlıkta while kullanılır: while his sister spent it all.","id":"b2-11-advanced-conjunctions-m02","level":"B2","prompt":"He saved money, ___ his sister spent it all.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":3,"choices":["Because","Despite","Whereas","However"],"difficulty":"medium","explain_tr":"However yeni cümle başlatır: However, he left early. Because sebep bildirirdi.","id":"b2-11-advanced-conjunctions-m03","level":"B2","prompt":"He arrived late. ___, he left early.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":2,"choices":["In spite of felt sick, she performed.","In spite of sick, she performed.","In spite of feeling sick, she performed.","In spite of she felt sick, she performed."],"difficulty":"medium","explain_tr":"In spite of + -ing ister: in spite of feeling sick. Çıplak sıfat gelemez.","id":"b2-11-advanced-conjunctions-m04","level":"B2","prompt":"Pick the correct sentence about the actress who performed despite feeling sick.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":0,"choices":["The hotel was costly; nevertheless, it was full.","The hotel was costly, nevertheless it was full.","The hotel was costly; nevertheless, it is full.","The hotel was costly; nevertheless, they were full."],"difficulty":"medium","explain_tr":"Nevertheless noktalama ve zaman uyumu ister: costly; nevertheless, it was full.","id":"b2-11-advanced-conjunctions-m05","level":"B2","prompt":"Pick the correct sentence about the costly hotel that stayed full.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":1,"choices":["Despite it rained, we enjoyed the picnic.","Even though it rained, we enjoyed the picnic.","In spite of rained, we enjoyed the picnic.","Although the rain, we enjoyed the picnic."],"difficulty":"medium","explain_tr":"Cümle varsa although ya da even though kullanılır: even though it rained. Despite cümle almaz.","id":"b2-11-advanced-conjunctions-m06","level":"B2","prompt":"Pick the correct sentence about the picnic enjoyed in the rain.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":3,"choices":["Although the traffic, we arrived on time.","Despite the traffic, we arrived on the time.","Despite the traffic, we arrive on time.","Despite the traffic, we arrived on time."],"difficulty":"medium","explain_tr":"Despite + isim ve past uyumu gerekir: despite the traffic, we arrived on time.","id":"b2-11-advanced-conjunctions-m07","level":"B2","prompt":"Pick the correct sentence about the drivers who arrived on time despite the traffic.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"accept":["She was ill; nevertheless, she went to work.","She was ill; nevertheless, she went to work"],"answer_text":"She was ill; nevertheless, she went to work.","difficulty":"medium","explain_tr":"Nevertheless iki cümleyi noktalı virgülle bağlar: ill; nevertheless, she went.","id":"b2-11-advanced-conjunctions-m08","level":"B2","prompt":"She was ill, but she went to work. (Rewrite with nevertheless)","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"rewrite"},{"accept":["He is rich. However, he is not happy.","He is rich. However, he is not happy"],"answer_text":"He is rich. However, he is not happy.","difficulty":"medium","explain_tr":"However yeni cümle başlatır ve virgül alır: However, he is not happy.","id":"b2-11-advanced-conjunctions-m09","level":"B2","prompt":"He is rich, but he is not happy. (Rewrite with However)","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"rewrite"},{"answer":2,"choices":["Although","However","Despite","Whereas"],"difficulty":"hard","explain_tr":"Despite + -ing alır: despite having little money. Although cümle isterdi.","id":"b2-11-advanced-conjunctions-h01","level":"B2","prompt":"___ having little money, they travel a lot.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":0,"choices":["nevertheless","despite","although","whereas"],"difficulty":"hard","explain_tr":"Noktalı virgülden sonra nevertheless gelir: ill; nevertheless, she kept working.","id":"b2-11-advanced-conjunctions-h02","level":"B2","prompt":"She was ill; ___, she kept working.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":1,"choices":["Despite","Although","In spite of","Because of"],"difficulty":"hard","explain_tr":"Cümle varsa although kullanılır: although she was ill. Despite isim isterdi.","id":"b2-11-advanced-conjunctions-h03","level":"B2","prompt":"___ she was ill, she finished the race.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"gap-fill"},{"answer":3,"choices":["Despite tired, he kept going.","Despite he was tired, he kept going.","Despite of being tired, he kept going.","Despite being tired, he kept going."],"difficulty":"hard","explain_tr":"Doğru kalıp despite + -ing olur: despite being tired. Despite of diye kalıp yoktur.","id":"b2-11-advanced-conjunctions-h04","level":"B2","prompt":"Pick the correct sentence about the runner who kept going despite his fatigue.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":0,"choices":["He came. However, he left early.","He came, however he left early.","He came however, he left early.","He came. However he left early."],"difficulty":"hard","explain_tr":"However bağımsız cümle ve virgül ister: He came. However, he left early.","id":"b2-11-advanced-conjunctions-h05","level":"B2","prompt":"Pick the correct sentence about the guest who arrived but left early.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"answer":1,"choices":["Whereas Istanbul crowded, Sinop is calm.","Whereas Istanbul is crowded, Sinop is calm.","Despite Istanbul is crowded, Sinop is calm.","Whereas Istanbul is crowded, whereas Sinop is calm."],"difficulty":"hard","explain_tr":"Whereas iki tam cümle bağlar ve tekrarlanmaz: whereas Istanbul is crowded, Sinop is calm.","id":"b2-11-advanced-conjunctions-h06","level":"B2","prompt":"Pick the correct sentence contrasting crowded Istanbul with calm Sinop.","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"mcq"},{"accept":["Although she was tired, she cooked dinner.","Although she was tired, she cooked dinner","Despite being tired, she cooked dinner.","Despite her tiredness, she cooked dinner."],"answer_text":"Although she was tired, she cooked dinner.","difficulty":"hard","explain_tr":"Despite cümle alamaz: although she was tired ya da despite being tired olur.","id":"b2-11-advanced-conjunctions-h07","level":"B2","prompt":"Despite she was tired, she cooked dinner. (Correct the sentence)","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"rewrite"},{"accept":["In spite of being tired, he finished the report.","In spite of being tired, he finished the report"],"answer_text":"In spite of being tired, he finished the report.","difficulty":"hard","explain_tr":"In spite of + -ing alır: in spite of being tired.","id":"b2-11-advanced-conjunctions-h08","level":"B2","prompt":"He felt tired, but he finished the report. (Rewrite with In spite of)","rule_ref":"Docs/grammar/B2/b2-11-advanced-conjunctions.md","topic":"b2-11-advanced-conjunctions","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "Despite",
+      "Although",
+      "Because",
+      "So"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Despite + isim alır: despite the rain. Although cümle isterdi.",
+    "id": "b2-11-advanced-conjunctions-e01",
+    "level": "B2",
+    "prompt": "___ the rain, we walked home.",
+    "prompt_tr": "Yağmura ___ rağmen eve yürüdük.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "because",
+      "so",
+      "whereas",
+      "however"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Zıtlıkta whereas kullanılır: whereas he likes coffee. Because sebep bildirirdi.",
+    "id": "b2-11-advanced-conjunctions-e02",
+    "level": "B2",
+    "prompt": "I like tea, ___ he likes coffee.",
+    "prompt_tr": "Ben çayı severim, ___ o kahveyi sever.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Because",
+      "However",
+      "Despite",
+      "Whereas"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "However cümle başında kabullenme bildirir: However, the match continued.",
+    "id": "b2-11-advanced-conjunctions-e03",
+    "level": "B2",
+    "prompt": "It was freezing. ___, the match continued.",
+    "prompt_tr": "Dondurucu soğuktu. ___, maç devam etti.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Despite",
+      "In spite of",
+      "Because of",
+      "Although"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Although + cümle alır: although he is young. Despite isim isterdi.",
+    "id": "b2-11-advanced-conjunctions-e04",
+    "level": "B2",
+    "prompt": "___ he is young, he is very wise.",
+    "prompt_tr": "Genç ___ olmasına rağmen çok bilgedir.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Despite the storm sailed the ferry.",
+      "Despite the storm, the ferry sailed.",
+      "Despite sailed, the ferry storm.",
+      "The ferry despite the storm sailed."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Despite + isim öbeği alır: despite the storm. Fiil doğrudan gelemez.",
+    "id": "b2-11-advanced-conjunctions-e05",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the ferry that sailed through the storm.",
+    "prompt_tr": "Fırtınada yol alan feribotla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She is shy, whereas her sister is outgoing.",
+      "She is shy, whereas her sister outgoing.",
+      "She is shy whereas, her sister is outgoing.",
+      "She is shy, whereas her sister are outgoing."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Whereas iki tam cümleyi bağlar: whereas her sister is outgoing. Fiil düşemez.",
+    "id": "b2-11-advanced-conjunctions-e06",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the shy girl and her outgoing sister.",
+    "prompt_tr": "Utangaç kız ve dışa dönük kız kardeşiyle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "It was late, nevertheless we left it.",
+      "It was late nevertheless, we left.",
+      "It was late; nevertheless, we left.",
+      "It was late; nevertheless, we leave."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Nevertheless noktalı virgül ve virgülle ayrılır: late; nevertheless, we left.",
+    "id": "b2-11-advanced-conjunctions-e07",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the team that stayed despite the late hour.",
+    "prompt_tr": "Geç saate rağmen kalan takımla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Despite the rain, we played football.",
+      "Despite the rain, we played football"
+    ],
+    "answer_text": "Despite the rain, we played football.",
+    "difficulty": "easy",
+    "explain_tr": "Although + cümle, despite + isim alır: despite the rain.",
+    "id": "b2-11-advanced-conjunctions-e08",
+    "level": "B2",
+    "prompt": "Although it was raining, we played football. (Rewrite with Despite)",
+    "prompt_tr": "Despite ile yeniden yaz: Although it was raining, we played football.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "rewrite"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Although",
+      "Despite",
+      "Because",
+      "However"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Despite + -ing alır: despite being tired. Although cümle isterdi.",
+    "id": "b2-11-advanced-conjunctions-m01",
+    "level": "B2",
+    "prompt": "___ being tired, he kept running.",
+    "prompt_tr": "Yorgun ___ olmasına rağmen koşmaya devam etti.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "while",
+      "because",
+      "so",
+      "despite"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Zıtlıkta while kullanılır: while his sister spent it all.",
+    "id": "b2-11-advanced-conjunctions-m02",
+    "level": "B2",
+    "prompt": "He saved money, ___ his sister spent it all.",
+    "prompt_tr": "O para biriktirdi, ___ kız kardeşi hepsini harcadı.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Because",
+      "Despite",
+      "Whereas",
+      "However"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "However yeni cümle başlatır: However, he left early. Because sebep bildirirdi.",
+    "id": "b2-11-advanced-conjunctions-m03",
+    "level": "B2",
+    "prompt": "He arrived late. ___, he left early.",
+    "prompt_tr": "Geç geldi. ___, erken ayrıldı.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "In spite of felt sick, she performed.",
+      "In spite of sick, she performed.",
+      "In spite of feeling sick, she performed.",
+      "In spite of she felt sick, she performed."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "In spite of + -ing ister: in spite of feeling sick. Çıplak sıfat gelemez.",
+    "id": "b2-11-advanced-conjunctions-m04",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the actress who performed despite illness.",
+    "prompt_tr": "Hasta hâlde sahneye çıkan oyuncuyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The hotel was costly; nevertheless, it was full.",
+      "The hotel was costly, nevertheless it was full.",
+      "The hotel was costly; nevertheless, it is full.",
+      "The hotel was costly; nevertheless, they were full."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Nevertheless noktalama ve zaman uyumu ister: costly; nevertheless, it was full.",
+    "id": "b2-11-advanced-conjunctions-m05",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the costly hotel that stayed full.",
+    "prompt_tr": "Pahalı ama dolu otelle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Despite it rained, we enjoyed the picnic.",
+      "Even though it rained, we enjoyed the picnic.",
+      "In spite of rained, we enjoyed the picnic.",
+      "Although the rain, we enjoyed the picnic."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Cümle varsa although ya da even though kullanılır: even though it rained. Despite cümle almaz.",
+    "id": "b2-11-advanced-conjunctions-m06",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the picnic enjoyed in the rain.",
+    "prompt_tr": "Yağmurda yapılan piknikle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Although the traffic, we arrived on time.",
+      "Despite the traffic, we arrived on the time.",
+      "Despite the traffic, we arrive on time.",
+      "Despite the traffic, we arrived on time."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Despite + isim ve past uyumu gerekir: despite the traffic, we arrived on time.",
+    "id": "b2-11-advanced-conjunctions-m07",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the drivers who arrived on time despite the traffic.",
+    "prompt_tr": "Trafiğe rağmen zamanında varan sürücülerle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "She was ill; nevertheless, she went to work.",
+      "She was ill; nevertheless, she went to work"
+    ],
+    "answer_text": "She was ill; nevertheless, she went to work.",
+    "difficulty": "medium",
+    "explain_tr": "Nevertheless iki cümleyi noktalı virgülle bağlar: ill; nevertheless, she went.",
+    "id": "b2-11-advanced-conjunctions-m08",
+    "level": "B2",
+    "prompt": "She was ill, but she went to work. (Rewrite with nevertheless)",
+    "prompt_tr": "Nevertheless ile yeniden yaz: She was ill, but she went to work.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "He is rich. However, he is not happy.",
+      "He is rich. However, he is not happy"
+    ],
+    "answer_text": "He is rich. However, he is not happy.",
+    "difficulty": "medium",
+    "explain_tr": "However yeni cümle başlatır ve virgül alır: However, he is not happy.",
+    "id": "b2-11-advanced-conjunctions-m09",
+    "level": "B2",
+    "prompt": "He is rich, but he is not happy. (Rewrite with However)",
+    "prompt_tr": "However ile yeniden yaz: He is rich, but he is not happy.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "rewrite"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "Although",
+      "However",
+      "Despite",
+      "Whereas"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Despite + -ing alır: despite having little money. Although cümle isterdi.",
+    "id": "b2-11-advanced-conjunctions-h01",
+    "level": "B2",
+    "prompt": "___ having little money, they travel a lot.",
+    "prompt_tr": "Az paraları ___ olmasına rağmen çok gezerler.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "nevertheless",
+      "despite",
+      "although",
+      "whereas"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Noktalı virgülden sonra nevertheless gelir: ill; nevertheless, she kept working.",
+    "id": "b2-11-advanced-conjunctions-h02",
+    "level": "B2",
+    "prompt": "She was ill; ___, she kept working.",
+    "prompt_tr": "Hastaydı; ___, çalışmaya devam etti.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Despite",
+      "Although",
+      "In spite of",
+      "Because of"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Cümle varsa although kullanılır: although she was ill. Despite isim isterdi.",
+    "id": "b2-11-advanced-conjunctions-h03",
+    "level": "B2",
+    "prompt": "___ she was ill, she finished the race.",
+    "prompt_tr": "Hasta ___ olmasına rağmen yarışı bitirdi.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Despite tired, he kept going.",
+      "Despite he was tired, he kept going.",
+      "Despite of being tired, he kept going.",
+      "Despite being tired, he kept going."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Doğru kalıp despite + -ing olur: despite being tired. Despite of diye kalıp yoktur.",
+    "id": "b2-11-advanced-conjunctions-h04",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the runner who kept going despite his fatigue.",
+    "prompt_tr": "Yorgunluğuna rağmen koşmaya devam eden koşucuyla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He came. However, he left early.",
+      "He came, however he left early.",
+      "He came however, he left early.",
+      "He came. However he left early."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "However bağımsız cümle ve virgül ister: He came. However, he left early.",
+    "id": "b2-11-advanced-conjunctions-h05",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the guest who arrived but left early.",
+    "prompt_tr": "Gelen ama erken ayrılan misafirle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Whereas Istanbul crowded, Sinop is calm.",
+      "Whereas Istanbul is crowded, Sinop is calm.",
+      "Despite Istanbul is crowded, Sinop is calm.",
+      "Whereas Istanbul is crowded, whereas Sinop is calm."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Whereas iki tam cümle bağlar ve tekrarlanmaz: whereas Istanbul is crowded, Sinop is calm.",
+    "id": "b2-11-advanced-conjunctions-h06",
+    "level": "B2",
+    "prompt": "Pick the correct sentence contrasting crowded Istanbul with calm Sinop.",
+    "prompt_tr": "Kalabalık İstanbul ile sakin Sinop'u karşılaştıran doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Although she was tired, she cooked dinner.",
+      "Although she was tired, she cooked dinner",
+      "Despite being tired, she cooked dinner.",
+      "Despite her tiredness, she cooked dinner."
+    ],
+    "answer_text": "Although she was tired, she cooked dinner.",
+    "difficulty": "hard",
+    "explain_tr": "Despite cümle alamaz: although she was tired ya da despite being tired olur.",
+    "id": "b2-11-advanced-conjunctions-h07",
+    "level": "B2",
+    "prompt": "Despite she was tired, she cooked dinner. (Correct the sentence)",
+    "prompt_tr": "Cümleyi düzelt: Despite she was tired, she cooked dinner.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "In spite of being tired, he finished the report.",
+      "In spite of being tired, he finished the report"
+    ],
+    "answer_text": "In spite of being tired, he finished the report.",
+    "difficulty": "hard",
+    "explain_tr": "In spite of + -ing alır: in spite of being tired.",
+    "id": "b2-11-advanced-conjunctions-h08",
+    "level": "B2",
+    "prompt": "He felt tired, but he finished the report. (Rewrite with In spite of)",
+    "prompt_tr": "In spite of ile yeniden yaz: He felt tired, but he finished the report.",
+    "rule_ref": "Docs/grammar/B2/b2-11-advanced-conjunctions.md",
+    "topic": "b2-11-advanced-conjunctions",
+    "type": "rewrite"
+  }
+]

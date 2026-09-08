@@ -1,1 +1,442 @@
-[{"answer":0,"choices":["have","has","do","are"],"difficulty":"easy","explain_tr":"Never cümle başında gelince yardımcı fiil öne gelir: Never have I seen such snow.","id":"b2-07-inversion-e01","level":"B2","prompt":"Never ___ I seen such snow.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":0,"choices":["does","do","is","are"],"difficulty":"easy","explain_tr":"Rarely cümle başında gelince do öne gelir: Rarely does he complain.","id":"b2-07-inversion-e02","level":"B2","prompt":"Rarely ___ he complain about dinner.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":2,"choices":["has","do","have","am"],"difficulty":"easy","explain_tr":"Seldom cümle başında gelince yardımcı fiil öne gelir: Seldom have I heard that song.","id":"b2-07-inversion-e03","level":"B2","prompt":"Seldom ___ I heard that song on the radio.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":1,"choices":["are","is","be","am"],"difficulty":"easy","explain_tr":"Not only cümle başında gelince be öne gelir: Not only is he smart, but also kind.","id":"b2-07-inversion-e04","level":"B2","prompt":"Not only ___ he smart, but also kind to guests.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":0,"choices":["Never have I eaten such good kebab.","Never I have eaten such good kebab.","Never I eaten such good kebab.","Never have I eat such good kebab."],"difficulty":"easy","explain_tr":"Never + yardımcı + özne + fiil gerekir: Never have I eaten such good kebab.","id":"b2-07-inversion-e05","level":"B2","prompt":"Pick the correct never-inversion sentence about the kebab.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":3,"choices":["Rarely I go out after midnight.","Rarely do I goes out after midnight.","Rarely I do go out after midnight.","Rarely do I go out after midnight."],"difficulty":"easy","explain_tr":"Rarely + do + özne + yalın fiil gerekir: Rarely do I go out after midnight.","id":"b2-07-inversion-e06","level":"B2","prompt":"Pick the correct rarely-inversion sentence about midnight walks.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":0,"choices":["No sooner had we left than it rained.","No sooner we had left when it rained.","No sooner had we left when it rained.","No sooner did we left than it rained."],"difficulty":"easy","explain_tr":"No sooner + had + özne + V3 ve than ile biter: No sooner had we left than it rained.","id":"b2-07-inversion-e07","level":"B2","prompt":"Pick the correct no-sooner sentence about the rain.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"accept":["Never have I seen such a view","Never have I seen such a view."],"answer_text":"Never have I seen such a view.","difficulty":"easy","explain_tr":"Olumsuz zarf başa gelince yardımcı öne gelir: Never have I seen such a view.","id":"b2-07-inversion-e08","level":"B2","prompt":"I have never seen such a view. (Rewrite with Never at the front)","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"rewrite"},{"answer":0,"choices":["did","does","is","has"],"difficulty":"medium","explain_tr":"Not only + did + özne + fiil ve but also gerekir: Not only did she win, but she broke a record.","id":"b2-07-inversion-m01","level":"B2","prompt":"Not only ___ she win the race, but she broke a record.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":0,"choices":["had","have","did","was"],"difficulty":"medium","explain_tr":"Hardly + had + özne kalıbı when ile biter: Hardly had I sat down when he called.","id":"b2-07-inversion-m02","level":"B2","prompt":"Hardly ___ I sat down on the sofa when he called.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":2,"choices":["open","opening","should","to open"],"difficulty":"medium","explain_tr":"Under no circumstances + yardımcı + özne gerekir: Under no circumstances should you open the door.","id":"b2-07-inversion-m03","level":"B2","prompt":"Under no circumstances ___ you open that door at night.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":1,"choices":["Hardly I had slept when the phone rang.","Hardly had I slept when the phone rang.","Hardly have I slept than the phone rang.","Hardly did I slept when the phone rang."],"difficulty":"medium","explain_tr":"Hardly + had + özne kalıbı when ile biter: Hardly had I slept when the phone rang.","id":"b2-07-inversion-m04","level":"B2","prompt":"Pick the correct hardly sentence about the phone ringing.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":0,"choices":["Not only is it cheap, but it is also fast.","Not only it is cheap, but also fast.","Not only is it cheap, but also it fast.","Not only it cheap is, but also fast."],"difficulty":"medium","explain_tr":"Not only + be + özne ve but also gerekir: Not only is it cheap, but it is also fast.","id":"b2-07-inversion-m05","level":"B2","prompt":"Pick the correct not-only sentence about the cheap hotel.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":3,"choices":["Seldom I have heard that old song.","Seldom has I heard that old song.","Seldom do I heard that old song.","Seldom have I heard that old song."],"difficulty":"medium","explain_tr":"Seldom + have + özne + V3 gerekir: Seldom have I heard that old song.","id":"b2-07-inversion-m06","level":"B2","prompt":"Pick the correct seldom sentence about the old song.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":0,"choices":["Little did I know the truth about Elif.","Little I knew the truth about Elif.","Little did I knew the truth about Elif.","Little I did know the truth about Elif."],"difficulty":"medium","explain_tr":"Little + did + özne + yalın fiil gerekir: Little did I know the truth.","id":"b2-07-inversion-m07","level":"B2","prompt":"Pick the correct little-inversion sentence about the truth.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"accept":["Rarely does she go out alone","Rarely does she go out alone."],"answer_text":"Rarely does she go out alone.","difficulty":"medium","explain_tr":"Rarely başa gelince do öne gelir: Rarely does she go out alone.","id":"b2-07-inversion-m08","level":"B2","prompt":"She rarely goes out alone at night. (Rewrite with Rarely at the front)","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"rewrite"},{"accept":["Never had we waited so long for the bus","Never had we waited so long for the bus."],"answer_text":"Never had we waited so long for the bus.","difficulty":"medium","explain_tr":"Never + had + özne + V3 vurgu verir: Never had we waited so long for the bus.","id":"b2-07-inversion-m09","level":"B2","prompt":"We had never waited so long for the bus. (Rewrite with Never at the front)","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"rewrite"},{"answer":0,"choices":["had","have","did","were"],"difficulty":"hard","explain_tr":"No sooner + had + özne + V3 ve than gerekir: No sooner had we arrived than the show started.","id":"b2-07-inversion-h01","level":"B2","prompt":"No sooner ___ we arrived at the hall than the show started.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":0,"choices":["had","has","did","was"],"difficulty":"hard","explain_tr":"Scarcely + had + özne kalıbı when ile biter: Scarcely had he finished when the bell rang.","id":"b2-07-inversion-h02","level":"B2","prompt":"Scarcely ___ he finished his soup when the bell rang.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":1,"choices":["do","does","is","has"],"difficulty":"hard","explain_tr":"Not only + does + özne + yalın fiil gerekir: Not only does she sing, but she dances too.","id":"b2-07-inversion-h03","level":"B2","prompt":"Not only ___ she sing at weddings, but she dances too.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"gap-fill"},{"answer":2,"choices":["No sooner had we arrived when the show started.","No sooner we had arrived than the show started.","No sooner had we arrived than the show started.","No sooner have we arrived than the show started."],"difficulty":"hard","explain_tr":"No sooner than ile eşleşir, when yanlış olur: No sooner had we arrived than the show started.","id":"b2-07-inversion-h04","level":"B2","prompt":"Pick the correct no-sooner sentence about the show starting.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":0,"choices":["Hardly had I sat down when Mehmet called.","Hardly had I sat down than Mehmet called.","Hardly have I sat down when Mehmet called.","Hardly did I sat down when Mehmet called."],"difficulty":"hard","explain_tr":"Hardly when ile eşleşir, than yanlış olur: Hardly had I sat down when Mehmet called.","id":"b2-07-inversion-h05","level":"B2","prompt":"Pick the correct hardly sentence about Mehmet calling.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"answer":3,"choices":["Never I saw such a crowd at the bazaar.","Never I did see such a crowd at the bazaar.","Never saw I such a crowd at the bazaar.","Never did I see such a crowd at the bazaar."],"difficulty":"hard","explain_tr":"Yardımcıyı unutmak yanlıştır: Never did I see such a crowd at the bazaar.","id":"b2-07-inversion-h06","level":"B2","prompt":"Pick the correct never sentence about the bazaar crowd.","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"mcq"},{"accept":["Not only is he smart, but he is also kind","Not only is he smart, but he is also kind."],"answer_text":"Not only is he smart, but he is also kind.","difficulty":"hard","explain_tr":"Not only başa gelince inversion ve but also gerekir: Not only is he smart, but he is also kind.","id":"b2-07-inversion-h07","level":"B2","prompt":"He is smart and he is also kind. (Rewrite with Not only at the front)","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"rewrite"},{"accept":["Hardly had I sat down when Can called","Hardly had I sat down when Can called."],"answer_text":"Hardly had I sat down when Can called.","difficulty":"hard","explain_tr":"Hardly + had + özne kalıbı when ile biter: Hardly had I sat down when Can called.","id":"b2-07-inversion-h08","level":"B2","prompt":"I sat down and then Can called immediately. (Rewrite with Hardly at the front)","rule_ref":"Docs/grammar/B2/b2-07-inversion.md","topic":"b2-07-inversion","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "have",
+      "has",
+      "do",
+      "are"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Never cümle başında gelince yardımcı fiil öne gelir: Never have I seen such snow.",
+    "id": "b2-07-inversion-e01",
+    "level": "B2",
+    "prompt": "Never ___ I seen such snow.",
+    "prompt_tr": "Hiç ___ böyle kar görmedim.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "does",
+      "do",
+      "is",
+      "are"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Rarely cümle başında gelince do öne gelir: Rarely does he complain.",
+    "id": "b2-07-inversion-e02",
+    "level": "B2",
+    "prompt": "Rarely ___ he complain about dinner.",
+    "prompt_tr": "Akşam yemeğinden ___ nadiren şikâyet eder.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "has",
+      "do",
+      "have",
+      "am"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Seldom cümle başında gelince yardımcı fiil öne gelir: Seldom have I heard that song.",
+    "id": "b2-07-inversion-e03",
+    "level": "B2",
+    "prompt": "Seldom ___ I heard that song on the radio.",
+    "prompt_tr": "O şarkıyı radyoda ___ nadiren duydum.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "are",
+      "is",
+      "be",
+      "am"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Not only cümle başında gelince be öne gelir: Not only is he smart, but also kind.",
+    "id": "b2-07-inversion-e04",
+    "level": "B2",
+    "prompt": "Not only ___ he smart, but also kind to guests.",
+    "prompt_tr": "O ___ sadece akıllı değil, misafirlere karşı da naziktir.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Never have I eaten such good kebab.",
+      "Never I have eaten such good kebab.",
+      "Never I eaten such good kebab.",
+      "Never have I eat such good kebab."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Never + yardımcı + özne + fiil gerekir: Never have I eaten such good kebab.",
+    "id": "b2-07-inversion-e05",
+    "level": "B2",
+    "prompt": "Pick the correct never-inversion sentence about the kebab.",
+    "prompt_tr": "Kebapla ilgili doğru never-inversion cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Rarely I go out after midnight.",
+      "Rarely do I goes out after midnight.",
+      "Rarely I do go out after midnight.",
+      "Rarely do I go out after midnight."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Rarely + do + özne + yalın fiil gerekir: Rarely do I go out after midnight.",
+    "id": "b2-07-inversion-e06",
+    "level": "B2",
+    "prompt": "Pick the correct rarely-inversion sentence about midnight walks.",
+    "prompt_tr": "Gece yarısı yürüyüşleriyle ilgili doğru rarely-inversion cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "No sooner had we left than it rained.",
+      "No sooner we had left when it rained.",
+      "No sooner had we left when it rained.",
+      "No sooner did we left than it rained."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "No sooner + had + özne + V3 ve than ile biter: No sooner had we left than it rained.",
+    "id": "b2-07-inversion-e07",
+    "level": "B2",
+    "prompt": "Pick the correct no-sooner sentence about the rain.",
+    "prompt_tr": "Yağmurla ilgili doğru no-sooner cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Never have I seen such a view",
+      "Never have I seen such a view."
+    ],
+    "answer_text": "Never have I seen such a view.",
+    "difficulty": "easy",
+    "explain_tr": "Olumsuz zarf başa gelince yardımcı öne gelir: Never have I seen such a view.",
+    "id": "b2-07-inversion-e08",
+    "level": "B2",
+    "prompt": "I have never seen such a view. (Rewrite with Never at the front)",
+    "prompt_tr": "Never'ı başa alarak yeniden yaz: I have never seen such a view.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "did",
+      "does",
+      "is",
+      "has"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Not only + did + özne + fiil ve but also gerekir: Not only did she win, but she broke a record.",
+    "id": "b2-07-inversion-m01",
+    "level": "B2",
+    "prompt": "Not only ___ she win the race, but she broke a record.",
+    "prompt_tr": "O ___ sadece yarışı kazanmadı, rekor da kırdı.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "have",
+      "did",
+      "was"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Hardly + had + özne kalıbı when ile biter: Hardly had I sat down when he called.",
+    "id": "b2-07-inversion-m02",
+    "level": "B2",
+    "prompt": "Hardly ___ I sat down on the sofa when he called.",
+    "prompt_tr": "Kanepeye ___ oturmuştum ki telefon çaldı.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "open",
+      "opening",
+      "should",
+      "to open"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Under no circumstances + yardımcı + özne gerekir: Under no circumstances should you open the door.",
+    "id": "b2-07-inversion-m03",
+    "level": "B2",
+    "prompt": "Under no circumstances ___ you open that door at night.",
+    "prompt_tr": "Ne olursa olsun gece o kapıyı ___ açmayacaksın.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Hardly I had slept when the phone rang.",
+      "Hardly had I slept when the phone rang.",
+      "Hardly have I slept than the phone rang.",
+      "Hardly did I slept when the phone rang."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Hardly + had + özne kalıbı when ile biter: Hardly had I slept when the phone rang.",
+    "id": "b2-07-inversion-m04",
+    "level": "B2",
+    "prompt": "Pick the correct hardly sentence about the phone ringing.",
+    "prompt_tr": "Telefonun çalmasıyla ilgili doğru hardly cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Not only is it cheap, but it is also fast.",
+      "Not only it is cheap, but also fast.",
+      "Not only is it cheap, but also it fast.",
+      "Not only it cheap is, but also fast."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Not only + be + özne ve but also gerekir: Not only is it cheap, but it is also fast.",
+    "id": "b2-07-inversion-m05",
+    "level": "B2",
+    "prompt": "Pick the correct not-only sentence about the cheap hotel.",
+    "prompt_tr": "Ucuz otelle ilgili doğru not-only cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Seldom I have heard that old song.",
+      "Seldom has I heard that old song.",
+      "Seldom do I heard that old song.",
+      "Seldom have I heard that old song."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Seldom + have + özne + V3 gerekir: Seldom have I heard that old song.",
+    "id": "b2-07-inversion-m06",
+    "level": "B2",
+    "prompt": "Pick the correct seldom sentence about the old song.",
+    "prompt_tr": "Eski şarkıyla ilgili doğru seldom cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Little did I know the truth about Elif.",
+      "Little I knew the truth about Elif.",
+      "Little did I knew the truth about Elif.",
+      "Little I did know the truth about Elif."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Little + did + özne + yalın fiil gerekir: Little did I know the truth.",
+    "id": "b2-07-inversion-m07",
+    "level": "B2",
+    "prompt": "Pick the correct little-inversion sentence about the truth.",
+    "prompt_tr": "Gerçekle ilgili doğru little-inversion cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Rarely does she go out alone",
+      "Rarely does she go out alone."
+    ],
+    "answer_text": "Rarely does she go out alone.",
+    "difficulty": "medium",
+    "explain_tr": "Rarely başa gelince do öne gelir: Rarely does she go out alone.",
+    "id": "b2-07-inversion-m08",
+    "level": "B2",
+    "prompt": "She rarely goes out alone at night. (Rewrite with Rarely at the front)",
+    "prompt_tr": "Rarely'yi başa alarak yeniden yaz: She rarely goes out alone at night.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "Never had we waited so long for the bus",
+      "Never had we waited so long for the bus."
+    ],
+    "answer_text": "Never had we waited so long for the bus.",
+    "difficulty": "medium",
+    "explain_tr": "Never + had + özne + V3 vurgu verir: Never had we waited so long for the bus.",
+    "id": "b2-07-inversion-m09",
+    "level": "B2",
+    "prompt": "We had never waited so long for the bus. (Rewrite with Never at the front)",
+    "prompt_tr": "Never'ı başa alarak yeniden yaz: We had never waited so long for the bus.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "have",
+      "did",
+      "were"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "No sooner + had + özne + V3 ve than gerekir: No sooner had we arrived than the show started.",
+    "id": "b2-07-inversion-h01",
+    "level": "B2",
+    "prompt": "No sooner ___ we arrived at the hall than the show started.",
+    "prompt_tr": "Salona ___ varmıştık ki gösteri başladı.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "has",
+      "did",
+      "was"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Scarcely + had + özne kalıbı when ile biter: Scarcely had he finished when the bell rang.",
+    "id": "b2-07-inversion-h02",
+    "level": "B2",
+    "prompt": "Scarcely ___ he finished his soup when the bell rang.",
+    "prompt_tr": "Çorbasını ___ bitirmişti ki zil çaldı.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "do",
+      "does",
+      "is",
+      "has"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Not only + does + özne + yalın fiil gerekir: Not only does she sing, but she dances too.",
+    "id": "b2-07-inversion-h03",
+    "level": "B2",
+    "prompt": "Not only ___ she sing at weddings, but she dances too.",
+    "prompt_tr": "O ___ sadece düğünlerde şarkı söylemez, dans da eder.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "No sooner had we arrived when the show started.",
+      "No sooner we had arrived than the show started.",
+      "No sooner had we arrived than the show started.",
+      "No sooner have we arrived than the show started."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "No sooner than ile eşleşir, when yanlış olur: No sooner had we arrived than the show started.",
+    "id": "b2-07-inversion-h04",
+    "level": "B2",
+    "prompt": "Pick the correct no-sooner sentence about the show starting.",
+    "prompt_tr": "Gösterinin başlamasıyla ilgili doğru no-sooner cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Hardly had I sat down when Mehmet called.",
+      "Hardly had I sat down than Mehmet called.",
+      "Hardly have I sat down when Mehmet called.",
+      "Hardly did I sat down when Mehmet called."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Hardly when ile eşleşir, than yanlış olur: Hardly had I sat down when Mehmet called.",
+    "id": "b2-07-inversion-h05",
+    "level": "B2",
+    "prompt": "Pick the correct hardly sentence about Mehmet calling.",
+    "prompt_tr": "Mehmet'in aramasıyla ilgili doğru hardly cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "Never I saw such a crowd at the bazaar.",
+      "Never I did see such a crowd at the bazaar.",
+      "Never saw I such a crowd at the bazaar.",
+      "Never did I see such a crowd at the bazaar."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Yardımcıyı unutmak yanlıştır: Never did I see such a crowd at the bazaar.",
+    "id": "b2-07-inversion-h06",
+    "level": "B2",
+    "prompt": "Pick the correct never sentence about the bazaar crowd.",
+    "prompt_tr": "Çarşı kalabalığıyla ilgili doğru never cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Not only is he smart, but he is also kind",
+      "Not only is he smart, but he is also kind."
+    ],
+    "answer_text": "Not only is he smart, but he is also kind.",
+    "difficulty": "hard",
+    "explain_tr": "Not only başa gelince inversion ve but also gerekir: Not only is he smart, but he is also kind.",
+    "id": "b2-07-inversion-h07",
+    "level": "B2",
+    "prompt": "He is smart and he is also kind. (Rewrite with Not only at the front)",
+    "prompt_tr": "Not only'yi başa alarak yeniden yaz: He is smart and he is also kind.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "Hardly had I sat down when Can called",
+      "Hardly had I sat down when Can called."
+    ],
+    "answer_text": "Hardly had I sat down when Can called.",
+    "difficulty": "hard",
+    "explain_tr": "Hardly + had + özne kalıbı when ile biter: Hardly had I sat down when Can called.",
+    "id": "b2-07-inversion-h08",
+    "level": "B2",
+    "prompt": "I sat down and then Can called immediately. (Rewrite with Hardly at the front)",
+    "prompt_tr": "Hardly'yi başa alarak yeniden yaz: I sat down and then Can called immediately.",
+    "rule_ref": "Docs/grammar/B2/b2-07-inversion.md",
+    "topic": "b2-07-inversion",
+    "type": "rewrite"
+  }
+]

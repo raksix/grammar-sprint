@@ -6,7 +6,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "We ___ a film last night.",
-    "choices": ["watch", "watched", "watching", "watches"],
+    "choices": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ],
     "answer": 1,
     "explain_tr": "Olumlu geçmiş cümlede fiile -ed gelir: We watched a film last night.",
     "trap_tr": "Yesterday ve last night varsa fiil geniş zaman kalamaz.",
@@ -19,7 +24,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ my room yesterday morning.",
-    "choices": ["cleaned", "clean", "cleaning", "cleans"],
+    "choices": [
+      "cleaned",
+      "clean",
+      "cleaning",
+      "cleans"
+    ],
     "answer": 0,
     "explain_tr": "I öznesinde de olumlu geçmiş -ed ister: I cleaned my room.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -31,7 +41,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about enjoying the party last night.",
-    "choices": ["They enjoy the party.", "They enjoying the party.", "They enjoyed the party.", "They enjoys the party."],
+    "choices": [
+      "They enjoy the party.",
+      "They enjoying the party.",
+      "They enjoyed the party.",
+      "They enjoys the party."
+    ],
     "answer": 2,
     "explain_tr": "They öznesinde de geçmiş -ed kullanılır: They enjoyed the party.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -43,7 +58,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you visit your grandparents last Sunday?",
-    "choices": ["Did", "Do", "Does", "Are"],
+    "choices": [
+      "Did",
+      "Do",
+      "Does",
+      "Are"
+    ],
     "answer": 0,
     "explain_tr": "Geçmiş sorularda Did + özne + yalın fiil kullanılır: Did you visit?",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -55,7 +75,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct verb spelling about studying in 2020.",
-    "choices": ["He studyed English in 2020.", "He studied English in 2020.", "He studed English in 2020.", "He studying English in 2020."],
+    "choices": [
+      "He studyed English in 2020.",
+      "He studied English in 2020.",
+      "He studed English in 2020.",
+      "He studying English in 2020."
+    ],
     "answer": 1,
     "explain_tr": "Ünsüz + y ile biten fiilde y düşer ve -ied gelir: study gitti studied olur.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -67,7 +92,12 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ late last night.",
-    "choices": ["works", "work", "working", "worked"],
+    "choices": [
+      "works",
+      "work",
+      "working",
+      "worked"
+    ],
     "answer": 3,
     "explain_tr": "She öznesinde de olumlu geçmiş -ed alır: She worked late.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -79,7 +109,12 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about arriving on time yesterday.",
-    "choices": ["Did they arrive on time?", "Did they arrived on time?", "Do they arrived on time?", "They arrived on time?"],
+    "choices": [
+      "Did they arrive on time?",
+      "Did they arrived on time?",
+      "Do they arrived on time?",
+      "They arrived on time?"
+    ],
     "answer": 0,
     "explain_tr": "Did varsa fiil yalın kalır: Did they arrive on time.",
     "trap_tr": "Did ile -ed aynı cümlede kullanılmaz.",
@@ -93,7 +128,10 @@
     "type": "rewrite",
     "prompt": "Make negative: I smoked.",
     "answer_text": "I did not smoke.",
-    "accept": ["I did not smoke", "I didn't smoke"],
+    "accept": [
+      "I did not smoke",
+      "I didn't smoke"
+    ],
     "explain_tr": "Olumsuz geçmiş didn't + yalın fiildir: I didn't smoke.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
   },
@@ -104,7 +142,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ football two days ago.",
-    "choices": ["plaied", "playd", "played", "playing"],
+    "choices": [
+      "plaied",
+      "playd",
+      "played",
+      "playing"
+    ],
     "answer": 2,
     "explain_tr": "Ünlü + y ile biten fiil y harfini korur: play gitti played olur.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -116,7 +159,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "They ___ heavy bags to the hotel.",
-    "choices": ["carried", "carryed", "carred", "carrying"],
+    "choices": [
+      "carried",
+      "carryed",
+      "carred",
+      "carrying"
+    ],
     "answer": 0,
     "explain_tr": "Ünsüz + y kuralı carry için de geçerlidir: They carried the bags.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -128,7 +176,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence about liking the dinner.",
-    "choices": ["I didn't liked the dinner.", "I didn't like the dinner.", "I don't liked the dinner.", "I not liked the dinner."],
+    "choices": [
+      "I didn't liked the dinner.",
+      "I didn't like the dinner.",
+      "I don't liked the dinner.",
+      "I not liked the dinner."
+    ],
     "answer": 1,
     "explain_tr": "Didn't varsa fiildeki -ed düşer: I didn't like the dinner.",
     "trap_tr": "Çift geçmiş işareti klasik hatadır.",
@@ -141,7 +194,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "We ___ at a small cafe and rested.",
-    "choices": ["stoped", "stopd", "stopping", "stopped"],
+    "choices": [
+      "stoped",
+      "stopd",
+      "stopping",
+      "stopped"
+    ],
     "answer": 3,
     "explain_tr": "Kısa fiilde tek ünlü + tek ünsüz ikizlenir: stop gitti stopped olur.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -153,7 +211,12 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with ago about moving house.",
-    "choices": ["We move here two years ago.", "We moving here two years ago.", "We have moved here two years ago.", "We moved here two years ago."],
+    "choices": [
+      "We move here two years ago.",
+      "We moving here two years ago.",
+      "We have moved here two years ago.",
+      "We moved here two years ago."
+    ],
     "answer": 3,
     "explain_tr": "Ago bitmiş zamanı gösterir ve past simple ister: We moved here two years ago.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -165,7 +228,12 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She ___ at the wedding and stayed late.",
-    "choices": ["dance", "danced", "dancd", "dancing"],
+    "choices": [
+      "dance",
+      "danced",
+      "dancd",
+      "dancing"
+    ],
     "answer": 1,
     "explain_tr": "Sonu -e ile biten fiile sadece -d eklenir: dance gitti danced olur.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -176,8 +244,13 @@
     "level": "A2",
     "difficulty": "medium",
     "type": "mcq",
-    "prompt": "Choose the correct question about calling back last night.",
-    "choices": ["Did she call you back?", "Did she called you back?", "Does she called you back?", "She called you back?"],
+    "prompt": "Choose the correct question about last night.",
+    "choices": [
+      "Did she call you back?",
+      "Did she called you back?",
+      "Does she called you back?",
+      "She called you back?"
+    ],
     "answer": 0,
     "explain_tr": "Did sorusunda fiil yalın kalır: Did she call you back.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -190,7 +263,10 @@
     "type": "rewrite",
     "prompt": "Make negative: She liked the film.",
     "answer_text": "She did not like the film.",
-    "accept": ["She did not like the film", "She didn't like the film"],
+    "accept": [
+      "She did not like the film",
+      "She didn't like the film"
+    ],
     "explain_tr": "She olumsuzunda does değil did kullanılır ve -s ile -ed düşer.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
   },
@@ -202,7 +278,10 @@
     "type": "rewrite",
     "prompt": "Make a question: They watched a comedy. (they)",
     "answer_text": "Did they watch a comedy?",
-    "accept": ["Did they watch a comedy", "Did they watch a comedy?"],
+    "accept": [
+      "Did they watch a comedy",
+      "Did they watch a comedy?"
+    ],
     "explain_tr": "Did sorusunda watched yalın hale döner: Did they watch a comedy.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
   },
@@ -213,7 +292,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with emphasis about watching the match.",
-    "choices": ["I did watched the match.", "I did watch the match.", "I watched did the match.", "I watch did the match."],
+    "choices": [
+      "I did watched the match.",
+      "I did watch the match.",
+      "I watched did the match.",
+      "I watch did the match."
+    ],
     "answer": 1,
     "explain_tr": "Vurgu did cümlesinde bile fiil yalındır: I did watch the match.",
     "trap_tr": "Olumlu cümlede did vurgu içindir ve fiil -ed almaz.",
@@ -226,7 +310,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Yesterday he ___ his bike to school.",
-    "choices": ["fixd", "fixxed", "fixed", "fixing"],
+    "choices": [
+      "fixd",
+      "fixxed",
+      "fixed",
+      "fixing"
+    ],
     "answer": 2,
     "explain_tr": "Sonu -x ile biten fiilde ünsüz ikizlenmez: fix gitti fixed olur.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -238,7 +327,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about tasting local food.",
-    "choices": ["We tasted local food and liked it.", "We tasted local food and like it.", "We taste local food and liked it.", "We tasting local food and liked it."],
+    "choices": [
+      "We tasted local food and liked it.",
+      "We tasted local food and like it.",
+      "We taste local food and liked it.",
+      "We tasting local food and liked it."
+    ],
     "answer": 0,
     "explain_tr": "Aynı geçmiş hikayede iki fiil de past olur: We tasted and liked it.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -249,8 +343,13 @@
     "level": "A2",
     "difficulty": "hard",
     "type": "mcq",
-    "prompt": "Choose the correct question with enjoy about the weekend.",
-    "choices": ["Did you enjoyed the weekend?", "Do you enjoyed the weekend?", "You enjoyed the weekend?", "Did you enjoy the weekend?"],
+    "prompt": "Choose the correct question about the weekend.",
+    "choices": [
+      "Did you enjoyed the weekend?",
+      "Do you enjoyed the weekend?",
+      "You enjoyed the weekend?",
+      "Did you enjoy the weekend?"
+    ],
     "answer": 3,
     "explain_tr": "Did sorusunda enjoy yalın kalır: Did you enjoy the weekend.",
     "trap_tr": "Did ile enjoyed yan yana gelmez.",
@@ -263,7 +362,12 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Elif ___ hard for the test last week.",
-    "choices": ["studied", "studyed", "studdied", "studying"],
+    "choices": [
+      "studied",
+      "studyed",
+      "studdied",
+      "studying"
+    ],
     "answer": 0,
     "explain_tr": "Study kuralı Elif öznesinde de aynıdır: Elif studied hard.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -275,7 +379,12 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about planning a party last Friday.",
-    "choices": ["They planed a party last Friday.", "They planning a party last Friday.", "They planned a party last Friday.", "They plannned a party last Friday."],
+    "choices": [
+      "They planed a party last Friday.",
+      "They planning a party last Friday.",
+      "They planned a party last Friday.",
+      "They plannned a party last Friday."
+    ],
     "answer": 2,
     "explain_tr": "Plan kısa fiil kuralıyla ikizlenir: They planned a party.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
@@ -288,7 +397,10 @@
     "type": "rewrite",
     "prompt": "Correct the error: She didn't played tennis.",
     "answer_text": "She didn't play tennis.",
-    "accept": ["She didn't play tennis", "She did not play tennis"],
+    "accept": [
+      "She didn't play tennis",
+      "She did not play tennis"
+    ],
     "explain_tr": "Didn't varsa played yalınlaşır: She didn't play tennis.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
   },
@@ -300,7 +412,10 @@
     "type": "rewrite",
     "prompt": "Rewrite in the past: They clean the park every Saturday. (last Saturday)",
     "answer_text": "They cleaned the park last Saturday.",
-    "accept": ["They cleaned the park last Saturday", "They cleaned the park last Saturday."],
+    "accept": [
+      "They cleaned the park last Saturday",
+      "They cleaned the park last Saturday."
+    ],
     "explain_tr": "Last Saturday bitmiş zamanı gösterir: They cleaned the park last Saturday.",
     "rule_ref": "Docs/grammar/A2/a2-01-past-simple-regular.md"
   }

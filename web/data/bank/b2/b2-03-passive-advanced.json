@@ -1,1 +1,442 @@
-[{"answer":0,"choices":["is being","is","has","does"],"difficulty":"easy","explain_tr":"Şu an süren edilgen iş is being + V3 ile kurulur.","id":"b2-03-passive-advanced-e01","level":"B2","prompt":"The bridge ___ rebuilt this year.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["was being","was","has","is"],"difficulty":"easy","explain_tr":"Geçmişte süren edilgen iş was being + V3 ile kurulur.","id":"b2-03-passive-advanced-e02","level":"B2","prompt":"The room ___ cleaned when I arrived.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["have been","have","are being","will"],"difficulty":"easy","explain_tr":"Bitmiş işin sonucu önemliyse have been + V3 kullanılır.","id":"b2-03-passive-advanced-e03","level":"B2","prompt":"All tickets ___ sold out.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["must be","must","have","are"],"difficulty":"easy","explain_tr":"Kural bildiren edilgen cümle modal + be + V3 ile kurulur.","id":"b2-03-passive-advanced-e04","level":"B2","prompt":"Phones ___ switched off in this room.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["The road is being repaired.","The road is repairing.","The road repairs.","The road has repairing."],"difficulty":"easy","explain_tr":"Yol kendi kendini tamir edemez, being şarttır.","id":"b2-03-passive-advanced-e05","level":"B2","prompt":"Workers are repairing the road now. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["Two suspects have been arrested.","Two suspects have arrested.","Two suspects are arresting.","Two suspects have arrest."],"difficulty":"easy","explain_tr":"Yakalanan öznedir, have been + V3 gerekir.","id":"b2-03-passive-advanced-e06","level":"B2","prompt":"Police arrested two suspects. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["I had my car fixed yesterday.","I fixed my car yesterday.","I have fixed my car yesterday.","I get fix my car yesterday."],"difficulty":"easy","explain_tr":"Başkası yaptıysa have + nesne + V3 kullanılır.","id":"b2-03-passive-advanced-e07","level":"B2","prompt":"A mechanic repaired my car, not me. Pick the sentence with that meaning.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"accept":["Our office is cleaned every day","Our office is cleaned every day."],"answer_text":"Our office is cleaned every day.","difficulty":"easy","explain_tr":"Faili önemsiz işte nesne özne olur ve be + V3 alır.","id":"b2-03-passive-advanced-e08","level":"B2","prompt":"The cleaner cleans our office every day. (Rewrite in the passive)","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"rewrite"},{"answer":0,"choices":["The report has been finished already.","The report has finished already.","The report is being finished already.","The report finishes already."],"difficulty":"medium","explain_tr":"Rapor kendi kendine bitmez, have been + V3 gerekir.","id":"b2-03-passive-advanced-m01","level":"B2","prompt":"Someone finished the report. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["It should be done today.","It should do today.","It should being done today.","It should done today."],"difficulty":"medium","explain_tr":"Tavsiye bildiren edilgen cümle should + be + V3 ile kurulur.","id":"b2-03-passive-advanced-m02","level":"B2","prompt":"Someone must finish it today. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["She got her photo taken at the studio.","She took her photo at the studio.","She gets take her photo at the studio.","She has took her photo at the studio."],"difficulty":"medium","explain_tr":"Fotoğrafçı çektiyse get + nesne + V3 kullanılır.","id":"b2-03-passive-advanced-m03","level":"B2","prompt":"A photographer took her photo. Pick the sentence with that meaning.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["The new law will be announced tomorrow.","The new law will announce tomorrow.","The new law is announce tomorrow.","The new law will announced tomorrow."],"difficulty":"medium","explain_tr":"Gelecekteki edilgen iş will + be + V3 ile kurulur.","id":"b2-03-passive-advanced-m04","level":"B2","prompt":"The government will announce the law tomorrow. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["was caught","caught","has catch","is catch"],"difficulty":"medium","explain_tr":"Hırsız yakalanan kişidir, geçmiş edilgen was caught ister.","id":"b2-03-passive-advanced-m05","level":"B2","prompt":"The thief ___ by the police last night.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["is getting","is making","gets make","is made"],"difficulty":"medium","explain_tr":"Elbiseyi terzi dikiyorsa get + nesne + V3 kullanılır.","id":"b2-03-passive-advanced-m06","level":"B2","prompt":"She ___ her dress made for the wedding.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["should have been","should be","should have","should being"],"difficulty":"medium","explain_tr":"Geçmişte yapılmayan iş should have been + V3 ile eleştirilir.","id":"b2-03-passive-advanced-m07","level":"B2","prompt":"The decision ___ explained earlier, but nobody did it.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"accept":["Our house is being painted this week","Our house is being painted this week."],"answer_text":"Our house is being painted this week.","difficulty":"medium","explain_tr":"Süren işin edilgeni is being + V3 ile kurulur.","id":"b2-03-passive-advanced-m08","level":"B2","prompt":"They are painting our house this week. (Rewrite in the passive)","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"rewrite"},{"accept":["I had my laptop repaired","I got my laptop repaired"],"answer_text":"I had my laptop repaired.","difficulty":"medium","explain_tr":"Teknisyen yaptıysa have + nesne + V3 kullanılır.","id":"b2-03-passive-advanced-m09","level":"B2","prompt":"A technician repaired my laptop. (Rewrite with have something done)","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"rewrite"},{"answer":0,"choices":["English is spoken in many countries.","English is speaking in many countries.","English speaks in many countries.","English has speaking in many countries."],"difficulty":"hard","explain_tr":"Dil konuşulan şeydir, geniş zaman edilgeni is + V3 ister.","id":"b2-03-passive-advanced-h01","level":"B2","prompt":"People speak English in many countries. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["He got fired last month.","He got fire last month.","He fired last month.","He was firing last month."],"difficulty":"hard","explain_tr":"Günlük dilde işten atılmak get + V3 ile anlatılır.","id":"b2-03-passive-advanced-h02","level":"B2","prompt":"The company dismissed him last month. Pick the correct get-passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["The office is being cleaned right now, so wait outside.","The office is cleaning right now, so wait outside.","The office cleans right now, so wait outside.","The office has cleaning right now, so wait outside."],"difficulty":"hard","explain_tr":"right now süren işi gösterir, being olmadan cümle etken olur.","id":"b2-03-passive-advanced-h03","level":"B2","prompt":"Cleaners are working in the office now. Pick the correct passive sentence.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"mcq"},{"answer":0,"choices":["was stolen","stole","has steal","is steal"],"difficulty":"hard","explain_tr":"Bisiklet çalınan şeydir, geçmiş edilgen was stolen ister.","id":"b2-03-passive-advanced-h04","level":"B2","prompt":"My bike ___ last night!","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["was called","called","has call","is call"],"difficulty":"hard","explain_tr":"Maç iptal edilen şeydir, geçmiş edilgen was called ister.","id":"b2-03-passive-advanced-h05","level":"B2","prompt":"The match ___ off yesterday because of the rain.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"answer":0,"choices":["have","make","do","let"],"difficulty":"hard","explain_tr":"Düzenli hizmet have + nesne + V3 ile anlatılır.","id":"b2-03-passive-advanced-h06","level":"B2","prompt":"We ___ our eyes tested every year.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"gap-fill"},{"accept":["The car is being repaired at the garage now","The car is being repaired at the garage"],"answer_text":"The car is being repaired at the garage now.","difficulty":"hard","explain_tr":"Araba kendi kendini tamir edemez, being eklenmelidir.","id":"b2-03-passive-advanced-h07","level":"B2","prompt":"Correct the mistake: The car is repairing at the garage now.","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"rewrite"},{"accept":["I had my house painted last summer","I got my house painted last summer"],"answer_text":"I had my house painted last summer.","difficulty":"hard","explain_tr":"Boyacı boyadıysa have + nesne + V3 kullanılır.","id":"b2-03-passive-advanced-h08","level":"B2","prompt":"I painted my house last summer. (You paid a painter. Rewrite with have something done)","rule_ref":"Docs/grammar/B2/b2-03-passive-advanced.md","topic":"b2-03-passive-advanced","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "is being",
+      "is",
+      "has",
+      "does"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Şu an süren edilgen iş is being + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-e01",
+    "level": "B2",
+    "prompt": "The bridge ___ rebuilt this year.",
+    "prompt_tr": "Köprü bu yıl ___ yeniden yapılıyor.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was being",
+      "was",
+      "has",
+      "is"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Geçmişte süren edilgen iş was being + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-e02",
+    "level": "B2",
+    "prompt": "The room ___ cleaned when I arrived.",
+    "prompt_tr": "Ben vardığımda oda ___ temizleniyordu.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "have been",
+      "have",
+      "are being",
+      "will"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Bitmiş işin sonucu önemliyse have been + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-e03",
+    "level": "B2",
+    "prompt": "All tickets ___ sold out.",
+    "prompt_tr": "Tüm biletler ___ tükendi.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "must be",
+      "must",
+      "have",
+      "are"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Kural bildiren edilgen cümle modal + be + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-e04",
+    "level": "B2",
+    "prompt": "Phones ___ switched off in this room.",
+    "prompt_tr": "Bu odada telefonlar ___ kapalı tutulur.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The road is being repaired.",
+      "The road is repairing.",
+      "The road repairs.",
+      "The road has repairing."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Yol kendi kendini tamir edemez, being şarttır.",
+    "id": "b2-03-passive-advanced-e05",
+    "level": "B2",
+    "prompt": "Workers are repairing the road now. Pick the correct passive sentence.",
+    "prompt_tr": "İşçiler şu an yolu onarıyor. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Two suspects have been arrested.",
+      "Two suspects have arrested.",
+      "Two suspects are arresting.",
+      "Two suspects have arrest."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Yakalanan öznedir, have been + V3 gerekir.",
+    "id": "b2-03-passive-advanced-e06",
+    "level": "B2",
+    "prompt": "Police arrested two suspects. Pick the correct passive sentence.",
+    "prompt_tr": "Polis iki şüpheliyi yakaladı. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I had my car fixed yesterday.",
+      "I fixed my car yesterday.",
+      "I have fixed my car yesterday.",
+      "I get fix my car yesterday."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Başkası yaptıysa have + nesne + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-e07",
+    "level": "B2",
+    "prompt": "A mechanic repaired my car, not me. Pick the sentence with that meaning.",
+    "prompt_tr": "Arabamı bir tamirci tamir etti, ben değil. Bu anlamı veren cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "Our office is cleaned every day",
+      "Our office is cleaned every day."
+    ],
+    "answer_text": "Our office is cleaned every day.",
+    "difficulty": "easy",
+    "explain_tr": "Faili önemsiz işte nesne özne olur ve be + V3 alır.",
+    "id": "b2-03-passive-advanced-e08",
+    "level": "B2",
+    "prompt": "The cleaner cleans our office every day. (Rewrite in the passive)",
+    "prompt_tr": "Edilgen yapıyla yeniden yaz: The cleaner cleans our office every day.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The report has been finished already.",
+      "The report has finished already.",
+      "The report is being finished already.",
+      "The report finishes already."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Rapor kendi kendine bitmez, have been + V3 gerekir.",
+    "id": "b2-03-passive-advanced-m01",
+    "level": "B2",
+    "prompt": "Someone finished the report. Pick the correct passive sentence.",
+    "prompt_tr": "Birisi raporu bitirdi. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "It should be done today.",
+      "It should do today.",
+      "It should being done today.",
+      "It should done today."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Tavsiye bildiren edilgen cümle should + be + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-m02",
+    "level": "B2",
+    "prompt": "Someone must finish it today. Pick the correct passive sentence.",
+    "prompt_tr": "Birisi bugün bitirmeli. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "She got her photo taken at the studio.",
+      "She took her photo at the studio.",
+      "She gets take her photo at the studio.",
+      "She has took her photo at the studio."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Fotoğrafçı çektiyse get + nesne + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-m03",
+    "level": "B2",
+    "prompt": "A photographer took her photo. Pick the sentence with that meaning.",
+    "prompt_tr": "Bir fotoğrafçı onun fotoğrafını çekti. Bu anlamı veren cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The new law will be announced tomorrow.",
+      "The new law will announce tomorrow.",
+      "The new law is announce tomorrow.",
+      "The new law will announced tomorrow."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Gelecekteki edilgen iş will + be + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-m04",
+    "level": "B2",
+    "prompt": "The government will announce the law tomorrow. Pick the correct passive sentence.",
+    "prompt_tr": "Hükûmet yasayı yarın açıklayacak. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was caught",
+      "caught",
+      "has catch",
+      "is catch"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Hırsız yakalanan kişidir, geçmiş edilgen was caught ister.",
+    "id": "b2-03-passive-advanced-m05",
+    "level": "B2",
+    "prompt": "The thief ___ by the police last night.",
+    "prompt_tr": "Hırsız dün gece polis tarafından ___ yakalandı.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "is getting",
+      "is making",
+      "gets make",
+      "is made"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Elbiseyi terzi dikiyorsa get + nesne + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-m06",
+    "level": "B2",
+    "prompt": "She ___ her dress made for the wedding.",
+    "prompt_tr": "Düğün için elbisesini ___ diktirdi.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "should have been",
+      "should be",
+      "should have",
+      "should being"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Geçmişte yapılmayan iş should have been + V3 ile eleştirilir.",
+    "id": "b2-03-passive-advanced-m07",
+    "level": "B2",
+    "prompt": "The decision ___ explained earlier, but nobody did it.",
+    "prompt_tr": "Karar daha önce ___ açıklanmalıydı ama kimse yapmadı.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "Our house is being painted this week",
+      "Our house is being painted this week."
+    ],
+    "answer_text": "Our house is being painted this week.",
+    "difficulty": "medium",
+    "explain_tr": "Süren işin edilgeni is being + V3 ile kurulur.",
+    "id": "b2-03-passive-advanced-m08",
+    "level": "B2",
+    "prompt": "They are painting our house this week. (Rewrite in the passive)",
+    "prompt_tr": "Edilgen yapıyla yeniden yaz: They are painting our house this week.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "I had my laptop repaired",
+      "I got my laptop repaired"
+    ],
+    "answer_text": "I had my laptop repaired.",
+    "difficulty": "medium",
+    "explain_tr": "Teknisyen yaptıysa have + nesne + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-m09",
+    "level": "B2",
+    "prompt": "A technician repaired my laptop. (Rewrite with have something done)",
+    "prompt_tr": "Have something done kalıbıyla yeniden yaz: A technician repaired my laptop.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "English is spoken in many countries.",
+      "English is speaking in many countries.",
+      "English speaks in many countries.",
+      "English has speaking in many countries."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Dil konuşulan şeydir, geniş zaman edilgeni is + V3 ister.",
+    "id": "b2-03-passive-advanced-h01",
+    "level": "B2",
+    "prompt": "People speak English in many countries. Pick the correct passive sentence.",
+    "prompt_tr": "Birçok ülkede İngilizce konuşulur. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "He got fired last month.",
+      "He got fire last month.",
+      "He fired last month.",
+      "He was firing last month."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Günlük dilde işten atılmak get + V3 ile anlatılır.",
+    "id": "b2-03-passive-advanced-h02",
+    "level": "B2",
+    "prompt": "The company dismissed him last month. Pick the correct get-passive sentence.",
+    "prompt_tr": "Şirket onu geçen ay işten çıkardı. Doğru get-passive cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The office is being cleaned right now, so wait outside.",
+      "The office is cleaning right now, so wait outside.",
+      "The office cleans right now, so wait outside.",
+      "The office has cleaning right now, so wait outside."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "right now süren işi gösterir, being olmadan cümle etken olur.",
+    "id": "b2-03-passive-advanced-h03",
+    "level": "B2",
+    "prompt": "Cleaners are working in the office now. Pick the correct passive sentence.",
+    "prompt_tr": "Temizlikçiler şu an ofiste çalışıyor. Doğru edilgen cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was stolen",
+      "stole",
+      "has steal",
+      "is steal"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Bisiklet çalınan şeydir, geçmiş edilgen was stolen ister.",
+    "id": "b2-03-passive-advanced-h04",
+    "level": "B2",
+    "prompt": "My bike ___ last night!",
+    "prompt_tr": "Bisikletim dün gece ___ çalındı!",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "was called",
+      "called",
+      "has call",
+      "is call"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Maç iptal edilen şeydir, geçmiş edilgen was called ister.",
+    "id": "b2-03-passive-advanced-h05",
+    "level": "B2",
+    "prompt": "The match ___ off yesterday because of the rain.",
+    "prompt_tr": "Maç dün yağmur yüzünden ___ ertelendi.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "have",
+      "make",
+      "do",
+      "let"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Düzenli hizmet have + nesne + V3 ile anlatılır.",
+    "id": "b2-03-passive-advanced-h06",
+    "level": "B2",
+    "prompt": "We ___ our eyes tested every year.",
+    "prompt_tr": "Her yıl gözlerimizi ___ muayene ettiririz.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "The car is being repaired at the garage now",
+      "The car is being repaired at the garage"
+    ],
+    "answer_text": "The car is being repaired at the garage now.",
+    "difficulty": "hard",
+    "explain_tr": "Araba kendi kendini tamir edemez, being eklenmelidir.",
+    "id": "b2-03-passive-advanced-h07",
+    "level": "B2",
+    "prompt": "Correct the mistake: The car is repairing at the garage now.",
+    "prompt_tr": "Hatayı düzelt: The car is repairing at the garage now.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "I had my house painted last summer",
+      "I got my house painted last summer"
+    ],
+    "answer_text": "I had my house painted last summer.",
+    "difficulty": "hard",
+    "explain_tr": "Boyacı boyadıysa have + nesne + V3 kullanılır.",
+    "id": "b2-03-passive-advanced-h08",
+    "level": "B2",
+    "prompt": "I painted my house last summer. (You paid a painter. Rewrite with have something done)",
+    "prompt_tr": "Bir boyacıya para ödedin. Have something done kalıbıyla yeniden yaz: I painted my house last summer.",
+    "rule_ref": "Docs/grammar/B2/b2-03-passive-advanced.md",
+    "topic": "b2-03-passive-advanced",
+    "type": "rewrite"
+  }
+]

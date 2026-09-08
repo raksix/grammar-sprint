@@ -1,1 +1,442 @@
-[{"answer":0,"choices":["knew","know","have known","will know"],"difficulty":"easy","explain_tr":"Şimdiki pişmanlık wish + past simple ile kurulur.","id":"b2-02-wish-if-only-e01","level":"B2","prompt":"I wish I ___ the answer now.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["were","is","has been","will be"],"difficulty":"easy","explain_tr":"Şimdiki dilek were ile kurulur, is kullanılmaz.","id":"b2-02-wish-if-only-e02","level":"B2","prompt":"I wish she ___ here with us now.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["had studied","studied","have studied","would study"],"difficulty":"easy","explain_tr":"Dünkü sınav geçmiş pişmanlıktır, wish + past perfect alır.","id":"b2-02-wish-if-only-e03","level":"B2","prompt":"I wish I ___ harder for that exam yesterday.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["had","have","will have","have had"],"difficulty":"easy","explain_tr":"Şimdiki dilek past simple ister: had more time.","id":"b2-02-wish-if-only-e04","level":"B2","prompt":"If only I ___ more free time!","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["I wish I had a car.","I wish I have a car.","I wish I will have a car.","I wish I would have a car."],"difficulty":"easy","explain_tr":"Arabasızlık şimdiki durumdur, wish sonrası had gelir.","id":"b2-02-wish-if-only-e05","level":"B2","prompt":"I do not own a car. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["If only we had left ten minutes earlier!","If only we left ten minutes earlier!","If only we will leave ten minutes earlier!","If only we would leave ten minutes earlier!"],"difficulty":"easy","explain_tr":"Geç kalmak geçmişte kaldı, if only + past perfect gerekir.","id":"b2-02-wish-if-only-e06","level":"B2","prompt":"We are late because we left late. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["I wish we lived closer to the sea.","I wish we live closer to the sea.","I wish we will live closer to the sea.","I wish we have lived closer to the sea."],"difficulty":"easy","explain_tr":"Uzakta oturmak şimdiki durumdur, wish + past simple alır.","id":"b2-02-wish-if-only-e07","level":"B2","prompt":"We live far from the sea. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"accept":["I wish I spoke French","I wish I could speak French"],"answer_text":"I wish I spoke French.","difficulty":"easy","explain_tr":"Konuşamamak şimdiki durumdur, wish + past simple ile yazılır.","id":"b2-02-wish-if-only-e08","level":"B2","prompt":"I do not speak French. (Rewrite with I wish)","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"rewrite"},{"answer":0,"choices":["I wish I had taken that offer last year.","I wish I took that offer last year.","I wish I would take that offer last year.","I wish I have taken that offer last year."],"difficulty":"medium","explain_tr":"Geçen yılki teklif geçmiş pişmanlıktır, past simple yetmez.","id":"b2-02-wish-if-only-m01","level":"B2","prompt":"I refused a good offer last year. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["If only he knew the truth.","If only he knows the truth.","If only he will know the truth.","If only he would know the truth."],"difficulty":"medium","explain_tr":"Bilmiyor olmak şimdiki durumdur, if only + past simple alır.","id":"b2-02-wish-if-only-m02","level":"B2","prompt":"He does not know the truth. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["I wish you would stop shouting.","I wish you will stop shouting.","I wish you stop shouting.","I wish you would have stopped shouting."],"difficulty":"medium","explain_tr":"Başkası değişsin isteği şikayettir, wish + would ile kurulur.","id":"b2-02-wish-if-only-m03","level":"B2","prompt":"You keep shouting and it annoys me. Pick the correct complaint.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["If only she had not missed the deadline!","If only she did not miss the deadline!","If only she would not miss the deadline!","If only she has not missed the deadline!"],"difficulty":"medium","explain_tr":"Kaçan son tarih geçmiştedir, if only + past perfect gerekir.","id":"b2-02-wish-if-only-m04","level":"B2","prompt":"She missed the deadline last Friday. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["could","can","will","am able to"],"difficulty":"medium","explain_tr":"could şimdiki pişmanlıkta can fiilinin past formudur.","id":"b2-02-wish-if-only-m05","level":"B2","prompt":"I wish I ___ drive.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["had not eaten","did not eat","have not eaten","would not eat"],"difficulty":"medium","explain_tr":"Dün akşamki yemek geçmiş pişmanlıktır, past perfect ister.","id":"b2-02-wish-if-only-m06","level":"B2","prompt":"I wish I ___ so much at dinner last night.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["had told","told","have told","would tell"],"difficulty":"medium","explain_tr":"Dünkü suskunluk geçmiş pişmanlıktır, if only + past perfect alır.","id":"b2-02-wish-if-only-m07","level":"B2","prompt":"If only they ___ us about the problem yesterday!","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"accept":["I wish I had not eaten so much cake","I wish I hadn't eaten so much cake"],"answer_text":"I wish I had not eaten so much cake.","difficulty":"medium","explain_tr":"Dünkü fazla yemek geçmiş pişmanlıktır, wish + past perfect ile yazılır.","id":"b2-02-wish-if-only-m08","level":"B2","prompt":"I ate too much cake. I feel sick now. (Rewrite with I wish)","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"rewrite"},{"accept":["If only Mehmet knew the truth","If only Mehmet knew the truth."],"answer_text":"If only Mehmet knew the truth.","difficulty":"medium","explain_tr":"Bilmiyor olmak şimdiki durumdur, if only + past simple ile yazılır.","id":"b2-02-wish-if-only-m09","level":"B2","prompt":"Mehmet does not know the truth. (Rewrite with If only)","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"rewrite"},{"answer":0,"choices":["I wish I had not said that yesterday.","I wish I did not say that yesterday.","I wish I would not say that yesterday.","I wish I have not said that yesterday."],"difficulty":"hard","explain_tr":"Dünkü söz geçmişte kaldı, past simple pişmanlığı anlatmaz.","id":"b2-02-wish-if-only-h01","level":"B2","prompt":"I said something rude yesterday. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["If only I had known you were coming yesterday!","If only I would know you were coming yesterday!","If only I knew you were coming yesterday!","If only I have known you were coming yesterday!"],"difficulty":"hard","explain_tr":"yesterday geçmişi işaretler, o yüzden past perfect şarttır.","id":"b2-02-wish-if-only-h02","level":"B2","prompt":"You visited yesterday but I did not know. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["I wish Elif were here now, not in Ankara.","I wish Elif is here now, not in Ankara.","I wish Elif would be here now, not in Ankara.","I wish Elif has been here now, not in Ankara."],"difficulty":"hard","explain_tr":"Burada olmak kalıcı durumdur, would şikayet anlamı verir ve yanlıştır.","id":"b2-02-wish-if-only-h03","level":"B2","prompt":"Elif is in Ankara but I want her here. Pick the correct sentence.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"mcq"},{"answer":0,"choices":["had told","told","have told","would tell"],"difficulty":"hard","explain_tr":"Geçen haftaki suskunluk geçmiş pişmanlıktır, past perfect ister.","id":"b2-02-wish-if-only-h04","level":"B2","prompt":"I wish you ___ me the truth last week.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["had not lost","did not lose","has not lost","would not lose"],"difficulty":"hard","explain_tr":"Bu sabahki kayıp geçmiştedir, if only + past perfect alır.","id":"b2-02-wish-if-only-h05","level":"B2","prompt":"If only Can ___ his keys this morning!","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"answer":0,"choices":["would stop","stops","has stopped","had stopped"],"difficulty":"hard","explain_tr":"Yağmurdan şikayet değişim isteğidir, wish + would ile kurulur.","id":"b2-02-wish-if-only-h06","level":"B2","prompt":"I wish it ___ raining so we could go out.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"gap-fill"},{"accept":["I wish I had more money","I wish I had more money."],"answer_text":"I wish I had more money.","difficulty":"hard","explain_tr":"Wish sonrası present kullanılmaz, fiil bir geçmiş zamana kayar.","id":"b2-02-wish-if-only-h07","level":"B2","prompt":"Correct the mistake: I wish I have more money.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"rewrite"},{"accept":["I wish I were taller","I wish I was taller"],"answer_text":"I wish I were taller.","difficulty":"hard","explain_tr":"Boy kalıcı durumdur, would şikayet anlamı verir ve burada yanlıştır.","id":"b2-02-wish-if-only-h08","level":"B2","prompt":"Correct the mistake: I wish I would be taller.","rule_ref":"Docs/grammar/B2/b2-02-wish-if-only.md","topic":"b2-02-wish-if-only","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "knew",
+      "know",
+      "have known",
+      "will know"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Şimdiki pişmanlık wish + past simple ile kurulur.",
+    "id": "b2-02-wish-if-only-e01",
+    "level": "B2",
+    "prompt": "I wish I ___ the answer now.",
+    "prompt_tr": "Keşke cevabı şimdi ___ bilseydim.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "were",
+      "is",
+      "has been",
+      "will be"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Şimdiki dilek were ile kurulur, is kullanılmaz.",
+    "id": "b2-02-wish-if-only-e02",
+    "level": "B2",
+    "prompt": "I wish she ___ here with us now.",
+    "prompt_tr": "Keşke şimdi burada bizimle ___ olsaydı.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had studied",
+      "studied",
+      "have studied",
+      "would study"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Dünkü sınav geçmiş pişmanlıktır, wish + past perfect alır.",
+    "id": "b2-02-wish-if-only-e03",
+    "level": "B2",
+    "prompt": "I wish I ___ harder for that exam yesterday.",
+    "prompt_tr": "Keşke dünkü sınava ___ daha çok çalışsaydım.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had",
+      "have",
+      "will have",
+      "have had"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Şimdiki dilek past simple ister: had more time.",
+    "id": "b2-02-wish-if-only-e04",
+    "level": "B2",
+    "prompt": "If only I ___ more free time!",
+    "prompt_tr": "Keşke ___ daha çok boş zamanım olsaydı!",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish I had a car.",
+      "I wish I have a car.",
+      "I wish I will have a car.",
+      "I wish I would have a car."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Arabasızlık şimdiki durumdur, wish sonrası had gelir.",
+    "id": "b2-02-wish-if-only-e05",
+    "level": "B2",
+    "prompt": "I do not own a car. Pick the correct sentence.",
+    "prompt_tr": "Arabam yok. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "If only we had left ten minutes earlier!",
+      "If only we left ten minutes earlier!",
+      "If only we will leave ten minutes earlier!",
+      "If only we would leave ten minutes earlier!"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Geç kalmak geçmişte kaldı, if only + past perfect gerekir.",
+    "id": "b2-02-wish-if-only-e06",
+    "level": "B2",
+    "prompt": "We are late because we left late. Pick the correct sentence.",
+    "prompt_tr": "Geç çıktığımız için geç kaldık. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish we lived closer to the sea.",
+      "I wish we live closer to the sea.",
+      "I wish we will live closer to the sea.",
+      "I wish we have lived closer to the sea."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Uzakta oturmak şimdiki durumdur, wish + past simple alır.",
+    "id": "b2-02-wish-if-only-e07",
+    "level": "B2",
+    "prompt": "We live far from the sea. Pick the correct sentence.",
+    "prompt_tr": "Denizden uzakta yaşıyoruz. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "I wish I spoke French",
+      "I wish I could speak French"
+    ],
+    "answer_text": "I wish I spoke French.",
+    "difficulty": "easy",
+    "explain_tr": "Konuşamamak şimdiki durumdur, wish + past simple ile yazılır.",
+    "id": "b2-02-wish-if-only-e08",
+    "level": "B2",
+    "prompt": "I do not speak French. (Rewrite with I wish)",
+    "prompt_tr": "I wish ile yeniden yaz: I do not speak French.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish I had taken that offer last year.",
+      "I wish I took that offer last year.",
+      "I wish I would take that offer last year.",
+      "I wish I have taken that offer last year."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Geçen yılki teklif geçmiş pişmanlıktır, past simple yetmez.",
+    "id": "b2-02-wish-if-only-m01",
+    "level": "B2",
+    "prompt": "I refused a good offer last year. Pick the correct sentence.",
+    "prompt_tr": "Geçen yıl iyi bir teklifi reddettim. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "If only he knew the truth.",
+      "If only he knows the truth.",
+      "If only he will know the truth.",
+      "If only he would know the truth."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Bilmiyor olmak şimdiki durumdur, if only + past simple alır.",
+    "id": "b2-02-wish-if-only-m02",
+    "level": "B2",
+    "prompt": "He does not know the truth. Pick the correct sentence.",
+    "prompt_tr": "Gerçeği bilmiyor. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish you would stop shouting.",
+      "I wish you will stop shouting.",
+      "I wish you stop shouting.",
+      "I wish you would have stopped shouting."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Başkası değişsin isteği şikayettir, wish + would ile kurulur.",
+    "id": "b2-02-wish-if-only-m03",
+    "level": "B2",
+    "prompt": "You keep shouting and it annoys me. Pick the correct complaint.",
+    "prompt_tr": "Sürekli bağırıyorsun ve bu beni rahatsız ediyor. Doğru şikâyet cümlesini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "If only she had not missed the deadline!",
+      "If only she did not miss the deadline!",
+      "If only she would not miss the deadline!",
+      "If only she has not missed the deadline!"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Kaçan son tarih geçmiştedir, if only + past perfect gerekir.",
+    "id": "b2-02-wish-if-only-m04",
+    "level": "B2",
+    "prompt": "She missed the deadline last Friday. Pick the correct sentence.",
+    "prompt_tr": "Geçen cuma son teslim tarihini kaçırdı. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "could",
+      "can",
+      "will",
+      "am able to"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "could şimdiki pişmanlıkta can fiilinin past formudur.",
+    "id": "b2-02-wish-if-only-m05",
+    "level": "B2",
+    "prompt": "I wish I ___ drive.",
+    "prompt_tr": "Keşke ___ araba kullanabilseydim.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had not eaten",
+      "did not eat",
+      "have not eaten",
+      "would not eat"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Dün akşamki yemek geçmiş pişmanlıktır, past perfect ister.",
+    "id": "b2-02-wish-if-only-m06",
+    "level": "B2",
+    "prompt": "I wish I ___ so much at dinner last night.",
+    "prompt_tr": "Keşke dün akşam yemekte ___ bu kadar çok yemeseydim.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had told",
+      "told",
+      "have told",
+      "would tell"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Dünkü suskunluk geçmiş pişmanlıktır, if only + past perfect alır.",
+    "id": "b2-02-wish-if-only-m07",
+    "level": "B2",
+    "prompt": "If only they ___ us about the problem yesterday!",
+    "prompt_tr": "Keşke dün bize sorundan ___ bahsetseydiler!",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "I wish I had not eaten so much cake",
+      "I wish I hadn't eaten so much cake"
+    ],
+    "answer_text": "I wish I had not eaten so much cake.",
+    "difficulty": "medium",
+    "explain_tr": "Dünkü fazla yemek geçmiş pişmanlıktır, wish + past perfect ile yazılır.",
+    "id": "b2-02-wish-if-only-m08",
+    "level": "B2",
+    "prompt": "I ate too much cake. I feel sick now. (Rewrite with I wish)",
+    "prompt_tr": "I wish ile yeniden yaz: I ate too much cake. I feel sick now.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "If only Mehmet knew the truth",
+      "If only Mehmet knew the truth."
+    ],
+    "answer_text": "If only Mehmet knew the truth.",
+    "difficulty": "medium",
+    "explain_tr": "Bilmiyor olmak şimdiki durumdur, if only + past simple ile yazılır.",
+    "id": "b2-02-wish-if-only-m09",
+    "level": "B2",
+    "prompt": "Mehmet does not know the truth. (Rewrite with If only)",
+    "prompt_tr": "If only ile yeniden yaz: Mehmet does not know the truth.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "rewrite"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish I had not said that yesterday.",
+      "I wish I did not say that yesterday.",
+      "I wish I would not say that yesterday.",
+      "I wish I have not said that yesterday."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Dünkü söz geçmişte kaldı, past simple pişmanlığı anlatmaz.",
+    "id": "b2-02-wish-if-only-h01",
+    "level": "B2",
+    "prompt": "I said something rude yesterday. Pick the correct sentence.",
+    "prompt_tr": "Dün kaba bir şey söyledim. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "If only I had known you were coming yesterday!",
+      "If only I would know you were coming yesterday!",
+      "If only I knew you were coming yesterday!",
+      "If only I have known you were coming yesterday!"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "yesterday geçmişi işaretler, o yüzden past perfect şarttır.",
+    "id": "b2-02-wish-if-only-h02",
+    "level": "B2",
+    "prompt": "You visited yesterday but I did not know. Pick the correct sentence.",
+    "prompt_tr": "Dün ziyarete geldin ama haberim yoktu. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "I wish Elif were here now, not in Ankara.",
+      "I wish Elif is here now, not in Ankara.",
+      "I wish Elif would be here now, not in Ankara.",
+      "I wish Elif has been here now, not in Ankara."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Burada olmak kalıcı durumdur, would şikayet anlamı verir ve yanlıştır.",
+    "id": "b2-02-wish-if-only-h03",
+    "level": "B2",
+    "prompt": "Elif is in Ankara but I want her here. Pick the correct sentence.",
+    "prompt_tr": "Elif Ankara'da ama burada olmasını istiyorum. Doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had told",
+      "told",
+      "have told",
+      "would tell"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Geçen haftaki suskunluk geçmiş pişmanlıktır, past perfect ister.",
+    "id": "b2-02-wish-if-only-h04",
+    "level": "B2",
+    "prompt": "I wish you ___ me the truth last week.",
+    "prompt_tr": "Keşke geçen hafta bana gerçeği ___ söyleseydin.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "had not lost",
+      "did not lose",
+      "has not lost",
+      "would not lose"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Bu sabahki kayıp geçmiştedir, if only + past perfect alır.",
+    "id": "b2-02-wish-if-only-h05",
+    "level": "B2",
+    "prompt": "If only Can ___ his keys this morning!",
+    "prompt_tr": "Keşke Can bu sabah anahtarlarını ___ unutmasaydı!",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "would stop",
+      "stops",
+      "has stopped",
+      "had stopped"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Yağmurdan şikayet değişim isteğidir, wish + would ile kurulur.",
+    "id": "b2-02-wish-if-only-h06",
+    "level": "B2",
+    "prompt": "I wish it ___ raining so we could go out.",
+    "prompt_tr": "Keşke yağmur ___ yağmasa da dışarı çıkabilsek.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "gap-fill"
+  },
+  {
+    "accept": [
+      "I wish I had more money",
+      "I wish I had more money."
+    ],
+    "answer_text": "I wish I had more money.",
+    "difficulty": "hard",
+    "explain_tr": "Wish sonrası present kullanılmaz, fiil bir geçmiş zamana kayar.",
+    "id": "b2-02-wish-if-only-h07",
+    "level": "B2",
+    "prompt": "Correct the mistake: I wish I have more money.",
+    "prompt_tr": "Hatayı düzelt: I wish I have more money.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "I wish I were taller",
+      "I wish I was taller"
+    ],
+    "answer_text": "I wish I were taller.",
+    "difficulty": "hard",
+    "explain_tr": "Boy kalıcı durumdur, would şikayet anlamı verir ve burada yanlıştır.",
+    "id": "b2-02-wish-if-only-h08",
+    "level": "B2",
+    "prompt": "Correct the mistake: I wish I would be taller.",
+    "prompt_tr": "Hatayı düzelt: I wish I would be taller.",
+    "rule_ref": "Docs/grammar/B2/b2-02-wish-if-only.md",
+    "topic": "b2-02-wish-if-only",
+    "type": "rewrite"
+  }
+]

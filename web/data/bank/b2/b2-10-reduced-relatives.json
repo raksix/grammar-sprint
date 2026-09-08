@@ -1,1 +1,442 @@
-[{"answer":0,"choices":["standing","is standing","stand","stood"],"difficulty":"easy","explain_tr":"Etken relative -ing ile kısalır: the man standing. Yardımcı fiil düşer.","id":"b2-10-reduced-relatives-e01","level":"B2","prompt":"The man ___ at the door is our neighbour.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":1,"choices":["writing","written","wrote","write"],"difficulty":"easy","explain_tr":"Edilgen relative V3 ile kısalır: the book written. Writing etken anlam verirdi.","id":"b2-10-reduced-relatives-e02","level":"B2","prompt":"The book ___ by Orhan Pamuk won a prize.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":2,"choices":["waited","wait","waiting","waits"],"difficulty":"easy","explain_tr":"Who are waiting kısalır: passengers waiting. Tam cümle yapısı kısaltmada düşer.","id":"b2-10-reduced-relatives-e03","level":"B2","prompt":"Passengers ___ for flight 204 board now.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":3,"choices":["baking","bake","bakes","baked"],"difficulty":"easy","explain_tr":"Which was baked kısalır: the cake baked. Pişirilen kek edilgendir.","id":"b2-10-reduced-relatives-e04","level":"B2","prompt":"The cake ___ this morning smells great.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":1,"choices":["The girl talked to Elif is my cousin.","The girl talking to Elif is my cousin.","The girl is talking to Elif is my cousin.","The girl talks to Elif is my cousin."],"difficulty":"easy","explain_tr":"Who is talking kısalır: the girl talking. Yardımcı fiil kısaltmada kalamaz.","id":"b2-10-reduced-relatives-e05","level":"B2","prompt":"Pick the correct reduced form of the sentence about the girl talking to Elif.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":0,"choices":["The files stored here are private.","The files storing here are private.","The files are stored here are private.","The files store here are private."],"difficulty":"easy","explain_tr":"Which were stored kısalır: the files stored. Storing etken anlam verirdi.","id":"b2-10-reduced-relatives-e06","level":"B2","prompt":"Pick the correct reduced form of the sentence about the private files stored here.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":2,"choices":["Missed the bus, the late pupils ran.","Having miss the bus, the late pupils ran.","Having missed the bus, the late pupils ran.","Miss the bus, the late pupils ran."],"difficulty":"easy","explain_tr":"Önceki eylem having + V3 ile kısalır: having missed. Miss ve miss bozuk formlardır.","id":"b2-10-reduced-relatives-e07","level":"B2","prompt":"Pick the correct sentence about the pupils who missed the morning bus.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"accept":["The woman wearing red is my teacher.","The woman wearing red is my teacher"],"answer_text":"The woman wearing red is my teacher.","difficulty":"easy","explain_tr":"Who is wearing kısalır: the woman wearing. Anlam korunur.","id":"b2-10-reduced-relatives-e08","level":"B2","prompt":"The woman who is wearing red is my teacher. (Shorten the relative clause)","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"rewrite"},{"answer":1,"choices":["connected","connecting","connect","connects"],"difficulty":"medium","explain_tr":"Which connects kısalır: the road connecting. Yol bağlar, bağlanmaz.","id":"b2-10-reduced-relatives-m01","level":"B2","prompt":"The road ___ two villages is closed.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":3,"choices":["wished","wish","wishes","wishing"],"difficulty":"medium","explain_tr":"Who wishes kısalır: anyone wishing. Ing formu tek doğru kısaltmadır.","id":"b2-10-reduced-relatives-m02","level":"B2","prompt":"Anyone ___ to join must sign up.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":0,"choices":["built","building","build","builds"],"difficulty":"medium","explain_tr":"Which was built kısalır: the bridge built. Köprü inşa edilir, edilgendir.","id":"b2-10-reduced-relatives-m03","level":"B2","prompt":"The bridge ___ in 2000 collapsed last year.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":3,"choices":["The car repairing now belongs to Can.","The car repaired now belongs to Can.","The car is repairing now belongs to Can.","The car being repaired now belongs to Can."],"difficulty":"medium","explain_tr":"Süregelen edilgen being + V3 ile kısalır: the car being repaired. Repairing etken anlam verirdi.","id":"b2-10-reduced-relatives-m04","level":"B2","prompt":"Pick the correct passive-continuous reduced form for the car that is being repaired now.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":0,"choices":["Students finishing early may leave.","Students finished early may leave.","Students finish early may leave.","Students to finish early may leave."],"difficulty":"medium","explain_tr":"Who finish kısalır: students finishing. Finished edilgen anlam verirdi.","id":"b2-10-reduced-relatives-m05","level":"B2","prompt":"Pick the correct reduced form of the sentence about students who finish early.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":1,"choices":["The letter sending yesterday arrived today.","The letter sent yesterday arrived today.","The letter sended yesterday arrived today.","The letter send yesterday arrived today."],"difficulty":"medium","explain_tr":"Which was sent kısalır: the letter sent. Sended diye bir form yoktur.","id":"b2-10-reduced-relatives-m06","level":"B2","prompt":"Pick the correct sentence about the letter posted yesterday morning.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":2,"choices":["The room being on the left is ours.","The room on the left are ours.","The room on the left is ours.","The room which on the left is ours."],"difficulty":"medium","explain_tr":"Which is on the left kısalır: the room on the left. Being sıfat kısaltmasında kullanılmaz.","id":"b2-10-reduced-relatives-m07","level":"B2","prompt":"Pick the correct reduced form of the sentence about the room on the left.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"accept":["The boy crying loudly found his mother.","The boy crying loudly found his mother"],"answer_text":"The boy crying loudly found his mother.","difficulty":"medium","explain_tr":"Who was crying kısalır: the boy crying. Zaman anlamı bağlamdan çıkar.","id":"b2-10-reduced-relatives-m08","level":"B2","prompt":"The boy who was crying loudly found his mother. (Shorten the relative clause)","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"rewrite"},{"accept":["The novel written in 2010 became famous.","The novel written in 2010 became famous"],"answer_text":"The novel written in 2010 became famous.","difficulty":"medium","explain_tr":"Which was written kısalır: the novel written. Edilgende V3 kalır.","id":"b2-10-reduced-relatives-m09","level":"B2","prompt":"The novel which was written in 2010 became famous. (Shorten the relative clause)","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"rewrite"},{"answer":2,"choices":["repairing","repaired","being repaired","repair"],"difficulty":"hard","explain_tr":"Süregelen edilgen kısaltma being + V3 ister: being repaired. Repairing arabayı tamir eden yapardı.","id":"b2-10-reduced-relatives-h01","level":"B2","prompt":"The car ___ now will be ready tomorrow.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":0,"choices":["filed","filing","file","files"],"difficulty":"hard","explain_tr":"Which were filed kısalır: the documents filed. Belgeler dosyalanır, edilgendir.","id":"b2-10-reduced-relatives-h02","level":"B2","prompt":"The documents ___ last week are missing.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":1,"choices":["Have lost","Having lost","Having lose","Lose"],"difficulty":"hard","explain_tr":"Önceki eylem having + V3 ile başlar: having lost. Have lost tam cümle fiilidir.","id":"b2-10-reduced-relatives-h03","level":"B2","prompt":"___ the keys, Mehmet called a locksmith.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"gap-fill"},{"answer":0,"choices":["The repaired bike works perfectly.","The repairing bike works perfectly.","The bike repairing yesterday works perfectly.","The bike repaired it works perfectly."],"difficulty":"hard","explain_tr":"Which was repaired kısalır: the repaired bike. Repaired it nesne zamirini bırakır, yanlıştır.","id":"b2-10-reduced-relatives-h04","level":"B2","prompt":"Pick the correct sentence with a reduced clause about the repaired bike.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":3,"choices":["The dog barked all night kept us awake.","The dog barks all night kept us awake.","The dog barking all night keep us awake.","The dog barking all night kept us awake."],"difficulty":"hard","explain_tr":"Süreklilik -ing ile kısalır: the dog barking. Ana fiil kept past kalır.","id":"b2-10-reduced-relatives-h05","level":"B2","prompt":"Pick the correct sentence about the dog that barked all night.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"answer":1,"choices":["The emails deleting by mistake are gone.","The emails deleted by mistake are gone.","The emails deleted them by mistake are gone.","The emails delete by mistake are gone."],"difficulty":"hard","explain_tr":"Which were deleted kısalır: the emails deleted. Deleted them zamir bırakma hatasıdır.","id":"b2-10-reduced-relatives-h06","level":"B2","prompt":"Pick the correct sentence about the emails removed by mistake.","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"mcq"},{"accept":["The woman teaching maths lives next door.","The woman teaching maths lives next door"],"answer_text":"The woman teaching maths lives next door.","difficulty":"hard","explain_tr":"Geniş zaman etken -ing kısalır: the woman teaching. Alışkanlık anlamı korunur.","id":"b2-10-reduced-relatives-h07","level":"B2","prompt":"The woman who teaches maths lives next door. (Shorten the relative clause)","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"rewrite"},{"accept":["The wallet found in the park is at reception.","The wallet found in the park is at reception"],"answer_text":"The wallet found in the park is at reception.","difficulty":"hard","explain_tr":"Which was found kısalır: the wallet found. Bulunan cüzdan edilgendir.","id":"b2-10-reduced-relatives-h08","level":"B2","prompt":"The wallet which was found in the park is at reception. (Shorten the relative clause)","rule_ref":"Docs/grammar/B2/b2-10-reduced-relatives.md","topic":"b2-10-reduced-relatives","type":"rewrite"}]
+[
+  {
+    "answer": 0,
+    "choices": [
+      "standing",
+      "is standing",
+      "stand",
+      "stood"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Etken relative -ing ile kısalır: the man standing. Yardımcı fiil düşer.",
+    "id": "b2-10-reduced-relatives-e01",
+    "level": "B2",
+    "prompt": "The man ___ at the door is our neighbour.",
+    "prompt_tr": "Kapıda ___ duran adam komşumuzdur.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "writing",
+      "written",
+      "wrote",
+      "write"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Edilgen relative V3 ile kısalır: the book written. Writing etken anlam verirdi.",
+    "id": "b2-10-reduced-relatives-e02",
+    "level": "B2",
+    "prompt": "The book ___ by Orhan Pamuk won a prize.",
+    "prompt_tr": "Orhan Pamuk tarafından ___ yazılan kitap ödül kazandı.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "waited",
+      "wait",
+      "waiting",
+      "waits"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Who are waiting kısalır: passengers waiting. Tam cümle yapısı kısaltmada düşer.",
+    "id": "b2-10-reduced-relatives-e03",
+    "level": "B2",
+    "prompt": "Passengers ___ for flight 204 board now.",
+    "prompt_tr": "204 sefer sayılı uçuşu ___ bekleyen yolcular şimdi biniyor.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "baking",
+      "bake",
+      "bakes",
+      "baked"
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Which was baked kısalır: the cake baked. Pişirilen kek edilgendir.",
+    "id": "b2-10-reduced-relatives-e04",
+    "level": "B2",
+    "prompt": "The cake ___ this morning smells great.",
+    "prompt_tr": "Bu sabah ___ yapılan kek harika kokuyor.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "The girl talked to Elif is my cousin.",
+      "The girl talking to Elif is my cousin.",
+      "The girl is talking to Elif is my cousin.",
+      "The girl talks to Elif is my cousin."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Who is talking kısalır: the girl talking. Yardımcı fiil kısaltmada kalamaz.",
+    "id": "b2-10-reduced-relatives-e05",
+    "level": "B2",
+    "prompt": "Pick the correct reduced form of the sentence about the girl talking to Elif.",
+    "prompt_tr": "Elif ile konuşan kızla ilgili cümlenin doğru kısaltılmış hâlini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The files stored here are private.",
+      "The files storing here are private.",
+      "The files are stored here are private.",
+      "The files store here are private."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Which were stored kısalır: the files stored. Storing etken anlam verirdi.",
+    "id": "b2-10-reduced-relatives-e06",
+    "level": "B2",
+    "prompt": "Pick the correct reduced form of the sentence about the private files stored here.",
+    "prompt_tr": "Burada saklanan gizli dosyalarla ilgili cümlenin doğru kısaltılmış hâlini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "Missed the bus, the late pupils ran.",
+      "Having miss the bus, the late pupils ran.",
+      "Having missed the bus, the late pupils ran.",
+      "Miss the bus, the late pupils ran."
+    ],
+    "difficulty": "easy",
+    "explain_tr": "Önceki eylem having + V3 ile kısalır: having missed. Miss ve miss bozuk formlardır.",
+    "id": "b2-10-reduced-relatives-e07",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the pupils who missed the morning bus.",
+    "prompt_tr": "Sabah otobüsünü kaçıran öğrencilerle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "The woman wearing red is my teacher.",
+      "The woman wearing red is my teacher"
+    ],
+    "answer_text": "The woman wearing red is my teacher.",
+    "difficulty": "easy",
+    "explain_tr": "Who is wearing kısalır: the woman wearing. Anlam korunur.",
+    "id": "b2-10-reduced-relatives-e08",
+    "level": "B2",
+    "prompt": "The woman who is wearing red is my teacher. (Shorten the relative clause)",
+    "prompt_tr": "İlgi cümleciğini kısalt: The woman who is wearing red is my teacher.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "rewrite"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "connected",
+      "connecting",
+      "connect",
+      "connects"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Which connects kısalır: the road connecting. Yol bağlar, bağlanmaz.",
+    "id": "b2-10-reduced-relatives-m01",
+    "level": "B2",
+    "prompt": "The road ___ two villages is closed.",
+    "prompt_tr": "İki köyü ___ bağlayan yol kapalı.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "wished",
+      "wish",
+      "wishes",
+      "wishing"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Who wishes kısalır: anyone wishing. Ing formu tek doğru kısaltmadır.",
+    "id": "b2-10-reduced-relatives-m02",
+    "level": "B2",
+    "prompt": "Anyone ___ to join must sign up.",
+    "prompt_tr": "Katılmak ___ isteyen herkes kaydolmalı.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "built",
+      "building",
+      "build",
+      "builds"
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Which was built kısalır: the bridge built. Köprü inşa edilir, edilgendir.",
+    "id": "b2-10-reduced-relatives-m03",
+    "level": "B2",
+    "prompt": "The bridge ___ in 2000 collapsed last year.",
+    "prompt_tr": "2000'de ___ inşa edilen köprü geçen yıl çöktü.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "The car repairing now belongs to Can.",
+      "The car repaired now belongs to Can.",
+      "The car is repairing now belongs to Can.",
+      "The car being repaired now belongs to Can."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Süregelen edilgen being + V3 ile kısalır: the car being repaired. Repairing etken anlam verirdi.",
+    "id": "b2-10-reduced-relatives-m04",
+    "level": "B2",
+    "prompt": "Pick the correct reduced form for the ongoing repair sentence.",
+    "prompt_tr": "Şu an tamir edilen arabayla ilgili doğru edilgen-sürekli kısaltmayı seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "Students finishing early may leave.",
+      "Students finished early may leave.",
+      "Students finish early may leave.",
+      "Students to finish early may leave."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Who finish kısalır: students finishing. Finished edilgen anlam verirdi.",
+    "id": "b2-10-reduced-relatives-m05",
+    "level": "B2",
+    "prompt": "Pick the correct reduced form of the sentence about students who finish early.",
+    "prompt_tr": "Erken bitiren öğrencilerle ilgili cümlenin doğru kısaltılmış hâlini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "The letter sending yesterday arrived today.",
+      "The letter sent yesterday arrived today.",
+      "The letter sended yesterday arrived today.",
+      "The letter send yesterday arrived today."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Which was sent kısalır: the letter sent. Sended diye bir form yoktur.",
+    "id": "b2-10-reduced-relatives-m06",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the letter posted yesterday morning.",
+    "prompt_tr": "Dün sabah postalanan mektupla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "The room being on the left is ours.",
+      "The room on the left are ours.",
+      "The room on the left is ours.",
+      "The room which on the left is ours."
+    ],
+    "difficulty": "medium",
+    "explain_tr": "Which is on the left kısalır: the room on the left. Being sıfat kısaltmasında kullanılmaz.",
+    "id": "b2-10-reduced-relatives-m07",
+    "level": "B2",
+    "prompt": "Pick the correct reduced form of the sentence about the room on the left.",
+    "prompt_tr": "Soldaki odayla ilgili cümlenin doğru kısaltılmış hâlini seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "The boy crying loudly found his mother.",
+      "The boy crying loudly found his mother"
+    ],
+    "answer_text": "The boy crying loudly found his mother.",
+    "difficulty": "medium",
+    "explain_tr": "Who was crying kısalır: the boy crying. Zaman anlamı bağlamdan çıkar.",
+    "id": "b2-10-reduced-relatives-m08",
+    "level": "B2",
+    "prompt": "The boy who was crying loudly found his mother. (Shorten the relative clause)",
+    "prompt_tr": "İlgi cümleciğini kısalt: The boy who was crying loudly found his mother.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "The novel written in 2010 became famous.",
+      "The novel written in 2010 became famous"
+    ],
+    "answer_text": "The novel written in 2010 became famous.",
+    "difficulty": "medium",
+    "explain_tr": "Which was written kısalır: the novel written. Edilgende V3 kalır.",
+    "id": "b2-10-reduced-relatives-m09",
+    "level": "B2",
+    "prompt": "The novel which was written in 2010 became famous. (Shorten the relative clause)",
+    "prompt_tr": "İlgi cümleciğini kısalt: The novel which was written in 2010 became famous.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "rewrite"
+  },
+  {
+    "answer": 2,
+    "choices": [
+      "repairing",
+      "repaired",
+      "being repaired",
+      "repair"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Süregelen edilgen kısaltma being + V3 ister: being repaired. Repairing arabayı tamir eden yapardı.",
+    "id": "b2-10-reduced-relatives-h01",
+    "level": "B2",
+    "prompt": "The car ___ now will be ready tomorrow.",
+    "prompt_tr": "Şimdi ___ tamir edilen araba yarın hazır olacak.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "filed",
+      "filing",
+      "file",
+      "files"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Which were filed kısalır: the documents filed. Belgeler dosyalanır, edilgendir.",
+    "id": "b2-10-reduced-relatives-h02",
+    "level": "B2",
+    "prompt": "The documents ___ last week are missing.",
+    "prompt_tr": "Geçen hafta ___ gönderilen belgeler kayıp.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "Have lost",
+      "Having lost",
+      "Having lose",
+      "Lose"
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Önceki eylem having + V3 ile başlar: having lost. Have lost tam cümle fiilidir.",
+    "id": "b2-10-reduced-relatives-h03",
+    "level": "B2",
+    "prompt": "___ the keys, Mehmet called a locksmith.",
+    "prompt_tr": "Anahtarları ___ kaybedince Mehmet çilingir çağırdı.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "gap-fill"
+  },
+  {
+    "answer": 0,
+    "choices": [
+      "The repaired bike works perfectly.",
+      "The repairing bike works perfectly.",
+      "The bike repairing yesterday works perfectly.",
+      "The bike repaired it works perfectly."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Which was repaired kısalır: the repaired bike. Repaired it nesne zamirini bırakır, yanlıştır.",
+    "id": "b2-10-reduced-relatives-h04",
+    "level": "B2",
+    "prompt": "Pick the correct sentence with a reduced clause about the repaired bike.",
+    "prompt_tr": "Tamir edilmiş bisikletle ilgili kısaltılmış cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 3,
+    "choices": [
+      "The dog barked all night kept us awake.",
+      "The dog barks all night kept us awake.",
+      "The dog barking all night keep us awake.",
+      "The dog barking all night kept us awake."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Süreklilik -ing ile kısalır: the dog barking. Ana fiil kept past kalır.",
+    "id": "b2-10-reduced-relatives-h05",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the dog that barked all night.",
+    "prompt_tr": "Bütün gece havlayan köpekle ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "answer": 1,
+    "choices": [
+      "The emails deleting by mistake are gone.",
+      "The emails deleted by mistake are gone.",
+      "The emails deleted them by mistake are gone.",
+      "The emails delete by mistake are gone."
+    ],
+    "difficulty": "hard",
+    "explain_tr": "Which were deleted kısalır: the emails deleted. Deleted them zamir bırakma hatasıdır.",
+    "id": "b2-10-reduced-relatives-h06",
+    "level": "B2",
+    "prompt": "Pick the correct sentence about the emails removed by mistake.",
+    "prompt_tr": "Yanlışlıkla silinen e-postalarla ilgili doğru cümleyi seç.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "mcq"
+  },
+  {
+    "accept": [
+      "The woman teaching maths lives next door.",
+      "The woman teaching maths lives next door"
+    ],
+    "answer_text": "The woman teaching maths lives next door.",
+    "difficulty": "hard",
+    "explain_tr": "Geniş zaman etken -ing kısalır: the woman teaching. Alışkanlık anlamı korunur.",
+    "id": "b2-10-reduced-relatives-h07",
+    "level": "B2",
+    "prompt": "The woman who teaches maths lives next door. (Shorten the relative clause)",
+    "prompt_tr": "İlgi cümleciğini kısalt: The woman who teaches maths lives next door.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "rewrite"
+  },
+  {
+    "accept": [
+      "The wallet found in the park is at reception.",
+      "The wallet found in the park is at reception"
+    ],
+    "answer_text": "The wallet found in the park is at reception.",
+    "difficulty": "hard",
+    "explain_tr": "Which was found kısalır: the wallet found. Bulunan cüzdan edilgendir.",
+    "id": "b2-10-reduced-relatives-h08",
+    "level": "B2",
+    "prompt": "The wallet which was found in the park is at reception. (Shorten the relative clause)",
+    "prompt_tr": "İlgi cümleciğini kısalt: The wallet which was found in the park is at reception.",
+    "rule_ref": "Docs/grammar/B2/b2-10-reduced-relatives.md",
+    "topic": "b2-10-reduced-relatives",
+    "type": "rewrite"
+  }
+]

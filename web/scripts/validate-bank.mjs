@@ -43,6 +43,9 @@ const DEFAULT_STATS_OUT = join(WEB_DIR, "data", "bank-stats.json");
 const LEVELS = ["A1", "A2", "B1", "B2"];
 const DIFFICULTIES = ["easy", "medium", "hard"];
 const TYPES = ["mcq", "gap-fill", "rewrite"];
+// Suffixes that make a stem word a morphological giveaway of an answer word
+// ("calling" -> "call"). Anything else ("haven't" vs "have") is not a leak.
+const MORPH_SUFFIXES = ["ing", "ed", "d", "s", "es"];
 
 const EXPECT_PER_TOPIC = 25;
 const EXPECT_DIFFICULTY = { easy: 8, medium: 9, hard: 8 };
@@ -175,6 +178,36 @@ function checkQuestion(raw, fileLabel) {
 
   if (q.type === "gap-fill" && typeof q.prompt === "string" && !q.prompt.includes("___"))
     fail(`${idLabel}: gap-fill prompt must contain "___"`);
+
+  // No-giveaway rule (P32): the correct choice's distinguishing word must not
+  // appear in the stem — neither verbatim nor as a morphological base
+  // ("calling" gives away "call"). Contraction/prefix lookalikes
+  // ("haven't"/"have", "sentence"/"sent") are exempt via the suffix set.
+  if (
+    (q.type === "mcq" || q.type === "gap-fill") &&
+    Array.isArray(q.choices) &&
+    typeof q.answer === "number" &&
+    typeof q.prompt === "string"
+  ) {
+    const answerText = String(q.choices[q.answer] ?? "");
+    const distractWords = new Set();
+    q.choices.forEach((c, i) => {
+      if (i === q.answer) return;
+      for (const w of String(c).toLowerCase().match(/[a-z]{4,}/g) ?? [])
+        distractWords.add(w);
+    });
+    const stem = q.prompt.toLowerCase().replace("___", "");
+    const stemWords =
+      stem.match(/[a-z]+(?:'[a-z]+)?/g) ?? [];
+    const STOP = new Set(["choose", "correct", "sentence", "with", "about", "pick"]);
+    for (const w of answerText.toLowerCase().match(/[a-z]{4,}/g) ?? []) {
+      if (STOP.has(w) || distractWords.has(w)) continue;
+      const leak = stemWords.some(
+        (s) => s === w || MORPH_SUFFIXES.some((suf) => s === w + suf),
+      );
+      if (leak) fail(`${idLabel}: answer giveaway — "${w}" appears in the prompt`);
+    }
+  }
 
   if (typeof q.rule_ref === "string" && q.rule_ref.trim().length > 0) {
     try {

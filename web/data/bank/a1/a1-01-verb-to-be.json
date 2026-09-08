@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I ___ a student.",
-    "choices": ["am", "is", "are", "be"],
+    "prompt_tr": "Ben ___ öğrenciyim.",
+    "choices": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
     "answer": 0,
     "explain_tr": "I öznesi her zaman am alır: I am a student.",
     "trap_tr": "Türkçede ek olan -yım İngilizcede ayrı bir kelimedir, atlanamaz.",
@@ -19,7 +25,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ my best friend.",
-    "choices": ["are", "is", "am", "be"],
+    "prompt_tr": "O, benim en iyi arkadaşım ___ .",
+    "choices": [
+      "are",
+      "is",
+      "am",
+      "be"
+    ],
     "answer": 1,
     "explain_tr": "He, she ve it öznelerinde be fiili is olur: She is my best friend.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They ___ at school now.",
-    "choices": ["is", "am", "are", "be"],
+    "prompt_tr": "Onlar şu an okulda ___ .",
+    "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "You, we ve they öznelerinde be fiili are olur: They are at school.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence.",
-    "choices": ["He are a teacher.", "He am a teacher.", "He is a teacher.", "He be a teacher."],
+    "prompt_tr": "Doğru cümleyi seç.",
+    "choices": [
+      "He are a teacher.",
+      "He am a teacher.",
+      "He is a teacher.",
+      "He be a teacher."
+    ],
     "answer": 2,
     "explain_tr": "He öznesi is ister: He is a teacher.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question about hunger.",
-    "choices": ["Is you hungry?", "Am you hungry?", "Are you hungry?", "Be you hungry?"],
+    "prompt_tr": "Açlıkla ilgili doğru soruyu seç.",
+    "choices": [
+      "Is you hungry?",
+      "Am you hungry?",
+      "Are you hungry?",
+      "Be you hungry?"
+    ],
     "answer": 2,
     "explain_tr": "Soruda be fiili başa gelir ve you ile are olur: Are you hungry?",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct negative sentence.",
-    "choices": ["We isn't tired.", "We am not tired.", "We not tired.", "We aren't tired."],
+    "prompt_tr": "Doğru olumsuz cümleyi seç.",
+    "choices": [
+      "We isn't tired.",
+      "We am not tired.",
+      "We not tired.",
+      "We aren't tired."
+    ],
     "answer": 3,
     "explain_tr": "We ile aren't kullanılır: We aren't tired. Am'in kısaltılmış olumsuzu yoktur.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question.",
-    "choices": ["Are you ready?", "You are ready?", "Where you are from?", "You ready are?"],
+    "prompt_tr": "Doğru soruyu seç.",
+    "choices": [
+      "Are you ready?",
+      "You are ready?",
+      "Where you are from?",
+      "You ready are?"
+    ],
     "answer": 0,
     "explain_tr": "Soruda be fiili öznenin önüne gelir: Are you ready?",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Make negative: She is busy.",
+    "prompt_tr": "Olumsuz yap: She is busy.",
     "answer_text": "She is not busy.",
-    "accept": ["She is not busy", "She isn't busy"],
+    "accept": [
+      "She is not busy",
+      "She isn't busy"
+    ],
     "explain_tr": "Olumsuzda be fiilinden sonra not gelir: She is not busy. Kısaltması isn't'tir.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ not a doctor.",
-    "choices": ["are", "am", "is", "be"],
+    "prompt_tr": "O, ___ doktor değil.",
+    "choices": [
+      "are",
+      "am",
+      "is",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "He ile is kullanılır, olumsuzda not fiilden sonra gelir: He is not a doctor.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Where ___ you from?",
-    "choices": ["is", "am", "are", "be"],
+    "prompt_tr": "___ nerelisin?",
+    "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "Soru kelimesinden sonra be + özne gelir: Where are you from?",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -127,7 +185,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about age.",
-    "choices": ["I am 20 years old.", "I have 20 years old.", "I have 20.", "I am 20 year old."],
+    "prompt_tr": "Yaş ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I am 20 years old.",
+      "I have 20 years old.",
+      "I have 20.",
+      "I am 20 year old."
+    ],
     "answer": 0,
     "explain_tr": "Yaş İngilizcede sahiplik değil durumdur: I am 20 years old. Have kullanılmaz.",
     "trap_tr": "TR kalıbı have'e götürür; İngilizcede yaş için am şarttır.",
@@ -140,7 +204,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "The keys ___ on the table.",
-    "choices": ["is", "are", "am", "be"],
+    "prompt_tr": "Anahtarlar masanın üstünde ___ .",
+    "choices": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
     "answer": 1,
     "explain_tr": "Keys çoğul öznedir, are ister: The keys are on the table.",
     "trap_tr": "The keys tek nesne gibi görünür ama çoğuldur; öznenin sayısına bak.",
@@ -153,7 +223,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct short answer to: Are you ready?",
-    "choices": ["Yes, I am.", "Yes, I do.", "Yes, I is.", "Yes, me am."],
+    "prompt_tr": "Doğru kısa cevabı seç: Are you ready?",
+    "choices": [
+      "Yes, I am.",
+      "Yes, I do.",
+      "Yes, I is.",
+      "Yes, me am."
+    ],
     "answer": 0,
     "explain_tr": "Kısa cevap sorudaki be fiilini tekrarlar: Yes, I am.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -165,7 +241,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about nationality.",
-    "choices": ["They is Turkish.", "They are Turkeys.", "They Turkish.", "They are Turkish."],
+    "prompt_tr": "Milliyet ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "They is Turkish.",
+      "They are Turkeys.",
+      "They Turkish.",
+      "They are Turkish."
+    ],
     "answer": 3,
     "explain_tr": "Milliyetler büyük harfle yazılır ve takı almaz: They are Turkish.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -177,8 +259,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: You are OK.",
+    "prompt_tr": "Soru cümlesi yap: You are OK.",
     "answer_text": "Are you OK?",
-    "accept": ["Are you OK", "Are you ok"],
+    "accept": [
+      "Are you OK",
+      "Are you ok"
+    ],
     "explain_tr": "Soruda are başa alınır: Are you OK?",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
   },
@@ -189,7 +275,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I ___ not hungry.",
-    "choices": ["is", "are", "am", "be"],
+    "prompt_tr": "Ben ___ aç değilim.",
+    "choices": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "I ile am kullanılır: I am not hungry. Am'in isn't gibi kısaltması yoktur.",
     "trap_tr": "I aren't kalıbı konuşmada duyulsa da yazıda yanlıştır.",
@@ -202,8 +294,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make a question: They are busy.",
+    "prompt_tr": "Soru cümlesi yap: They are busy.",
     "answer_text": "Are they busy?",
-    "accept": ["Are they busy", "Are they busy?"],
+    "accept": [
+      "Are they busy",
+      "Are they busy?"
+    ],
     "explain_tr": "Soruda are öznenin önüne gelir: Are they busy?",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
   },
@@ -214,7 +310,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the sentence with the correct word order.",
-    "choices": ["Teacher he is a.", "He is a teacher.", "Is he a teacher.", "He a teacher is."],
+    "prompt_tr": "Kelime sırası doğru olan cümleyi seç.",
+    "choices": [
+      "Teacher he is a.",
+      "He is a teacher.",
+      "Is he a teacher.",
+      "He a teacher is."
+    ],
     "answer": 1,
     "explain_tr": "Düz cümlede sıra özne + be + tamamlayıcıdır: He is a teacher.",
     "trap_tr": "Özne + be'yi atmak en klasik hatadır; her İngilizce cümlede yüklem şarttır.",
@@ -227,7 +329,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with not.",
-    "choices": ["I'm not late.", "I aren't late.", "I isn't late.", "I no am late."],
+    "prompt_tr": "\"not\" ile doğru cümleyi seç.",
+    "choices": [
+      "I'm not late.",
+      "I aren't late.",
+      "I isn't late.",
+      "I no am late."
+    ],
     "answer": 0,
     "explain_tr": "Am'in kısaltılmış olumsuzu yoktur, tek doğru form I'm not'tur.",
     "trap_tr": "isn't ve aren't kalıbı I ile kullanılmaz.",
@@ -240,7 +348,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Where ___ she from?",
-    "choices": ["are", "am", "is", "be"],
+    "prompt_tr": "O, ___ nereli?",
+    "choices": [
+      "are",
+      "am",
+      "is",
+      "be"
+    ],
     "answer": 2,
     "explain_tr": "She ile is kullanılır: Where is she from?",
     "trap_tr": "Where you are from? sırası yanlıştır; be öznenin önüne gelir.",
@@ -253,8 +367,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: He teacher.",
+    "prompt_tr": "Hatayı düzelt: He teacher.",
     "answer_text": "He is a teacher.",
-    "accept": ["He is a teacher", "He's a teacher"],
+    "accept": [
+      "He is a teacher",
+      "He's a teacher"
+    ],
     "explain_tr": "Cümlede yüklem şarttır ve meslek adları a/an alır: He is a teacher.",
     "trap_tr": "He teacher cümlesinde hem be hem a eksiktir; ikisini de ekle.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
@@ -266,7 +384,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Are they tired? No, they ___.",
-    "choices": ["isn't", "am not", "aren't", "don't"],
+    "prompt_tr": "Onlar yorgun mu? Hayır, ___ .",
+    "choices": [
+      "isn't",
+      "am not",
+      "aren't",
+      "don't"
+    ],
     "answer": 2,
     "explain_tr": "Olumsuz kısa cevapta be fiili tekrarlanır: No, they aren't.",
     "trap_tr": "Don't cevabı do sorularına aittir; Are sorusuna aren't gerekir.",
@@ -279,7 +403,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct contraction.",
-    "choices": ["She isn't ready.", "She'nt ready.", "She aren't ready.", "She not's ready."],
+    "prompt_tr": "Doğru kısaltmayı seç.",
+    "choices": [
+      "She isn't ready.",
+      "She'nt ready.",
+      "She aren't ready.",
+      "She not's ready."
+    ],
     "answer": 0,
     "explain_tr": "is + not = isn't; not be fiiline yapışır: She isn't ready.",
     "trap_tr": "She'nt diye bir kısaltma yoktur; not her zaman be'den sonra gelir.",
@@ -292,7 +422,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "How old ___ she?",
-    "choices": ["are", "am", "be", "is"],
+    "prompt_tr": "O kaç yaşında ___ ?",
+    "choices": [
+      "are",
+      "am",
+      "be",
+      "is"
+    ],
     "answer": 3,
     "explain_tr": "How old sorusunda be fiili özneye uyar: How old is she?",
     "trap_tr": "How old are she kalıbı TR çoğul mantığından gelir; she tekildir.",
@@ -305,8 +441,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Make negative: They are ready.",
+    "prompt_tr": "Olumsuz yap: They are ready.",
     "answer_text": "They are not ready.",
-    "accept": ["They are not ready", "They aren't ready"],
+    "accept": [
+      "They are not ready",
+      "They aren't ready"
+    ],
     "explain_tr": "Are + not = aren't: They aren't ready.",
     "rule_ref": "Docs/grammar/A1/a1-01-verb-to-be.md"
   }

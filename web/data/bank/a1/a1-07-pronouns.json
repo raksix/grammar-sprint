@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ is my brother.",
-    "choices": ["He", "Him", "Her", "Me"],
+    "prompt_tr": "___ benim erkek kardeşim.",
+    "choices": [
+      "He",
+      "Him",
+      "Her",
+      "Me"
+    ],
     "answer": 0,
     "explain_tr": "Cümlenin başında özne zamiri gelir: He is my brother.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I love ___.",
-    "choices": ["she", "her", "he", "they"],
+    "prompt_tr": "___ seviyorum.",
+    "choices": [
+      "she",
+      "her",
+      "he",
+      "they"
+    ],
     "answer": 1,
     "explain_tr": "Fiilden sonra nesne zamiri gelir: I love her.",
     "trap_tr": "Türkçede ek olan şey EN'de ayrı kelimedir (onu = her).",
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with come and me.",
-    "choices": ["Come with me.", "Come with I.", "Come me with.", "With come I."],
+    "prompt_tr": "\"come\" ve \"me\" ile doğru cümleyi seç.",
+    "choices": [
+      "Come with me.",
+      "Come with I.",
+      "Come me with.",
+      "With come I."
+    ],
     "answer": 0,
     "explain_tr": "Edattan sonra nesne zamiri gelir: Come with me.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "They help ___ every day.",
-    "choices": ["we", "us", "our", "ours"],
+    "prompt_tr": "Onlar her gün ___ yardım eder.",
+    "choices": [
+      "we",
+      "us",
+      "our",
+      "ours"
+    ],
     "answer": 1,
     "explain_tr": "Fiilden sonra gelen kişi nesne zamiridir: They help us every day.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with saw and her.",
-    "choices": ["I saw her at the market.", "I saw she at the market.", "I she saw at the market.", "Saw I her market at."],
+    "prompt_tr": "\"saw\" ve \"her\" ile doğru cümleyi seç.",
+    "choices": [
+      "I saw her at the market.",
+      "I saw she at the market.",
+      "I she saw at the market.",
+      "Saw I her market at."
+    ],
     "answer": 0,
     "explain_tr": "Fiilden sonra nesne zamiri gelir: I saw her at the market.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Listen to ___, please.",
-    "choices": ["she", "her", "hers", "he"],
+    "prompt_tr": "Lütfen ___ dinle.",
+    "choices": [
+      "she",
+      "her",
+      "hers",
+      "he"
+    ],
     "answer": 1,
     "explain_tr": "Edat + nesne zamiri kuralı: Listen to her, please.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct greeting at the door.",
-    "choices": ["It's me, open the door!", "It's I, open the door!", "Me is it, open door!", "I it is, door open!"],
+    "prompt_tr": "Kapıdaki doğru selamlaşmayı seç.",
+    "choices": [
+      "It's me, open the door!",
+      "It's I, open the door!",
+      "Me is it, open door!",
+      "I it is, door open!"
+    ],
     "answer": 0,
     "explain_tr": "Konuşmada be + nesne zamiri vurgusu kullanılır: It's me!",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: Come with I.",
+    "prompt_tr": "Hatayı düzelt: Come with I.",
     "answer_text": "Come with me.",
-    "accept": ["Come with me", "Come with me."],
+    "accept": [
+      "Come with me",
+      "Come with me."
+    ],
     "explain_tr": "Edattan sonra özne zamiri olmaz: Come with me.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ gave ___ a pen.",
-    "choices": ["Him / he", "He / him", "His / him", "He / his"],
+    "prompt_tr": "___ ___ bir kalem verdi.",
+    "choices": [
+      "Him / he",
+      "He / him",
+      "His / him",
+      "He / his"
+    ],
     "answer": 1,
     "explain_tr": "Başa özne, fiilden sonra nesne zamiri gelir: He gave him a pen.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with come and us.",
-    "choices": ["Come with us!", "Come with we!", "Come us with!", "With come we!"],
+    "prompt_tr": "\"come\" ve \"us\" ile doğru cümleyi seç.",
+    "choices": [
+      "Come with us!",
+      "Come with we!",
+      "Come us with!",
+      "With come we!"
+    ],
     "answer": 0,
     "explain_tr": "Edattan sonra nesne zamiri gelir: Come with us!",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -127,8 +185,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: This gift is for your.",
+    "prompt_tr": "Hatayı düzelt: This gift is for your.",
     "answer_text": "This gift is for you.",
-    "accept": ["This gift is for you", "This gift is for you."],
+    "accept": [
+      "This gift is for you",
+      "This gift is for you."
+    ],
     "explain_tr": "For edatından sonra nesne zamiri gelir: This gift is for you.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
   },
@@ -139,7 +201,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She knows ___ well.",
-    "choices": ["he", "him", "his", "himself"],
+    "prompt_tr": "O, ___ iyi tanıyor.",
+    "choices": [
+      "he",
+      "him",
+      "his",
+      "himself"
+    ],
     "answer": 1,
     "explain_tr": "Fiilden sonra nesne zamiri gelir: She knows him well.",
     "trap_tr": "Başa geliyorsa he, fiilden sonra geliyorsa him olur.",
@@ -151,8 +219,14 @@
     "level": "A1",
     "difficulty": "medium",
     "type": "mcq",
-    "prompt": "Choose the correct sentence with the teacher and them.",
-    "choices": ["The teacher called them.", "The teacher called they.", "The teacher they called.", "Called the teacher they."],
+    "prompt": "Choose the correct sentence with the teacher.",
+    "prompt_tr": "\"the teacher\" ile doğru cümleyi seç.",
+    "choices": [
+      "The teacher called them.",
+      "The teacher called they.",
+      "The teacher they called.",
+      "Called the teacher they."
+    ],
     "answer": 0,
     "explain_tr": "Fiilden sonra nesne zamiri gelir: The teacher called them.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -164,7 +238,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Give it to ___.",
-    "choices": ["I", "me", "my", "mine"],
+    "prompt_tr": "Onu ___ ver.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
     "answer": 1,
     "explain_tr": "To edatından sonra nesne zamiri gelir: Give it to me.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -176,8 +256,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: Her is my sister.",
+    "prompt_tr": "Hatayı düzelt: Her is my sister.",
     "answer_text": "She is my sister.",
-    "accept": ["She is my sister", "She is my sister."],
+    "accept": [
+      "She is my sister",
+      "She is my sister."
+    ],
     "explain_tr": "Özne gerekiyorsa she kullanılır: She is my sister.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
   },
@@ -188,7 +272,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with play and him.",
-    "choices": ["We play with him after school.", "We play with he after school.", "We he play with after school.", "Play we with he school after."],
+    "prompt_tr": "\"play\" ve \"him\" ile doğru cümleyi seç.",
+    "choices": [
+      "We play with him after school.",
+      "We play with he after school.",
+      "We he play with after school.",
+      "Play we with he school after."
+    ],
     "answer": 0,
     "explain_tr": "With edatından sonra nesne zamiri gelir: We play with him after school.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -200,7 +290,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Who called ___ yesterday?",
-    "choices": ["your", "you", "yours", "yourself"],
+    "prompt_tr": "Dün ___ kim aradı?",
+    "choices": [
+      "your",
+      "you",
+      "yours",
+      "yourself"
+    ],
     "answer": 1,
     "explain_tr": "Fiilden sonra nesne zamiri gelir: Who called you yesterday?",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -212,7 +308,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with between.",
-    "choices": ["It is between you and me.", "It is between you and I.", "It between you and I is.", "Between you and I it."],
+    "prompt_tr": "\"between\" ile doğru cümleyi seç.",
+    "choices": [
+      "It is between you and me.",
+      "It is between you and I.",
+      "It between you and I is.",
+      "Between you and I it."
+    ],
     "answer": 0,
     "explain_tr": "Between edattır, sonra nesne zamiri gelir: It is between you and me.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -224,7 +326,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "I saw Elif and ___ at the park.",
-    "choices": ["she", "her", "hers", "herself"],
+    "prompt_tr": "Elif'i ve ___ parkta gördüm.",
+    "choices": [
+      "she",
+      "her",
+      "hers",
+      "herself"
+    ],
     "answer": 1,
     "explain_tr": "And ile birleşen nesneler de ayrı nesne zamiri olur: I saw Elif and her.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -236,7 +344,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct phone answer.",
-    "choices": ["It's her.", "It's she.", "She it is.", "Her it is."],
+    "prompt_tr": "Doğru telefon cevabını seç.",
+    "choices": [
+      "It's her.",
+      "It's she.",
+      "She it is.",
+      "Her it is."
+    ],
     "answer": 0,
     "explain_tr": "Telefon kalıbında be + nesne zamiri kullanılır: It's her.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -248,8 +362,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: They help we with homework.",
+    "prompt_tr": "Hatayı düzelt: They help we with homework.",
     "answer_text": "They help us with homework.",
-    "accept": ["They help us with homework", "They help us with homework."],
+    "accept": [
+      "They help us with homework",
+      "They help us with homework."
+    ],
     "explain_tr": "Bize karşılığı nesne zamiri us olur: They help us with homework.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
   },
@@ -260,7 +378,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "Can and ___ are late.",
-    "choices": ["me", "I", "my", "mine"],
+    "prompt_tr": "Can ve ___ geç kaldı.",
+    "choices": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
     "answer": 1,
     "explain_tr": "Özne konumunda başkası önce söylenir: Can and I are late.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -272,7 +396,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with love.",
-    "choices": ["He loves her.", "Him loves she.", "He loves she.", "Him loves her."],
+    "prompt_tr": "\"love\" ile doğru cümleyi seç.",
+    "choices": [
+      "He loves her.",
+      "Him loves she.",
+      "He loves she.",
+      "Him loves her."
+    ],
     "answer": 0,
     "explain_tr": "Özne + fiil + nesne sırası şarttır: He loves her.",
     "trap_tr": "Hem özne hem nesne aynı cümledeyse ikisini de doğru seç.",
@@ -285,7 +415,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with tell and me.",
-    "choices": ["Tell me the truth.", "Tell I the truth.", "Tell my the truth.", "Me tell the truth."],
+    "prompt_tr": "\"tell\" ve \"me\" ile doğru cümleyi seç.",
+    "choices": [
+      "Tell me the truth.",
+      "Tell I the truth.",
+      "Tell my the truth.",
+      "Me tell the truth."
+    ],
     "answer": 0,
     "explain_tr": "Emir + nesne kalıbı kullanılır: Tell me the truth.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
@@ -297,8 +433,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: I love she very much.",
+    "prompt_tr": "Hatayı düzelt: I love she very much.",
     "answer_text": "I love her very much.",
-    "accept": ["I love her very much", "I love her very much."],
+    "accept": [
+      "I love her very much",
+      "I love her very much."
+    ],
     "explain_tr": "Onu karşılığı nesne zamiri her olur: I love her very much.",
     "rule_ref": "Docs/grammar/A1/a1-07-pronouns.md"
   }

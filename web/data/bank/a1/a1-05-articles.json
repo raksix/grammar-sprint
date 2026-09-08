@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ate ___ apple.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "O, ___ elma yedi.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 1,
     "explain_tr": "Sesli harf sesiyle başlayan kelimelerde an kullanılır: an apple.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "He is ___ teacher.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "O, ___ öğretmen.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 0,
     "explain_tr": "Tekil mesleklerde a/an şarttır: He is a teacher.",
     "trap_tr": "Türkçede eksiz söylenir ama İngilizcede a düşmez.",
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with a job.",
-    "choices": ["She is teacher.", "She is a teacher.", "She is the teacher on her first day.", "She is an teacher."],
+    "prompt_tr": "Meslek ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "She is teacher.",
+      "She is a teacher.",
+      "She is the teacher on her first day.",
+      "She is an teacher."
+    ],
     "answer": 1,
     "explain_tr": "Tekil meslekte a/an kullanılır: She is a teacher.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ sun rises in the east.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "Güneş doğudan ___ .",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 2,
     "explain_tr": "Herkesçe bilinen tek şeylerde the kullanılır: The sun rises in the east.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about coffee in general.",
-    "choices": ["I like the coffee.", "I like a coffee.", "I like coffee.", "I like an coffee."],
+    "prompt_tr": "Genel olarak kahve ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I like the coffee.",
+      "I like a coffee.",
+      "I like coffee.",
+      "I like an coffee."
+    ],
     "answer": 2,
     "explain_tr": "Genel anlamda soyut isimlerde artikel kullanılmaz: I like coffee.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "Elif is ___ doctor.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "Elif ___ doktor.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 0,
     "explain_tr": "Meslek önünde a kullanılır: Elif is a doctor.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence about pets.",
-    "choices": ["I have a cat and a dog.", "I have cat and dog.", "I have the cat and dog for the first time.", "I have an cat and dog."],
+    "prompt_tr": "Evcil hayvanlar ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I have a cat and a dog.",
+      "I have cat and dog.",
+      "I have the cat and dog for the first time.",
+      "I have an cat and dog."
+    ],
     "answer": 0,
     "explain_tr": "İlk bahsetmede a/an kullanılır: I have a cat and a dog.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: She is teacher.",
+    "prompt_tr": "Hatayı düzelt: She is teacher.",
     "answer_text": "She is a teacher.",
-    "accept": ["She is a teacher", "She is a teacher."],
+    "accept": [
+      "She is a teacher",
+      "She is a teacher."
+    ],
     "explain_tr": "Mesleklerde a şarttır: She is a teacher.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I bought a car. ___ car is red.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "Bir araba aldım. ___ araba kırmızı.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 2,
     "explain_tr": "İkinci bahsetmede the kullanılır: The car is red.",
     "trap_tr": "Okur arabayı ilk cümleden biliyor, artık a olmaz.",
@@ -116,7 +168,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "___ children need love.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "___ çocukların sevgiye ihtiyacı var.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 3,
     "explain_tr": "Genel çoğullarda artikel kullanılmaz: Children need love.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -128,7 +186,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about languages.",
-    "choices": ["She speaks the English.", "She speaks an English.", "She speaks English.", "She speaks a English."],
+    "prompt_tr": "Diller ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "She speaks the English.",
+      "She speaks an English.",
+      "She speaks English.",
+      "She speaks a English."
+    ],
     "answer": 2,
     "explain_tr": "Dil adlarında artikel kullanılmaz: She speaks English.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -140,7 +204,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Let's meet at ___ station at 5.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "Saat 5'te ___ istasyonda buluşalım.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 2,
     "explain_tr": "İki tarafın bildiği yerlerde the kullanılır: the station.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -152,7 +222,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about lunch.",
-    "choices": ["I had the lunch with a friend.", "I had a lunch with a friend.", "I had lunch with a friend.", "I had an lunch with a friend."],
+    "prompt_tr": "Öğle yemeği ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I had the lunch with a friend.",
+      "I had a lunch with a friend.",
+      "I had lunch with a friend.",
+      "I had an lunch with a friend."
+    ],
     "answer": 2,
     "explain_tr": "Öğünlerde sıfır artikel kullanılır: I had lunch with a friend.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -164,7 +240,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She plays ___ tennis every day.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "O, her gün ___ tenis oynar.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 3,
     "explain_tr": "Spor dallarında artikel kullanılmaz: She plays tennis every day.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -176,7 +258,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence about the moon.",
-    "choices": ["A moon is very bright tonight.", "Moon is very bright tonight.", "The moon is very bright tonight.", "An moon is very bright tonight."],
+    "prompt_tr": "Ay ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "A moon is very bright tonight.",
+      "Moon is very bright tonight.",
+      "The moon is very bright tonight.",
+      "An moon is very bright tonight."
+    ],
     "answer": 2,
     "explain_tr": "Tek ve bilinen gök cisimlerinde the kullanılır: The moon is very bright tonight.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -188,8 +276,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error for a general meaning: The books are expensive.",
+    "prompt_tr": "Genel anlam için hatayı düzelt: The books are expensive.",
     "answer_text": "Books are expensive.",
-    "accept": ["Books are expensive", "Books are expensive."],
+    "accept": [
+      "Books are expensive",
+      "Books are expensive."
+    ],
     "explain_tr": "Genel çoğulda the düşer: Books are expensive.",
     "trap_tr": "The books dersek belirli kitapları kastetmiş oluruz.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -201,8 +293,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make it general: The cats are cute animals.",
+    "prompt_tr": "Genel anlam olacak şekilde yaz: The cats are cute animals.",
     "answer_text": "Cats are cute animals.",
-    "accept": ["Cats are cute animals", "Cats are cute animals."],
+    "accept": [
+      "Cats are cute animals",
+      "Cats are cute animals."
+    ],
     "explain_tr": "Genel konuşurken the atılır: Cats are cute animals.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
   },
@@ -213,7 +309,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with same.",
-    "choices": ["We read same book.", "We read a same book.", "We read the same book.", "We read an same book."],
+    "prompt_tr": "\"same\" ile doğru cümleyi seç.",
+    "choices": [
+      "We read same book.",
+      "We read a same book.",
+      "We read the same book.",
+      "We read an same book."
+    ],
     "answer": 2,
     "explain_tr": "Same her zaman the ile kullanılır: the same book.",
     "trap_tr": "Same tek başına artikel almaz; the same kalıp olarak ezberlenir.",
@@ -226,7 +328,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with an instrument.",
-    "choices": ["She plays piano very well.", "She plays a piano very well.", "She plays the piano very well.", "She plays an piano very well."],
+    "prompt_tr": "Müzik aleti ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "She plays piano very well.",
+      "She plays a piano very well.",
+      "She plays the piano very well.",
+      "She plays an piano very well."
+    ],
     "answer": 2,
     "explain_tr": "Enstrümanlarda the kullanılır: She plays the piano very well.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -238,7 +346,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "She is ___ best student in class.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "O, sınıftaki ___ iyi öğrenci.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 2,
     "explain_tr": "Süperlatiflerde the kullanılır: the best student in class.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -250,8 +364,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error for a first mention: I bought the car.",
+    "prompt_tr": "İlk bahsetme için hatayı düzelt: I bought the car.",
     "answer_text": "I bought a car.",
-    "accept": ["I bought a car", "I bought a car."],
+    "accept": [
+      "I bought a car",
+      "I bought a car."
+    ],
     "explain_tr": "İlk bahsetmede a kullanılır: I bought a car.",
     "trap_tr": "Dinleyici hangi araba olduğunu bilmiyorsa the erkendir.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -263,7 +381,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ Turkish drink tea a lot.",
-    "choices": ["a", "an", "the", "no article"],
+    "prompt_tr": "___ Türkler çok çay içer.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": 2,
     "explain_tr": "The + milliyet sıfatı o halkı anlatır: The Turkish drink tea a lot.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -275,7 +399,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about the TV set.",
-    "choices": ["Turn off TV, please.", "Turn off the TV, please.", "Turn off a TV, please.", "Turn off an TV, please."],
+    "prompt_tr": "Televizyon ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "Turn off TV, please.",
+      "Turn off the TV, please.",
+      "Turn off a TV, please.",
+      "Turn off an TV, please."
+    ],
     "answer": 1,
     "explain_tr": "Cihaz olarak TV the ile kullanılır: Turn off the TV, please.",
     "trap_tr": "Genel izleme watch TV artikelsizdir ama cihaz kapatma the ister.",
@@ -288,7 +418,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence about the radio.",
-    "choices": ["I listen to radio every morning.", "I listen to a radio every morning.", "I listen to the radio every morning.", "I listen to an radio every morning."],
+    "prompt_tr": "Radyo ile ilgili doğru cümleyi seç.",
+    "choices": [
+      "I listen to radio every morning.",
+      "I listen to a radio every morning.",
+      "I listen to the radio every morning.",
+      "I listen to an radio every morning."
+    ],
     "answer": 2,
     "explain_tr": "Radyo hep the ile kullanılır: I listen to the radio every morning.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"
@@ -300,8 +436,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error for a language: She speaks the Turkish.",
+    "prompt_tr": "Dil adı için hatayı düzelt: She speaks the Turkish.",
     "answer_text": "She speaks Turkish.",
-    "accept": ["She speaks Turkish", "She speaks Turkish."],
+    "accept": [
+      "She speaks Turkish",
+      "She speaks Turkish."
+    ],
     "explain_tr": "Dil adlarında artikel kullanılmaz: She speaks Turkish.",
     "trap_tr": "The Turkish halk demektir, dil demek değildir.",
     "rule_ref": "Docs/grammar/A1/a1-05-articles.md"

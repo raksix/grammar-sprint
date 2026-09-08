@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "The keys are ___ the table.",
-    "choices": ["in", "on", "at", "to"],
+    "prompt_tr": "Anahtarlar ___ masada.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
     "answer": 1,
     "explain_tr": "Üstünde anlamında on kullanılır: The keys are on the table.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -18,7 +24,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "I live ___ Ankara.",
-    "choices": ["at", "in", "on", "to"],
+    "prompt_tr": "Ankara ___ yaşıyorum.",
+    "choices": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
     "answer": 1,
     "explain_tr": "Şehirle in kullanılır: I live in Ankara.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -30,7 +42,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with at school.",
-    "choices": ["She is at school now.", "She is on school now.", "She is at home school now.", "School she at now is."],
+    "prompt_tr": "\"at school\" ile doğru cümleyi seç.",
+    "choices": [
+      "She is at school now.",
+      "She is on school now.",
+      "She is at home school now.",
+      "School she at now is."
+    ],
     "answer": 0,
     "explain_tr": "Okul kalıbı the almaz: She is at school now.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -42,7 +60,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "My birthday is ___ May.",
-    "choices": ["on", "in", "at", "to"],
+    "prompt_tr": "Doğum günüm Mayıs ___ .",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
     "answer": 1,
     "explain_tr": "Ay ile in kullanılır: My birthday is in May.",
     "trap_tr": "Ay in, gün on, saat at olur.",
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with on Monday.",
-    "choices": ["We meet on Mondays.", "We meet in Mondays.", "We meet at Mondays.", "Meet we Mondays on."],
+    "prompt_tr": "\"on Monday\" ile doğru cümleyi seç.",
+    "choices": [
+      "We meet on Mondays.",
+      "We meet in Mondays.",
+      "We meet at Mondays.",
+      "Meet we Mondays on."
+    ],
     "answer": 0,
     "explain_tr": "Gün ile on kullanılır: We meet on Mondays.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -67,7 +97,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "The bus leaves ___ 7 o'clock.",
-    "choices": ["in", "on", "at", "into"],
+    "prompt_tr": "Otobüs saat 7 ___ kalkıyor.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "into"
+    ],
     "answer": 2,
     "explain_tr": "Saat ile at kullanılır: The bus leaves at 7 o'clock.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -79,7 +115,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with by bus.",
-    "choices": ["He goes to work by bus.", "He goes to work with bus.", "He goes to work on bus.", "Goes he work to bus by."],
+    "prompt_tr": "\"by bus\" ile doğru cümleyi seç.",
+    "choices": [
+      "He goes to work by bus.",
+      "He goes to work with bus.",
+      "He goes to work on bus.",
+      "Goes he work to bus by."
+    ],
     "answer": 0,
     "explain_tr": "Taşıt aracı by ile söylenir: He goes to work by bus.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -91,8 +133,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: I live at Ankara.",
+    "prompt_tr": "Hatayı düzelt: I live at Ankara.",
     "answer_text": "I live in Ankara.",
-    "accept": ["I live in Ankara", "I live in Ankara."],
+    "accept": [
+      "I live in Ankara",
+      "I live in Ankara."
+    ],
     "explain_tr": "Şehirle in kullanılır: I live in Ankara.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
   },
@@ -103,7 +149,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "She came ___ Izmir yesterday.",
-    "choices": ["to", "from", "at", "on"],
+    "prompt_tr": "O, dün İzmir ___ geldi.",
+    "choices": [
+      "to",
+      "from",
+      "at",
+      "on"
+    ],
     "answer": 1,
     "explain_tr": "Kaynak from ile söylenir: She came from Izmir yesterday.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -115,7 +167,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with on foot.",
-    "choices": ["She goes to school on foot.", "She goes to school by foot.", "She goes to school with foot.", "Goes she school to foot on."],
+    "prompt_tr": "\"on foot\" ile doğru cümleyi seç.",
+    "choices": [
+      "She goes to school on foot.",
+      "She goes to school by foot.",
+      "She goes to school with foot.",
+      "Goes she school to foot on."
+    ],
     "answer": 0,
     "explain_tr": "Yürüyerek on foot olur: She goes to school on foot.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -127,7 +185,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "The cat is ___ the chair.",
-    "choices": ["on", "under", "at", "to"],
+    "prompt_tr": "Kedi ___ sandalyenin.",
+    "choices": [
+      "on",
+      "under",
+      "at",
+      "to"
+    ],
     "answer": 1,
     "explain_tr": "Altında anlamında under kullanılır: The cat is under the chair.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -139,7 +203,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He goes ___ school every day.",
-    "choices": ["to", "at", "in", "on"],
+    "prompt_tr": "O, her gün ___ okula gider.",
+    "choices": [
+      "to",
+      "at",
+      "in",
+      "on"
+    ],
     "answer": 0,
     "explain_tr": "Yön to ile söylenir: He goes to school every day.",
     "trap_tr": "To + yer yön bildirir, to + fiil amaç bildirir.",
@@ -152,7 +222,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with in the morning.",
-    "choices": ["We play in the morning.", "We play at the morning.", "We play on the morning.", "Play we morning in the."],
+    "prompt_tr": "\"in the morning\" ile doğru cümleyi seç.",
+    "choices": [
+      "We play in the morning.",
+      "We play at the morning.",
+      "We play on the morning.",
+      "Play we morning in the."
+    ],
     "answer": 0,
     "explain_tr": "Günün bölümüyle in kullanılır: We play in the morning.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -164,7 +240,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "Walk ___ the bank, then turn left.",
-    "choices": ["past", "to", "at", "on"],
+    "prompt_tr": "Bankayı ___ yürü, sonra sola dön.",
+    "choices": [
+      "past",
+      "to",
+      "at",
+      "on"
+    ],
     "answer": 0,
     "explain_tr": "Yanından geçmek past olur: Walk past the bank, then turn left.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -176,8 +258,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: The meeting is in Monday.",
+    "prompt_tr": "Hatayı düzelt: The meeting is in Monday.",
     "answer_text": "The meeting is on Monday.",
-    "accept": ["The meeting is on Monday", "The meeting is on Monday."],
+    "accept": [
+      "The meeting is on Monday",
+      "The meeting is on Monday."
+    ],
     "explain_tr": "Gün ile on kullanılır: The meeting is on Monday.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
   },
@@ -188,7 +274,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct sentence with at night.",
-    "choices": ["Owls hunt at night.", "Owls hunt in the night.", "Owls hunt on night.", "Hunt owls night at."],
+    "prompt_tr": "\"at night\" ile doğru cümleyi seç.",
+    "choices": [
+      "Owls hunt at night.",
+      "Owls hunt in the night.",
+      "Owls hunt on night.",
+      "Hunt owls night at."
+    ],
     "answer": 0,
     "explain_tr": "Night istisnadır, at alır: Owls hunt at night.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -200,8 +292,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: They work between Monday to Friday.",
+    "prompt_tr": "Hatayı düzelt: They work between Monday to Friday.",
     "answer_text": "They work from Monday to Friday.",
-    "accept": ["They work from Monday to Friday", "They work from Monday to Friday."],
+    "accept": [
+      "They work from Monday to Friday",
+      "They work from Monday to Friday."
+    ],
     "explain_tr": "Aralık from ile başlar: They work from Monday to Friday.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
   },
@@ -212,7 +308,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with at home.",
-    "choices": ["Can is at home now.", "Can is at the home now.", "Can is in home now.", "Home Can at now is."],
+    "prompt_tr": "\"at home\" ile doğru cümleyi seç.",
+    "choices": [
+      "Can is at home now.",
+      "Can is at the home now.",
+      "Can is in home now.",
+      "Home Can at now is."
+    ],
     "answer": 0,
     "explain_tr": "At home kalıbı the almaz: Can is at home now.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -224,7 +326,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "She is ___ a taxi.",
-    "choices": ["in", "on", "at", "by"],
+    "prompt_tr": "O, ___ takside.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
     "answer": 0,
     "explain_tr": "Arabada in kullanılır: She is in a taxi.",
     "trap_tr": "Araba in, büyük taşıt on alır: in a car, on the bus.",
@@ -237,7 +345,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with on the bus.",
-    "choices": ["They are on the bus.", "They are in the bus.", "They are at the bus.", "Are they bus on the."],
+    "prompt_tr": "\"on the bus\" ile doğru cümleyi seç.",
+    "choices": [
+      "They are on the bus.",
+      "They are in the bus.",
+      "They are at the bus.",
+      "Are they bus on the."
+    ],
     "answer": 0,
     "explain_tr": "Büyük taşıtta on kullanılır: They are on the bus.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -249,8 +363,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She goes to school on bus.",
+    "prompt_tr": "Hatayı düzelt: She goes to school on bus.",
     "answer_text": "She goes to school by bus.",
-    "accept": ["She goes to school by bus", "She goes to school by bus."],
+    "accept": [
+      "She goes to school by bus",
+      "She goes to school by bus."
+    ],
     "explain_tr": "Araç by ile söylenir: She goes to school by bus.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
   },
@@ -261,7 +379,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "The meeting is on Monday ___ 10 o'clock.",
-    "choices": ["in", "on", "at", "to"],
+    "prompt_tr": "Toplantı pazartesi saat 10 ___ .",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
     "answer": 2,
     "explain_tr": "Üçlüyü cümleyle ezberle: The meeting is on Monday at 10 o'clock.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -273,7 +397,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with next Monday.",
-    "choices": ["We meet next Monday.", "We meet on next Monday.", "We meet in next Monday.", "Meet we Monday next."],
+    "prompt_tr": "\"next Monday\" ile doğru cümleyi seç.",
+    "choices": [
+      "We meet next Monday.",
+      "We meet on next Monday.",
+      "We meet in next Monday.",
+      "Meet we Monday next."
+    ],
     "answer": 0,
     "explain_tr": "Next ile edat kullanılmaz: We meet next Monday.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -285,7 +415,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with got on the bus.",
-    "choices": ["She got on the bus at the station.", "She got in the bus at the station.", "She got at the bus at the station.", "Got she bus on the station at."],
+    "prompt_tr": "\"got on the bus\" ile doğru cümleyi seç.",
+    "choices": [
+      "She got on the bus at the station.",
+      "She got in the bus at the station.",
+      "She got at the bus at the station.",
+      "Got she bus on the station at."
+    ],
     "answer": 0,
     "explain_tr": "Otobüse binmek get on olur: She got on the bus at the station.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
@@ -297,8 +433,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: The bus leaves on 7 o'clock.",
+    "prompt_tr": "Hatayı düzelt: The bus leaves on 7 o'clock.",
     "answer_text": "The bus leaves at 7 o'clock.",
-    "accept": ["The bus leaves at 7 o'clock", "The bus leaves at 7 o'clock."],
+    "accept": [
+      "The bus leaves at 7 o'clock",
+      "The bus leaves at 7 o'clock."
+    ],
     "explain_tr": "Saat ile at kullanılır: The bus leaves at 7 o'clock.",
     "rule_ref": "Docs/grammar/A1/a1-09-prepositions.md"
   }

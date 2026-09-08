@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "She ___ swim very well.",
-    "choices": ["can", "cans", "can to", "to can"],
+    "prompt_tr": "O, çok iyi ___ yüzer.",
+    "choices": [
+      "can",
+      "cans",
+      "can to",
+      "to can"
+    ],
     "answer": 0,
     "explain_tr": "can her özneyle aynı kalır, -s almaz: She can swim.",
     "trap_tr": "He/she/it olsa bile cans diye bir biçim yoktur.",
@@ -19,7 +25,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ you help me, please?",
-    "choices": ["Can", "Cans", "Do can", "To can"],
+    "prompt_tr": "Lütfen bana ___ yardım eder misin?",
+    "choices": [
+      "Can",
+      "Cans",
+      "Do can",
+      "To can"
+    ],
     "answer": 0,
     "explain_tr": "Rica sorusu Can ile başlar: Can you help me?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -31,7 +43,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct sentence with can swim.",
-    "choices": ["She can swim.", "She cans swim.", "She can to swim.", "She can swims."],
+    "prompt_tr": "\"can swim\" ile doğru cümleyi seç.",
+    "choices": [
+      "She can swim.",
+      "She cans swim.",
+      "She can to swim.",
+      "She can swims."
+    ],
     "answer": 0,
     "explain_tr": "can + yalın fiil gelir, özne fark etmez: She can swim.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -43,7 +61,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "He ___ drive a car.",
-    "choices": ["can't", "don't can", "doesn't can", "not can"],
+    "prompt_tr": "O, ___ araba sürer.",
+    "choices": [
+      "can't",
+      "don't can",
+      "doesn't can",
+      "not can"
+    ],
     "answer": 0,
     "explain_tr": "Olumsuz biçim can't olur: He can't drive.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -55,7 +79,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct question with Can you swim.",
-    "choices": ["Can you swim?", "Do you can swim?", "You can swim?", "Cans you swim?"],
+    "prompt_tr": "\"Can you swim\" ile doğru soruyu seç.",
+    "choices": [
+      "Can you swim?",
+      "Do you can swim?",
+      "You can swim?",
+      "Cans you swim?"
+    ],
     "answer": 0,
     "explain_tr": "can kendi başına yardımcı fiildir, do almaz: Can you swim?",
     "trap_tr": "Do you can kalıbı İngilizcede yoktur.",
@@ -68,7 +98,13 @@
     "difficulty": "easy",
     "type": "gap-fill",
     "prompt": "___ I use your pen?",
-    "choices": ["Can", "Do", "Does", "Am"],
+    "prompt_tr": "Kalemini ___ kullanabilir miyim?",
+    "choices": [
+      "Can",
+      "Do",
+      "Does",
+      "Am"
+    ],
     "answer": 0,
     "explain_tr": "İzin sorusu Can I ile başlar: Can I use your pen?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -80,7 +116,13 @@
     "difficulty": "easy",
     "type": "mcq",
     "prompt": "Choose the correct short answer with Yes I can.",
-    "choices": ["Yes, I can.", "Yes, I cans.", "Yes, I can to.", "Yes, I do can."],
+    "prompt_tr": "\"Yes I can\" ile doğru kısa cevabı seç.",
+    "choices": [
+      "Yes, I can.",
+      "Yes, I cans.",
+      "Yes, I can to.",
+      "Yes, I do can."
+    ],
     "answer": 0,
     "explain_tr": "Kısa cevap özne + can olur: Yes, I can.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -92,8 +134,12 @@
     "difficulty": "easy",
     "type": "rewrite",
     "prompt": "Correct the error: She cans play tennis.",
+    "prompt_tr": "Hatayı düzelt: She cans play tennis.",
     "answer_text": "She can play tennis.",
-    "accept": ["She can play tennis", "She can play tennis."],
+    "accept": [
+      "She can play tennis",
+      "She can play tennis."
+    ],
     "explain_tr": "can değişmez, sonra yalın fiil gelir: She can play tennis.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
   },
@@ -104,7 +150,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "I ___ swim when I was five.",
-    "choices": ["could", "can", "cans", "can to"],
+    "prompt_tr": "Beş yaşındayken ___ yüzerdim.",
+    "choices": [
+      "could",
+      "can",
+      "cans",
+      "can to"
+    ],
     "answer": 0,
     "explain_tr": "Geçmiş yetenek could ile anlatılır: I could swim when I was five.",
     "trap_tr": "Çocukken yapabildiğin şey için şimdi anlamı veren can kullanılmaz.",
@@ -117,7 +169,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the polite request with Could you open.",
-    "choices": ["Could you open the window, please?", "Could you to open the window, please?", "Do you could open the window, please?", "Could you opens the window, please?"],
+    "prompt_tr": "\"Could you open\" ile kibar isteği seç.",
+    "choices": [
+      "Could you open the window, please?",
+      "Could you to open the window, please?",
+      "Do you could open the window, please?",
+      "Could you opens the window, please?"
+    ],
     "answer": 0,
     "explain_tr": "Kibar rica could ile yapılır ve fiil yalın kalır: Could you open the window?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -129,7 +187,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct prohibition with You can't smoke.",
-    "choices": ["You can't smoke here.", "You don't can smoke here.", "You can't to smoke here.", "You no can smoke here."],
+    "prompt_tr": "\"You can't smoke\" ile doğru yasak cümlesini seç.",
+    "choices": [
+      "You can't smoke here.",
+      "You don't can smoke here.",
+      "You can't to smoke here.",
+      "You no can smoke here."
+    ],
     "answer": 0,
     "explain_tr": "Yasak You can't + fiil ile söylenir: You can't smoke here.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -141,7 +205,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "You ___ park here.",
-    "choices": ["can't", "don't can", "can't to", "no can"],
+    "prompt_tr": "Buraya ___ park edemezsin.",
+    "choices": [
+      "can't",
+      "don't can",
+      "can't to",
+      "no can"
+    ],
     "answer": 0,
     "explain_tr": "Yasak bildirirken can't kullanılır: You can't park here.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -153,7 +223,13 @@
     "difficulty": "medium",
     "type": "gap-fill",
     "prompt": "He ___ walk last year after the accident.",
-    "choices": ["couldn't", "can't", "don't could", "can't to"],
+    "prompt_tr": "O, kazadan sonra geçen yıl ___ yürüyebildi.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "don't could",
+      "can't to"
+    ],
     "answer": 0,
     "explain_tr": "Geçmişte yapamama couldn't olur: He couldn't walk last year.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -165,7 +241,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct negative short answer with No she can't.",
-    "choices": ["No, she can't.", "No, she can'ts.", "No, she don't can.", "No, she doesn't can."],
+    "prompt_tr": "\"No she can't\" ile doğru olumsuz kısa cevabı seç.",
+    "choices": [
+      "No, she can't.",
+      "No, she can'ts.",
+      "No, she don't can.",
+      "No, she doesn't can."
+    ],
     "answer": 0,
     "explain_tr": "Olumsuz kısa cevap No + özne + can't olur: No, she can't.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -177,8 +259,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Correct the error: Do you can drive?",
+    "prompt_tr": "Hatayı düzelt: Do you can drive?",
     "answer_text": "Can you drive?",
-    "accept": ["Can you drive", "Can you drive?"],
+    "accept": [
+      "Can you drive",
+      "Can you drive?"
+    ],
     "explain_tr": "can sorusu Can başa alınarak yapılır, do kullanılmaz: Can you drive?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
   },
@@ -189,8 +275,12 @@
     "difficulty": "medium",
     "type": "rewrite",
     "prompt": "Make an offer with these words: I / help / you / carry that.",
+    "prompt_tr": "Bu kelimelerle teklif cümlesi kur: I / help / you / carry that.",
     "answer_text": "Can I help you carry that?",
-    "accept": ["Can I help you carry that", "Can I help you carry that?"],
+    "accept": [
+      "Can I help you carry that",
+      "Can I help you carry that?"
+    ],
     "explain_tr": "Teklif Can I + fiil kalıbıyla yapılır: Can I help you carry that?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
   },
@@ -201,7 +291,13 @@
     "difficulty": "medium",
     "type": "mcq",
     "prompt": "Choose the correct past ability with could swim.",
-    "choices": ["I could swim when I was five.", "I can swim when I was five.", "I could to swim when I was five.", "I cans swim when I was five."],
+    "prompt_tr": "\"could swim\" ile geçmiş yeteneği anlatan doğru cümleyi seç.",
+    "choices": [
+      "I could swim when I was five.",
+      "I can swim when I was five.",
+      "I could to swim when I was five.",
+      "I cans swim when I was five."
+    ],
     "answer": 0,
     "explain_tr": "when I was five geçmişi işaret eder, could gerekir: I could swim when I was five.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -213,7 +309,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "He can ___ chess very well.",
-    "choices": ["play", "plays", "to play", "playing"],
+    "prompt_tr": "O, satrancı çok iyi ___ .",
+    "choices": [
+      "play",
+      "plays",
+      "to play",
+      "playing"
+    ],
     "answer": 0,
     "explain_tr": "can'den sonra fiil hep yalın olur: He can play chess.",
     "trap_tr": "He öznesi can'den sonraki fiile -s taşıtmaz.",
@@ -226,7 +328,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct sentence with can play.",
-    "choices": ["He can play chess.", "He can plays chess.", "He can to play chess.", "He cans play chess."],
+    "prompt_tr": "\"can play\" ile doğru cümleyi seç.",
+    "choices": [
+      "He can play chess.",
+      "He can plays chess.",
+      "He can to play chess.",
+      "He cans play chess."
+    ],
     "answer": 0,
     "explain_tr": "Doğru sıra özne + can + yalın fiildir: He can play chess.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -238,7 +346,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the correct short exchange with No she can't.",
-    "choices": ["Can she drive? No, she can't.", "Can she drive? No, she can'ts.", "Can she drive? No, she don't can.", "Can she drive? No, she not can."],
+    "prompt_tr": "\"No she can't\" ile doğru kısa konuşmayı seç.",
+    "choices": [
+      "Can she drive? No, she can't.",
+      "Can she drive? No, she can'ts.",
+      "Can she drive? No, she don't can.",
+      "Can she drive? No, she not can."
+    ],
     "answer": 0,
     "explain_tr": "Kısa cevapta can't değişmez: No, she can't.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -250,7 +364,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "I ___ swim very well now.",
-    "choices": ["can", "could", "cans", "could to"],
+    "prompt_tr": "Şu an çok iyi ___ yüzerim.",
+    "choices": [
+      "can",
+      "could",
+      "cans",
+      "could to"
+    ],
     "answer": 0,
     "explain_tr": "now şimdiki yeteneği gösterir, can gerekir: I can swim very well now.",
     "trap_tr": "could şimdiki yetenek değil, geçmiş yetenek ya da kibar ricadır.",
@@ -263,7 +383,13 @@
     "difficulty": "hard",
     "type": "mcq",
     "prompt": "Choose the most polite request with open the door.",
-    "choices": ["Could you open the door, please?", "Can to you open the door, please?", "Do you could open the door, please?", "You could open the door, please?"],
+    "prompt_tr": "\"open the door\" ile en kibar isteği seç.",
+    "choices": [
+      "Could you open the door, please?",
+      "Can to you open the door, please?",
+      "Do you could open the door, please?",
+      "You could open the door, please?"
+    ],
     "answer": 0,
     "explain_tr": "En kibar rica Could you ile başlar: Could you open the door, please?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -275,7 +401,13 @@
     "difficulty": "hard",
     "type": "gap-fill",
     "prompt": "___ you swim when you were three?",
-    "choices": ["Could", "Can", "Cans", "Do can"],
+    "prompt_tr": "Üç yaşındayken ___ yüzer miydin?",
+    "choices": [
+      "Could",
+      "Can",
+      "Cans",
+      "Do can"
+    ],
     "answer": 0,
     "explain_tr": "when you were three geçmiş sorusudur: Could you swim when you were three?",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
@@ -287,8 +419,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: He can plays football.",
+    "prompt_tr": "Hatayı düzelt: He can plays football.",
     "answer_text": "He can play football.",
-    "accept": ["He can play football", "He can play football."],
+    "accept": [
+      "He can play football",
+      "He can play football."
+    ],
     "explain_tr": "can'den sonra -s düşer: He can play football.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
   },
@@ -299,8 +435,12 @@
     "difficulty": "hard",
     "type": "rewrite",
     "prompt": "Correct the error: She can to drive.",
+    "prompt_tr": "Hatayı düzelt: She can to drive.",
     "answer_text": "She can drive.",
-    "accept": ["She can drive", "She can drive."],
+    "accept": [
+      "She can drive",
+      "She can drive."
+    ],
     "explain_tr": "can'den sonra to gelmez: She can drive.",
     "rule_ref": "Docs/grammar/A1/a1-10-modals-can.md"
   }
