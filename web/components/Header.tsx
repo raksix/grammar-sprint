@@ -1,7 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
+import { CheckCircle2, Lock, Moon, Sun, Trophy } from "lucide-react";
+import {
+  defaultProgress,
+  loadProgress,
+  type ProgressState,
+} from "../lib/progress";
+import { LEVEL_ORDER, isLevelUnlocked } from "../lib/topics";
 
 type Theme = "light" | "dark";
 
@@ -26,15 +32,17 @@ function resolveInitialTheme(): Theme {
   return "light";
 }
 
-const LEVELS = ["A1", "A2", "B1", "B2"] as const;
-
 export default function Header() {
   const [theme, setTheme] = useState<Theme>("light");
   const [mounted, setMounted] = useState(false);
+  const [progress, setProgress] = useState<ProgressState>(() =>
+    defaultProgress(),
+  );
 
   useEffect(() => {
     setTheme(resolveInitialTheme());
     setMounted(true);
+    setProgress(loadProgress());
   }, []);
 
   useEffect(() => {
@@ -61,17 +69,57 @@ export default function Header() {
           <span className="brand-word">Grammar Sprint</span>
         </a>
         <nav className="stepper" aria-label="CEFR levels">
-          {LEVELS.map((level, i) => (
-            <span key={level} style={{ display: "inline-flex", alignItems: "center" }}>
-              {i > 0 && (
-                <span className="sep" aria-hidden="true">
-                  &rsaquo;
-                </span>
-              )}
-              <a href={`/#level-${level.toLowerCase()}`}>{level}</a>
-            </span>
-          ))}
+          {LEVEL_ORDER.map((level, i) => {
+            const unlocked = isLevelUnlocked(level, progress.gates);
+            const cleared = progress.gates[level]?.passed === true;
+            return (
+              <span
+                key={level}
+                style={{ display: "inline-flex", alignItems: "center" }}
+              >
+                {i > 0 && (
+                  <span className="sep" aria-hidden="true">
+                    &rsaquo;
+                  </span>
+                )}
+                <a
+                  href={`/levels/${level}`}
+                  className={
+                    cleared
+                      ? "step-cleared"
+                      : unlocked
+                        ? "step-open"
+                        : "step-locked"
+                  }
+                  aria-label={`${level} level${cleared ? " — gate cleared" : unlocked ? "" : " — locked, clear the previous gate"}`}
+                >
+                  {cleared ? (
+                    <CheckCircle2
+                      size={13}
+                      strokeWidth={2.2}
+                      aria-hidden="true"
+                    />
+                  ) : unlocked ? null : (
+                    <Lock size={13} strokeWidth={2.2} aria-hidden="true" />
+                  )}
+                  {level}
+                </a>
+              </span>
+            );
+          })}
         </nav>
+        <a
+          className="xp-pill"
+          href="/stats"
+          aria-label={`${progress.xp.toLocaleString("en-US")} XP — view stats`}
+          title="View stats"
+        >
+          <Trophy size={15} strokeWidth={2} aria-hidden="true" />
+          <span className="xp-num">
+            {progress.xp.toLocaleString("en-US")}
+          </span>
+          <span className="xp-lbl">XP</span>
+        </a>
         <button
           type="button"
           className="theme-toggle"

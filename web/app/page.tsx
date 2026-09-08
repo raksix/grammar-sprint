@@ -1,4 +1,11 @@
-import { ArrowRight, BookOpen, ClipboardCheck, Flag } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  ClipboardCheck,
+  Flag,
+  RotateCcw,
+} from "lucide-react";
+import LandingProgress from "../components/LandingProgress";
 
 const LEVELS = [
   {
@@ -36,16 +43,29 @@ const STEPS = [
     icon: BookOpen,
     title: "1 · Learn",
     text: "One compact lesson per topic: forms table, examples, traps to avoid.",
+    href: "/learn/a1-01-verb-to-be",
+    cta: "Read the first lesson",
   },
   {
     icon: ClipboardCheck,
     title: "2 · Quiz",
     text: "8 questions per topic, unseen-first — every miss shows the rule.",
+    href: "/quiz/a1-01-verb-to-be",
+    cta: "Try the first quiz",
   },
   {
     icon: Flag,
     title: "3 · Gate",
     text: "Score 80%+ on the mixed level gate to unlock the next level.",
+    href: "/gate/A1",
+    cta: "Preview the A1 gate",
+  },
+  {
+    icon: RotateCcw,
+    title: "4 · Review",
+    text: "Every miss waits in the review deck until you clear it.",
+    href: "/review",
+    cta: "Open the review deck",
   },
 ] as const;
 
@@ -60,7 +80,7 @@ export default function LandingPage() {
           topic, quiz it the same hour, and clear the level gate to move on.
         </p>
         <div className="cta-row">
-          <a className="btn btn-primary" href="#levels">
+          <a className="btn btn-primary" href="/levels/A1">
             Start the sprint
             <ArrowRight size={17} strokeWidth={2} aria-hidden="true" />
           </a>
@@ -88,6 +108,8 @@ export default function LandingPage() {
         </div>
       </section>
 
+      <LandingProgress />
+
       <h2 className="section-title" id="levels">
         The four levels
       </h2>
@@ -97,10 +119,11 @@ export default function LandingPage() {
       </p>
       <section className="level-grid" aria-label="CEFR levels">
         {LEVELS.map((level) => (
-          <article
-            className="level-card"
+          <a
+            className="level-card level-card-link"
             key={level.code}
-            id={`level-${level.code.toLowerCase()}`}
+            href={`/levels/${level.code}`}
+            aria-label={`${level.code} ${level.name} — open the level`}
           >
             <h3>{level.code}</h3>
             <p>
@@ -110,8 +133,12 @@ export default function LandingPage() {
               <span>
                 {level.topics} topics · {level.questions} questions
               </span>
+              <span className="level-open" aria-hidden="true">
+                Open
+                <ArrowRight size={14} strokeWidth={2} />
+              </span>
             </div>
-          </article>
+          </a>
         ))}
       </section>
 
@@ -129,9 +156,17 @@ export default function LandingPage() {
             </span>
             <h3>{step.title}</h3>
             <p>{step.text}</p>
+            <p className="how-cta">
+              <a href={step.href}>{step.cta}</a>
+            </p>
           </article>
         ))}
       </section>
+
+      <p className="landing-foot">
+        Finished all four gates? <a href="/final">Take the 50-question final sprint</a>{" "}
+        or <a href="/stats">check your stats</a>.
+      </p>
     </div>
   );
 }

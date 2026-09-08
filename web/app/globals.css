@@ -365,6 +365,141 @@ button {
   color: var(--muted);
 }
 
+/* ---- landing polish (P25: stepper states + XP pill + continue band) ---- */
+
+.stepper a {
+  gap: 0.3rem;
+}
+
+.stepper a.step-open {
+  color: var(--ink);
+}
+
+.stepper a.step-cleared {
+  color: var(--ok);
+  background: var(--accent-soft);
+}
+
+.stepper a.step-locked {
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.xp-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.xp-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.xp-pill .xp-lbl {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.continue-band {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 1.25rem;
+  margin: 2rem 0 0;
+  padding: 1.5rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.continue-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.4rem;
+}
+
+.continue-sub {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.continue-side {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+  border-left: 1px solid var(--line);
+  padding-left: 1.25rem;
+}
+
+.continue-side a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.level-card-link:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.level-card-link:hover .level-open {
+  color: var(--accent);
+}
+
+.level-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.how-cta {
+  margin-top: 0.6rem !important;
+}
+
+.how-cta a {
+  font-weight: 600;
+}
+
+.landing-foot {
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  .continue-band {
+    grid-template-columns: 1fr;
+  }
+  .continue-side {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+  }
+  .xp-pill .xp-lbl {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .stepper a {
     padding: 0.35rem 0.45rem;

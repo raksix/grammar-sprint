@@ -21,6 +21,7 @@ interface BunTestMatchers {
   toBeGreaterThanOrEqual(expected: number): void;
   toBeLessThanOrEqual(expected: number): void;
   toBeDefined(): void;
+  toBeUndefined(): void;
   toBeTruthy(): void;
   toThrow(expected?: unknown): void;
 }
