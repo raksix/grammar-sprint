@@ -166,7 +166,7 @@
     "prompt": "Unless you ___, I'll worry all night.",
     "choices": ["will call", "called", "calling", "call"],
     "answer": 3,
-    "explain_tr": "Unless if … not demektir, ardından geniş zaman gelir: Unless you call, I'll worry.",
+    "explain_tr": "Unless olumsuz koşul demektir, ardından geniş zaman gelir: Unless you call, I'll worry.",
     "rule_ref": "Docs/grammar/A2/a2-08-zero-first-conditional.md"
   },
   {

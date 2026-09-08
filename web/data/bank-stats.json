@@ -1,0 +1,743 @@
+{
+  "generatedAt": "2026-09-08T17:59:25.757Z",
+  "files": 48,
+  "total": 1200,
+  "byLevel": {
+    "A1": 300,
+    "A2": 300,
+    "B1": 300,
+    "B2": 300
+  },
+  "byDifficulty": {
+    "easy": 384,
+    "medium": 432,
+    "hard": 384
+  },
+  "byType": {
+    "mcq": 480,
+    "gap-fill": 480,
+    "rewrite": 240
+  },
+  "topics": [
+    {
+      "topic": "a1-01-verb-to-be",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-02-present-simple",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-03-present-continuous",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-04-past-simple-be",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-05-articles",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-06-nouns-plurals",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-07-pronouns",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-08-possessives",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-09-prepositions",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-10-modals-can",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-11-imperatives",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a1-12-there-is-are-connectors",
+      "level": "A1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-01-past-simple-regular",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-02-past-simple-irregular",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-03-past-continuous",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-04-going-to-will",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-05-comparatives-superlatives",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-06-countable-uncountable",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-07-modals-a2",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-08-zero-first-conditional",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-09-gerund-basics",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-10-adverbs-frequency-manner",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-11-relative-basic",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "a2-12-reported-basic",
+      "level": "A2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-01-present-perfect",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-02-present-perfect-continuous",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-03-past-perfect",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-04-second-conditional",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-05-third-conditional",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-06-passive-basic",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-07-reported-speech",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-08-modal-deduction",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-09-used-to-would",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-10-relative-defining",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-11-gerund-infinitive",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b1-12-question-tags-linkers",
+      "level": "B1",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-01-mixed-conditionals",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-02-wish-if-only",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-03-passive-advanced",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-04-reported-range",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-05-participle-clauses",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-06-causative",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-07-inversion",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-08-cleft-emphasis",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-09-subjunctive-basics",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-10-reduced-relatives",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-11-advanced-conjunctions",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    },
+    {
+      "topic": "b2-12-narrative-tenses",
+      "level": "B2",
+      "total": 25,
+      "byDifficulty": {
+        "easy": 8,
+        "medium": 9,
+        "hard": 8
+      },
+      "byType": {
+        "mcq": 10,
+        "gap-fill": 10,
+        "rewrite": 5
+      }
+    }
+  ]
+}
