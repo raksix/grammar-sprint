@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "validate-bank": "node scripts/validate-bank.mjs",
     "e2e": "node scripts/e2e-full-loop.mjs",
-    "prebuild": "node scripts/validate-bank.mjs"
+    "prebuild": "node scripts/validate-bank.mjs",
+    "postbuild": "node scripts/copy-bank-to-out.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.550.0",
