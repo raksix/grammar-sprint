@@ -23,6 +23,7 @@ import {
   PROGRESS_KEY,
   PROGRESS_VERSION,
   recordAskedIds,
+  recordFinalAttempt,
   recordGateAttempt,
   resetProgress,
   saveProgress,
@@ -161,4 +162,44 @@ test("saveProgress never throws on a broken storage backend", () => {
   };
   saveProgress(defaultProgress(), broken);
   expect(resetProgress(broken)).toEqual(defaultProgress());
+});
+
+test("recordFinalAttempt keeps the best pct and sticky pass", () => {
+  let state = recordFinalAttempt(defaultProgress(), 60, false);
+  state = recordFinalAttempt(state, 74, true);
+  state = recordFinalAttempt(state, 65, false);
+  expect(state.final).toEqual({ passed: true, bestPct: 74, attempts: 3 });
+});
+
+test("loader fills a fresh final record for pre-P24 blobs", () => {
+  const legacy = {
+    version: PROGRESS_VERSION,
+    xp: 40,
+    doneTopics: ["a1-01-verb-to-be"],
+    askedIds: {},
+    reviewDeck: [],
+    gates: { A1: { passed: true, bestPct: 82, attempts: 1 } },
+  };
+  const storage = createMemoryStorage({
+    [PROGRESS_KEY]: JSON.stringify(legacy),
+  });
+  const loaded = loadProgress(storage);
+  expect(loaded.final).toEqual({ passed: false, bestPct: 0, attempts: 0 });
+  expect(loaded.xp).toBe(40);
+  expect(loaded.gates["A1"]).toEqual({
+    passed: true,
+    bestPct: 82,
+    attempts: 1,
+  });
+});
+
+test("save then load round-trips the final record", () => {
+  const storage = createMemoryStorage();
+  const state = recordFinalAttempt(defaultProgress(), 71, true);
+  saveProgress(state, storage);
+  expect(loadProgress(storage).final).toEqual({
+    passed: true,
+    bestPct: 71,
+    attempts: 1,
+  });
 });

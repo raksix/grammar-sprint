@@ -15,7 +15,7 @@ import { parseBank } from "./bank";
 import type { Question } from "./bank";
 import { getTopic } from "./topics";
 
-function resolveBankDir(): string {
+export function resolveBankDir(): string {
   const candidates = [
     join(process.cwd(), "data", "bank"),
     join(process.cwd(), "web", "data", "bank"),

@@ -2,7 +2,8 @@
  * Versioned localStorage progress store (`gs-progress-v1`).
  *
  * Holds done topics, asked ids (per `topic:difficulty`, feeding the
- * no-repeat draw in `draw.ts`), the review deck, XP and gate records.
+ * no-repeat draw in `draw.ts`), the review deck, XP, gate records and the
+ * final-sprint record.
  * No backend, no auth in v1 (see `Docs/07-ARCHITECTURE.md`).
  *
  * Safety rules:
@@ -42,6 +43,9 @@ export interface GateRecord {
   attempts: number;
 }
 
+/** Best-so-far record for the 50Q final sprint (same shape as a gate). */
+export type FinalRecord = GateRecord;
+
 export interface ProgressState {
   version: number;
   xp: number;
@@ -50,6 +54,11 @@ export interface ProgressState {
   askedIds: Record<string, string[]>;
   reviewDeck: ReviewItem[];
   gates: Partial<Record<Level, GateRecord>>;
+  /**
+   * Final-sprint record. Absent in blobs written before P24 — the loader
+   * fills a fresh default so old progress keeps working (no version bump).
+   */
+  final: FinalRecord;
 }
 
 /** Minimal storage surface — `window.localStorage` satisfies it. */
@@ -68,6 +77,7 @@ export function defaultProgress(): ProgressState {
     askedIds: {},
     reviewDeck: [],
     gates: {},
+    final: { passed: false, bestPct: 0, attempts: 0 },
   };
 }
 
@@ -213,7 +223,21 @@ export function loadProgress(storage?: StorageLike | null): ProgressState {
       }
     }
   }
-  return { version: PROGRESS_VERSION, xp, doneTopics, askedIds, reviewDeck, gates };
+  return {
+    version: PROGRESS_VERSION,
+    xp,
+    doneTopics,
+    askedIds,
+    reviewDeck,
+    gates,
+    final:
+      typeof record["final"] === "object" &&
+      record["final"] !== null &&
+      !Array.isArray(record["final"]) &&
+      isGateRecord(record["final"])
+        ? { ...(record["final"] as GateRecord) }
+        : { ...base.final },
+  };
 }
 
 /**
@@ -314,6 +338,26 @@ export function recordGateAttempt(
         bestPct: Math.max(previous?.bestPct ?? 0, pct),
         attempts: (previous?.attempts ?? 0) + 1,
       },
+    },
+  };
+}
+
+/**
+ * Record one final-sprint attempt: attempts +1, best percent kept,
+ * `passed` sticky once earned (same semantics as `recordGateAttempt`).
+ */
+export function recordFinalAttempt(
+  state: ProgressState,
+  pct: number,
+  passed: boolean,
+): ProgressState {
+  const previous = state.final;
+  return {
+    ...state,
+    final: {
+      passed: previous.passed || passed,
+      bestPct: Math.max(previous.bestPct, pct),
+      attempts: previous.attempts + 1,
     },
   };
 }

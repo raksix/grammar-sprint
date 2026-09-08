@@ -1119,3 +1119,166 @@ details.answer p {
 .quiz-result-actions {
   justify-content: center;
 }
+
+/* ---- P24: gate CTA, weakest list, review + stats ---- */
+
+.gate-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.gate-cta-hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.gate-weakest {
+  margin: 0 0 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.gate-weakest-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.gate-weakest ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.gate-locked-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.quiz-footnote {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 1.25rem 0 0;
+  text-align: center;
+}
+
+.quiz-footnote a {
+  white-space: nowrap;
+}
+
+.review-count {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.stat-icon {
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.stat-num {
+  font-family: Georgia, "Source Serif 4", "Times New Roman", serif;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.stat-levels {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.stat-level {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.stat-level-code {
+  font-family: Georgia, "Source Serif 4", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  min-width: 2.5rem;
+}
+
+.stat-level-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex: 1;
+}
+
+.stat-level-title {
+  font-weight: 600;
+}
+
+.stat-level-links {
+  font-size: 0.88rem;
+}
+
+.stat-attention {
+  margin: 0 0 2rem;
+  padding-left: 1.25rem;
+}
+
+.stat-attention li {
+  margin-bottom: 0.4rem;
+}
+
+.stat-empty,
+.stat-mastered {
+  color: var(--muted);
+}

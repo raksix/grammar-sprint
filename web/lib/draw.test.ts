@@ -12,8 +12,10 @@
 
 import type { Difficulty, Level, Question } from "./bank";
 import {
+  FINAL_QUOTA,
   GATE_QUOTA,
   TOPIC_QUIZ_QUOTA,
+  drawFinal,
   drawGate,
   drawTopicQuiz,
   drawUnseen,
@@ -314,6 +316,71 @@ describe("drawGate", () => {
       ids(first.drawn),
     );
     expect(second.drawn).toHaveLength(30);
+    expect(sameIdSet(second.drawn, ids(first.drawn))).toBe(false);
+  });
+});
+
+describe("drawFinal", () => {
+  const pool = [
+    ...makePool(["t1", "t2", "t3"], "A1", { easy: 8, medium: 9, hard: 8 }, "a1"),
+    ...makePool(["t4", "t5", "t6"], "B2", { easy: 8, medium: 9, hard: 8 }, "b2"),
+  ];
+
+  test("composition is 20 easy / 20 medium / 10 hard, all unique", () => {
+    const result = drawFinal(pool, [], "final-seed");
+    expect(result.drawn).toHaveLength(50);
+    const counts = countByDifficulty(result.drawn);
+    expect(counts.easy).toBe(FINAL_QUOTA.easy);
+    expect(counts.medium).toBe(FINAL_QUOTA.medium);
+    expect(counts.hard).toBe(FINAL_QUOTA.hard);
+    expect(uniqueCount(ids(result.drawn))).toBe(50);
+    expect(result.cycleCompleted).toBe(false);
+  });
+
+  test("round-robin spreads each difficulty across topics (max-min <= 1)", () => {
+    const result = drawFinal(pool, [], "final-seed");
+    const diffs: readonly Difficulty[] = ["easy", "medium", "hard"];
+    for (const d of diffs) {
+      const perTopic = countByTopic(result.drawn.filter((q) => q.difficulty === d));
+      expect(perTopic.size).toBe(6);
+      const values = [...perTopic.values()];
+      let min = values[0] ?? 0;
+      let max = values[0] ?? 0;
+      for (const v of values) {
+        if (v < min) {
+          min = v;
+        }
+        if (v > max) {
+          max = v;
+        }
+      }
+      expect(max - min <= 1).toBe(true);
+    }
+  });
+
+  test("mixes both levels", () => {
+    const result = drawFinal(pool, [], "final-seed");
+    const levels = new Set(result.drawn.map((q) => q.level));
+    expect(levels.has("A1")).toBe(true);
+    expect(levels.has("B2")).toBe(true);
+  });
+
+  test("unseen-first: asked ids are avoided while unseen remain", () => {
+    const asked = ids(pool).slice(0, 20);
+    const result = drawFinal(pool, asked, "final-seed");
+    const overlap = ids(result.drawn).filter((id) => asked.includes(id));
+    expect(overlap).toHaveLength(0);
+  });
+
+  test("retake never repeats the identical 50 while unseen remain", () => {
+    const first = drawFinal(pool, [], "final-retake-seed");
+    const second = drawFinal(
+      pool,
+      first.askedIds,
+      "final-retake-seed",
+      ids(first.drawn),
+    );
+    expect(second.drawn).toHaveLength(50);
     expect(sameIdSet(second.drawn, ids(first.drawn))).toBe(false);
   });
 });

@@ -1,40 +1,34 @@
 /**
- * QuizCard — interactive 8Q topic quiz runner (P23).
+ * FinalCard — interactive 50Q final-sprint runner (P24).
  *
- * Client component. The server route (`/quiz/[topic]`) embeds the topic's
- * 25Q pool as props at build time; everything session-like happens here:
- * unseen-first draw (`drawTopicQuiz`, seeded `topic:day:attempt`), seeded
- * per-attempt choice shuffle, adaptive difficulty ordering
- * (`lib/quiz.ts`), rewrite checking (`normalize.ts`), grading + XP
- * (`scoring.ts`), and persistence (`progress.ts`: asked ids, XP, done
- * topics, review deck).
+ * Client component. The server route (`/final`) embeds the whole 1200Q
+ * bank as props at build time; the session runs here: unseen-first
+ * stratified draw (`drawFinal`, seeded `final:day:attempt`), seeded
+ * per-attempt choice shuffle, the same submit feedback as the topic quiz,
+ * grading (`gradeFinalSprint`: percent + XP, pass at ≥ 70%), and
+ * persistence (`progress.ts`: asked ids, XP, final record via
+ * `recordFinalAttempt`, misses into the review deck).
  *
- * Spec notes (`Docs/05-TEST-ENGINE-SPEC.md`):
- * - Correct → green panel + rule echo (`explain_tr`); wrong → red panel
- *   with `explain_tr` + `trap_tr` + deep link to the lesson (`rule_ref`).
- * - Misses join the review deck with their rule tag.
- * - The correct answer is resolved at submit from the bank copy and is
- *   never rendered (no `data-correct` markers) before submit.
- * - Only links to routes that exist (`/learn/*`, `/levels/*`, `/review` —
- *   the review route landed in P24, so misses link there).
+ * The final has no retake lock (the gate rule does not apply here):
+ * every attempt draws fresh unseen questions and the best percent sticks.
+ * Only links to routes that exist (`/learn/*`, `/stats`, `/review`).
  */
 
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  ArrowLeft,
   ArrowRight,
+  BarChart3,
   BookOpen,
   CheckCircle2,
   CircleAlert,
-  LayoutGrid,
   RotateCcw,
   Trophy,
 } from "lucide-react";
-import type { Difficulty, Level, Question } from "../lib/bank";
+import type { Difficulty, Question } from "../lib/bank";
 import { isChoiceQuestion, isRewriteQuestion } from "../lib/bank";
-import { TOPIC_QUIZ_SIZE, drawTopicQuiz } from "../lib/draw";
+import { FINAL_SIZE, drawFinal } from "../lib/draw";
 import { isRewriteCorrect } from "../lib/normalize";
 import {
   addToReview,
@@ -42,35 +36,28 @@ import {
   askedKey,
   defaultProgress,
   loadProgress,
-  markTopicDone,
   recordAskedIds,
+  recordFinalAttempt,
   saveProgress,
   type ProgressState,
   type ReviewItem,
 } from "../lib/progress";
 import {
-  TOPIC_QUIZ_PASS_COUNT,
-  gradeTopicQuiz,
+  FINAL_PASS_PCT,
+  gradeFinalSprint,
   xpForAttempts,
-  type ScoreBreakdown,
+  type AttemptResult,
 } from "../lib/scoring";
 import { getTopic } from "../lib/topics";
 import {
-  answerAdaptive,
-  initAdaptive,
   isChoiceCorrect,
   learnSlugFromRuleRef,
-  nextAdaptiveQuestion,
   shuffleChoices,
-  type AdaptiveState,
   type ShuffledChoice,
 } from "../lib/quiz";
 
-interface GradedAnswer {
-  questionId: string;
-  difficulty: Difficulty;
-  topic: string;
-  correct: boolean;
+interface GradedAnswer extends AttemptResult {
+  levelLabel: string;
 }
 
 interface FinishedSummary {
@@ -80,7 +67,8 @@ interface FinishedSummary {
   passed: boolean;
   xp: number;
   missed: number;
-  byDifficulty: Record<Difficulty, ScoreBreakdown>;
+  bestPct: number;
+  attempts: number;
 }
 
 const DIFFICULTY_LABEL: Record<Difficulty, string> = {
@@ -95,23 +83,14 @@ function typeLabel(question: Question): string {
   return "Choose";
 }
 
-export default function QuizCard({
-  pool,
-  slug,
-  level,
-  title,
-}: {
-  pool: Question[];
-  slug: string;
-  level: Level;
-  title: string;
-}) {
+export default function FinalCard({ pool }: { pool: Question[] }) {
   const [progress, setProgress] = useState<ProgressState>(() =>
     defaultProgress(),
   );
   const [ready, setReady] = useState(false);
   const [attempt, setAttempt] = useState(0);
   const [current, setCurrent] = useState<Question | null>(null);
+  const [queue, setQueue] = useState<Question[]>([]);
   /** Answered count doubles as the 0-based index of `current`. */
   const [answered, setAnswered] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -121,8 +100,6 @@ export default function QuizCard({
   const [results, setResults] = useState<GradedAnswer[]>([]);
   const [finished, setFinished] = useState<FinishedSummary | null>(null);
 
-  const sessionRef = useRef<AdaptiveState | null>(null);
-  const drawnRef = useRef<Question[]>([]);
   const missesRef = useRef<ReviewItem[]>([]);
   const dayRef = useRef("");
   const finishGuardRef = useRef(false);
@@ -130,19 +107,14 @@ export default function QuizCard({
   const beginAttempt = useCallback(
     (stored: ProgressState, attemptNo: number, day: string) => {
       const asked = new Set<string>();
-      const difficulties: Difficulty[] = ["easy", "medium", "hard"];
-      for (const difficulty of difficulties) {
-        const seen = stored.askedIds[askedKey(slug, difficulty)] ?? [];
-        for (const id of seen) asked.add(id);
+      for (const ids of Object.values(stored.askedIds)) {
+        for (const id of ids) asked.add(id);
       }
-      const drawn = drawTopicQuiz(pool, asked, `${slug}:${day}:${attemptNo}`);
-      drawnRef.current = drawn.drawn;
+      const drawn = drawFinal(pool, asked, `final:${day}:${attemptNo}`);
       missesRef.current = [];
       finishGuardRef.current = false;
-      const session = initAdaptive(drawn.drawn);
-      sessionRef.current = session;
-      const first = nextAdaptiveQuestion(session);
-      setCurrent(first?.question ?? null);
+      setQueue(drawn.drawn);
+      setCurrent(drawn.drawn[0] ?? null);
       setAnswered(0);
       setSelected(null);
       setTyped("");
@@ -152,7 +124,7 @@ export default function QuizCard({
       setAttempt(attemptNo);
       setReady(true);
     },
-    [pool, slug],
+    [pool],
   );
 
   useEffect(() => {
@@ -160,48 +132,43 @@ export default function QuizCard({
     setProgress(stored);
     const day = new Date().toISOString().slice(0, 10);
     dayRef.current = day;
-    beginAttempt(stored, 0, day);
+    beginAttempt(stored, stored.final.attempts, day);
   }, [beginAttempt]);
 
   const shuffled: ShuffledChoice[] = useMemo(() => {
     if (current === null || !isChoiceQuestion(current)) return [];
     return shuffleChoices(
       current,
-      `${slug}:${dayRef.current}:${attempt}:${current.id}`,
+      `final:${dayRef.current}:${attempt}:${current.id}`,
     );
-  }, [current, slug, attempt]);
+  }, [current, attempt]);
 
-  const ruleHref = useCallback(
-    (question: Question): string => {
-      const parsed = learnSlugFromRuleRef(question.rule_ref);
-      if (parsed !== null && getTopic(parsed) !== undefined) {
-        return `/learn/${parsed}`;
-      }
-      return `/learn/${slug}`;
-    },
-    [slug],
-  );
+  const ruleHref = useCallback((question: Question): string => {
+    const parsed = learnSlugFromRuleRef(question.rule_ref);
+    if (parsed !== null && getTopic(parsed) !== undefined) {
+      return `/learn/${parsed}`;
+    }
+    return "/review";
+  }, []);
 
   const finish = useCallback(
     (graded: GradedAnswer[]) => {
       if (finishGuardRef.current) return;
       finishGuardRef.current = true;
-      const score = gradeTopicQuiz(graded);
+      const score = gradeFinalSprint(graded);
       const xp = xpForAttempts(graded);
       const misses = missesRef.current;
-      setProgress((prev) => {
-        let next = prev;
-        for (const question of drawnRef.current) {
-          next = recordAskedIds(next, askedKey(slug, question.difficulty), [
-            question.id,
-          ]);
-        }
-        next = addXp(next, xp);
-        if (score.passed) next = markTopicDone(next, slug);
-        for (const miss of misses) next = addToReview(next, miss);
-        saveProgress(next);
-        return next;
-      });
+      let next = progress;
+      for (const question of queue) {
+        next = recordAskedIds(next, askedKey(question.topic, question.difficulty), [
+          question.id,
+        ]);
+      }
+      next = addXp(next, xp);
+      next = recordFinalAttempt(next, score.percent, score.passed);
+      for (const miss of misses) next = addToReview(next, miss);
+      saveProgress(next);
+      setProgress(next);
       setFinished({
         correct: score.correct,
         total: score.total,
@@ -209,10 +176,11 @@ export default function QuizCard({
         passed: score.passed,
         xp,
         missed: misses.length,
-        byDifficulty: score.byDifficulty,
+        bestPct: next.final.bestPct,
+        attempts: next.final.attempts,
       });
     },
-    [slug],
+    [queue, progress],
   );
 
   const submit = useCallback(() => {
@@ -226,9 +194,8 @@ export default function QuizCard({
       correct = isRewriteCorrect(typed, current.accept);
     }
     const graded: GradedAnswer = {
-      questionId: current.id,
       difficulty: current.difficulty,
-      topic: current.topic,
+      levelLabel: current.level,
       correct,
     };
     const updated = [...results, graded];
@@ -237,35 +204,32 @@ export default function QuizCard({
       missesRef.current.push({
         questionId: current.id,
         topic: current.topic,
-        level,
+        level: current.level,
         ruleRef: current.rule_ref,
         addedAt: new Date().toISOString(),
       });
     }
-    const session = sessionRef.current;
-    if (session !== null) answerAdaptive(session, correct);
     setWasCorrect(correct);
     setSubmitted(true);
-  }, [current, submitted, finished, selected, typed, results, level]);
+  }, [current, submitted, finished, selected, typed, results]);
 
   const next = useCallback(() => {
     if (!submitted || finished !== null) return;
-    if (results.length >= TOPIC_QUIZ_SIZE) {
+    if (results.length >= FINAL_SIZE) {
       finish(results);
       return;
     }
-    const session = sessionRef.current;
-    const picked = session === null ? null : nextAdaptiveQuestion(session);
+    const picked = queue[results.length] ?? null;
     if (picked === null) {
       finish(results);
       return;
     }
-    setCurrent(picked.question);
+    setCurrent(picked);
     setAnswered(results.length);
     setSelected(null);
     setTyped("");
     setSubmitted(false);
-  }, [submitted, finished, results, finish]);
+  }, [submitted, finished, results, queue, finish]);
 
   const retake = useCallback(() => {
     beginAttempt(progress, attempt + 1, dayRef.current);
@@ -274,7 +238,7 @@ export default function QuizCard({
   if (!ready || current === null) {
     return (
       <div className="narrow quiz-wrap" aria-busy="true">
-        <p className="quiz-loading">Preparing your 8 questions…</p>
+        <p className="quiz-loading">Preparing your 50 final questions…</p>
       </div>
     );
   }
@@ -294,43 +258,21 @@ export default function QuizCard({
             )}
           </span>
           <p className="hero-kicker">
-            {finished.passed ? "Topic done" : "Keep going"}
+            {finished.passed ? "Sprint complete" : "Final sprint — not yet"}
           </p>
           <p className="quiz-result-score">
             {finished.correct}/{finished.total} · {finished.percent}%
           </p>
           <p className="quiz-result-line">
             {finished.passed
-              ? `You cleared “${title}”. +${finished.xp} XP earned.`
-              : `You need ${TOPIC_QUIZ_PASS_COUNT}/${finished.total} to mark this topic done. +${finished.xp} XP earned anyway.`}
+              ? `You finished the A1→B2 sprint. Best ${finished.bestPct}% over ${finished.attempts} ${finished.attempts === 1 ? "attempt" : "attempts"}. +${finished.xp} XP earned.`
+              : `You need ${FINAL_PASS_PCT}% to complete the sprint (best so far ${finished.bestPct}%). +${finished.xp} XP earned anyway.`}
           </p>
-          <dl className="quiz-breakdown" aria-label="Score by difficulty">
-            {(Object.keys(DIFFICULTY_LABEL) as Difficulty[]).map(
-              (difficulty) => {
-                const bucket = finished.byDifficulty[difficulty];
-                return (
-                  <div className="quiz-breakdown-row" key={difficulty}>
-                    <dt>{DIFFICULTY_LABEL[difficulty]}</dt>
-                    <dd>
-                      {bucket.correct}/{bucket.total} · {bucket.percent}%
-                    </dd>
-                  </div>
-                );
-              },
-            )}
-          </dl>
-          {finished.missed > 0 ? (
-            <p className="quiz-review-note">
-              {finished.missed} missed{" "}
-              {finished.missed === 1 ? "question" : "questions"} saved to your{" "}
-              <a href="/review">review deck</a> with its rule tag — re-answer{" "}
-              {finished.missed === 1 ? "it" : "them"} to master this topic.
-            </p>
-          ) : (
-            <p className="quiz-review-note">
-              Flawless run — nothing waiting in the review deck for this topic.
-            </p>
-          )}
+          <p className="quiz-review-note">
+            {finished.missed > 0
+              ? `${finished.missed} ${finished.missed === 1 ? "miss was" : "misses were"} saved to your review deck.`
+              : "Flawless run — nothing waiting in the review deck."}
+          </p>
           <div className="cta-row quiz-result-actions">
             <button
               type="button"
@@ -338,16 +280,18 @@ export default function QuizCard({
               onClick={retake}
             >
               <RotateCcw size={16} strokeWidth={2} aria-hidden="true" />
-              Retake with new questions
+              Run it again, new questions
             </button>
-            <a className="btn btn-ghost" href={`/learn/${slug}`}>
-              <ArrowLeft size={16} strokeWidth={2} aria-hidden="true" />
-              Back to lesson
+            <a className="btn btn-ghost" href="/stats">
+              <BarChart3 size={16} strokeWidth={2} aria-hidden="true" />
+              See my stats
             </a>
-            <a className="btn btn-ghost" href={`/levels/${level}`}>
-              <LayoutGrid size={16} strokeWidth={2} aria-hidden="true" />
-              {level} topics
-            </a>
+            {finished.missed > 0 ? (
+              <a className="btn btn-ghost" href="/review">
+                <BookOpen size={16} strokeWidth={2} aria-hidden="true" />
+                Review my misses
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
@@ -362,8 +306,8 @@ export default function QuizCard({
     : isChoice
       ? selected !== null
       : typed.trim().length > 0;
-  const isLast = results.length + 1 >= TOPIC_QUIZ_SIZE;
-  const position = Math.min(results.length + 1, TOPIC_QUIZ_SIZE);
+  const isLast = results.length + 1 >= FINAL_SIZE;
+  const position = Math.min(results.length + 1, FINAL_SIZE);
   const correctChoiceText =
     choiceQ !== null ? (choiceQ.choices[choiceQ.answer] ?? "") : null;
 
@@ -372,23 +316,23 @@ export default function QuizCard({
       <div
         className="quiz-progress"
         role="progressbar"
-        aria-label={`Question ${position} of ${TOPIC_QUIZ_SIZE}`}
+        aria-label={`Question ${position} of ${FINAL_SIZE}`}
         aria-valuenow={position}
         aria-valuemin={1}
-        aria-valuemax={TOPIC_QUIZ_SIZE}
+        aria-valuemax={FINAL_SIZE}
       >
         <span className="quiz-progress-label">
-          Question {position} of {TOPIC_QUIZ_SIZE}
+          Final question {position} of {FINAL_SIZE} · {current.level}
         </span>
         <span className="quiz-progress-track" aria-hidden="true">
           <span
             className="quiz-progress-fill"
-            style={{ width: `${(position / TOPIC_QUIZ_SIZE) * 100}%` }}
+            style={{ width: `${(position / FINAL_SIZE) * 100}%` }}
           />
         </span>
       </div>
 
-      <article className="quiz-card" aria-label={`Quiz question ${position}`}>
+      <article className="quiz-card" aria-label={`Final question ${position}`}>
         <div className="quiz-badges">
           <span className={`quiz-badge quiz-diff-${current.difficulty}`}>
             {DIFFICULTY_LABEL[current.difficulty]}
@@ -424,9 +368,9 @@ export default function QuizCard({
           </div>
         ) : (
           <div className="quiz-rewrite">
-            <label htmlFor="quiz-rewrite-input">Your sentence</label>
+            <label htmlFor="final-rewrite-input">Your sentence</label>
             <input
-              id="quiz-rewrite-input"
+              id="final-rewrite-input"
               type="text"
               autoComplete="off"
               spellCheck={false}
@@ -488,7 +432,7 @@ export default function QuizCard({
               className="btn btn-primary quiz-next"
               onClick={next}
             >
-              {isLast ? "See results" : "Next question"}
+              {isLast ? "See final result" : `Next question (${answered + 1}/${FINAL_SIZE} done)`}
               <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
             </button>
           </div>

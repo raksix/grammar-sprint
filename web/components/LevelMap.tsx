@@ -45,8 +45,8 @@ const STATUS_META: Record<
  * Reads `gs-progress-v1` from localStorage after mount (SSR-safe: the
  * first render uses the empty default so prerender and hydration match,
  * then the real progress swaps in). Available and done cards link to
- * `/learn/[topic]` (P22); locked cards stay link-free and the quiz CTA
- * lands with P23 — zero dead buttons.
+ * `/learn/[topic]` (P22); the gate CTA links `/gate/[level]` (P24);
+ * locked cards stay link-free — zero dead buttons.
  */
 export default function LevelMap({ level }: { level: Level }) {
   const [progress, setProgress] = useState<ProgressState>(() =>
@@ -110,6 +110,26 @@ export default function LevelMap({ level }: { level: Level }) {
         <p className="level-locked-note" role="note">
           <Lock size={16} strokeWidth={2} aria-hidden="true" />
           {meta.code} unlocks after you clear the {prevLevel} gate at 80%.
+        </p>
+      ) : null}
+
+      {unlocked ? (
+        <p className="gate-cta">
+          <a
+            className={done === total ? "btn btn-primary" : "btn btn-ghost"}
+            href={`/gate/${level}`}
+          >
+            {gate?.passed === true
+              ? `Practice the ${level} gate again`
+              : done === total
+                ? `Take the ${level} gate — 30 questions`
+                : `Preview the ${level} gate`}
+          </a>
+          {done === total ? null : (
+            <span className="gate-cta-hint">
+              Finish all {total} topics first for the best shot.
+            </span>
+          )}
         </p>
       ) : null}
 

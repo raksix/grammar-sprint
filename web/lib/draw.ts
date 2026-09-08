@@ -13,6 +13,8 @@
  * - Level gate: 30Q = 10 easy / 12 medium / 8 hard, round-robin across the
  *   level's topics, unseen-first. Retakes never repeat the identical 30
  *   while unseen questions remain.
+ * - Final sprint: 50Q = 20 easy / 20 medium / 10 hard, round-robin across
+ *   ALL topics A1–B2, unseen-first, with the same retake rule.
  *
  * All functions are pure and deterministic: the same
  * `(pool, askedIds, count, seed)` always yields the same draw. Randomness
@@ -40,6 +42,16 @@ export const TOPIC_QUIZ_SIZE = 8;
 
 /** Total questions per level gate. */
 export const GATE_SIZE = 30;
+
+/** Final-sprint composition: 50 questions (20E / 20M / 10H). */
+export const FINAL_QUOTA: Record<Difficulty, number> = {
+  easy: 20,
+  medium: 20,
+  hard: 10,
+};
+
+/** Total questions in the final sprint. */
+export const FINAL_SIZE = 50;
 
 /**
  * mulberry32 — small fast seeded PRNG. Returns a function yielding floats
@@ -402,6 +414,71 @@ export function drawGate(
       attempt += 1;
       workingAsked = new Set(originalAsked);
       result = drawGateInner(pool, workingAsked, `${seedText}:retake${attempt}`);
+    }
+  }
+  return {
+    drawn: result.drawn,
+    askedIds: [...workingAsked],
+    cycleCompleted: result.cycleCompleted,
+  };
+}
+
+function drawFinalInner(
+  pool: readonly Question[],
+  asked: Set<string>,
+  seed: string,
+): { drawn: Question[]; cycleCompleted: boolean } {
+  const all: Question[] = [];
+  let cycleCompleted = false;
+  for (const difficulty of DIFFICULTIES) {
+    const part = drawStratifiedDifficulty(
+      pool,
+      asked,
+      difficulty,
+      FINAL_QUOTA[difficulty],
+      `${seed}:final`,
+    );
+    for (const q of part.drawn) {
+      all.push(q);
+      asked.add(q.id);
+    }
+    cycleCompleted = cycleCompleted || part.cycleCompleted;
+  }
+  return {
+    drawn: seededShuffle(all, `${seed}:final:order`),
+    cycleCompleted,
+  };
+}
+
+/**
+ * Draw the final sprint: 50Q = 20 easy / 20 medium / 10 hard,
+ * round-robin across every topic in the pool (the full A1–B2 bank),
+ * unseen-first, final order seeded-shuffled.
+ *
+ * Same retake rule as `drawGate`: when `previousDrawIds` (the last
+ * final's 50 ids) is given and unseen questions remain, the draw is
+ * retried with bumped seeds until the set differs.
+ */
+export function drawFinal(
+  pool: readonly Question[],
+  askedIds: AskedInput,
+  seed: number | string,
+  previousDrawIds?: readonly string[],
+): DrawResult {
+  const seedText = String(seed);
+  const originalAsked = toAskedSet(askedIds);
+  let workingAsked = new Set(originalAsked);
+  let result = drawFinalInner(pool, workingAsked, seedText);
+  if (previousDrawIds !== undefined && previousDrawIds.length > 0) {
+    let attempt = 0;
+    while (
+      attempt < 8 &&
+      sameIdSet(result.drawn, previousDrawIds) &&
+      hasUnseen(pool, originalAsked)
+    ) {
+      attempt += 1;
+      workingAsked = new Set(originalAsked);
+      result = drawFinalInner(pool, workingAsked, `${seedText}:retake${attempt}`);
     }
   }
   return {

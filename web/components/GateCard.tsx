@@ -1,22 +1,24 @@
 /**
- * QuizCard — interactive 8Q topic quiz runner (P23).
+ * GateCard — interactive 30Q level-gate runner (P24).
  *
- * Client component. The server route (`/quiz/[topic]`) embeds the topic's
- * 25Q pool as props at build time; everything session-like happens here:
- * unseen-first draw (`drawTopicQuiz`, seeded `topic:day:attempt`), seeded
- * per-attempt choice shuffle, adaptive difficulty ordering
- * (`lib/quiz.ts`), rewrite checking (`normalize.ts`), grading + XP
- * (`scoring.ts`), and persistence (`progress.ts`: asked ids, XP, done
- * topics, review deck).
+ * Client component. The server route (`/gate/[level]`) embeds the level's
+ * 300Q pool as props at build time; the session runs here: unseen-first
+ * stratified draw (`drawGate`, seeded `level:gate:day:attempt`), seeded
+ * per-attempt choice shuffle, the same submit feedback as the topic quiz
+ * (`explain_tr` + `trap_tr` + lesson deep link), grading (`gradeGate`:
+ * percent + per-topic breakdown + weakest 3), and persistence
+ * (`progress.ts`: asked ids, XP, gate record via `recordGateAttempt`,
+ * misses into the review deck).
  *
  * Spec notes (`Docs/05-TEST-ENGINE-SPEC.md`):
- * - Correct → green panel + rule echo (`explain_tr`); wrong → red panel
- *   with `explain_tr` + `trap_tr` + deep link to the lesson (`rule_ref`).
- * - Misses join the review deck with their rule tag.
+ * - Pass at ≥ 80% unlocks the next level (sticky via `recordGateAttempt`).
+ * - Fail shows the per-topic breakdown with weakest-topic lesson links
+ *   and LOCKS retake until the review deck is fully clear
+ *   (`canRetakeGate` in `lib/gate.ts`).
  * - The correct answer is resolved at submit from the bank copy and is
  *   never rendered (no `data-correct` markers) before submit.
- * - Only links to routes that exist (`/learn/*`, `/levels/*`, `/review` —
- *   the review route landed in P24, so misses link there).
+ * - Only links to routes that exist (`/learn/*`, `/levels/*`, `/review`,
+ *   `/final` — all live as of P24).
  */
 
 "use client";
@@ -28,13 +30,16 @@ import {
   BookOpen,
   CheckCircle2,
   CircleAlert,
+  Flag,
   LayoutGrid,
+  Lock,
   RotateCcw,
   Trophy,
 } from "lucide-react";
 import type { Difficulty, Level, Question } from "../lib/bank";
 import { isChoiceQuestion, isRewriteQuestion } from "../lib/bank";
-import { TOPIC_QUIZ_SIZE, drawTopicQuiz } from "../lib/draw";
+import { GATE_SIZE, drawGate } from "../lib/draw";
+import { canRetakeGate } from "../lib/gate";
 import { isRewriteCorrect } from "../lib/normalize";
 import {
   addToReview,
@@ -42,36 +47,32 @@ import {
   askedKey,
   defaultProgress,
   loadProgress,
-  markTopicDone,
   recordAskedIds,
+  recordGateAttempt,
   saveProgress,
+  type GateRecord,
   type ProgressState,
   type ReviewItem,
 } from "../lib/progress";
 import {
-  TOPIC_QUIZ_PASS_COUNT,
-  gradeTopicQuiz,
+  GATE_PASS_PCT,
+  gradeGate,
   xpForAttempts,
   type ScoreBreakdown,
+  type TopicAttempt,
 } from "../lib/scoring";
-import { getTopic } from "../lib/topics";
 import {
-  answerAdaptive,
-  initAdaptive,
+  LEVEL_ORDER,
+  LEVELS_META,
+  TOPICS_BY_LEVEL,
+  getTopic,
+} from "../lib/topics";
+import {
   isChoiceCorrect,
   learnSlugFromRuleRef,
-  nextAdaptiveQuestion,
   shuffleChoices,
-  type AdaptiveState,
   type ShuffledChoice,
 } from "../lib/quiz";
-
-interface GradedAnswer {
-  questionId: string;
-  difficulty: Difficulty;
-  topic: string;
-  correct: boolean;
-}
 
 interface FinishedSummary {
   correct: number;
@@ -80,7 +81,14 @@ interface FinishedSummary {
   passed: boolean;
   xp: number;
   missed: number;
-  byDifficulty: Record<Difficulty, ScoreBreakdown>;
+  byTopic: Record<string, ScoreBreakdown>;
+  weakestTopics: string[];
+  /** Gate record AFTER this attempt was persisted. */
+  gate: GateRecord;
+  /** Open review items AFTER this attempt's misses were added. */
+  openReviews: number;
+  /** Retake allowed right now (pass, or deck fully clear). */
+  retakeOpen: boolean;
 }
 
 const DIFFICULTY_LABEL: Record<Difficulty, string> = {
@@ -95,16 +103,12 @@ function typeLabel(question: Question): string {
   return "Choose";
 }
 
-export default function QuizCard({
+export default function GateCard({
   pool,
-  slug,
   level,
-  title,
 }: {
   pool: Question[];
-  slug: string;
   level: Level;
-  title: string;
 }) {
   const [progress, setProgress] = useState<ProgressState>(() =>
     defaultProgress(),
@@ -112,17 +116,16 @@ export default function QuizCard({
   const [ready, setReady] = useState(false);
   const [attempt, setAttempt] = useState(0);
   const [current, setCurrent] = useState<Question | null>(null);
+  const [queue, setQueue] = useState<Question[]>([]);
   /** Answered count doubles as the 0-based index of `current`. */
   const [answered, setAnswered] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [typed, setTyped] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [wasCorrect, setWasCorrect] = useState(false);
-  const [results, setResults] = useState<GradedAnswer[]>([]);
+  const [results, setResults] = useState<TopicAttempt[]>([]);
   const [finished, setFinished] = useState<FinishedSummary | null>(null);
 
-  const sessionRef = useRef<AdaptiveState | null>(null);
-  const drawnRef = useRef<Question[]>([]);
   const missesRef = useRef<ReviewItem[]>([]);
   const dayRef = useRef("");
   const finishGuardRef = useRef(false);
@@ -130,19 +133,18 @@ export default function QuizCard({
   const beginAttempt = useCallback(
     (stored: ProgressState, attemptNo: number, day: string) => {
       const asked = new Set<string>();
-      const difficulties: Difficulty[] = ["easy", "medium", "hard"];
-      for (const difficulty of difficulties) {
-        const seen = stored.askedIds[askedKey(slug, difficulty)] ?? [];
-        for (const id of seen) asked.add(id);
+      for (const topic of TOPICS_BY_LEVEL[level]) {
+        const difficulties: Difficulty[] = ["easy", "medium", "hard"];
+        for (const difficulty of difficulties) {
+          const seen = stored.askedIds[askedKey(topic.slug, difficulty)] ?? [];
+          for (const id of seen) asked.add(id);
+        }
       }
-      const drawn = drawTopicQuiz(pool, asked, `${slug}:${day}:${attemptNo}`);
-      drawnRef.current = drawn.drawn;
+      const drawn = drawGate(pool, asked, `${level}:gate:${day}:${attemptNo}`);
       missesRef.current = [];
       finishGuardRef.current = false;
-      const session = initAdaptive(drawn.drawn);
-      sessionRef.current = session;
-      const first = nextAdaptiveQuestion(session);
-      setCurrent(first?.question ?? null);
+      setQueue(drawn.drawn);
+      setCurrent(drawn.drawn[0] ?? null);
       setAnswered(0);
       setSelected(null);
       setTyped("");
@@ -152,7 +154,7 @@ export default function QuizCard({
       setAttempt(attemptNo);
       setReady(true);
     },
-    [pool, slug],
+    [pool, level],
   );
 
   useEffect(() => {
@@ -160,16 +162,16 @@ export default function QuizCard({
     setProgress(stored);
     const day = new Date().toISOString().slice(0, 10);
     dayRef.current = day;
-    beginAttempt(stored, 0, day);
-  }, [beginAttempt]);
+    beginAttempt(stored, stored.gates[level]?.attempts ?? 0, day);
+  }, [beginAttempt, level]);
 
   const shuffled: ShuffledChoice[] = useMemo(() => {
     if (current === null || !isChoiceQuestion(current)) return [];
     return shuffleChoices(
       current,
-      `${slug}:${dayRef.current}:${attempt}:${current.id}`,
+      `${level}:gate:${dayRef.current}:${attempt}:${current.id}`,
     );
-  }, [current, slug, attempt]);
+  }, [current, level, attempt]);
 
   const ruleHref = useCallback(
     (question: Question): string => {
@@ -177,31 +179,35 @@ export default function QuizCard({
       if (parsed !== null && getTopic(parsed) !== undefined) {
         return `/learn/${parsed}`;
       }
-      return `/learn/${slug}`;
+      return `/levels/${level}`;
     },
-    [slug],
+    [level],
   );
 
   const finish = useCallback(
-    (graded: GradedAnswer[]) => {
+    (graded: TopicAttempt[]) => {
       if (finishGuardRef.current) return;
       finishGuardRef.current = true;
-      const score = gradeTopicQuiz(graded);
+      const score = gradeGate(graded);
       const xp = xpForAttempts(graded);
       const misses = missesRef.current;
-      setProgress((prev) => {
-        let next = prev;
-        for (const question of drawnRef.current) {
-          next = recordAskedIds(next, askedKey(slug, question.difficulty), [
-            question.id,
-          ]);
-        }
-        next = addXp(next, xp);
-        if (score.passed) next = markTopicDone(next, slug);
-        for (const miss of misses) next = addToReview(next, miss);
-        saveProgress(next);
-        return next;
-      });
+      let next = progress;
+      for (const question of queue) {
+        next = recordAskedIds(next, askedKey(question.topic, question.difficulty), [
+          question.id,
+        ]);
+      }
+      next = addXp(next, xp);
+      next = recordGateAttempt(next, level, score.percent, score.passed);
+      for (const miss of misses) next = addToReview(next, miss);
+      saveProgress(next);
+      setProgress(next);
+      const gate = next.gates[level] ?? {
+        passed: score.passed,
+        bestPct: score.percent,
+        attempts: 1,
+      };
+      const openReviews = next.reviewDeck.length;
       setFinished({
         correct: score.correct,
         total: score.total,
@@ -209,10 +215,14 @@ export default function QuizCard({
         passed: score.passed,
         xp,
         missed: misses.length,
-        byDifficulty: score.byDifficulty,
+        byTopic: score.byTopic,
+        weakestTopics: score.weakestTopics,
+        gate,
+        openReviews,
+        retakeOpen: canRetakeGate(gate, openReviews),
       });
     },
-    [slug],
+    [level, queue, progress],
   );
 
   const submit = useCallback(() => {
@@ -225,8 +235,7 @@ export default function QuizCard({
       if (typed.trim().length === 0) return;
       correct = isRewriteCorrect(typed, current.accept);
     }
-    const graded: GradedAnswer = {
-      questionId: current.id,
+    const graded: TopicAttempt = {
       difficulty: current.difficulty,
       topic: current.topic,
       correct,
@@ -237,44 +246,48 @@ export default function QuizCard({
       missesRef.current.push({
         questionId: current.id,
         topic: current.topic,
-        level,
+        level: current.level,
         ruleRef: current.rule_ref,
         addedAt: new Date().toISOString(),
       });
     }
-    const session = sessionRef.current;
-    if (session !== null) answerAdaptive(session, correct);
     setWasCorrect(correct);
     setSubmitted(true);
-  }, [current, submitted, finished, selected, typed, results, level]);
+  }, [current, submitted, finished, selected, typed, results]);
 
   const next = useCallback(() => {
     if (!submitted || finished !== null) return;
-    if (results.length >= TOPIC_QUIZ_SIZE) {
+    if (results.length >= GATE_SIZE) {
       finish(results);
       return;
     }
-    const session = sessionRef.current;
-    const picked = session === null ? null : nextAdaptiveQuestion(session);
+    const picked = queue[results.length] ?? null;
     if (picked === null) {
       finish(results);
       return;
     }
-    setCurrent(picked.question);
+    setCurrent(picked);
     setAnswered(results.length);
     setSelected(null);
     setTyped("");
     setSubmitted(false);
-  }, [submitted, finished, results, finish]);
+  }, [submitted, finished, results, queue, finish]);
 
   const retake = useCallback(() => {
     beginAttempt(progress, attempt + 1, dayRef.current);
   }, [beginAttempt, progress, attempt]);
 
+  const meta = LEVELS_META[level];
+  const levelIndex = LEVEL_ORDER.indexOf(level);
+  const nextLevel =
+    levelIndex >= 0 && levelIndex < LEVEL_ORDER.length - 1
+      ? LEVEL_ORDER[levelIndex + 1]
+      : undefined;
+
   if (!ready || current === null) {
     return (
       <div className="narrow quiz-wrap" aria-busy="true">
-        <p className="quiz-loading">Preparing your 8 questions…</p>
+        <p className="quiz-loading">Preparing your 30 gate questions…</p>
       </div>
     );
   }
@@ -294,56 +307,98 @@ export default function QuizCard({
             )}
           </span>
           <p className="hero-kicker">
-            {finished.passed ? "Topic done" : "Keep going"}
+            {finished.passed
+              ? `${level} gate cleared`
+              : `${level} gate — not yet`}
           </p>
           <p className="quiz-result-score">
             {finished.correct}/{finished.total} · {finished.percent}%
           </p>
           <p className="quiz-result-line">
             {finished.passed
-              ? `You cleared “${title}”. +${finished.xp} XP earned.`
-              : `You need ${TOPIC_QUIZ_PASS_COUNT}/${finished.total} to mark this topic done. +${finished.xp} XP earned anyway.`}
+              ? nextLevel !== undefined
+                ? `You unlocked ${nextLevel}. +${finished.xp} XP earned.`
+                : `You cleared the last gate. +${finished.xp} XP earned — the final sprint awaits.`
+              : `You need ${GATE_PASS_PCT}% to unlock ${nextLevel ?? "the next level"}. +${finished.xp} XP earned anyway.`}
           </p>
-          <dl className="quiz-breakdown" aria-label="Score by difficulty">
-            {(Object.keys(DIFFICULTY_LABEL) as Difficulty[]).map(
-              (difficulty) => {
-                const bucket = finished.byDifficulty[difficulty];
-                return (
-                  <div className="quiz-breakdown-row" key={difficulty}>
-                    <dt>{DIFFICULTY_LABEL[difficulty]}</dt>
-                    <dd>
-                      {bucket.correct}/{bucket.total} · {bucket.percent}%
-                    </dd>
-                  </div>
-                );
-              },
-            )}
+          <dl className="quiz-breakdown" aria-label="Score by topic">
+            {TOPICS_BY_LEVEL[level].map((topic) => {
+              const bucket = finished.byTopic[topic.slug] ?? {
+                total: 0,
+                correct: 0,
+                percent: 0,
+              };
+              return (
+                <div className="quiz-breakdown-row" key={topic.slug}>
+                  <dt>{topic.title}</dt>
+                  <dd>
+                    {bucket.correct}/{bucket.total} · {bucket.percent}%
+                  </dd>
+                </div>
+              );
+            })}
           </dl>
-          {finished.missed > 0 ? (
+          {finished.passed ? (
             <p className="quiz-review-note">
-              {finished.missed} missed{" "}
-              {finished.missed === 1 ? "question" : "questions"} saved to your{" "}
-              <a href="/review">review deck</a> with its rule tag — re-answer{" "}
-              {finished.missed === 1 ? "it" : "them"} to master this topic.
+              {finished.missed > 0
+                ? `${finished.missed} ${finished.missed === 1 ? "miss was" : "misses were"} saved to your review deck — clear them on the review page.`
+                : "Flawless run — nothing waiting in the review deck."}
             </p>
           ) : (
-            <p className="quiz-review-note">
-              Flawless run — nothing waiting in the review deck for this topic.
-            </p>
+            <div className="gate-weakest" aria-label="Weakest topics">
+              <p className="gate-weakest-head">
+                <Flag size={16} strokeWidth={2} aria-hidden="true" />
+                Restudy these first:
+              </p>
+              <ul>
+                {finished.weakestTopics.map((slug) => {
+                  const topic = getTopic(slug);
+                  const title = topic?.title ?? slug;
+                  return (
+                    <li key={slug}>
+                      <a href={`/learn/${slug}`}>{title}</a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
           )}
           <div className="cta-row quiz-result-actions">
-            <button
-              type="button"
-              className="btn btn-primary"
-              onClick={retake}
-            >
-              <RotateCcw size={16} strokeWidth={2} aria-hidden="true" />
-              Retake with new questions
-            </button>
-            <a className="btn btn-ghost" href={`/learn/${slug}`}>
-              <ArrowLeft size={16} strokeWidth={2} aria-hidden="true" />
-              Back to lesson
-            </a>
+            {finished.retakeOpen ? (
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={retake}
+              >
+                <RotateCcw size={16} strokeWidth={2} aria-hidden="true" />
+                {finished.passed ? "Practice again, new questions" : "Retake the gate"}
+              </button>
+            ) : (
+              <p className="gate-locked-note" role="note">
+                <Lock size={16} strokeWidth={2} aria-hidden="true" />
+                Retake locked — clear your review deck first (
+                {finished.openReviews} open).{" "}
+                <a href="/review">Go to review</a>
+              </p>
+            )}
+            {finished.passed && nextLevel !== undefined ? (
+              <a className="btn btn-ghost" href={`/levels/${nextLevel}`}>
+                <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
+                Continue to {nextLevel} topics
+              </a>
+            ) : null}
+            {finished.passed && nextLevel === undefined ? (
+              <a className="btn btn-ghost" href="/final">
+                <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
+                Take the final sprint
+              </a>
+            ) : null}
+            {!finished.passed ? (
+              <a className="btn btn-ghost" href="/review">
+                <BookOpen size={16} strokeWidth={2} aria-hidden="true" />
+                Review my misses
+              </a>
+            ) : null}
             <a className="btn btn-ghost" href={`/levels/${level}`}>
               <LayoutGrid size={16} strokeWidth={2} aria-hidden="true" />
               {level} topics
@@ -362,8 +417,8 @@ export default function QuizCard({
     : isChoice
       ? selected !== null
       : typed.trim().length > 0;
-  const isLast = results.length + 1 >= TOPIC_QUIZ_SIZE;
-  const position = Math.min(results.length + 1, TOPIC_QUIZ_SIZE);
+  const isLast = results.length + 1 >= GATE_SIZE;
+  const position = Math.min(results.length + 1, GATE_SIZE);
   const correctChoiceText =
     choiceQ !== null ? (choiceQ.choices[choiceQ.answer] ?? "") : null;
 
@@ -372,23 +427,23 @@ export default function QuizCard({
       <div
         className="quiz-progress"
         role="progressbar"
-        aria-label={`Question ${position} of ${TOPIC_QUIZ_SIZE}`}
+        aria-label={`Question ${position} of ${GATE_SIZE}`}
         aria-valuenow={position}
         aria-valuemin={1}
-        aria-valuemax={TOPIC_QUIZ_SIZE}
+        aria-valuemax={GATE_SIZE}
       >
         <span className="quiz-progress-label">
-          Question {position} of {TOPIC_QUIZ_SIZE}
+          Gate question {position} of {GATE_SIZE}
         </span>
         <span className="quiz-progress-track" aria-hidden="true">
           <span
             className="quiz-progress-fill"
-            style={{ width: `${(position / TOPIC_QUIZ_SIZE) * 100}%` }}
+            style={{ width: `${(position / GATE_SIZE) * 100}%` }}
           />
         </span>
       </div>
 
-      <article className="quiz-card" aria-label={`Quiz question ${position}`}>
+      <article className="quiz-card" aria-label={`Gate question ${position}`}>
         <div className="quiz-badges">
           <span className={`quiz-badge quiz-diff-${current.difficulty}`}>
             {DIFFICULTY_LABEL[current.difficulty]}
@@ -424,9 +479,9 @@ export default function QuizCard({
           </div>
         ) : (
           <div className="quiz-rewrite">
-            <label htmlFor="quiz-rewrite-input">Your sentence</label>
+            <label htmlFor="gate-rewrite-input">Your sentence</label>
             <input
-              id="quiz-rewrite-input"
+              id="gate-rewrite-input"
               type="text"
               autoComplete="off"
               spellCheck={false}
@@ -488,12 +543,21 @@ export default function QuizCard({
               className="btn btn-primary quiz-next"
               onClick={next}
             >
-              {isLast ? "See results" : "Next question"}
+              {isLast ? "See gate result" : `Next question (${answered + 1}/${GATE_SIZE} done)`}
               <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
             </button>
           </div>
         )}
       </article>
+
+      <p className="quiz-footnote">
+        {meta.code} {meta.name} · pass at {GATE_PASS_PCT}% to unlock{" "}
+        {nextLevel ?? "the final sprint"} ·{" "}
+        <a href={`/levels/${level}`}>
+          <ArrowLeft size={13} strokeWidth={2} aria-hidden="true" /> Back to{" "}
+          {level} topics
+        </a>
+      </p>
     </div>
   );
 }
