@@ -44,10 +44,9 @@ const STATUS_META: Record<
  *
  * Reads `gs-progress-v1` from localStorage after mount (SSR-safe: the
  * first render uses the empty default so prerender and hydration match,
- * then the real progress swaps in). Topic cards are intentionally
- * link-free — `/learn/[topic]` (P22) and `/quiz/[topic]` (P23) do not
- * exist yet, and this piece ships zero dead buttons. P22/P23 upgrade
- * the cards to navigation.
+ * then the real progress swaps in). Available and done cards link to
+ * `/learn/[topic]` (P22); locked cards stay link-free and the quiz CTA
+ * lands with P23 — zero dead buttons.
  */
 export default function LevelMap({ level }: { level: Level }) {
   const [progress, setProgress] = useState<ProgressState>(() =>
@@ -123,13 +122,8 @@ export default function LevelMap({ level }: { level: Level }) {
           );
           const { label, hint, Icon } = STATUS_META[status];
           const order = String(topic.index + 1).padStart(2, "0");
-          return (
-            <li
-              key={topic.slug}
-              className={`topic-card topic-${status}`}
-              data-topic={topic.slug}
-              data-status={status}
-            >
+          const inner = (
+            <>
               <span className="topic-order" aria-hidden="true">
                 {order}
               </span>
@@ -140,6 +134,26 @@ export default function LevelMap({ level }: { level: Level }) {
                   {label} · {hint}
                 </span>
               </span>
+            </>
+          );
+          return (
+            <li
+              key={topic.slug}
+              className={`topic-card topic-${status}`}
+              data-topic={topic.slug}
+              data-status={status}
+            >
+              {status === "locked" ? (
+                inner
+              ) : (
+                <a
+                  className="topic-link"
+                  href={`/learn/${topic.slug}`}
+                  aria-label={`${topic.title} — ${label}`}
+                >
+                  {inner}
+                </a>
+              )}
             </li>
           );
         })}

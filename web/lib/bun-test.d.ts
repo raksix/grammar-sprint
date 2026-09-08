@@ -22,6 +22,7 @@ interface BunTestMatchers {
   toBeLessThanOrEqual(expected: number): void;
   toBeDefined(): void;
   toBeTruthy(): void;
+  toThrow(expected?: unknown): void;
 }
 
 declare function expect(actual: unknown): BunTestMatchers;
