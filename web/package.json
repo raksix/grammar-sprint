@@ -9,6 +9,7 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "validate-bank": "node scripts/validate-bank.mjs",
+    "e2e": "node scripts/e2e-full-loop.mjs",
     "prebuild": "node scripts/validate-bank.mjs"
   },
   "dependencies": {
