@@ -343,6 +343,9 @@ export default function FinalCard({ pool }: { pool: Question[] }) {
           <span className="quiz-badge">{typeLabel(current)}</span>
         </div>
         <p className="quiz-prompt">{current.prompt}</p>
+        {current.prompt_tr ? (
+          <p className="quiz-prompt-tr">{current.prompt_tr}</p>
+        ) : null}
 
         {isChoice ? (
           <div className="quiz-choices" role="group" aria-label="Answer choices">

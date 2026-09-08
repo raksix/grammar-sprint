@@ -93,6 +93,7 @@ function checkQuestion(raw, fileLabel) {
   if (!isNonEmptyString(q.id)) fail(`${at("id")} must be a non-empty string`);
   if (!isNonEmptyString(q.topic)) fail(`${at("topic")} must be a non-empty string`);
   if (!isNonEmptyString(q.prompt)) fail(`${at("prompt")} must be a non-empty string`);
+  if (!isNonEmptyString(q.prompt_tr)) fail(`${at("prompt_tr")} must be a non-empty string`);
   if (!isNonEmptyString(q.explain_tr)) fail(`${at("explain_tr")} must be a non-empty string`);
   if (!isNonEmptyString(q.rule_ref)) fail(`${at("rule_ref")} must be a non-empty string`);
   if (!LEVELS.includes(q.level)) fail(`${at("level")} must be one of ${LEVELS.join("/")}`);

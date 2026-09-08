@@ -209,6 +209,9 @@ export default function ReviewDeck({ pool }: { pool: Question[] }) {
           </span>
         </div>
         <p className="quiz-prompt">{question.prompt}</p>
+        {question.prompt_tr ? (
+          <p className="quiz-prompt-tr">{question.prompt_tr}</p>
+        ) : null}
 
         {isChoice ? (
           <div className="quiz-choices" role="group" aria-label="Answer choices">

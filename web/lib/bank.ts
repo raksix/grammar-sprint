@@ -27,6 +27,8 @@ export interface QuestionBase {
   type: QuestionType;
   /** Stem shown to the learner. For gap-fill contains `___`. */
   prompt: string;
+  /** Turkish stem translation (validator-required; runtime-tolerant for old cached banks). */
+  prompt_tr?: string;
   /** Turkish explanation, max 2 sentences: names the rule + correction. */
   explain_tr: string;
   /** Optional classic TR-learner trap note. */
@@ -126,6 +128,8 @@ export function parseQuestion(raw: unknown): Question {
   assertNonEmptyString(raw["id"], "id", idLabel);
   assertNonEmptyString(raw["topic"], "topic", raw["id"]);
   assertNonEmptyString(raw["prompt"], "prompt", raw["id"]);
+  const promptTrRaw: unknown = raw["prompt_tr"];
+  const prompt_tr = typeof promptTrRaw === "string" ? promptTrRaw : "";
   assertNonEmptyString(raw["explain_tr"], "explain_tr", raw["id"]);
   assertNonEmptyString(raw["rule_ref"], "rule_ref", raw["id"]);
 
@@ -159,6 +163,7 @@ export function parseQuestion(raw: unknown): Question {
     level: raw["level"],
     difficulty: raw["difficulty"],
     prompt: raw["prompt"],
+    prompt_tr,
     explain_tr: raw["explain_tr"],
     ...(trap_tr === undefined ? {} : { trap_tr }),
     rule_ref: raw["rule_ref"],

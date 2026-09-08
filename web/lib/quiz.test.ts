@@ -34,6 +34,7 @@ function makeQuestion(
     level: overrides.level ?? ("A1" as const),
     difficulty,
     prompt: overrides.prompt ?? `Prompt ${counter}`,
+    prompt_tr: overrides.prompt_tr ?? `Soru ${counter}`,
     explain_tr: overrides.explain_tr ?? "Kural aciklamasi.",
     rule_ref: overrides.rule_ref ?? "Docs/grammar/A1/a1-01-verb-to-be.md",
   };

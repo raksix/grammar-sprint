@@ -39,6 +39,7 @@ function makeQuestion(
     difficulty,
     type: "mcq",
     prompt: `Choose the correct sentence for ${id}.`,
+    prompt_tr: `${id} icin dogru cumleyi sec.`,
     choices: [`${id} option a`, `${id} option b`, `${id} option c`],
     answer: 0,
     explain_tr: `Kural aciklamasi ${id}.`,
