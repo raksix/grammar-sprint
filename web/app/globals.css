@@ -1174,6 +1174,12 @@ details.answer p {
   cursor: not-allowed;
 }
 
+.quiz-hint {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .quiz-feedback {
   border-radius: 10px;
   border: 1px solid var(--line);

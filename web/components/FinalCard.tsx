@@ -183,12 +183,14 @@ export default function FinalCard({ pool }: { pool: Question[] }) {
     [queue, progress],
   );
 
-  const submit = useCallback(() => {
+  const submit = useCallback((picked: number | null = null) => {
     if (current === null || submitted || finished !== null) return;
     let correct = false;
     if (isChoiceQuestion(current)) {
-      if (selected === null) return;
-      correct = isChoiceCorrect(current, selected);
+      const idx = picked ?? selected;
+      if (idx === null) return;
+      setSelected(idx);
+      correct = isChoiceCorrect(current, idx);
     } else {
       if (typed.trim().length === 0) return;
       correct = isRewriteCorrect(typed, current.accept);
@@ -359,7 +361,11 @@ export default function FinalCard({ pool }: { pool: Question[] }) {
                   className={`quiz-choice${isPicked ? " is-picked" : ""}${isAnswer ? " is-correct" : ""}${isBadPick ? " is-wrong" : ""}`}
                   aria-pressed={isPicked}
                   disabled={submitted}
-                  onClick={() => setSelected(choice.originalIndex)}
+                  onClick={() => {
+                    if (submitted) return;
+                    setSelected(choice.originalIndex);
+                    submit(choice.originalIndex);
+                  }}
                 >
                   {choice.text}
                 </button>
@@ -384,16 +390,20 @@ export default function FinalCard({ pool }: { pool: Question[] }) {
           </div>
         )}
 
-        {!submitted ? (
+        {!submitted && !isChoice ? (
           <button
             type="button"
             className="btn btn-primary quiz-submit"
             disabled={!canSubmit}
-            onClick={submit}
+            onClick={() => submit()}
           >
             Check answer
           </button>
-        ) : (
+        ) : null}
+        {isChoice && !submitted ? (
+          <p className="quiz-hint">Tap an answer — the result appears instantly.</p>
+        ) : null}
+        {submitted ? (
           <div
             className={`quiz-feedback ${wasCorrect ? "quiz-feedback-ok" : "quiz-feedback-err"}`}
             role="status"
@@ -436,7 +446,7 @@ export default function FinalCard({ pool }: { pool: Question[] }) {
               <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
             </button>
           </div>
-        )}
+        ) : null}
       </article>
     </div>
   );
